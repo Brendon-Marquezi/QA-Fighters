@@ -1,0 +1,4 @@
+node_modules/
+
+newman/reports/
+*.postman_collection.json

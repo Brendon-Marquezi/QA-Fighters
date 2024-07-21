@@ -11,12 +11,13 @@ class RequestManager {
         })
     }
 
-    async send(method, endpoint, params, headers){
+    async send(method, endpoint, params, headers, data){
         return this.axios.request({
             method: method,
             url: endpoint,
             params: params,
-            headers: headers
+            headers: headers,
+            data: data
         })
     }
 };

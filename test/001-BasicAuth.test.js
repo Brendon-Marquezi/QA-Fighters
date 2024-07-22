@@ -6,11 +6,11 @@ const basicAuth = 'Basic ' + Buffer.from(`${process.env.JIRA_EMAIL}:${process.en
 
 test('Verify basic authentication functionality', async () => {
     let response = await requestManager.send(
-        "get",
-        process.env.JIRA_ENDPOINT,
+        'get',
+        'project',
         {},
         {'Authorization': `${basicAuth}`}
     )
 
     expect(response.status).toBe(200);
-})
+});

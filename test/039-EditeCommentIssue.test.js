@@ -1,11 +1,10 @@
 require('dotenv').config();
 const requestManager = require('./../utils/requestManager');
 const basicAuth = 'Basic ' + Buffer.from(`${process.env.JIRA_EMAIL}:${process.env.JIRA_API_TOKEN}`).toString('base64');
-let createdIssueId; // Variável para armazenar o ID do issue criado
+let createdIssueId;
 
 beforeEach(async () => {
     try {
-        // Pré-requisição. Criação de um issue 
         const issueResponse = await requestManager.send(
             'post',
             'issue',
@@ -39,14 +38,13 @@ beforeEach(async () => {
             }
         );
 
-        createdIssueId = issueResponse.data.id; // Armazena o ID do issue criado
+        createdIssueId = issueResponse.data.id;
     } catch (error) {
         console.error('Erro ao criar issue:', error.response ? error.response.data : error.message);
     }
 });
 
 afterEach(async () => {
-    // Pós-requisição. Exclusão do issue criado
     if (createdIssueId) {
         await requestManager.send(
             'delete',
@@ -83,8 +81,7 @@ test('Check adding a comment to an issue', async () => {
             }
         );
 
-        // Asserção para verificar o resultado da requisição
-        expect(commentResponse.status).toBe(201); // Verifique se o código de status é 201 ou o esperado
+        expect(commentResponse.status).toBe(201);
     } catch (error) {
         console.error('Erro ao adicionar comentário:', error.response ? error.response.data : error.message);
     }

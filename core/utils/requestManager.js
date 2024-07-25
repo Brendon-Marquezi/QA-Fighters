@@ -1,9 +1,9 @@
-require('dotenv').config();
+const env = require('../configs/environments');
 
 const axios = require('axios');
 
 class RequestManager {
-  constructor(baseURL, headers = {}, timeout = 5000) {
+  constructor(baseURL, headers = {}, timeout = env.configuration.timeout) {
     this.axios = axios.create({
       baseURL,
       headers,
@@ -22,4 +22,4 @@ class RequestManager {
   }
 }
 
-module.exports = new RequestManager(process.env.JIRA_BASE_URL);
+module.exports = new RequestManager(env.environment.baseURL);

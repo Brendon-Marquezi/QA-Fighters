@@ -1,4 +1,5 @@
 node_modules/
+coverage/
 
 newman/reports/
 *.postman_collection.json

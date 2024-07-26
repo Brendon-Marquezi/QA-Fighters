@@ -14,7 +14,8 @@
   "description": "",
   "dependencies": {
     "axios": "^1.7.2",
-    "newman-reporter-html": "^1.0.5"
+    "newman-reporter-html": "^1.0.5",
+    "winston": "^3.13.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.7.0",

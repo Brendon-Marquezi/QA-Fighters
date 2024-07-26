@@ -12,7 +12,7 @@ class RequestManager {
   }
 
   async send(method, endpoint, params, headers, data) {
-    return this.axios.request({
+    return await this.axios.request({
       method: method,
       url: endpoint,
       params: params,
@@ -22,4 +22,4 @@ class RequestManager {
   }
 }
 
-module.exports = new RequestManager(env.environment.baseURL);
+module.exports = new RequestManager(env.environment.base_url);

@@ -1,25 +1,39 @@
-const env = require('../configs/environments');
+require("dotenv").config();
+const axios = require("axios");
 
-const axios = require('axios');
 
 class RequestManager {
-  constructor(baseURL, headers = {}, timeout = env.configuration.timeout) {
-    this.axios = axios.create({
-      baseURL,
-      headers,
-      timeout,
-    });
-  }
+ constructor(baseURL, headers = {}, timeout = 5000) {
+   if (RequestManager.instance) {
+     return RequestManager.instance;
+   }
 
-  async send(method, endpoint, params, headers, data) {
-    return await this.axios.request({
-      method: method,
-      url: endpoint,
-      params: params,
-      headers: headers,
-      data: data,
-    });
-  }
+
+   this.axios = axios.create({
+     baseURL,
+     headers,
+     timeout,
+   });
+
+
+   RequestManager.instance = this;
+ }
+
+
+ async send(method, endpoint, params, headers, data) {
+   return this.axios.request({
+     method: method,
+     url: endpoint,
+     params: params,
+     headers: headers,
+     data: data,
+   });
+ }
 }
 
-module.exports = new RequestManager(env.environment.base_url);
+
+const instance = new RequestManager(process.env.JIRA_BASE_URL);
+Object.freeze(instance); 
+
+
+module.exports = instance;

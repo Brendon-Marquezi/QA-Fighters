@@ -2,8 +2,15 @@
   "name": "qa-fighters",
   "version": "1.0.0",
   "main": "index.js",
+  "imports": {
+    "#configs/*": "./core/configs/*.js",
+    "#utils/*": "./core/utils/*.js"
+  },
   "scripts": {
-    "test": "jest"
+    "newman": "node newman/newman_runner.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint"
   },
   "keywords": [],
   "author": "",
@@ -11,10 +18,16 @@
   "description": "",
   "dependencies": {
     "axios": "^1.7.2",
-    "dotenv": "^16.4.5",
     "newman-reporter-html": "^1.0.5"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^28.6.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.8.0",
+    "jest": "^29.7.0",
+    "prettier": "3.3.3"
   }
 }

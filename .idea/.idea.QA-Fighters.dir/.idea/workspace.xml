@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10c89ae5-d6f3-4606-b023-20b1b4aceaca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.QA-Fighters.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QA-Fighters.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/031-CheckCreationItemProject.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/031-CheckCreationItemProject.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +82,7 @@
       <workItem from="1721925770792" duration="11823000" />
       <workItem from="1721959080537" duration="11607000" />
       <workItem from="1722013062508" duration="3176000" />
+      <workItem from="1722034648794" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="Resolvendo conflitos">
       <option name="closed" value="true" />

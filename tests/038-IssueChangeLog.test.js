@@ -1,10 +1,11 @@
-require('dotenv').config();
-const requestManager = require('../utils/requestManager');
+const env = require('../core/configs/environments');
+
+const requestManager = require('../core/utils/requestManager');
 
 const basicAuth =
   'Basic ' +
   Buffer.from(
-    `${process.env.JIRA_EMAIL}:${process.env.JIRA_API_TOKEN}`,
+    `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
 test("Check an issue's change log", async () => {

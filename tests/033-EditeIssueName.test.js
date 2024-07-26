@@ -1,6 +1,6 @@
-const env = require('../core/configs/environments');
+const env = require('#configs/environments');
 
-const requestManager = require('../core/utils/requestManager');
+const requestManager = require('#utils/requestManager');
 let createdIssueId = '';
 
 const basicAuth =
@@ -9,6 +9,33 @@ const basicAuth =
     `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
+const jsonData = {
+  fields: {
+    project: {
+      id: '10002',
+    },
+    summary: 'Issue para teste de comentário',
+    description: {
+      type: 'doc',
+      version: 1,
+      content: [
+        {
+          type: 'paragraph',
+          content: [
+            {
+              text: 'Descrição do issue de teste',
+              type: 'text',
+            },
+          ],
+        },
+      ],
+    },
+    issuetype: {
+      id: '10012',
+    },
+  },
+};
+
 beforeEach(async () => {
   try {
     const issueResponse = await requestManager.send(
@@ -16,32 +43,7 @@ beforeEach(async () => {
       'issue',
       {},
       { Authorization: `${basicAuth}` },
-      {
-        fields: {
-          project: {
-            id: '10002',
-          },
-          summary: 'Issue para teste de comentário',
-          description: {
-            type: 'doc',
-            version: 1,
-            content: [
-              {
-                type: 'paragraph',
-                content: [
-                  {
-                    text: 'Descrição do issue de teste',
-                    type: 'text',
-                  },
-                ],
-              },
-            ],
-          },
-          issuetype: {
-            id: '10012',
-          },
-        },
-      },
+      jsonData,
     );
 
     createdIssueId = issueResponse.data.id;

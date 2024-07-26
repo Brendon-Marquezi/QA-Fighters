@@ -1,3 +1,19 @@
 2024-07-26 03:30:12 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
 2024-07-26 03:30:13 [031-CheckCreationItemProject.test.js] [32minfo[39m: Requisição enviada com sucesso.
 2024-07-26 03:30:13 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finalizando teste 031.
+2024-07-26 19:57:53 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
+2024-07-26 19:57:54 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
+2024-07-26 19:57:54 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
+2024-07-26 19:57:55 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
+2024-07-26 19:57:55 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
+2024-07-26 19:57:55 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
+2024-07-26 19:57:56 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
+2024-07-26 19:57:56 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
+2024-07-26 19:58:54 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
+2024-07-26 19:58:54 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
+2024-07-26 19:58:54 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
+2024-07-26 19:58:55 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
+2024-07-26 19:58:55 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
+2024-07-26 19:58:56 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
+2024-07-26 19:58:56 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
+2024-07-26 19:58:57 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401

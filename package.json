@@ -2,6 +2,10 @@
   "name": "qa-fighters",
   "version": "1.0.0",
   "main": "index.js",
+  "imports": {
+    "#configs/*": "./core/configs/*.js",
+    "#utils/*": "./core/utils/*.js"
+  },
   "scripts": {
     "newman": "node newman/newman_runner.js",
     "test": "jest",

@@ -1,11 +1,11 @@
-require('dotenv').config();
+const env = require('../core/configs/environments');
 
-const requestManager = require('./../utils/requestManager');
+const requestManager = require('../core/utils/requestManager');
 
 const basicAuth =
   'Basic ' +
   Buffer.from(
-    `${process.env.JIRA_EMAIL}:${process.env.JIRA_API_TOKEN}`,
+    `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
 test('Verify basic authentication functionality', async () => {
@@ -14,6 +14,7 @@ test('Verify basic authentication functionality', async () => {
     'project',
     {},
     { Authorization: `${basicAuth}` },
+    {},
   );
 
   expect(response.status).toBe(200);

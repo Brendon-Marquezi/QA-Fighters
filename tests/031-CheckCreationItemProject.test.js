@@ -1,11 +1,11 @@
-require('dotenv').config();
+const env = require('../core/configs/environments');
 
-const requestManager = require('./../utils/requestManager');
+const requestManager = require('../core/utils/requestManager');
 
 const basicAuth =
   'Basic ' +
   Buffer.from(
-    `${process.env.JIRA_EMAIL}:${process.env.JIRA_API_TOKEN}`,
+    `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
 const jsonData = {
@@ -58,7 +58,7 @@ test('Check the creation of an item in a project', async () => {
 
   expect(response.data).toHaveProperty('self');
   expect(response.data.self).toBe(
-    `${process.env.JIRA_BASE_URL}issue/${issueResponseId}`,
+    `${env.environment.base_url}issue/${issueResponseId}`,
   );
 });
 

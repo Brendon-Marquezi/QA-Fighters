@@ -1,6 +1,6 @@
-const env = require('../core/configs/environments');
+const env = require('#configs/environments');
 
-const requestManager = require('../core/utils/requestManager');
+const requestManager = require('#utils/requestManager');
 
 const basicAuth =
   'Basic ' +
@@ -73,21 +73,19 @@ test('Check adding a comment to an issue', async () => {
       {},
       { Authorization: `${basicAuth}` },
       {
-        body: {
-          type: 'doc',
-          version: 1,
-          content: [
-            {
-              type: 'paragraph',
-              content: [
-                {
-                  text: 'Teste de comentário de uma issue',
-                  type: 'text',
-                },
-              ],
-            },
-          ],
-        },
+        type: 'doc',
+        version: 1,
+        content: [
+          {
+            type: 'paragraph',
+            content: [
+              {
+                text: 'Teste de comentário de uma issue',
+                type: 'text',
+              },
+            ],
+          },
+        ],
       },
     );
 

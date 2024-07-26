@@ -1,6 +1,6 @@
-const env = require('../core/configs/environments');
+const env = require('#configs/environments');
 
-const requestManager = require('../core/utils/requestManager');
+const requestManager = require('#utils/requestManager');
 
 const basicAuth =
   'Basic ' +

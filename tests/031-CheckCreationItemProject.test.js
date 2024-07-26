@@ -1,6 +1,9 @@
 const env = require('../core/configs/environments');
 
 const requestManager = require('../core/utils/requestManager');
+const logger = require('./../logger')(__filename);
+
+
 
 const basicAuth =
   'Basic ' +
@@ -43,26 +46,35 @@ const jsonData = {
 let issueResponseId;
 
 test('Check the creation of an item in a project', async () => {
-  let response = await requestManager.send(
-    'post',
-    'issue',
-    {},
-    { Authorization: `${basicAuth}` },
-    jsonData,
-  );
+  logger.info('Enviando requisição para criar um item no projeto ');
+  try {
+   let response = await requestManager.send(
+       'post',
+       'issue',
+       {},
+       {Authorization: `${basicAuth}`},
+       jsonData,
+   );
+    logger.info('Requisição enviada com sucesso.');
 
-  expect(response.status).toBe(201);
-  expect(response.data).toHaveProperty('id');
+      expect(response.status).toBe(201);
+      expect(response.data).toHaveProperty('id');
 
-  issueResponseId = response.data.id;
+      issueResponseId = response.data.id;
 
-  expect(response.data).toHaveProperty('self');
-  expect(response.data.self).toBe(
-    `${env.environment.base_url}issue/${issueResponseId}`,
-  );
+      expect(response.data).toHaveProperty('self');
+      expect(response.data.self).toBe(
+          `${env.environment.base_url}issue/${issueResponseId}`,
+      );
+      
+ }catch(error) {
+      logger.error(`Erro ao enviar requisição: ${error.message}`);
+      throw error;
+  }
 });
 
 afterAll(async () => {
+  logger.info(`Finalizando teste 031.`);
   if (issueResponseId) {
     await requestManager.send(
       'delete',

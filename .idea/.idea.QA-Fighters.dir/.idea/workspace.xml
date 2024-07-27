@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10c89ae5-d6f3-4606-b023-20b1b4aceaca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/031-CheckCreationItemProject.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/031-CheckCreationItemProject.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.QA-Fighters.dir/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QA-Fighters.dir/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.QA-Fighters.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QA-Fighters.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/configs/env.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/configs/env.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logsError.log" beforeDir="false" afterPath="$PROJECT_DIR$/logsError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logsInfo.log" beforeDir="false" afterPath="$PROJECT_DIR$/logsInfo.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -29,7 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/package-lock.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tests/teste.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -82,7 +89,8 @@
       <workItem from="1721925770792" duration="11823000" />
       <workItem from="1721959080537" duration="11607000" />
       <workItem from="1722013062508" duration="3176000" />
-      <workItem from="1722034648794" duration="348000" />
+      <workItem from="1722034648794" duration="1172000" />
+      <workItem from="1722035844521" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="Resolvendo conflitos">
       <option name="closed" value="true" />

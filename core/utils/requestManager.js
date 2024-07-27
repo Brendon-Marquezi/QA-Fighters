@@ -18,7 +18,7 @@ class RequestManager {
   }
 
   async send(method, endpoint, params, headers, data) {
-    return this.axios.request({
+    return await this.axios.request({
       method: method,
       url: endpoint,
       params: params,

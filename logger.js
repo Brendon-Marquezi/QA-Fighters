@@ -3,30 +3,28 @@ const path = require('path');
 
 // Define o formato do log
 const logFormat = format.printf(({ level, message, timestamp, label }) => {
-    const fileName = path.basename(label); //Captura o ultimo nome do caminho
-    
-    return `${timestamp} [${fileName}] ${level}: ${message}`;
+  const fileName = path.basename(label); //Captura o ultimo nome do caminho
+
+  return `${timestamp} [${fileName}] ${level}: ${message}`;
 });
 
-
-// Cria o logger 
-const logger = (className) => createLogger({
+// Cria o logger
+const logger = (className) =>
+  createLogger({
     format: format.combine(
-        format.label({ label: className  }), 
-        format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-        format.colorize(),
-        logFormat
+      format.label({ label: className }),
+      format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
+      format.colorize(),
+      logFormat,
     ),
     transports: [
-        new transports.Console({ level: 'debug' }),
-        new transports.File({ filename: 'logsInfo.log', level: 'info'}),
-        new transports.File({ filename: 'logsError.log', level: 'error' }),
-        
-    ]
-});
+      new transports.Console({ level: 'debug' }),
+      new transports.File({ filename: 'logsInfo.log', level: 'info' }),
+      new transports.File({ filename: 'logsError.log', level: 'error' }),
+    ],
+  });
 
 module.exports = logger;
-
 
 //Information about Winston - Level the message log (Take this out of here and put it in the documentation)
 
@@ -40,4 +38,3 @@ logger.debug('Mensagem de depuração'); // Mensagem de depuração
 logger.silly('Mensagem trivial');      // Mensagem trivial
 
  */
-

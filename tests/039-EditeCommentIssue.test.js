@@ -1,5 +1,5 @@
 const env = require('#configs/environments');
-
+const logger = require('./../logger')(__filename);
 const requestManager = require('#utils/requestManager');
 
 const basicAuth =
@@ -11,50 +11,44 @@ const basicAuth =
 let createdIssueId;
 
 beforeEach(async () => {
-  try {
-    const issueResponse = await requestManager.send(
-      'post',
-      'issue',
-      {},
-      { Authorization: `${basicAuth}` },
-      {
-        fields: {
-          project: {
-            id: '10002',
-          },
-          summary: 'Issue para teste de comentário',
-          description: {
-            type: 'doc',
-            version: 1,
-            content: [
-              {
-                type: 'paragraph',
-                content: [
-                  {
-                    text: 'Descrição do issue de teste',
-                    type: 'text',
-                  },
-                ],
-              },
-            ],
-          },
-          issuetype: {
-            id: '10012',
-          },
+  logger.info('Sending a request to create an item in the project');
+  const issueResponse = await requestManager.send(
+    'post',
+    'issue',
+    {},
+    { Authorization: `${basicAuth}` },
+    {
+      fields: {
+        project: {
+          id: '10002',
+        },
+        summary: 'Issue para teste de comentário',
+        description: {
+          type: 'doc',
+          version: 1,
+          content: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  text: 'Descrição do issue de teste',
+                  type: 'text',
+                },
+              ],
+            },
+          ],
+        },
+        issuetype: {
+          id: '10012',
         },
       },
-    );
-
-    createdIssueId = issueResponse.data.id;
-  } catch (error) {
-    console.error(
-      'Erro ao criar issue:',
-      error.response ? error.response.data : error.message,
-    );
-  }
+    },
+  );
+  createdIssueId = issueResponse.data.id;
 });
 
 afterEach(async () => {
+  logger.info('Starting the dilation check of an issue');
   if (createdIssueId) {
     await requestManager.send(
       'delete',
@@ -66,13 +60,14 @@ afterEach(async () => {
 });
 
 test('Check adding a comment to an issue', async () => {
-  try {
-    const commentResponse = await requestManager.send(
-      'post',
-      `issue/${createdIssueId}/comment`,
-      {},
-      { Authorization: `${basicAuth}` },
-      {
+  logger.info('Check adding a comment to an issue');
+  const commentResponse = await requestManager.send(
+    'post',
+    `issue/${createdIssueId}/comment`,
+    {},
+    { Authorization: `${basicAuth}` },
+    {
+      body: {
         type: 'doc',
         version: 1,
         content: [
@@ -87,13 +82,8 @@ test('Check adding a comment to an issue', async () => {
           },
         ],
       },
-    );
+    },
+  );
 
-    expect(commentResponse.status).toBe(201);
-  } catch (error) {
-    console.error(
-      'Erro ao adicionar comentário:',
-      error.response ? error.response.data : error.message,
-    );
-  }
+  expect(commentResponse.status).toBe(201);
 });

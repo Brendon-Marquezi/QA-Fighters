@@ -1,5 +1,5 @@
 const env = require('#configs/environments');
-
+const logger = require('./../logger')(__filename);
 const requestManager = require('#utils/requestManager');
 
 const basicAuth =
@@ -8,43 +8,66 @@ const basicAuth =
     `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
-test("Check an issue's change log", async () => {
-  const issueIdOrKey = 'API-29';
-  const endpoint = `issue/${issueIdOrKey}/changelog`;
+let createdIssueId;
 
-  try {
-    let response = await requestManager.send(
-      'get',
-      endpoint,
-      {},
-      { Authorization: `${basicAuth}` },
-    );
-
-    expect(response.status).toBe(200);
-
-    expect(response.data).toHaveProperty('values');
-  } catch (error) {
-    console.error(
-      'Erro ao obter log de alterações:',
-      error.response ? error.response.data : error.message,
-    );
-  }
+beforeEach(async () => {
+  logger.info('Starting to create an issue');
+  const issueResponse = await requestManager.send(
+    'post',
+    'issue',
+    {},
+    { Authorization: `${basicAuth}` },
+    {
+      fields: {
+        project: {
+          id: '10002',
+        },
+        summary: 'Issue para teste de comentário',
+        description: {
+          type: 'doc',
+          version: 1,
+          content: [
+            {
+              type: 'paragraph',
+              content: [
+                {
+                  text: 'Descrição do issue de teste',
+                  type: 'text',
+                },
+              ],
+            },
+          ],
+        },
+        issuetype: {
+          id: '10012',
+        },
+      },
+    },
+  );
+  createdIssueId = issueResponse.data.id;
 });
 
 afterEach(async () => {
-  const issueId = 'API-29';
+  logger.info('Starting to delete an issue');
+  await requestManager.send(
+    'delete',
+    `issue/${createdIssueId}`,
+    {},
+    { Authorization: `${basicAuth}` },
+  );
+});
 
-  try {
-    await requestManager.send(
-      'delete',
-      `issue/${issueId}`,
-      {},
-      { Authorization: `${basicAuth}` },
-    );
-  } catch (error) {
-    console.error(
-      'Erro ao excluir issue:',
-      error.response ? error.response.data : error.message,
-    );
-  }
+test("Check an issue's change log", async () => {
+  logger.info('Check an issues change log');
+  const endpoint = `issue/${createdIssueId}/changelog`;
+  let response = await requestManager.send(
+    'get',
+    endpoint,
+    {},
+    { Authorization: `${basicAuth}` },
+  );
+
+  expect(response.status).toBe(200);
+
+  expect(response.data).toHaveProperty('values');
 });

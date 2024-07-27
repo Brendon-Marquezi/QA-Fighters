@@ -1,3 +1,15 @@
-2024-07-26 03:30:12 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
-2024-07-26 03:30:13 [031-CheckCreationItemProject.test.js] [32minfo[39m: Requisição enviada com sucesso.
-2024-07-26 03:30:13 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finalizando teste 031.
+2024-07-27 00:06:04 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-27 00:06:04 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 00:06:04 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 00:06:05 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 00:06:05 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-27 00:06:05 [038-IssueChangeLog.test.js] [32minfo[39m: Check an issues change log
+2024-07-27 00:06:05 [039-EditeCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-07-27 00:06:05 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-07-27 00:06:05 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-07-27 00:06:06 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
+2024-07-27 00:06:06 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-27 00:06:06 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-27 00:06:06 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-27 00:06:06 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-07-27 00:06:06 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check

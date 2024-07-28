@@ -1,15 +1,6 @@
 const env = require('../core/configs/environments');
-
-<<<<<<< HEAD
-const requestManager = require('../core/utils/requestManager');
 const logger = require('./../logger')(__filename);
-
-
-=======
-const logger = require('./../logger')(__filename);
-
 const requestManager = require('#utils/requestManager');
->>>>>>> luana
 
 const basicAuth =
   'Basic ' +

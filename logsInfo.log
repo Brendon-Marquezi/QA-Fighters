@@ -114,3 +114,63 @@
 2024-07-27 00:25:20 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
 2024-07-27 00:25:20 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
 >>>>>>> luana
+2024-07-27 23:52:43 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:43 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-27 23:52:43 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:43 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-27 23:52:43 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-27 23:52:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-27 23:52:44 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-27 23:52:44 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-27 23:52:44 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:44 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-27 23:52:44 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:44 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-27 23:52:44 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:45 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-27 23:52:45 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-27 23:52:45 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-27 23:52:45 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-27 23:52:45 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-27 23:52:45 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:45 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-27 23:52:45 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:45 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-27 23:52:46 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:46 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-27 23:52:46 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-27 23:52:46 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-27 23:52:46 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-27 23:52:46 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-27 23:52:46 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-27 23:52:46 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:47 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-27 23:52:46 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:47 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-27 23:52:47 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-27 23:52:47 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-27 23:52:47 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-27 23:52:47 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-27 23:52:47 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-27 23:52:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-28 00:03:26 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:04:17 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:09:09 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:10:31 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:10:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:11:20 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:13:02 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:13:35 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:15:24 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:17:00 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:17:48 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:17:59 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:18:48 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:26:39 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:39:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:45:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 00:47:35 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 01:11:55 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-28 01:12:13 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-28 01:12:13 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.

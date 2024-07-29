@@ -1,90 +1,88 @@
-# Teste de API
+# API Testing
 
-Este repositório contém testes automatizados para a API Jira. O objetivo é garantir que a API funcione conforme o esperado e esteja em conformidade com os requisitos do projeto. O framework de automação utilizado é Jest, que permite uma arquitetura flexível e escalável.
+This repository contains automated tests for the Jira API. The goal is to ensure that the API functions as expected and complies with project requirements. The automation framework used is Jest, which allows for a flexible and scalable architecture.
 
-## Índice
+## Table of Contents
 
-- [Descrição](#descrição)
-- [Arquitetura e Estrutura](#arquitetura-e-estrutura)
-- [Instalação](#instalação)
-- [Configuração](#configuração)
-- [Execução dos Testes](#execução-dos-testes)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Exemplos de Testes](#exemplos-de-testes)
-- [Frameworks Usados](#Frameworks-Usados)
-- [Diagramas](#Diagramas)
-- [Agradecimentos](#Agradecimentos)
+- [Description](#description)
+- [Architecture and Structure](#architecture-and-structure)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running Tests](#running-tests)
+- [Project Structure](#project-structure)
+- [Test Examples](#test-examples)
+- [Used Frameworks](#used-frameworks)
+- [Diagrams](#diagrams)
+- [Acknowledgements](#acknowledgements)
 
-## Descrição
+## Description
 
-Este projeto contém um conjunto de testes para a API Jira. Os testes são projetados para verificar a funcionalidade, segurança e desempenho da API. Utilizamos um framework de automação baseado em código para garantir a flexibilidade e escalabilidade dos testes.
+This project contains a set of tests for the Jira API. The tests are designed to verify the functionality, security, and performance of the API. We use a code-based automation framework to ensure flexibility and scalability of the tests.
 
-## Arquitetura e Estrutura
+## Architecture and Structure
 
-A arquitetura do projeto é projetada para suportar a escalabilidade e flexibilidade, conforme as melhores práticas da indústria. A estrutura inclui:
+The project architecture is designed to support scalability and flexibility, following industry best practices. The structure includes:
 
-- **Camada de Testes**: Contém os testes automatizados organizados por categorias e funcionalidades.
-- **Camada de Configuração**: Inclui configurações e parâmetros necessários para a execução dos testes.
-- **Camada de Utilitários**: Funções auxiliares e bibliotecas que suportam os testes.
-- **Camada de Dados**: Armazena dados de teste e modelos de resposta.
+- **Test Layer**: Contains automated tests organized by categories and functionalities.
+- **Configuration Layer**: Includes configurations and parameters necessary for running the tests.
+- **Utility Layer**: Helper functions and libraries that support the tests.
+- **Data Layer**: Stores test data and response models.
 
-### Estrutura dos Testes
+### Test Structure
 
-Os testes estão organizados da seguinte forma:
+The tests are organized as follows:
 
-- **Testes de Funcionalidade Positivo**: Verificam se a API está funcionando conforme esperado.
-- **Testes de Integração Positivo**: Verificam se a API se integra corretamente com outros sistemas e componentes.
-- **Testes de Validação**: Confirmam se a API atende aos requisitos e especificações definidas.
-- **Testes de Funcionalidade Negativo**: Avaliam se a API lida corretamente com entradas inválidas e cenários de erro.
+- **Positive Functionality Tests**: Verify if the API is functioning as expected.
+- **Positive Integration Tests**: Verify if the API integrates correctly with other systems and components.
+- **Validation Tests**: Confirm if the API meets the defined requirements and specifications.
+- **Negative Functionality Tests**: Assess if the API handles invalid inputs and error scenarios correctly.
 
+## Installation
 
-## Instalação
+To install the project, follow these steps:
 
-Para instalar o projeto, siga estas etapas:
-
-1. Clone o repositório:
+1. Clone the repository:
     ```bash
-    git clone https://github.com/usuario/repositorio.git
+    git clone https://github.com/user/repository.git
     ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
     ```bash
-    cd repositorio
+    cd repository
     ```
 
-3. Instale as dependências:
+3. Install the dependencies:
     ```bash
     npm install
     ```
 
-## Configuração
+## Configuration
 
-1. Preencher o arquivo `env.json` com as  variáveis de ambiente necessarias:
-    ```json
-    {
-        "base_url": "",
-        "auth_url": "",
-        "username": "",
-        "api_token": "",
-        "client_id": "",
-        "client_secret": ""
-    }
-    ```
+1. Fill in the `env.json` file with the necessary environment variables:
+```json
+{
+"base_url": "",
+"auth_url": "",
+"username": "",
+"api_token": "",
+"client_id": "",
+"client_secret": ""
+}
+```
 
-- Está sem os dados por padrão para manter a segurança.
+- It is missing data by default to maintain security.
 
-## Execução dos Testes
+## Running the Tests
 
-Para executar os testes, use o comando:
-
+To run the tests, use the command:
 ```bash
 npm run test
 ```
 
-## Estrutura do Projeto
-A estrutura do diretório do projeto é a seguinte
+## Project Structure
+The directory structure of the project is as follows:
 ```bash
-/projeto
+/project
 |-- /test
 |   |-- /functional
 |   |-- /security
@@ -103,7 +101,7 @@ A estrutura do diretório do projeto é a seguinte
 |-- package.json
 |-- README.md
 ```
-## Frameworks Usados
+## Frameworks Used
 - **Jest:** 
 - **Prettier:**
 - **Newman:**
@@ -112,65 +110,62 @@ A estrutura do diretório do projeto é a seguinte
 - **Winston:**
 
 
-
-
 ## Information about ESLint
-### Convenções Aplicadas
+### Applied Conventions
 
-### Ignorar Arquivos
+### Ignore Files
 
-- **Padrão**: `*.config.mjs`, `coverage/*`
-- **Justificativa**: Evita verificar arquivos de configuração específicos e diretórios de cobertura de testes para otimizar a execução do ESLint.
+- **Default**: `*.config.mjs`, `coverage/*`
+- **Justification**: Avoid checking specific configuration files and test coverage directories to optimize ESLint execution.
 
-### Opções de Linguagem
+### Language Options
 
-- **Para arquivos JavaScript**: `sourceType: "commonjs"`
-  - **Justificativa**: Especifica o tipo de módulo JavaScript, adequado para projetos Node.js.
+- **For JavaScript files**: `sourceType: "commonjs"`
+- **Rationale**: Specifies the JavaScript module type, suitable for Node.js projects.
 
-### Variáveis Globais
+### Global Variables
 
-- **Variáveis do Node.js**: Utiliza variáveis globais específicas do ambiente Node.js definidas em `globals.node`.
+- **Node.js Variables**: Uses global variables specific to the Node.js environment defined in `globals.node`.
 
-### Configuração para Testes
+### Test Configuration
 
-- **Arquivos de Teste**: `tests/**/*.js`
-  - **Configuração Jest**: Segue recomendações para testes com Jest.
-  - **Exceções às Regras**: Desativa uma regra específica para flexibilidade na escrita de testes.
+- **Test Files**: `tests/**/*.js`
+- **Jest Configuration**: Follows recommendations for testing with Jest.
+- **Rule Exceptions**: Disables a specific rule for flexibility in writing tests.
 
-### Integração com Prettier
+### Prettier Integration
 
-- **eslintPluginPrettierRecommended**: Aplica regras de formatação recomendadas pelo Prettier automaticamente.
-
-
+- **eslintPluginPrettierRecommended**: Automatically applies formatting rules recommended by Prettier.
 
 ## Information about Winston
-### Convenções Aplicadas
+### Conventions Applied
 
-1. **Formato do Log**:
-   - Cada mensagem de log inclui o nível de log, mensagem, timestamp e o último nome do arquivo de onde o log foi gerado. Utiliza a função `printf` do Winston para formatação.
+1. **Log Format**:
+- Each log message includes the log level, message, timestamp, and the last file name from which the log was generated. Uses Winston's `printf` function for formatting.
 
-2. **Criação do Logger**:
-   - Utiliza a função `createLogger` do Winston para criar um logger configurado.
-   - Configurações incluem `label` para nome da classe ou módulo, `timestamp` formatado para 'YYYY-MM-DD HH:mm:ss' e `colorize` para colorir mensagens no console.
+2. **Logger Creation**:
+- Uses Winston's `createLogger` function to create a configured logger.
+- Settings include `label` for class or module name, `timestamp` formatted to 'YYYY-MM-DD HH:mm:ss', and `colorize` to colorize messages in the console.
 
-3. **Transportes de Log**:
-   - **Console**: Exibe logs no console com nível debug para monitoramento em desenvolvimento.
-   - **Arquivos de Log**: Grava logs em arquivos separados para diferentes níveis (`info` e `error`) para registro e monitoramento detalhado.
+3. **Log Transport**:
+- **Console**: Displays logs in the console at debug level for monitoring in development.
+- **Log Files**: Writes logs to separate files for different levels (`info` and `error`) for detailed logging and monitoring.
 
-- logger.error('Mensagem de erro');     
-- logger.warn('Mensagem de aviso');      
-- logger.info('Mensagem de informação'); 
-- logger.http('Mensagem de http');       
-- logger.verbose('Mensagem detalhada');  
-- logger.debug('Mensagem de depuração'); 
-- logger.silly('Mensagem trivial');
+- logger.error('Error message');
+- logger.warn('Warning message');
+- logger.info('Information message');
+- logger.http('http message');
+- logger.verbose('Verbose message');
+- logger.debug('Debug message');
+- logger.silly('Trivial message');
 
-## Diagramas
-### Diagrama da Estrutura do Framework de Automação
+
+## Diagrams
+### Automation Framework Structure Diagram
 ![Diagrama de Estrutura](/Documentation/Diagrama%20da%20Estrutura%20%20do%20Framework.png)
 
-### Diagrama da Arquitetura do Framework de Automação
+### Automation Framework Architecture Diagram
 ![Diagrama de Arquitetura](/Documentation/Diagrama%20de%20Arquitetura%20do%20Framework.png)
 
-## Agradecimentos
-Gostaríamos de agradecer a todos que contribuíram para este projeto. Agradecemos a sua dedicação e paciência, que foram importantes para o nosso crescimento. Muito obrigado por nos ajudar a melhorar continuamente!
+## Acknowledgements
+We would like to thank everyone who contributed to this project. We appreciate your dedication and patience, which have been important to our growth. Thank you very much for helping us continually improve!

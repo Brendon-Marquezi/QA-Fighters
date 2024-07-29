@@ -1,25 +1,24 @@
 const env = require('#configs/environments');
-const requestManager = require('#utils/requestManager');
+const RequestManager = require('#utils/requestManager');
+
+const requestManager = new RequestManager(env.environment.base_url);
 
 const basicAuth =
-'Basic ' +
-Buffer.from(
-`${env.environment.username}:${env.environment.api_token}`,
-).toString('base64');
+  'Basic ' +
+  Buffer.from(
+    `${env.environment.username}:${env.environment.api_token}`,
+  ).toString('base64');
 
 test('Check if it is possible to list the available project types', async () => {
-try {
-const projectTypesResponse = await requestManager.send(
-'get',
-'project/type',
-{},
-{ Authorization: `${basicAuth}` },
-);
 
+  const response = await requestManager.send(
+    'get',
+    'project/type',
+    {},
+    { Authorization: basicAuth },
+  );
 
-expect(projectTypesResponse.status).toBe(200);
-expect(Array.isArray(projectTypesResponse.data)).toBe(true);
-expect(projectTypesResponse.data.length).toBeGreaterThan(0);
-} catch (error) {
-}
+  expect(response.status).toBe(200);
+  expect(Array.isArray(response.data)).toBe(true);
+  expect(response.data.length).toBeGreaterThan(0);
 });

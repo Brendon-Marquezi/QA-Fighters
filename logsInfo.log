@@ -223,3 +223,150 @@
 2024-07-28 20:57:20 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
 2024-07-28 20:57:20 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
 2024-07-28 20:57:20 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:07:42 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:42 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:07:42 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:07:42 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:07:42 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:42 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de não adição de um usuário já existente ao grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:07:42 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-29 00:07:42 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:07:43 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:07:43 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:07:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:07:43 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:07:43 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-29 00:07:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:43 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:07:43 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:07:43 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:07:43 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:07:43 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:43 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:44 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:07:44 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:07:44 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:07:44 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:07:44 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:44 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:07:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-29 00:07:44 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:07:44 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:07:44 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:07:44 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:44 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:45 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:07:45 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:07:45 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:07:45 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:07:45 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:45 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:07:45 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "New group 33 ID: 041".
+2024-07-29 00:07:45 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:07:45 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:07:45 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:07:45 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:45 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:07:46 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:07:46 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:07:46 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:07:46 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:16:04 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:16:04 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:04 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:16:04 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de não adição de um usuário já existente ao grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:04 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:04 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:16:04 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:16:04 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:04 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:04 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:16:04 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:16:04 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:16:04 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:16:05 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:16:05 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:05 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:16:05 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:05 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:05 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:16:05 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:16:05 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:05 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:16:05 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:16:05 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:16:05 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:16:06 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:06 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:16:06 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:16:06 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:16:06 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:16:06 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:06 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:06 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:06 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:16:06 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:16:06 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:16:06 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:06 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:16:07 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:16:07 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:16:07 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:16:07 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:07 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:07 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:16:07 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:07 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:16:07 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:16:07 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:16:07 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:16:24 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:16:24 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:24 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:24 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:24 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de não adição de um usuário já existente ao grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:24 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:16:24 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:24 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:16:24 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:16:24 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:16:24 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:16:24 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:16:24 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:16:25 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:25 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:16:25 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:25 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:16:25 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:25 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:16:25 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:16:25 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:25 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:16:25 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:16:25 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:16:25 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:26 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:16:26 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:26 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:16:26 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:26 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:16:26 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:16:26 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:16:26 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:26 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:16:26 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:16:26 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:16:26 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:16:27 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:16:27 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:16:27 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:16:27 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:16:27 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:16:27 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:27 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:27 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:16:27 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:16:27 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:16:27 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:16:28 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue

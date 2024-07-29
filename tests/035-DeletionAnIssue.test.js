@@ -16,7 +16,7 @@ const jsonData = {
     project: {
       id: '10002',
     },
-    summary: 'Issue for comment testing',
+    summary: 'Issue para teste de exclusão',
     description: {
       type: 'doc',
       version: 1,
@@ -25,7 +25,7 @@ const jsonData = {
           type: 'paragraph',
           content: [
             {
-              text: 'Test issue description',
+              text: 'Descrição do issue de teste para exclusão',
               type: 'text',
             },
           ],
@@ -51,42 +51,15 @@ beforeEach(async () => {
   createdIssueId = issueResponse.data.id;
 });
 
-afterEach(async () => {
+test('Check deletion of an issue from a project', async () => {
+  logger.info('Check deletion of an issue from a project');
+  const deleteResponse = await requestManager.send(
+    'delete',
+    `issue/${createdIssueId}`,
+    {},
+    { Authorization: `${basicAuth}` },
+  );
+
   logger.info('Starting issue selection check');
-  if (createdIssueId) {
-    await requestManager.send(
-      'delete',
-      `issue/${createdIssueId}`,
-      {},
-      { Authorization: `${basicAuth}` },
-    );
-  }
-});
-
-test('Check if you can edit an issue name', async () => {
-  logger.info('Check if you can edit an issue name');
-  const updateResponse = await requestManager.send(
-    'put',
-    `issue/${createdIssueId}`,
-    {},
-    { Authorization: `${basicAuth}` },
-    {
-      fields: {
-        summary: 'Teste de edição de nome de uma issue',
-      },
-    },
-  );
-
-  expect(updateResponse.status).toBe(204);
-
-  const issueResponse = await requestManager.send(
-    'get',
-    `issue/${createdIssueId}`,
-    {},
-    { Authorization: `${basicAuth}` },
-  );
-
-  expect(issueResponse.data.fields.summary).toBe(
-    'Testing editing an issue name',
-  );
+  expect(deleteResponse.status).toBe(204);
 });

@@ -1,8 +1,12 @@
 const env = require('#configs/environments');
-const logger = require('./../logger')(__filename);
+const logger = require('../../logger')(__filename);
+<<<<<<< HEAD
+const requestManager = require('#utils/requestManager');
+=======
 const RequestManager = require('#utils/requestManager');
 
 const requestManager = new RequestManager(env.environment.base_url);
+>>>>>>> main
 
 const basicAuth =
   'Basic ' +

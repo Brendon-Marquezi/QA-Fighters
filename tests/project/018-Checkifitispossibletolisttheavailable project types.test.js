@@ -16,12 +16,10 @@ const projectTypesResponse = await requestManager.send(
 { Authorization: `${basicAuth}` },
 );
 
-console.log('Project Types Response:', projectTypesResponse.data);
 
 expect(projectTypesResponse.status).toBe(200);
 expect(Array.isArray(projectTypesResponse.data)).toBe(true);
 expect(projectTypesResponse.data.length).toBeGreaterThan(0);
 } catch (error) {
-console.error('Error in test:', error.response ? error.response.data : error.message);
 }
 });

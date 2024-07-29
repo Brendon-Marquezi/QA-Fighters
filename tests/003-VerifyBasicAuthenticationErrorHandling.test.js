@@ -6,7 +6,7 @@ const requestManager = new RequestManager(env.environment.base_url);
 const basicAuth =
   'Basic ' +
   Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
+    `${env.environment.username}:${env.environment.invalid_api_token}`,
   ).toString('base64');
 
 test('Verify basic authentication functionality', async () => {
@@ -17,6 +17,6 @@ test('Verify basic authentication functionality', async () => {
     { Authorization: `${basicAuth}` },
   );
 
-  expect(response.status).toBe(200);
-  expect(response.data[0]).toHaveProperty('expand');
+  expect(response.status).toBe(400);
+  expect(response.data).toBe('you do not have permission');
 });

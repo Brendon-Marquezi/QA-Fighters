@@ -1,5 +1,5 @@
 const env = require('#configs/environments');
-const logger = require('./../logger')(__filename);
+const logger = require('../../logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
 const requestManager = new RequestManager(env.environment.base_url);
@@ -12,7 +12,7 @@ const basicAuth =
     `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
-const groupId = '6bd1e790-183e-426a-b1f6-619473672cba';
+const groupId = '56c22a1c-2cf5-4147-9235-1e964e13d4cf';
 
 test('Verificar usuários pertencentes a um grupo específico', async () => {
   logger.info(
@@ -33,6 +33,6 @@ test('Verificar usuários pertencentes a um grupo específico', async () => {
   });
 
   expect(response.status).toBe(200);
-  expect(response.data.groups).toBeDefined();
-  expect(response.data.groups.length).toBeGreaterThan(0);
+  expect(response.data.group).toBeDefined();
+  expect(response.data.group.length).toBeGreaterThan(0);
 });

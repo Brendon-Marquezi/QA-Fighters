@@ -1,5 +1,5 @@
 const env = require('#configs/environments');
-const logger = require('./../logger')(__filename);
+const logger = require('../../logger')(__filename);
 <<<<<<< HEAD
 const requestManager = require('#utils/requestManager');
 =======

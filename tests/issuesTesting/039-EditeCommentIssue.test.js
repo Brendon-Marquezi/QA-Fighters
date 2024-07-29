@@ -1,5 +1,5 @@
 const env = require('#configs/environments');
-const logger = require('./../logger')(__filename);
+const logger = require('../../logger')(__filename);
 <<<<<<< HEAD
 const requestManager = require('#utils/requestManager');
 =======
@@ -17,7 +17,7 @@ const basicAuth =
 let createdIssueId;
 
 beforeEach(async () => {
-  logger.info('Starting to create an issue');
+  logger.info('Sending a request to create an item in the project');
   const issueResponse = await requestManager.send(
     'post',
     'issue',
@@ -54,26 +54,42 @@ beforeEach(async () => {
 });
 
 afterEach(async () => {
-  logger.info('Starting to delete an issue');
-  await requestManager.send(
-    'delete',
-    `issue/${createdIssueId}`,
-    {},
-    { Authorization: `${basicAuth}` },
-  );
+  logger.info('Starting the dilation check of an issue');
+  if (createdIssueId) {
+    await requestManager.send(
+      'delete',
+      `issue/${createdIssueId}`,
+      {},
+      { Authorization: `${basicAuth}` },
+    );
+  }
 });
 
-test("Check an issue's change log", async () => {
-  logger.info('Check an issues change log');
-  const endpoint = `issue/${createdIssueId}/changelog`;
-  let response = await requestManager.send(
-    'get',
-    endpoint,
+test('Check adding a comment to an issue', async () => {
+  logger.info('Check adding a comment to an issue');
+  const commentResponse = await requestManager.send(
+    'post',
+    `issue/${createdIssueId}/comment`,
     {},
     { Authorization: `${basicAuth}` },
+    {
+      body: {
+        type: 'doc',
+        version: 1,
+        content: [
+          {
+            type: 'paragraph',
+            content: [
+              {
+                text: 'Teste de comentário de uma issue',
+                type: 'text',
+              },
+            ],
+          },
+        ],
+      },
+    },
   );
 
-  expect(response.status).toBe(200);
-
-  expect(response.data).toHaveProperty('values');
+  expect(commentResponse.status).toBe(201);
 });

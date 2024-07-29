@@ -1,6 +1,8 @@
 const env = require('#configs/environments');
 const logger = require('../logger')(__filename);
-const requestManager = require('#utils/requestManager');
+const RequestManager = require('#utils/requestManager');
+
+const requestManager = new RequestManager(env.environment.base_url);
 
 const basicAuth =
   'Basic ' +
@@ -8,7 +10,9 @@ const basicAuth =
     `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
-const groupIdToDelete = '5a590bd3-2273-4b95-ab2f-114628e6e9a4';
+//Use este ID = 7f04de8a-378e-45fa-b23d-8241eab4a691
+
+const groupIdToDelete = '7f04de8a-378e-45fa-b23d-8241eab4a691';
 
 test('Deletar um grupo específico', async () => {
   logger.info(

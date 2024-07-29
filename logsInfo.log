@@ -223,3 +223,51 @@
 2024-07-28 20:57:20 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
 2024-07-28 20:57:20 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
 2024-07-28 20:57:20 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:36:43 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:36:43 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:38:07 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:38:07 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:38:43 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:38:43 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:39:31 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:39:32 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
+2024-07-29 00:39:32 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:41:29 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:41:50 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:41:51 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Response: 201 Created
+2024-07-29 00:41:51 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Grupo "Group test 12" criado com sucesso. ID: undefined
+2024-07-29 00:41:57 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:42:23 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:42:24 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-07-29 00:42:24 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Listagem de usuários do grupo "6bd1e790-183e-426a-b1f6-619473672cba":
+2024-07-29 00:42:38 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de não adição de um usuário já existente ao grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:43:05 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:45:04 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-07-29 00:45:04 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de não adição de um usuário já existente ao grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:45:04 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:45:04 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-07-29 00:45:04 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-07-29 00:45:04 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:45:04 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-07-29 00:45:04 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:45:04 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Iniciando teste de verificação de usuários do grupo com ID "6bd1e790-183e-426a-b1f6-619473672cba".
+2024-07-29 00:45:05 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:45:05 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-07-29 00:45:05 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-07-29 00:45:05 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-07-29 00:45:05 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Listagem de usuários do grupo "6bd1e790-183e-426a-b1f6-619473672cba":
+2024-07-29 00:45:06 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:45:06 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
+2024-07-29 00:45:06 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-07-29 00:45:06 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:45:07 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:45:07 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:45:08 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "5a590bd3-2273-4b95-ab2f-114628e6e9a4".
+2024-07-29 00:45:08 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:45:17 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 12".
+2024-07-29 00:46:11 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Iniciando teste de criação do grupo "Group test 121".
+2024-07-29 00:46:12 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Response: 201 Created
+2024-07-29 00:46:12 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Grupo "Group test 121" criado com sucesso. ID: undefined
+2024-07-29 00:47:04 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Iniciando teste de deleção do grupo com ID "a351cfa6-6f01-4594-93a8-29e64c3664bd".
+2024-07-29 00:47:05 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-07-29 00:47:05 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Grupo com ID "a351cfa6-6f01-4594-93a8-29e64c3664bd" deletado com sucesso.

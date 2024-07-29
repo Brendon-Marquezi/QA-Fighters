@@ -12,7 +12,6 @@ Este repositório contém testes automatizados para a API Jira. O objetivo é ga
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Exemplos de Testes](#exemplos-de-testes)
 - [Frameworks Usados](#Frameworks-Usados)
-- [Information about Winston](#Information-about-Winston)
 - [Diagramas](#Diagramas)
 - [Agradecimentos](#Agradecimentos)
 
@@ -35,7 +34,7 @@ Os testes estão organizados da seguinte forma:
 
 - **Testes de Funcionalidade Positivo**: Verificam se a API está funcionando conforme esperado.
 - **Testes de Integração Positivo**: Verificam se a API se integra corretamente com outros sistemas e componentes.
-- **Testes de Validão**: Confirmam se a API atende aos requisitos e especificações definidas.
+- **Testes de Validação**: Confirmam se a API atende aos requisitos e especificações definidas.
 - **Testes de Funcionalidade Negativo**: Avaliam se a API lida corretamente com entradas inválidas e cenários de erro.
 
 
@@ -60,7 +59,7 @@ Para instalar o projeto, siga estas etapas:
 
 ## Configuração
 
-1. Crie um arquivo `env.json` na raiz do projeto e adicione as seguintes variáveis de ambiente:
+1. Preencher o arquivo `env.json` com as  variáveis de ambiente necessarias:
     ```json
     {
         "base_url": "",
@@ -72,7 +71,7 @@ Para instalar o projeto, siga estas etapas:
     }
     ```
 
-2. Configure o framework de automação de acordo com o arquivo de configuração `config.json`.
+- Está sem os dados por padrão para manter a segurança.
 
 ## Execução dos Testes
 
@@ -112,7 +111,52 @@ A estrutura do diretório do projeto é a seguinte
 - **ESLint:**
 - **Winston:**
 
+
+
+
+## Information about ESLint
+### Convenções Aplicadas
+
+### Ignorar Arquivos
+
+- **Padrão**: `*.config.mjs`, `coverage/*`
+- **Justificativa**: Evita verificar arquivos de configuração específicos e diretórios de cobertura de testes para otimizar a execução do ESLint.
+
+### Opções de Linguagem
+
+- **Para arquivos JavaScript**: `sourceType: "commonjs"`
+  - **Justificativa**: Especifica o tipo de módulo JavaScript, adequado para projetos Node.js.
+
+### Variáveis Globais
+
+- **Variáveis do Node.js**: Utiliza variáveis globais específicas do ambiente Node.js definidas em `globals.node`.
+
+### Configuração para Testes
+
+- **Arquivos de Teste**: `tests/**/*.js`
+  - **Configuração Jest**: Segue recomendações para testes com Jest.
+  - **Exceções às Regras**: Desativa uma regra específica para flexibilidade na escrita de testes.
+
+### Integração com Prettier
+
+- **eslintPluginPrettierRecommended**: Aplica regras de formatação recomendadas pelo Prettier automaticamente.
+
+
+
 ## Information about Winston
+### Convenções Aplicadas
+
+1. **Formato do Log**:
+   - Cada mensagem de log inclui o nível de log, mensagem, timestamp e o último nome do arquivo de onde o log foi gerado. Utiliza a função `printf` do Winston para formatação.
+
+2. **Criação do Logger**:
+   - Utiliza a função `createLogger` do Winston para criar um logger configurado.
+   - Configurações incluem `label` para nome da classe ou módulo, `timestamp` formatado para 'YYYY-MM-DD HH:mm:ss' e `colorize` para colorir mensagens no console.
+
+3. **Transportes de Log**:
+   - **Console**: Exibe logs no console com nível debug para monitoramento em desenvolvimento.
+   - **Arquivos de Log**: Grava logs em arquivos separados para diferentes níveis (`info` e `error`) para registro e monitoramento detalhado.
+
 - logger.error('Mensagem de erro');     
 - logger.warn('Mensagem de aviso');      
 - logger.info('Mensagem de informação'); 
@@ -122,12 +166,11 @@ A estrutura do diretório do projeto é a seguinte
 - logger.silly('Mensagem trivial');
 
 ## Diagramas
-### Diagrama da Arquitetura e Estrutura do Framework de Automação
-![Diagrama Arquitetura e Estrutura](assets/images/Diagrama-Arquitetura-e-Estrutura.png)
+### Diagrama da Estrutura do Framework de Automação
+![Diagrama de Estrutura](/Documentation/Diagrama%20da%20Estrutura%20%20do%20Framework.png)
 
-
-### Diagrama da  Estrutura do Framework de Automação
-![Diagrama do Padrão de Design Singleton](assets/images/Diagrama-do-Padrão-de-Design-Singleton.png)
+### Diagrama da Arquitetura do Framework de Automação
+![Diagrama de Arquitetura](/Documentation/Diagrama%20de%20Arquitetura%20do%20Framework.png)
 
 ## Agradecimentos
 Gostaríamos de agradecer a todos que contribuíram para este projeto. Agradecemos a sua dedicação e paciência, que foram importantes para o nosso crescimento. Muito obrigado por nos ajudar a melhorar continuamente!

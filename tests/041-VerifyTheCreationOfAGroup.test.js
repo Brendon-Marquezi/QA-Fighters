@@ -1,6 +1,8 @@
 const env = require('#configs/environments');
 const logger = require('./../logger')(__filename);
-const requestManager = require('#utils/requestManager');
+const RequestManager = require('#utils/requestManager');
+
+const requestManager = new RequestManager(env.environment.base_url);
 
 let createdGroupId = '';
 
@@ -10,7 +12,7 @@ const basicAuth =
     `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
-const groupNameToCreate = 'Group test 12';
+const groupNameToCreate = 'Group test 121';
 
 test('Criação de um novo grupo', async () => {
   logger.info(`Iniciando teste de criação do grupo "${groupNameToCreate}".`);

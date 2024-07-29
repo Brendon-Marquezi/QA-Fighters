@@ -1,6 +1,5 @@
 {
   "logger": "",
   "environment": "test",
-  "timeout": 20000
+  "timeout": 5000
 }
-

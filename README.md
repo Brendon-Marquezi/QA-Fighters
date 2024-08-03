@@ -165,7 +165,7 @@ The directory structure of the project is as follows:
 ![Diagrama de Estrutura](/Documentation/Diagrama%20da%20Estrutura%20%20do%20Framework.png)
 
 ### Automation Framework Architecture Diagram
-![Diagrama de Arquitetura](/Documentation/Diagrama%20de%20Arquitetura%20do%20Framework.png)
+![Diagrama de Arquitetura](/Documentation/Diagrama%20de%20ArquiteturadoFramework.png)
 
 ## Acknowledgements
 We would like to thank everyone who contributed to this project. We appreciate your dedication and patience, which have been important to our growth. Thank you very much for helping us continually improve!

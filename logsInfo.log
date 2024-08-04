@@ -534,6 +534,7 @@ Received: [31m200[39m
 2024-08-04 16:17:42 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group 80e4b0b3-58a2-4337-8d10-a24f5834cdb2 deleted successfully.
 2024-08-04 16:17:42 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Confirmation: Group 80e4b0b3-58a2-4337-8d10-a24f5834cdb2 no longer exists.
 2024-08-04 16:17:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+<<<<<<< HEAD
 2024-08-04 16:45:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-04 16:45:47 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
 2024-08-04 16:45:49 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 775d6792-1d5b-4e05-a5ff-df668111674f
@@ -576,3 +577,5 @@ Received: [31m200[39m
 2024-08-04 16:54:51 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc was successfully added to group a10af36d-c9f6-4fe1-b518-95b2c0fcd73d.
 2024-08-04 16:54:51 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group a10af36d-c9f6-4fe1-b518-95b2c0fcd73d deleted successfully.
 2024-08-04 16:54:51 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+=======
+>>>>>>> 189ed6b35a59d731d4209e0a940c4095940248b1

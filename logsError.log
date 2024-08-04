@@ -36,4 +36,7 @@ Received: [31m200[39m
 2024-08-04 15:48:19 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-04 15:49:07 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-04 16:10:15 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+<<<<<<< HEAD
 2024-08-04 16:49:32 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+=======
+>>>>>>> 189ed6b35a59d731d4209e0a940c4095940248b1

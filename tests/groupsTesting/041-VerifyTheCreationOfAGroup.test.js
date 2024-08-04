@@ -2,8 +2,6 @@ const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
-
 let createdGroupId = '';
 
 const jsonData = {
@@ -12,6 +10,8 @@ const jsonData = {
 
 beforeEach(async () => {
   logger.info('Checking if the group exists before creating a new one');
+
+  const requestManager = new RequestManager(env.environment.base_url);
 
   // Check if the group already exists
   const existingGroupsResponse = await requestManager.send(
@@ -44,6 +44,8 @@ beforeEach(async () => {
 
 test('Create and verify a new group', async () => {
   logger.info('Creating and verifying a new group');
+
+  const requestManager = new RequestManager(env.environment.base_url);
 
   // Create the new group
   const createResponse = await requestManager.send(
@@ -80,6 +82,8 @@ test('Create and verify a new group', async () => {
 afterEach(async () => {
   if (createdGroupId) {
     logger.info('Deleting the created group');
+
+    const requestManager = new RequestManager(env.environment.base_url);
 
     // Delete the created group
     const deleteResponse = await requestManager.send(

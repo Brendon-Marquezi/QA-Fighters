@@ -172,8 +172,6 @@ const config = {
         pageTitle: '- Jira API Testing Framework Report - by QA Fighters Team',
         darkTheme: true,
         openReport: true,
-        includeConsoleLog: true, 
-        failureMessageOnly: 0,
       }
     ],
   ],

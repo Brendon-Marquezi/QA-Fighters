@@ -4,12 +4,6 @@ const RequestManager = require('#utils/requestManager');
 
 const requestManager = new RequestManager(env.environment.base_url);
 
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
-  ).toString('base64');
-
 let createdGroupId = '';
 
 const groupName = env.environment.group_name;
@@ -25,7 +19,7 @@ beforeEach(async () => {
     'post',
     'group',
     {},
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
     jsonData,
   );
 
@@ -44,7 +38,7 @@ test('Verify group creation and deletion', async () => {
     'get',
     `group?groupId=${createdGroupId}`,
     {},
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
   );
 
   expect(verifyResponse.status).toBe(200);
@@ -55,7 +49,7 @@ test('Verify group creation and deletion', async () => {
     'delete',
     `group?groupId=${createdGroupId}`,
     {},
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
   );
 
   expect(deleteResponse.status).toBe(200);
@@ -71,7 +65,7 @@ afterEach(async () => {
       'get',
       `groups/picker?query=${encodeURIComponent(groupName)}`,
       {},
-      { Authorization: basicAuth },
+      { Authorization: global.basicAuth },
     );
 
     const groups = getResponse.data.groups;

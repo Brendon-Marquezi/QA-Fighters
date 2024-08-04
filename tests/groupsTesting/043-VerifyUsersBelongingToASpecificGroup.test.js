@@ -4,12 +4,6 @@ const RequestManager = require('#utils/requestManager');
 
 const requestManager = new RequestManager(env.environment.base_url);
 
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
-  ).toString('base64');
-
 // Context variables
 const groupName = env.environment.group_name;
 const userIdToAdd = env.environment.client_id;
@@ -23,7 +17,7 @@ beforeEach(async () => {
     'get',
     `groups/picker?query=${encodeURIComponent(groupName)}`,
     {},
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
   );
 
   const existingGroup = searchResponse.data.groups.find(
@@ -39,7 +33,7 @@ beforeEach(async () => {
       'post',
       'group',
       {},
-      { Authorization: basicAuth },
+      { Authorization: global.basicAuth },
       { name: groupName },
     );
     createdGroupId = createResponse.data.groupId;
@@ -51,7 +45,7 @@ beforeEach(async () => {
     'post',
     `group/user?groupId=${createdGroupId}`,
     {},
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
     { accountId: userIdToAdd },
   );
 
@@ -73,7 +67,7 @@ test('Verify users belonging to a specific group', async () => {
     'get',
     `group/member?groupId=${createdGroupId}`,
     {},
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
   );
 
   logger.info(`Response: ${response.status} ${response.statusText}`);
@@ -108,7 +102,7 @@ afterEach(async () => {
       'delete',
       `group?groupId=${createdGroupId}`,
       {},
-      { Authorization: basicAuth },
+      { Authorization: global.basicAuth },
     );
 
     if (deleteResponse.status === 200) {

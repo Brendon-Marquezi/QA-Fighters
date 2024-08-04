@@ -6,12 +6,6 @@ const requestManager = new RequestManager(env.environment.base_url);
 
 let createdGroupId = '';
 
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
-  ).toString('base64');
-
 const jsonData = {
   name: env.environment.group_name,
 };
@@ -24,7 +18,7 @@ beforeEach(async () => {
     'get',
     'groups/picker',
     { query: jsonData.name },
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
   );
 
   const existingGroups = existingGroupsResponse.data.groups;
@@ -40,7 +34,7 @@ beforeEach(async () => {
       'delete',
       `group`,
       { groupId: createdGroupId },
-      { Authorization: basicAuth },
+      { Authorization: global.basicAuth },
     );
     logger.info(`Existing group ${createdGroupId} deleted.`);
   } else {
@@ -56,7 +50,7 @@ test('Create and verify a new group', async () => {
     'post',
     'group',
     {},
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
     jsonData,
   );
 
@@ -68,7 +62,7 @@ test('Create and verify a new group', async () => {
     'get',
     `group`,
     { groupId: createdGroupId },
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
   );
 
   if (verifyResponse.status === 200) {
@@ -92,7 +86,7 @@ afterEach(async () => {
       'delete',
       `group`,
       { groupId: createdGroupId },
-      { Authorization: basicAuth },
+      { Authorization: global.basicAuth },
     );
 
     if (deleteResponse.status === 200) {
@@ -103,7 +97,7 @@ afterEach(async () => {
         'get',
         `groups/picker?query=${encodeURIComponent(jsonData.name)}`,
         {},
-        { Authorization: basicAuth },
+        { Authorization: global.basicAuth },
       );
 
       const remainingGroups = searchResponse.data.groups;

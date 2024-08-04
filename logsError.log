@@ -20,23 +20,83 @@ Received: [31m200[39m
 2024-08-03 19:17:10 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to delete group 52eb14fc-37c1-4245-a754-066eaf3c1980. Status: 200
 2024-08-03 21:31:13 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-03 22:09:22 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-03 22:44:20 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: User  was not found in group 75bf385d-6dd4-4c24-8ed9-f4874bee50c1.
-2024-08-03 22:44:23 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: User  was not found in group e1f4f0aa-3d35-40f5-a971-29b580d68afd.
-2024-08-03 23:36:06 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-03 23:36:40 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-03 23:37:10 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-03 23:40:52 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-03 23:42:30 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-03 23:43:05 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-03 23:43:31 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-03 23:44:09 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-04 00:18:08 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-04 01:08:13 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-04 15:46:17 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-04 15:48:19 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-04 15:49:07 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-2024-08-04 16:10:15 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
-<<<<<<< HEAD
-2024-08-04 16:49:32 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
-=======
->>>>>>> 189ed6b35a59d731d4209e0a940c4095940248b1
+2024-08-04 16:07:10 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:11 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:07:12 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:12 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:12 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:07:12 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:13 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:07:13 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:13 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:14 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:07:14 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:14 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:14 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:15 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:15 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:07:16 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:53 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:10:53 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:53 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:53 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:54 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:10:55 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:55 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:10:55 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:55 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:56 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:10:56 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:56 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:56 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:57 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:57 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:10:58 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:22 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:23:23 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:23 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:23 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:23 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:23:24 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:23:24 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:24 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:24 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:25 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:23:25 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:25 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:25 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:27 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:27 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:23:27 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:30:56 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:30:57 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:30:57 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:30:57 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:30:58 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:30:58 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:30:58 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:30:59 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:30:59 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:30:59 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:31:00 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:31:00 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:31:00 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:31:01 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:31:01 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:31:01 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:54 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:35:55 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:55 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:55 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:55 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:35:56 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:56 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:56 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:56 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:35:57 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-04 16:35:58 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:58 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:58 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:59 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-04 16:35:59 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+

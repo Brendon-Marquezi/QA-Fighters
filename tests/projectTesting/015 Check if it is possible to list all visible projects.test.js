@@ -10,26 +10,24 @@ const basicAuth =
     `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
-let projectKey = 'EX'; // Chave do projeto que você deseja obter os detalhes
-
 beforeEach(() => {
   logger.info('Starting the test setup');
   // Adicionar qualquer setup necessário antes de cada teste
 });
 
-test('Check if you can get the details of a project', async () => {
-  logger.info(`Starting to get details for project ${projectKey}`);
+test('Check if it is possible to list all visible projects', async () => {
+  logger.info('Starting to list all visible projects');
 
   const response = await requestManager.send(
     'get',
-    `project/${projectKey}`,
+    'project/search',
     {},
     { Authorization: `${basicAuth}` },
   );
 
-  logger.info(`Received response for project ${projectKey}`);
+  logger.info('Received response for visible projects');
 
   expect(response.status).toBe(200);
-  expect(response.data.key).toBe(projectKey);
-  expect(response.data.name).toBe('Example');
+  expect(Array.isArray(response.data.values)).toBe(true);
+  expect(response.data.values.length).toBeGreaterThan(0);
 });

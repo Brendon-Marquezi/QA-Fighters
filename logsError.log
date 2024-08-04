@@ -1,18 +1,20 @@
-2024-07-26 03:28:33 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 400
-2024-07-26 03:28:34 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 400
-2024-07-26 19:57:54 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 19:57:55 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 19:57:55 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 19:57:56 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 19:58:54 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 19:58:55 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 19:58:56 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 19:58:57 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 20:07:10 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 20:07:11 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 20:07:12 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 20:07:13 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 20:18:45 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 20:18:46 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 20:18:47 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
-2024-07-26 20:18:48 [031-CheckCreationItemProject.test.js] [31merror[39m: Erro ao enviar requisição: Request failed with status code 401
+2024-08-03 16:22:30 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Failed to create group: [object Object]
+2024-08-03 16:22:30 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available to delete.
+2024-08-03 17:02:51 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: Error verifying group deletion: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m404[39m
+Received: [31m200[39m
+2024-08-03 17:07:21 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: Error verifying group deletion: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m404[39m
+Received: [31m200[39m
+2024-08-03 17:07:53 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: Error verifying group deletion: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m404[39m
+Received: [31m200[39m
+2024-08-03 17:46:54 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-03 18:39:31 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Falha ao excluir grupo 23ccee52-5851-40d3-8c71-91e2969d8cd7. Status: 200
+2024-08-03 18:57:06 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Falha ao excluir grupo 3d1f8465-e72c-4496-b46c-23d9dc556e22. Status: 200
+2024-08-03 19:04:06 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Falha ao excluir grupo 65dde83a-56c5-4700-91d8-c2824d449e68. Status: 200
+2024-08-03 19:07:14 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to delete group 75f8764f-74f2-467b-8689-1f8b9f6577f4. Status: 200
+2024-08-03 19:17:10 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to delete group 52eb14fc-37c1-4245-a754-066eaf3c1980. Status: 200

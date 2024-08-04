@@ -136,7 +136,7 @@ const config = {
   // setupFiles: [],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
-  // setupFilesAfterEnv: [],
+  setupFilesAfterEnv: ['./core/utils/jest.setup.js'],
 
   // The number of seconds after which a test is considered as slow and reported as such in the results.
   // slowTestThreshold: 5,
@@ -172,6 +172,8 @@ const config = {
         pageTitle: '- Jira API Testing Framework Report - by QA Fighters Team',
         darkTheme: true,
         openReport: true,
+        includeConsoleLog: true, 
+        failureMessageOnly: 0,
       }
     ],
   ],

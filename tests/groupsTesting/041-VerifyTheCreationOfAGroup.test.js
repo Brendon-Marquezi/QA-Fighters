@@ -2,15 +2,7 @@ const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
-
 let createdGroupId = '';
-
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
-  ).toString('base64');
 
 const jsonData = {
   name: env.environment.group_name,
@@ -19,12 +11,14 @@ const jsonData = {
 beforeEach(async () => {
   logger.info('Checking if the group exists before creating a new one');
 
+  const requestManager = new RequestManager(env.environment.base_url);
+
   // Check if the group already exists
   const existingGroupsResponse = await requestManager.send(
     'get',
     'groups/picker',
     { query: jsonData.name },
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
   );
 
   const existingGroups = existingGroupsResponse.data.groups;
@@ -40,7 +34,7 @@ beforeEach(async () => {
       'delete',
       `group`,
       { groupId: createdGroupId },
-      { Authorization: basicAuth },
+      { Authorization: global.basicAuth },
     );
     logger.info(`Existing group ${createdGroupId} deleted.`);
   } else {
@@ -51,12 +45,14 @@ beforeEach(async () => {
 test('Create and verify a new group', async () => {
   logger.info('Creating and verifying a new group');
 
+  const requestManager = new RequestManager(env.environment.base_url);
+
   // Create the new group
   const createResponse = await requestManager.send(
     'post',
     'group',
     {},
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
     jsonData,
   );
 
@@ -68,7 +64,7 @@ test('Create and verify a new group', async () => {
     'get',
     `group`,
     { groupId: createdGroupId },
-    { Authorization: basicAuth },
+    { Authorization: global.basicAuth },
   );
 
   if (verifyResponse.status === 200) {
@@ -87,12 +83,14 @@ afterEach(async () => {
   if (createdGroupId) {
     logger.info('Deleting the created group');
 
+    const requestManager = new RequestManager(env.environment.base_url);
+
     // Delete the created group
     const deleteResponse = await requestManager.send(
       'delete',
       `group`,
       { groupId: createdGroupId },
-      { Authorization: basicAuth },
+      { Authorization: global.basicAuth },
     );
 
     if (deleteResponse.status === 200) {
@@ -103,7 +101,7 @@ afterEach(async () => {
         'get',
         `groups/picker?query=${encodeURIComponent(jsonData.name)}`,
         {},
-        { Authorization: basicAuth },
+        { Authorization: global.basicAuth },
       );
 
       const remainingGroups = searchResponse.data.groups;

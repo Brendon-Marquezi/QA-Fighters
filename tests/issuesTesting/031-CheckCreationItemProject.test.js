@@ -1,5 +1,5 @@
-const env = require('../../core/configs/environments');
-const logger = require('../../logger')(__filename);
+const env = require('#configs/environments');
+const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
 const requestManager = new RequestManager(env.environment.base_url);
@@ -66,7 +66,7 @@ test('Check the creation of an item in a project', async () => {
   );
 });
 
-afterAll(async () => {
+afterEach(async () => {
   logger.info(`Finishing test 031.`);
   if (issueResponseId) {
     await requestManager.send(

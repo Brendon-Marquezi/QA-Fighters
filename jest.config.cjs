@@ -161,6 +161,20 @@ const config = {
   //   "/node_modules/"
   // ],
 
+  reporters: [
+    'default',
+    [
+      'jest-html-reporters',
+      {
+        publicPath: './reports',
+        filename: 'report.html',
+        expand: true,
+        pageTitle: '- Jira API Testing Framework Report - by QA Fighters Team',
+        darkTheme: true,
+        openReport: true,
+      }
+    ],
+  ],
   // The regexp pattern or array of patterns that Jest uses to detect test files
   // testRegex: [],
 

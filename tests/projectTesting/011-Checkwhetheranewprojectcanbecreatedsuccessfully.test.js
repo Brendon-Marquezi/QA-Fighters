@@ -23,10 +23,11 @@ test('Check whether a new project can be created successfully', async () => {
     'project',
     {},
     { Authorization: `${basicAuth}` },
-    {                                               
-      key: 'TESTE02',
+    {
+      key: 'TESTE025',
       name: 'Example09',
-      projectTemplateKey: 'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',
+      projectTemplateKey:
+        'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',
       leadAccountId: env.environment.leadAccountId,
     },
   );

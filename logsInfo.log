@@ -383,3 +383,62 @@ Received: [31m200[39m
 2024-08-03 22:11:22 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Deleting the created group
 2024-08-03 22:11:22 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group 8ef831ce-4a4a-4c7f-8785-4446fdcddfb4 deleted successfully.
 2024-08-03 22:11:22 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Confirmation: Group 8ef831ce-4a4a-4c7f-8785-4446fdcddfb4 no longer exists.
+2024-08-03 22:41:56 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-03 22:41:57 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-03 22:41:58 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: febb82f0-3056-4650-a8a1-b628b3a33c30
+2024-08-03 22:41:58 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group verification passed.
+2024-08-03 22:41:58 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group name matches expected.
+2024-08-03 22:41:58 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Deleting the created group
+2024-08-03 22:41:59 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group febb82f0-3056-4650-a8a1-b628b3a33c30 deleted successfully.
+2024-08-03 22:41:59 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Confirmation: Group febb82f0-3056-4650-a8a1-b628b3a33c30 no longer exists.
+2024-08-03 22:44:11 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-03 22:44:11 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-03 22:44:11 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-03 22:44:11 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-03 22:44:12 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-03 22:44:13 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 3e407a4a-5c61-43a6-abb9-99382d2a0999
+2024-08-03 22:44:13 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting test for group creation and deletion
+2024-08-03 22:44:13 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 3e407a4a-5c61-43a6-abb9-99382d2a0999
+2024-08-03 22:44:13 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 3e407a4a-5c61-43a6-abb9-99382d2a0999
+2024-08-03 22:44:13 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 3e407a4a-5c61-43a6-abb9-99382d2a0999
+2024-08-03 22:44:13 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group verification passed.
+2024-08-03 22:44:13 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group name matches expected.
+2024-08-03 22:44:13 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Deleting the created group
+2024-08-03 22:44:13 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group 3e407a4a-5c61-43a6-abb9-99382d2a0999 deleted successfully.
+2024-08-03 22:44:13 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Verifying group deletion
+2024-08-03 22:44:13 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-03 22:44:14 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting user verification and group deletion.
+2024-08-03 22:44:14 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Confirmation: Group 3e407a4a-5c61-43a6-abb9-99382d2a0999 no longer exists.
+2024-08-03 22:44:14 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-03 22:44:15 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-03 22:44:15 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-03 22:44:15 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-03 22:44:16 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 4c818e3a-eb55-4c9f-b5ce-597d8420631d
+2024-08-03 22:44:16 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group verification passed.
+2024-08-03 22:44:16 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group name matches expected.
+2024-08-03 22:44:16 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Deleting the created group
+2024-08-03 22:44:16 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 4c818e3a-eb55-4c9f-b5ce-597d8420631d
+2024-08-03 22:44:16 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 4c818e3a-eb55-4c9f-b5ce-597d8420631d
+2024-08-03 22:44:17 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-03 22:44:17 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting user verification and group deletion.
+2024-08-03 22:44:17 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group 4c818e3a-eb55-4c9f-b5ce-597d8420631d deleted successfully.
+2024-08-03 22:44:17 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Confirmation: Group 4c818e3a-eb55-4c9f-b5ce-597d8420631d no longer exists.
+2024-08-03 22:44:18 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-03 22:44:18 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-03 22:44:19 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 75bf385d-6dd4-4c24-8ed9-f4874bee50c1
+2024-08-03 22:44:19 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 75bf385d-6dd4-4c24-8ed9-f4874bee50c1
+2024-08-03 22:44:19 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting user verification and group deletion.
+2024-08-03 22:44:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-03 22:44:20 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: User  was not found in group 75bf385d-6dd4-4c24-8ed9-f4874bee50c1.
+2024-08-03 22:44:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group 75bf385d-6dd4-4c24-8ed9-f4874bee50c1 deleted successfully.
+2024-08-03 22:44:21 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-03 22:44:21 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-03 22:44:22 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: e1f4f0aa-3d35-40f5-a971-29b580d68afd
+2024-08-03 22:44:22 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: e1f4f0aa-3d35-40f5-a971-29b580d68afd
+2024-08-03 22:44:23 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-03 22:44:23 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting user verification and group deletion.
+2024-08-03 22:44:23 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: User  was not found in group e1f4f0aa-3d35-40f5-a971-29b580d68afd.
+2024-08-03 22:44:23 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group e1f4f0aa-3d35-40f5-a971-29b580d68afd deleted successfully.
+2024-08-03 22:50:01 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-08-03 22:50:03 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
+2024-08-03 22:50:03 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.

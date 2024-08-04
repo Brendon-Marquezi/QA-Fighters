@@ -20,3 +20,5 @@ Received: [31m200[39m
 2024-08-03 19:17:10 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to delete group 52eb14fc-37c1-4245-a754-066eaf3c1980. Status: 200
 2024-08-03 21:31:13 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-03 22:09:22 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-03 22:44:20 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: User  was not found in group 75bf385d-6dd4-4c24-8ed9-f4874bee50c1.
+2024-08-03 22:44:23 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: User  was not found in group e1f4f0aa-3d35-40f5-a971-29b580d68afd.

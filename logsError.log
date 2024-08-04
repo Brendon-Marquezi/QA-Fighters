@@ -18,3 +18,5 @@ Received: [31m200[39m
 2024-08-03 19:04:06 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Falha ao excluir grupo 65dde83a-56c5-4700-91d8-c2824d449e68. Status: 200
 2024-08-03 19:07:14 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to delete group 75f8764f-74f2-467b-8689-1f8b9f6577f4. Status: 200
 2024-08-03 19:17:10 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to delete group 52eb14fc-37c1-4245-a754-066eaf3c1980. Status: 200
+2024-08-03 21:31:13 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-03 22:09:22 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.

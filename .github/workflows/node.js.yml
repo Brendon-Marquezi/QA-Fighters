@@ -35,7 +35,7 @@ jobs:
 
     - name: Upload HTML test reports
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: html-test-reports
         path: reports

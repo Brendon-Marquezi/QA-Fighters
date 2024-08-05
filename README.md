@@ -108,8 +108,37 @@ The directory structure of the project is as follows:
 - **Axios:**
 - **ESLint:**
 - **Winston:**
+- **Jest HTML Reporters**
 
+### Jest HTML Reporters
+**Jest HTML Reporters** is a Jest extension that generates test reports in HTML format. These reports are visually dynamic and detail test results, making them easy to analyze.
 
+#### Why did we choose Jest HTML Reporters?
+
+- **Visibility**: The HTML format provides a clear and organized view of test results, including details about which tests passed and which failed.
+- **Ease of Use**: Automatic generation of HTML reports allows for quick analysis of tests without the need for additional tools.
+- **Customization**: Jest HTML Reporters allows you to customize the appearance of reports, making it easy to adapt to your project's visual identity or team preferences.
+
+#### How it Works
+
+To use Jest HTML Reporters, add it to your project's dependencies and configure it in the Jest configuration file (`jest.config.js`). After running the tests, Jest HTML Reporters generates an HTML report that can be accessed directly from the configured output directory.
+
+Basic configuration example:
+
+```javascript
+// jest.config.js
+module.exports = {
+// Other Jest configuration
+   reporters: [
+      'default',
+      ['jest-html-reporters', {
+         publicPath: './reports',
+         filename: 'report.html',
+         expand: true
+      }]
+   ]
+};
+```
 ## Information about ESLint
 ### Applied Conventions
 

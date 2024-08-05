@@ -1,14 +1,13 @@
 const requestManager = require('#utils/requestManager');
 const env = require('#configs/environments').environment;
 
-const basicAuth = 'Basic ' + Buffer.from(
-  `${env.username}:${env.api_token}`
-).toString('base64');
+const basicAuth =
+  'Basic ' + Buffer.from(`${env.username}:${env.api_token}`).toString('base64');
 
 const jsonData = {
   emailAddress: 'testuser@atlassian.com',
   displayName: 'Test User',
-  password: 'TestPassword123!'
+  password: 'TestPassword123!',
 };
 
 let userId;
@@ -19,7 +18,7 @@ test('Create a new user', async () => {
     'user',
     {},
     { Authorization: `${basicAuth}`, 'Content-Type': 'application/json' },
-    jsonData
+    jsonData,
   );
 
   expect(response.status).toBe(201);
@@ -28,9 +27,7 @@ test('Create a new user', async () => {
   userId = response.data.accountId;
 
   expect(response.data).toHaveProperty('self');
-  expect(response.data.self).toBe(
-    `${env.base_url}user/${userId}`
-  );
+  expect(response.data.self).toBe(`${env.base_url}user/${userId}`);
 });
 
 afterAll(async () => {
@@ -39,7 +36,7 @@ afterAll(async () => {
       'delete',
       `user/${userId}`,
       {},
-      { Authorization: `${basicAuth}` }
+      { Authorization: `${basicAuth}` },
     );
   }
 });

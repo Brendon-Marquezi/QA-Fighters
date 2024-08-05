@@ -2,7 +2,7 @@ const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
+let requestManager;
 
 let createdGroupId = '';
 
@@ -14,6 +14,9 @@ const jsonData = {
 
 beforeEach(async () => {
   logger.info('Starting to create a group');
+  
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
 
   const groupResponse = await requestManager.send(
     'post',

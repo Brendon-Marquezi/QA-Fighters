@@ -102,12 +102,12 @@ The directory structure of the project is as follows:
 |-- README.md
 ```
 ## Frameworks Used
-- **Jest:** 
-- **Prettier:**
-- **Newman:**
-- **Axios:**
-- **ESLint:**
-- **Winston:**
+- **Jest** 
+- **Prettier**
+- **Newman**
+- **Axios**
+- **ESLint**
+- **Winston**
 - **Jest HTML Reporters**
 
 ### Jest HTML Reporters

@@ -1,45 +1,34 @@
 const requestManager = require('#utils/requestManager');
-const env = require('#configs/environments').environment;
+const env = require('#configs/environments');
 
-const basicAuth = 'Basic ' + Buffer.from(
-  `${env.username}:${env.api_token}`
-).toString('base64');
+const basicAuth = 
+  'Basic ' +
+  Buffer.from(
+    `${env.environment.username}:${env.environment.api_token}`
+  ).toString('base64');
 
-const jsonData = {
-  emailAddress: 'testuser@atlassian.com',
-  displayName: 'Test User',
-  password: 'TestPassword123!'
-};
+test('Create a user in Jira', async () => {
+  const endpoint = 'user'; 
+  
+  const bodyData = {
+    emailAddress: 'coketa2284@biscoine.com', // Email
+    products: [], // Produtos associados ao usuário
+  };
 
-let userId;
-
-test('Create a new user', async () => {
   const response = await requestManager.send(
     'post',
-    'user',
-    {},
-    { Authorization: `${basicAuth}`, 'Content-Type': 'application/json' },
-    jsonData
+    endpoint,
+    {}, 
+    { Authorization: basicAuth, Accept: 'application/json', 'Content-Type': 'application/json' }, // Headers
+    bodyData 
   );
 
+  
   expect(response.status).toBe(201);
-  expect(response.data).toHaveProperty('accountId');
 
-  userId = response.data.accountId;
-
-  expect(response.data).toHaveProperty('self');
-  expect(response.data.self).toBe(
-    `${env.base_url}user/${userId}`
-  );
-});
-
-afterAll(async () => {
-  if (userId) {
-    await requestManager.send(
-      'delete',
-      `user/${userId}`,
-      {},
-      { Authorization: `${basicAuth}` }
-    );
-  }
+  
+  const user = response.data;
+  expect(user).toHaveProperty('accountId');
+  expect(user).toHaveProperty('emailAddress');
+  expect(user).toHaveProperty('displayName');
 });

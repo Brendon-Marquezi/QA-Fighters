@@ -7,26 +7,27 @@ const basicAuth =
     `${env.environment.username}:${env.environment.api_token}`
   ).toString('base64');
 
-test('Get all users from Jira', async () => {
-  const endpoint = 'users/search'; 
+test('Bulk get users from Jira', async () => {
+  const accountId = '6245b0bbf6a26900695d38d9'; // Id do usuário
+  const endpoint = `user/bulk?accountId=${accountId}`;
 
   const response = await requestManager.send(
     'get',
     endpoint,
     {}, 
-    { Authorization: basicAuth, Accept: 'application/json' } // Headers
+    { Authorization: basicAuth, Accept: 'application/json' } 
   );
 
-  // Verifique se o status da resposta é 200
+  
   expect(response.status).toBe(200);
-  
-  
-  expect(Array.isArray(response.data)).toBe(true);
-  
-  
-  if (response.data.length > 0) {
-    // Verifique se o primeiro item tem o formato esperado
-    const firstUser = response.data[0];
+
+ 
+  expect(response.data).toHaveProperty('values');
+  expect(Array.isArray(response.data.values)).toBe(true);
+
+  if (response.data.values.length > 0) {
+    
+    const firstUser = response.data.values[0];
     expect(firstUser).toHaveProperty('accountId');
     expect(firstUser).toHaveProperty('displayName');
     expect(firstUser).toHaveProperty('avatarUrls');

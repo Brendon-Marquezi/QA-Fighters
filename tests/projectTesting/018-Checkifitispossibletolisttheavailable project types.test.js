@@ -10,7 +10,6 @@ const basicAuth =
   ).toString('base64');
 
 test('Check if it is possible to list the available project types', async () => {
-
   const response = await requestManager.send(
     'get',
     'project/type',

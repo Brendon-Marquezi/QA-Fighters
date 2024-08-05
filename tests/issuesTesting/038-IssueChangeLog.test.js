@@ -5,7 +5,6 @@ const RequestManager = require('#utils/requestManager');
 
 const requestManager = new RequestManager(env.environment.base_url);
 
-
 const basicAuth =
   'Basic ' +
   Buffer.from(

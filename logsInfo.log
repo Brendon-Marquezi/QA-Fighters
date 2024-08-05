@@ -442,3 +442,35 @@ Received: [31m200[39m
 2024-08-03 22:50:01 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
 2024-08-03 22:50:03 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
 2024-08-03 22:50:03 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-08-03 23:17:15 [031-CheckCreationItemProject.test.js] [32minfo[39m: Setting up before each test.
+2024-08-03 23:17:15 [031-CheckCreationItemProject.test.js] [32minfo[39m: Tearing down after each test.
+2024-08-03 23:23:41 [031-CheckCreationItemProject.test.js] [32minfo[39m: Setting up before each test.
+2024-08-03 23:23:41 [031-CheckCreationItemProject.test.js] [32minfo[39m: Tearing down after each test.
+2024-08-03 23:24:07 [031-CheckCreationItemProject.test.js] [32minfo[39m: Setting up before each test.
+2024-08-03 23:24:07 [031-CheckCreationItemProject.test.js] [32minfo[39m: Tearing down after each test.
+2024-08-03 23:26:43 [031-CheckCreationItemProject.test.js] [32minfo[39m: Setting up before each test.
+2024-08-03 23:26:44 [031-CheckCreationItemProject.test.js] [32minfo[39m: Tearing down after each test.
+2024-08-03 23:28:16 [031-CheckCreationItemProject.test.js] [32minfo[39m: Setting up before each test.
+2024-08-03 23:28:17 [031-CheckCreationItemProject.test.js] [32minfo[39m: Tearing down after each test.
+2024-08-03 23:35:31 [031-CheckCreationItemProject.test.js] [32minfo[39m: Creating a test project.
+2024-08-03 23:35:32 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test.
+2024-08-03 23:38:14 [031-CheckCreationItemProject.test.js] [32minfo[39m: Creating a test project.
+2024-08-03 23:38:15 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test.
+2024-08-03 23:41:03 [031-CheckCreationItemProject.test.js] [32minfo[39m: Creating a test project.
+2024-08-03 23:41:03 [031-CheckCreationItemProject.test.js] [31merror[39m: Failed to create project:
+2024-08-03 23:41:03 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test.
+2024-08-03 23:41:57 [031-CheckCreationItemProject.test.js] [32minfo[39m: Creating a test project.
+2024-08-03 23:41:57 [031-CheckCreationItemProject.test.js] [31merror[39m: Failed to create project:
+2024-08-03 23:41:57 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test.
+2024-08-03 23:42:50 [031-CheckCreationItemProject.test.js] [32minfo[39m: Creating a test project.
+2024-08-03 23:42:50 [031-CheckCreationItemProject.test.js] [31merror[39m: Failed to create project:
+2024-08-03 23:42:50 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test.
+2024-08-03 23:43:27 [031-CheckCreationItemProject.test.js] [32minfo[39m: Creating a test project.
+2024-08-03 23:43:27 [031-CheckCreationItemProject.test.js] [31merror[39m: Failed to create project:
+2024-08-03 23:43:27 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test.
+2024-08-03 23:46:01 [031-CheckCreationItemProject.test.js] [32minfo[39m: Creating a test project.
+2024-08-03 23:46:02 [031-CheckCreationItemProject.test.js] [31merror[39m: Failed to create project:
+2024-08-03 23:46:02 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test.
+2024-08-03 23:47:15 [031-CheckCreationItemProject.test.js] [32minfo[39m: Creating a test project.
+2024-08-03 23:47:15 [031-CheckCreationItemProject.test.js] [31merror[39m: Failed to create project:
+2024-08-03 23:47:15 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test.

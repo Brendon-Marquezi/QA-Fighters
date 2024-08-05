@@ -74,7 +74,7 @@ test('Check if you can edit an issue name', async () => {
     { Authorization: `${basicAuth}` },
     {
       fields: {
-        summary: 'Teste de edição de nome de uma issue',
+        summary: 'Testing editing an issue name',
       },
     },
   );

@@ -3,8 +3,7 @@ const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
 
-const requestManager = new RequestManager(env.environment.base_url);
-
+let requestManager;
 let createdGroupId = '';
 
 const jsonData = {
@@ -14,6 +13,7 @@ const jsonData = {
 beforeEach(async () => {
   logger.info('Checking if the group exists before creating a new one');
 
+  requestManager = RequestManager.getInstance(env.environment.base_url);
 
   // Check if the group already exists
   const existingGroupsResponse = await requestManager.send(

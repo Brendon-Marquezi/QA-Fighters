@@ -14,10 +14,10 @@ test('Get all users from Jira', async () => {
     'get',
     endpoint,
     {}, 
-    { Authorization: basicAuth, Accept: 'application/json' } // Headers
+    { Authorization: basicAuth, Accept: 'application/json' } 
   );
 
-  // Verifique se o status da resposta é 200
+ 
   expect(response.status).toBe(200);
   
   
@@ -25,7 +25,7 @@ test('Get all users from Jira', async () => {
   
   
   if (response.data.length > 0) {
-    // Verifique se o primeiro item tem o formato esperado
+    
     const firstUser = response.data[0];
     expect(firstUser).toHaveProperty('accountId');
     expect(firstUser).toHaveProperty('displayName');

@@ -4,6 +4,7 @@ const RequestManager = require('#utils/requestManager');
 
 
 let requestManager;
+
 let createdGroupId = '';
 
 const jsonData = {

@@ -2,7 +2,7 @@ const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
+let requestManager;
 
 // Context variables
 const groupName = env.environment.group_name;
@@ -11,6 +11,8 @@ let createdGroupId = '';
 
 beforeEach(async () => {
   logger.info('Starting group verification and creation.');
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
 
   // Check if the group already exists
   const searchResponse = await requestManager.send(

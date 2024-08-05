@@ -1,7 +1,7 @@
 const env = require('#configs/environments');
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
+let requestManager;
 
 const basicAuth =
   'Basic ' +
@@ -10,6 +10,9 @@ const basicAuth =
   ).toString('base64');
 
 test('Verify basic authentication functionality', async () => {
+
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
   let response = await requestManager.send(
     'get',
     'project',

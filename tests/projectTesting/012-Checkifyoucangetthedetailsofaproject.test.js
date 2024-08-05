@@ -10,11 +10,11 @@ const basicAuth =
     `${env.environment.username}:${env.environment.api_token}`,
   ).toString('base64');
 
-let projectKey = 'EX'; // Chave do projeto que você deseja obter os detalhes
+let projectKey = 'EX'; 
 
 beforeEach(() => {
   logger.info('Starting the test setup');
-  // Adicionar qualquer setup necessário antes de cada teste
+  
 });
 
 test('Check if you can get the details of a project', async () => {

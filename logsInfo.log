@@ -254,3 +254,53 @@
 2024-08-04 16:35:59 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-04 16:35:59 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
 
+2024-08-04 23:02:55 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:02:55 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-04 23:02:55 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-04 23:02:56 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 6d24739c-d2a0-4634-9849-8cf0b5989b84
+2024-08-04 23:02:57 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group verification passed.
+2024-08-04 23:02:57 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group name matches expected.
+2024-08-04 23:02:57 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Deleting the created group
+2024-08-04 23:02:57 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group 6d24739c-d2a0-4634-9849-8cf0b5989b84 deleted successfully.
+2024-08-04 23:02:57 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Confirmation: Group 6d24739c-d2a0-4634-9849-8cf0b5989b84 no longer exists.
+2024-08-04 23:02:57 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:06:51 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:06:51 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-04 23:06:52 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-04 23:06:53 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-04 23:06:54 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:36:08 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:36:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:38:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:38:06 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:43:23 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:43:23 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:44:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:44:43 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-08-04 23:44:44 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-08-04 23:44:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:45:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:45:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:47:44 [020-CreateUser.test.js] [32minfo[39m: Sending a request to create a user.
+2024-08-04 23:47:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:47:45 [020-CreateUser.test.js] [31merror[39m: Failed to create user: Request failed with status code 401
+2024-08-04 23:47:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:49:15 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:49:15 [020-CreateUser.test.js] [32minfo[39m: Sending a request to create a user.
+2024-08-04 23:49:16 [020-CreateUser.test.js] [31merror[39m: Failed to create user: Request failed with status code 401
+2024-08-04 23:49:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:49:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:49:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:52:50 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:52:50 [020-CreateUser.test.js] [32minfo[39m: Starting test for user creation in Jira.
+2024-08-04 23:52:50 [020-CreateUser.test.js] [32minfo[39m: Sending a request to create a user.
+2024-08-04 23:52:50 [020-CreateUser.test.js] [31merror[39m: Failed to create user: Request failed with status code 401
+2024-08-04 23:52:50 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:52:50 [020-CreateUser.test.js] [31merror[39m: Response data: {"errorMessages":["You are not authenticated. Authentication required to perform this operation."],"errors":{}}
+2024-08-04 23:52:50 [020-CreateUser.test.js] [31merror[39m: No user ID available for deletion.
+2024-08-04 23:53:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:53:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:53:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:53:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-04 23:53:57 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-04 23:53:57 [jest.setup.js] [32minfo[39m: Cleaning the system after testing

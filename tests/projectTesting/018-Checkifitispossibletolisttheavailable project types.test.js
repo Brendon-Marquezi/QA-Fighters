@@ -12,7 +12,7 @@ const basicAuth =
 
 beforeEach(() => {
   logger.info('Starting the test setup');
-  // Adicionar qualquer setup necessário antes de cada teste
+  
 });
 
 test('Check if it is possible to list the available project types', async () => {

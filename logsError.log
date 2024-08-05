@@ -100,3 +100,8 @@ Received: [31m200[39m
 2024-08-04 16:35:59 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-04 16:35:59 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
 
+2024-08-04 23:47:45 [020-CreateUser.test.js] [31merror[39m: Failed to create user: Request failed with status code 401
+2024-08-04 23:49:16 [020-CreateUser.test.js] [31merror[39m: Failed to create user: Request failed with status code 401
+2024-08-04 23:52:50 [020-CreateUser.test.js] [31merror[39m: Failed to create user: Request failed with status code 401
+2024-08-04 23:52:50 [020-CreateUser.test.js] [31merror[39m: Response data: {"errorMessages":["You are not authenticated. Authentication required to perform this operation."],"errors":{}}
+2024-08-04 23:52:50 [020-CreateUser.test.js] [31merror[39m: No user ID available for deletion.

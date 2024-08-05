@@ -1,6 +1,7 @@
 const requestManager = require('#utils/requestManager');
 const env = require('#configs/environments');
 
+
 const basicAuth = 
   'Basic ' +
   Buffer.from(
@@ -11,7 +12,7 @@ test('Create a user in Jira', async () => {
   const endpoint = 'user'; 
   
   const bodyData = {
-    emailAddress: 'kifaji5741@biowey.com', // Email
+    emailAddress: 'gefatar681@biowey.com', // Email
     products: [], // Produtos associados ao usuário
   };
 

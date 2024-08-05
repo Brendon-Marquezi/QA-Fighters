@@ -1,10 +1,9 @@
 const env = require('#configs/environments');
-
 const axios = require('axios');
 
 class RequestManager {
   constructor(baseURL, headers = {}, timeout = env.configuration.timeout) {
-    if (RequestManager.instance) {
+    if (RequestManager.instance && baseURL === RequestManager.instance.baseURL) {
       return RequestManager.instance;
     }
 
@@ -14,11 +13,13 @@ class RequestManager {
       timeout,
     });
 
+ 
     RequestManager.instance = this;
+    this.baseURL = baseURL;
   }
 
   async send(method, endpoint, params, headers, data) {
-    return this.axios.request({
+    return await this.axios.request({
       method: method,
       url: endpoint,
       params: params,
@@ -26,9 +27,13 @@ class RequestManager {
       data: data,
     });
   }
+
+  static getInstance(baseURL, headers = {}, timeout = env.configuration.timeout) {
+    if (!RequestManager.instance || baseURL !== RequestManager.instance.baseURL) {
+      RequestManager.instance = new RequestManager(baseURL, headers, timeout);
+    }
+    return RequestManager.instance;
+  }
 }
 
-const instance = new RequestManager(env.environment.base_url);
-Object.freeze(instance);
-
-module.exports = instance;
+module.exports = RequestManager;

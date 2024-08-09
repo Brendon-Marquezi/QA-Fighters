@@ -315,3 +315,9 @@
 2024-08-09 16:21:14 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: User  712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc was not found in group 74f3cf39-34cd-474d-af84-70d22c179a6a.
 2024-08-09 16:21:17 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: User  712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc was not found in group 7cc6270f-8070-4a16-8104-146bfe22fe0c.
 >>>>>>> 2f8cd63f8b2856252f1136ecb476f06291be2bc7
+2024-08-09 19:30:49 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-09 19:30:50 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-09 19:30:51 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-09 19:30:52 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-09 19:35:51 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-09 19:36:59 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.

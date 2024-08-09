@@ -19,36 +19,29 @@
   "dependencies": {
     "ajv": "^8.17.1",
     "axios": "^1.7.2",
-<<<<<<< HEAD
+
     "dotenv": "^16.4.5",
     "newman-reporter-html": "^1.0.5",
     "node-fetch": "^2.7.0",
-=======
-    "newman-reporter-html": "^1.0.5",
->>>>>>> c360186e62a257baa563bed51a04a1961ec92039
+
     "winston": "^3.13.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.7.0",
-<<<<<<< HEAD
+
     "@types/axios": "^0.14.0",
     "axios-mock-adapter": "^2.0.0",
     "eslint": "^9.7.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jest": "^28.7.0",
-=======
-    "eslint": "^9.7.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-jest": "^28.6.0",
->>>>>>> c360186e62a257baa563bed51a04a1961ec92039
+
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.8.0",
     "import-local": "^3.2.0",
     "jest": "^29.7.0",
-<<<<<<< HEAD
+
     "jest-html-reporters": "^3.1.7",
-=======
->>>>>>> c360186e62a257baa563bed51a04a1961ec92039
+
     "prettier": "3.3.3"
   }
 }

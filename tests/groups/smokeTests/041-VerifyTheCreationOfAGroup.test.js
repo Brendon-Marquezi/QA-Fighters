@@ -11,10 +11,14 @@ const jsonData = {
   name: env.environment.group_name,
 };
 
+
+beforeAll(() => {
+  requestManager = new RequestManager(env.environment.base_url);
+});
+
 beforeEach(async () => {
   logger.info('Checking if the group exists before creating a new one');
 
-  requestManager = RequestManager.getInstance(env.environment.base_url);
 
   // Check if the group already exists
   const existingGroupsResponse = await requestManager.send(

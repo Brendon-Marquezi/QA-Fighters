@@ -1,18 +1,16 @@
-const requestManager = require('#utils/requestManager');
 const env = require('#configs/environments');
+const RequestManager = require('#utils/requestManager');
 
 
-const basicAuth = 
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`
-  ).toString('base64');
+let requestManager;
 
 test('Create a user in Jira', async () => {
   const endpoint = 'user'; 
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
   
   const bodyData = {
-    emailAddress: 'gefatar681@biowey.com', // Email
+    emailAddress: 'gefatar68111@biowey.com', // Email
     products: [], // Produtos associados ao usuário
   };
 
@@ -20,7 +18,7 @@ test('Create a user in Jira', async () => {
     'post',
     endpoint,
     {}, 
-    { Authorization: basicAuth, Accept: 'application/json', 'Content-Type': 'application/json' }, // Headers
+    { Authorization: global.basicAuth, Accept: 'application/json', 'Content-Type': 'application/json' }, // Headers
     bodyData 
   );
 

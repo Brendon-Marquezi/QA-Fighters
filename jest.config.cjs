@@ -5,8 +5,13 @@
 
 /** @type {import('jest').Config} */
 const config = {
+
+    // Usa 50% dos núcleos da CPU para executar testes em paralelo
+    maxWorkers: "50%",
   // All imported modules in your tests should be mocked automatically
   // automock: false,
+   // Para a execução dos testes na primeira falha
+  //  bail: true,
 
   // Stop running tests after `n` failures
   // bail: 0,

@@ -1,17 +1,15 @@
-const requestManager = require('#utils/requestManager');
+const RequestManager = require('#utils/requestManager');
 const env = require('#configs/environments');
 
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`
-  ).toString('base64');
+let requestManager
 
 let accountIdToDelete;
 
 beforeAll(async () => {
   // Criação de um usuário para exclusão no teste
   const endpoint = 'user'; 
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
   
   const bodyData = {
     emailAddress: 'qsf66236@zccck.com',
@@ -22,7 +20,7 @@ beforeAll(async () => {
     'post',
     endpoint,
     {}, 
-    { Authorization: basicAuth, Accept: 'application/json', 'Content-Type': 'application/json' },
+    { Authorization: global.basicAuth, Accept: 'application/json', 'Content-Type': 'application/json' },
     bodyData 
   );
 
@@ -41,7 +39,7 @@ afterAll(async () => {
       'delete',
       endpoint,
       {}, 
-      { Authorization: basicAuth, Accept: 'application/json' }
+      { Authorization: global.basicAuth, Accept: 'application/json' }
     );
     if (response.status !== 204) {
       throw new Error('Failed to delete test user');
@@ -58,7 +56,7 @@ test('Delete a user from Jira', async () => {
     'delete',
     endpoint,
     {}, 
-    { Authorization: basicAuth, Accept: 'application/json' }
+    { Authorization: global.basicAuth, Accept: 'application/json' }
   );
 
   

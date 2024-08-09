@@ -2,18 +2,14 @@ const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
-
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
-  ).toString('base64');
+let requestManager;
 
 let projectKey = 'EX'; 
 
 beforeEach(() => {
   logger.info('Starting the test setup');
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
   
 });
 
@@ -24,7 +20,7 @@ test('Check if you can get the details of a project', async () => {
     'get',
     `project/${projectKey}`,
     {},
-    { Authorization: `${basicAuth}` },
+    { Authorization: global.basicAuth },
   );
 
   logger.info(`Received response for project ${projectKey}`);

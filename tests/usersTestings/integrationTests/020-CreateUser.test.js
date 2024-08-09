@@ -10,7 +10,7 @@ test('Create a user in Jira', async () => {
 
   
   const bodyData = {
-    emailAddress: 'gefatar68111@biowey.com', // Email
+    emailAddress: 'gefatar681112@biowey.com', // Email
     products: [], // Produtos associados ao usuário
   };
 

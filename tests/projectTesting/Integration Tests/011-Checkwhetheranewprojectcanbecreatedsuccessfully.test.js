@@ -7,7 +7,6 @@ const jsonData = {
   key: 'TEST1', 
   name: 'Ex091',
   projectTemplateKey: 'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',
-  leadAccountId: '712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc' 
 };
 
 test('Check whether a new project can be created successfully', async () => {

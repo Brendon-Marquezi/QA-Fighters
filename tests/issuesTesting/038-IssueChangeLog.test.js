@@ -9,6 +9,7 @@ let createdIssueId;
 
 beforeEach(async () => {
   logger.info('Starting to create an issue');
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   const issueResponse = await requestManager.send(
     'post',
     'issue',

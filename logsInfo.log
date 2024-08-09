@@ -1,0 +1,898 @@
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-07 10:29:59 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-07 10:29:59 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-07 10:29:59 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:29:59 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-07 10:29:59 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting to list the available project types
+2024-08-07 10:30:04 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-07 10:30:04 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:30:04 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-07 10:30:04 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-07 10:30:04 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:09 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:09 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:09 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:09 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:09 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:09 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:10 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:10 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:10 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:30:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:30:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-07 10:53:06 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:06 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 10:53:07 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-07 10:53:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:07 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-07 10:53:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:07 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:53:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:07 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:53:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:07 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:07 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-07 10:53:07 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:07 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-07 10:53:08 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:08 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-07 10:53:08 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:08 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-07 10:53:08 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-07 10:53:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:08 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-07 10:53:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:08 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:08 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-07 10:53:08 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:08 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-07 10:53:09 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:53:09 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:09 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:53:09 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:09 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-07 10:53:09 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:09 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:09 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-07 10:53:09 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:09 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-07 10:53:09 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:09 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-07 10:53:10 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-07 10:53:10 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:10 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:53:10 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:10 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:11 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:11 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-07 10:53:11 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:11 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:11 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:11 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-07 10:53:11 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-07 10:53:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 10:53:11 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-07 10:53:11 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting to list the available project types
+2024-08-07 10:53:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:12 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Received response for visible projects
+2024-08-07 10:53:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:12 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Received response for project types
+2024-08-07 10:53:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:12 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:53:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:13 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 10:53:13 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 10:53:13 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-07 10:53:13 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:11 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-07 11:00:11 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-07 11:00:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 11:00:16 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-07 11:00:16 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-07 11:00:16 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting to list the available project types
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-07 11:00:16 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Received response for project types
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:16 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Received response for visible projects
+2024-08-07 11:00:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:17 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 11:00:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:17 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-07 11:00:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:18 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 11:00:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:19 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-07 11:00:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-07 11:00:20 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-07 11:00:20 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-07 11:00:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-07 11:00:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:39:33 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:39:33 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:39:33 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:39:33 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:39:33 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:39:33 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:39:33 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 12:39:33 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:39:33 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:39:34 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:39:34 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:39:34 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:39:34 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:39:34 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:39:34 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:39:34 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:39:34 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:39:34 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:39:35 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 12:39:35 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:39:35 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:39:35 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:39:35 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:39:35 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:39:35 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:39:35 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:39:35 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:39:35 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:39:35 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:39:36 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:39:36 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:39:36 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:39:36 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:39:36 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:39:36 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:39:36 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:39:36 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 12:39:36 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:39:36 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:39:37 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:39:37 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:39:37 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:39:37 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:39:37 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:39:37 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:39:37 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 12:39:37 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:39:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:46:20 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:46:20 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:46:20 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:46:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:46:20 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:46:20 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:46:21 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:46:21 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:46:21 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:46:21 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:46:21 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:46:21 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:46:21 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:46:21 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:46:21 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:46:22 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:46:22 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:46:22 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 12:46:22 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:46:22 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:46:22 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:46:22 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:46:22 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:46:22 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:46:22 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:46:22 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:46:22 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:46:22 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:46:23 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:46:23 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:46:23 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:46:23 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 12:46:23 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:46:23 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:46:23 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:46:23 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:46:23 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:46:23 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:46:23 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:46:24 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:46:24 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:46:24 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:46:24 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:46:24 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:46:24 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:46:24 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 12:46:24 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:42 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 12:51:42 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 12:51:42 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:42 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 12:51:42 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting to list the available project types
+2024-08-08 12:51:43 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Received response for visible projects
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Received response for project types
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 12:51:43 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:44 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:51:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:44 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:44 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:44 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:44 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:44 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:44 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:44 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:44 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:44 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:44 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 12:51:44 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 12:51:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:44 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:45 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:45 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:45 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:45 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:45 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:51:45 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:45 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:45 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:45 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:51:45 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 12:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:45 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:46 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 12:51:46 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:46 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:46 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:46 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 12:51:46 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:46 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:46 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:46 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:46 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:46 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:47 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:47 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:47 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:47 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:47 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:47 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 12:51:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:48 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 12:51:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:48 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 12:51:48 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:48 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 12:51:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 12:51:48 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 12:51:49 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 12:51:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 13:55:17 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting to list the available project types
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:17 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 13:55:17 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 13:55:17 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 13:55:18 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Received response for project types
+2024-08-08 13:55:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:18 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Received response for visible projects
+2024-08-08 13:55:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 13:55:18 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 13:55:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:06:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:06:38 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 14:06:38 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-08 14:06:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:06:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:06:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:06:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:06:39 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Received response for visible projects
+2024-08-08 14:06:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:06:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:06:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 14:07:34 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 14:07:34 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting to list the available project types
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 14:07:34 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 14:07:34 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Received response for visible projects
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Received response for project types
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:34 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 14:07:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:35 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 14:07:35 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:35 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 14:07:35 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:35 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 14:07:35 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:35 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:35 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:35 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:36 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 14:07:36 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:36 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:36 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 14:07:36 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:36 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 14:07:36 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 14:07:36 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:36 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 14:07:36 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:36 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 14:07:36 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 14:07:36 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:36 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:36 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 14:07:36 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:37 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:37 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:37 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:37 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:37 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 14:07:37 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:37 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:37 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:37 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 14:07:37 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:38 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 14:07:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:38 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 14:07:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:38 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:38 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:38 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 14:07:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 14:07:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:39 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 14:07:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:39 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 14:07:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:39 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 14:07:39 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-08 14:07:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:39 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 14:07:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:40 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:40 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:40 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:40 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:40 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:40 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:40 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:40 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 14:07:40 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 14:07:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:41 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 14:07:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:41 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 14:07:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:41 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:41 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:41 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:42 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 14:07:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:42 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 14:07:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:42 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 14:07:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:42 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:42 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 14:07:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:43 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:43 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:43 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 14:07:44 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 14:07:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 14:07:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 14:07:44 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 14:07:45 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 14:07:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:18 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 16:15:18 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-08 16:15:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:19 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Received response for visible projects
+2024-08-08 16:15:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 16:15:39 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting to list the available project types
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-08 16:15:39 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-08 16:15:39 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Received response for visible projects
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-08 16:15:39 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Received response for project types
+2024-08-08 16:15:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:40 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-08 16:15:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:40 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-08 16:15:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:44 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 16:15:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:44 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:44 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 16:15:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:44 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:44 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 16:15:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:45 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:45 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:45 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:45 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:45 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:45 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:45 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 16:15:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:45 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:46 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:46 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:46 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:46 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 16:15:46 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:46 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:47 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:47 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:47 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:47 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:47 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:47 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-08 16:15:48 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 16:15:48 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:48 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:48 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-08 16:15:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:49 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-08 16:15:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-08 16:15:49 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-08 16:15:49 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-08 16:15:49 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-08 16:15:50 [jest.setup.js] [32minfo[39m: Cleaning the system after testing

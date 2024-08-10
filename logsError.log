@@ -321,3 +321,58 @@
 2024-08-09 19:30:52 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-09 19:35:51 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-09 19:36:59 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-09 21:22:27 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-09 21:39:40 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Error in test: null for uri: https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/rest/api/3/group/user?groupId=8949b2c1-7a99-4ca8-b163-8751b0f08862&accountId=712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc
+2024-08-09 22:02:22 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Error in test: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m204[39m
+Received: [31m200[39m
+2024-08-09 22:03:32 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-09 22:04:42 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-09 22:07:58 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-09 22:20:55 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-09 22:22:21 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-09 22:23:01 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-09 22:24:11 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-09 22:37:41 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-09 22:39:35 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-09 23:21:22 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-09 23:21:36 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-10 10:43:50 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-10 10:43:51 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-10 10:43:56 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 10:43:58 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 10:43:58 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 10:43:58 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:14:15 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:14:15 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [31merror[39m: No project ID available for deletion.
+2024-08-10 11:14:15 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:14:17 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:14:17 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [31merror[39m: No project ID available for deletion.
+2024-08-10 11:14:18 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [31merror[39m: No project ID available for deletion.
+2024-08-10 11:14:19 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [31merror[39m: No project ID available for deletion.
+2024-08-10 11:14:21 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:14:39 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [31merror[39m: No project ID available for deletion.
+2024-08-10 11:16:58 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [31merror[39m: No project ID available for deletion.
+2024-08-10 11:27:45 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [31merror[39m: Error creating or verifying project:
+2024-08-10 11:36:15 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Error during setup:
+2024-08-10 11:36:15 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Error during test execution:
+2024-08-10 11:36:15 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:36:30 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Error during setup:
+2024-08-10 11:36:30 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Error during test execution:
+2024-08-10 11:36:30 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:42:27 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Error during setup: Request failed with status code 400
+2024-08-10 11:42:27 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Error during test execution: Request failed with status code 400
+2024-08-10 11:42:27 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:44:11 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Error during setup: Request failed with status code 400
+2024-08-10 11:44:11 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-10 11:44:11 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:47:01 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Error during setup: Request failed with status code 400
+2024-08-10 11:47:01 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-10 11:47:01 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-10 11:58:27 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Schema validation failed: [object Object]
+2024-08-10 12:04:13 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Schema validation failed: must have required property 'users'
+2024-08-10 12:07:07 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Schema validation failed: must have required property 'users'
+2024-08-10 12:08:43 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Schema validation failed: must have required property 'users'
+2024-08-10 12:11:31 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Schema validation failed: must have required property 'users'
+2024-08-10 12:12:59 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `users` property or `items` array.

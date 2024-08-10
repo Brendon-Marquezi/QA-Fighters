@@ -9,7 +9,7 @@ let requestManager;
 
 let createdGroupId = '';
 
-//Definir o schema personalizado para cada código de teste
+//Definir o schema personalizado para cada código de teste *
 const groupSchema = {
   type: 'object',
   properties: {
@@ -94,7 +94,7 @@ test('Create and verify a new group', async () => {
   }
 
 
-  //Aplicar aqui a validação do do schemaValidator -> Lembre-se que para cada test o schema muda!
+  //Aplicar aqui a validação do do schemaValidator -> Lembrem-se que para cada test o schema muda!
 
 // Verifica que a resposta da API foi bem-sucedida
 if (verifyResponse.status === 200) {

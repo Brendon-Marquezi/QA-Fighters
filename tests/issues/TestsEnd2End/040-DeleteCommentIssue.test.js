@@ -147,7 +147,6 @@ test('Create and verify an issue', async () => {
     {},
     { Authorization: basicAuth },
   );
-
   expect(verifyIssueResponse.statusCode).toBe(200);
   expect(verifyIssueResponse.data.id).toBe(createdIssueId);
 });

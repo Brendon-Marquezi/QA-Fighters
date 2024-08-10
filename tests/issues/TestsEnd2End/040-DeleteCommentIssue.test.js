@@ -49,7 +49,7 @@ test('Add user to the group', async () => {
   logger.info(`Adding user to the group with ID "${createdGroupId}"`);
 
   const jsonData = {
-    userId: env.environment.userId, // Substitua com o ID real do usuário
+    userId: env.environment.userId, 
   };
 
   const response = await requestManager.send(
@@ -86,7 +86,6 @@ test('Create and verify a new project', async () => {
   createdProjectId = projectResponse.data.id;
   logger.info(`Project created successfully with ID: ${createdProjectId}`);
 
-  // Verify the project was created
   const verifyProjectResponse = await requestManager.send(
     'get',
     `project/${createdProjectId}`,
@@ -124,7 +123,7 @@ test('Create and verify an issue', async () => {
         ],
       },
       issuetype: {
-        id: '10012', // Substitua com o ID real do tipo de issue
+        id: '10012',
       },
     },
   };
@@ -140,7 +139,6 @@ test('Create and verify an issue', async () => {
   createdIssueId = issueResponse.data.id;
   logger.info(`Issue created successfully with ID: ${createdIssueId}`);
 
-  // Verify the issue was created
   const verifyIssueResponse = await requestManager.send(
     'get',
     `issue/${createdIssueId}`,
@@ -194,7 +192,6 @@ afterEach(async () => {
       { Authorization: basicAuth },
     );
 
-    // eslint-disable-next-line jest/no-standalone-expect
-    expect(deleteResponse.statusCode).toBe(204); // Status code para exclusão bem-sucedida
+    expect(deleteResponse.statusCode).toBe(204); 
   }
 });

@@ -3,23 +3,17 @@ const logger = require('#utils/logger')(__filename);
 
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
-
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
-  ).toString('base64');
-
+let requestManager;
 let createdIssueId;
 
 beforeEach(async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   logger.info('Sending a request to create an item in the project');
   const issueResponse = await requestManager.send(
     'post',
     'issue',
     {},
-    { Authorization: `${basicAuth}` },
+    { Authorization: global.basicAuth },
     {
       fields: {
         project: {
@@ -51,24 +45,26 @@ beforeEach(async () => {
 });
 
 afterEach(async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   logger.info('Starting the dilation check of an issue');
   if (createdIssueId) {
     await requestManager.send(
       'delete',
       `issue/${createdIssueId}`,
       {},
-      { Authorization: `${basicAuth}` },
+      { Authorization: global.basicAuth },
     );
   }
 });
 
 test('Check adding a comment to an issue', async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   logger.info('Check adding a comment to an issue');
   const commentResponse = await requestManager.send(
     'post',
     `issue/${createdIssueId}/comment`,
     {},
-    { Authorization: `${basicAuth}` },
+    { Authorization: global.basicAuth },
     {
       body: {
         type: 'doc',

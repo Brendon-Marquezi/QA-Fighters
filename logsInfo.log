@@ -24,3 +24,29 @@
 2024-08-06 18:08:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
 2024-08-06 18:11:53 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-06 18:11:53 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 19:39:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 19:39:25 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 19:42:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 19:42:15 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 19:45:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 19:45:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 20:01:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 20:01:14 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 20:01:17 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:3367ea7d-9d12-468e-93a1-3759663c2ad1
+2024-08-11 20:01:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 20:01:17 [020-CreateUser.test.js] [32minfo[39m: Scheduled deletion of user with ID 712020:3367ea7d-9d12-468e-93a1-3759663c2ad1 in 5 minutes.
+2024-08-11 20:01:17 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 20:06:18 [020-CreateUser.test.js] [31merror[39m: Error deleting user with ID 712020:3367ea7d-9d12-468e-93a1-3759663c2ad1:
+2024-08-11 20:21:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 20:21:58 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 20:22:00 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:15b0bbc9-5f56-43be-b649-9443972018ed
+2024-08-11 20:22:00 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 20:22:00 [020-CreateUser.test.js] [32minfo[39m: Scheduled deletion of user with ID 712020:15b0bbc9-5f56-43be-b649-9443972018ed in 5 minutes.
+2024-08-11 20:22:00 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 20:23:03 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 20:23:03 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 20:23:04 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:15b0bbc9-5f56-43be-b649-9443972018ed
+2024-08-11 20:23:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 20:23:04 [020-CreateUser.test.js] [32minfo[39m: Scheduled deletion of user with ID 712020:15b0bbc9-5f56-43be-b649-9443972018ed in 5 minutes.
+2024-08-11 20:23:04 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 20:28:05 [020-CreateUser.test.js] [31merror[39m: Error deleting user with ID 712020:15b0bbc9-5f56-43be-b649-9443972018ed:

@@ -1,4 +1,4 @@
-# API Testing
+**# API Testing
 
 This repository contains automated tests for the Jira API. The goal is to ensure that the API functions as expected and complies with project requirements. The automation framework used is Jest, which allows for a flexible and scalable architecture.
 
@@ -78,7 +78,16 @@ To run the tests, use the command:
 ```bash
 npm run test
 ```
+### Additional Execution Options
+**Fail-Fast Execution**: To stop the execution when encountering the first failure, use the command:
+```bash
+npx jest --bail --runInBand
+```
 
+**Fail-Fast Parallel Execution**: To run the tests in parallel and attempt to stop on the first failure, use:
+```bash
+npx jest --bail --maxWorkers=4
+```
 ## Project Structure
 The directory structure of the project is as follows:
 ```bash
@@ -108,37 +117,8 @@ The directory structure of the project is as follows:
 - **Axios**
 - **ESLint**
 - **Winston**
-- **Jest HTML Reporters**
 
-### Jest HTML Reporters
-**Jest HTML Reporters** is a Jest extension that generates test reports in HTML format. These reports are visually dynamic and detail test results, making them easy to analyze.
 
-#### Why did we choose Jest HTML Reporters?
-
-- **Visibility**: The HTML format provides a clear and organized view of test results, including details about which tests passed and which failed.
-- **Ease of Use**: Automatic generation of HTML reports allows for quick analysis of tests without the need for additional tools.
-- **Customization**: Jest HTML Reporters allows you to customize the appearance of reports, making it easy to adapt to your project's visual identity or team preferences.
-
-#### How it Works
-
-To use Jest HTML Reporters, add it to your project's dependencies and configure it in the Jest configuration file (`jest.config.js`). After running the tests, Jest HTML Reporters generates an HTML report that can be accessed directly from the configured output directory.
-
-Basic configuration example:
-
-```javascript
-// jest.config.js
-module.exports = {
-// Other Jest configuration
-   reporters: [
-      'default',
-      ['jest-html-reporters', {
-         publicPath: './reports',
-         filename: 'report.html',
-         expand: true
-      }]
-   ]
-};
-```
 ## Information about ESLint
 ### Applied Conventions
 
@@ -194,7 +174,7 @@ module.exports = {
 ![Diagrama de Estrutura](/Documentation/Diagrama%20da%20Estrutura%20%20do%20Framework.png)
 
 ### Automation Framework Architecture Diagram
-![Diagrama de Arquitetura](/Documentation/Diagrama%20de%20Arquitetura%20do%20Framework.png)
+![Diagrama de Arquitetura](/Documentation/Diagrama%20de%20ArquiteturadoFramework.png)
 
 ## Acknowledgements
-We would like to thank everyone who contributed to this project. We appreciate your dedication and patience, which have been important to our growth. Thank you very much for helping us continually improve!
+We would like to thank everyone who contributed to this project. We appreciate your dedication and patience, which have been important to our growth. Thank you very much for helping us continually improve!**

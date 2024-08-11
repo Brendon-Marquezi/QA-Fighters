@@ -33,7 +33,7 @@ test('Create a user in Jira', async () => {
     'post',
     endpoint,
     {}, 
-    { Authorization: global.basicAuth, Accept: 'application/json', 'Content-Type': 'application/json' }, // Headers
+    { Authorization: global.basicAuth, Accept: 'application/json', 'Content-Type': 'application/json' }, 
     bodyData 
   );
 

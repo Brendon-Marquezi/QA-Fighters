@@ -5,8 +5,13 @@
 
 /** @type {import('jest').Config} */
 const config = {
+
+    // Usa 50% dos núcleos da CPU para executar testes em paralelo
+    maxWorkers: "50%",
   // All imported modules in your tests should be mocked automatically
   // automock: false,
+   // Para a execução dos testes na primeira falha
+  //  bail: true,
 
   // Stop running tests after `n` failures
   // bail: 0,
@@ -136,7 +141,7 @@ const config = {
   // setupFiles: [],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
-  // setupFilesAfterEnv: [],
+  setupFilesAfterEnv: ['./core/utils/jest.setup.js'],
 
   // The number of seconds after which a test is considered as slow and reported as such in the results.
   // slowTestThreshold: 5,
@@ -161,6 +166,20 @@ const config = {
   //   "/node_modules/"
   // ],
 
+  reporters: [
+    'default',
+    [
+      'jest-html-reporters',
+      {
+        publicPath: './reports',
+        filename: 'report.html',
+        expand: true,
+        pageTitle: '- Jira API Testing Framework Report - by QA Fighters Team',
+        darkTheme: true,
+        openReport: true,
+      }
+    ],
+  ],
   // The regexp pattern or array of patterns that Jest uses to detect test files
   // testRegex: [],
 

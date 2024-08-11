@@ -3,24 +3,18 @@ const logger = require('#utils/logger')(__filename);
 
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
-
-
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
-  ).toString('base64');
+let requestManager;
 
 let createdIssueId;
 
 beforeEach(async () => {
   logger.info('Starting to create an issue');
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   const issueResponse = await requestManager.send(
     'post',
     'issue',
     {},
-    { Authorization: `${basicAuth}` },
+    { Authorization: global.basicAuth },
     {
       fields: {
         project: {
@@ -53,11 +47,13 @@ beforeEach(async () => {
 
 afterEach(async () => {
   logger.info('Starting to delete an issue');
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
   await requestManager.send(
     'delete',
     `issue/${createdIssueId}`,
     {},
-    { Authorization: `${basicAuth}` },
+    { Authorization: global.basicAuth },
   );
 });
 
@@ -68,7 +64,7 @@ test("Check an issue's change log", async () => {
     'get',
     endpoint,
     {},
-    { Authorization: `${basicAuth}` },
+    { Authorization: global.basicAuth },
   );
 
   expect(response.status).toBe(200);

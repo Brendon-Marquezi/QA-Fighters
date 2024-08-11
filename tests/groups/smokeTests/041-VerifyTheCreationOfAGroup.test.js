@@ -1,11 +1,24 @@
 const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
+const validateSchema = require('#configs/schemaValidation');
+
 
 
 let requestManager;
 
 let createdGroupId = '';
+
+//Definir o schema personalizado para cada código de teste *
+const groupSchema = {
+  type: 'object',
+  properties: {
+    groupId: { type: 'string' },
+    name: { type: 'string' }
+  },
+  required: ['groupId', 'name']
+};
+
 
 const jsonData = {
   name: env.environment.group_name,
@@ -79,6 +92,32 @@ test('Create and verify a new group', async () => {
   } else {
     logger.error('Group verification failed. Status:', verifyResponse.status);
   }
+
+
+  //Aplicar aqui a validação do do schemaValidator -> Lembrem-se que para cada test o schema muda!
+
+// Verifica que a resposta da API foi bem-sucedida
+if (verifyResponse.status === 200) {
+  logger.info('-schemaValidator- Group verification passed.');
+
+  // Compara a resposta com o esquema
+  const validation = validateSchema(verifyResponse.data, groupSchema);
+  if (validation.valid) {
+    logger.info('-schemaValidator- Response matches schema.');
+  } else {
+    logger.error('-schemaValidator- Response does not match schema. Validation errors:', validation.errors);
+  }
+
+  // Verifica que o nome do grupo corresponde ao esperado
+  if (verifyResponse.data.name === jsonData.name) {
+    logger.info('-schemaValidator- Group name matches expected.');
+  } else {
+    logger.error('-schemaValidator- Group name does not match expected.');
+  }
+} else {
+  logger.error('-schemaValidator- Group verification failed. Status:', verifyResponse.status);
+}
+
 });
 
 afterEach(async () => {
@@ -123,3 +162,4 @@ afterEach(async () => {
     logger.error('No group ID available for deletion.');
   }
 });
+

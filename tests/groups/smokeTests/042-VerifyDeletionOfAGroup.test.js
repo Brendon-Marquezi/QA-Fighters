@@ -1,6 +1,29 @@
 const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
+const validateSchema = require('#configs/schemaValidation');
+
+// Schema for creating and obtaining the group
+const groupSchema = {
+  type: 'object',
+  properties: {
+    groupId: { type: 'string' },
+    name: { type: 'string' }
+  },
+  required: ['groupId', 'name']
+};
+
+// Schema for the response when listing the groups
+const groupListSchema = {
+  type: 'object',
+  properties: {
+    groups: {
+      type: 'array',
+      items: groupSchema
+    }
+  },
+  required: ['groups']
+};
 
 let requestManager;
 
@@ -17,7 +40,6 @@ beforeEach(async () => {
   
   requestManager = RequestManager.getInstance(env.environment.base_url);
 
-
   const groupResponse = await requestManager.send(
     'post',
     'group',
@@ -25,6 +47,13 @@ beforeEach(async () => {
     { Authorization: global.basicAuth },
     jsonData,
   );
+
+  // Validate the schema for the group creation response
+  const groupValidationResult = validateSchema(groupResponse.data, groupSchema);
+  if (!groupValidationResult.valid) {
+    logger.error(`Schema validation failed for group creation: ${groupValidationResult.errors.map(e => e.message).join(', ')}`);
+    throw new Error('Schema validation failed');
+  }
 
   createdGroupId = groupResponse.data.groupId;
   logger.info(`Group created successfully with ID: ${createdGroupId}`);
@@ -43,6 +72,13 @@ test('Verify group creation and deletion', async () => {
     {},
     { Authorization: global.basicAuth },
   );
+
+  // Validate the schema for the group verification response
+  const verifyValidationResult = validateSchema(verifyResponse.data, groupSchema);
+  if (!verifyValidationResult.valid) {
+    logger.error(`Schema validation failed for group verification: ${verifyValidationResult.errors.map(e => e.message).join(', ')}`);
+    throw new Error('Schema validation failed');
+  }
 
   expect(verifyResponse.status).toBe(200);
   expect(verifyResponse.data.name).toBe(jsonData.name);
@@ -71,11 +107,18 @@ afterEach(async () => {
       { Authorization: global.basicAuth },
     );
 
+    // Validate the schema for the group listing response
+    const groupListValidationResult = validateSchema(getResponse.data, groupListSchema);
+    if (!groupListValidationResult.valid) {
+      logger.error(`Schema validation failed for group listing: ${groupListValidationResult.errors.map(e => e.message).join(', ')}`);
+      throw new Error('Schema validation failed');
+    }
+
     const groups = getResponse.data.groups;
     const groupExists = groups.some(
       (group) => group.groupId === createdGroupId,
     );
-    // Use console.assert for basic verification or a custom assertion
+    
     if (!groupExists) {
       logger.info(`Confirmation: Group ${createdGroupId} no longer exists.`);
     } else {

@@ -1,20 +1,19 @@
 const env = require('#configs/environments');
-const requestManager = require('#utils/requestManager');
+const RequestManager = require('#utils/requestManager');
 
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`
-  ).toString('base64');
+let requestManager;
 
 test('Get all users from Jira', async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   const endpoint = 'users/search'; 
+  
+
 
   const response = await requestManager.send(
     'get',
     endpoint,
     {}, 
-    { Authorization: basicAuth, Accept: 'application/json' } 
+    { Authorization: global.basicAuth, Accept: 'application/json' } 
   );
 
  

@@ -52,8 +52,12 @@ afterAll((done) => {
 }, TIMEOUT);
 
 test('Create a user in Jira', async () => {
+  logger.info('Starting test: Create a user in Jira');
+
   const endpoint = 'user'; 
-  
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
+  // Dados do corpo da requisição
   const bodyData = {
     emailAddress: 'smi66114@nowni.com', // Email setar
     products: [], // Produtos associados ao usuário

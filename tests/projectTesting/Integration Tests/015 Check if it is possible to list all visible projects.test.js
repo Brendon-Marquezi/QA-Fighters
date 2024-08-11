@@ -2,16 +2,12 @@ const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
-
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
-  ).toString('base64');
+let requestManager;
 
 beforeEach(() => {
   logger.info('Starting the test setup');
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
   
 });
 
@@ -22,7 +18,7 @@ test('Check if it is possible to list all visible projects', async () => {
     'get',
     'project/search',
     {},
-    { Authorization: `${basicAuth}` },
+    { Authorization: global.basicAuth },
   );
 
   logger.info('Received response for visible projects');

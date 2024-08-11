@@ -1,3 +1,4 @@
+// #utils/requestManager.js
 const env = require('#configs/environments');
 const axios = require('axios');
 
@@ -13,12 +14,11 @@ class RequestManager {
       timeout,
     });
 
- 
     RequestManager.instance = this;
     this.baseURL = baseURL;
   }
 
-  async send(method, endpoint, params, headers, data) {
+  async send(method, endpoint, params = {}, headers = {}, data = {}) {
     return await this.axios.request({
       method: method,
       url: endpoint,

@@ -1,5 +1,8 @@
-const requestManager = require('#utils/requestManager');
+// tests/usersTestings/integrationTests/021-DeleteUser.test.js
+const RequestManager = require('#utils/requestManager');
 const env = require('#configs/environments');
+
+const requestManager = RequestManager.getInstance(env.environment.base_url);
 
 const basicAuth =
   'Basic ' +
@@ -14,7 +17,7 @@ beforeAll(async () => {
   const endpoint = 'user'; 
   
   const bodyData = {
-    emailAddress: 'qsf66236@zccck.com',
+    emailAddress: 'tologos932@almaxen.com',
     products: [],
   };
 
@@ -61,9 +64,6 @@ test('Delete a user from Jira', async () => {
     { Authorization: basicAuth, Accept: 'application/json' }
   );
 
-  
   expect(response.status).toBe(204);
-
-  
   expect(response.data).toBe('');
 });

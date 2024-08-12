@@ -2,9 +2,8 @@ const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-let requestManager;
 let createdIssueId = '';
-
+let requestManager;
 
 const jsonData = {
   fields: {
@@ -30,18 +29,17 @@ const jsonData = {
     issuetype: {
       id: '10012',
     },
-  },
+  },  
 };
 
 beforeEach(async () => {
-  logger.info('Starting to create an issue');
   requestManager = RequestManager.getInstance(env.environment.base_url);
-
+  logger.info('Starting to create an issue');
   const issueResponse = await requestManager.send(
     'post',
     'issue',
     {},
-    { Authorization: global.basicAuth },
+    {Authorization: global.basicAuth},
     jsonData,
   );
 
@@ -49,12 +47,13 @@ beforeEach(async () => {
 });
 
 test('Check deletion of an issue from a project', async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   logger.info('Check deletion of an issue from a project');
   const deleteResponse = await requestManager.send(
     'delete',
     `issue/${createdIssueId}`,
     {},
-    { Authorization: global.basicAuth },
+    {Authorization: global.basicAuth },
   );
 
   logger.info('Starting issue selection check');

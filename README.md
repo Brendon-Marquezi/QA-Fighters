@@ -1,4 +1,4 @@
-# API Testing
+**# API Testing
 
 This repository contains automated tests for the Jira API. The goal is to ensure that the API functions as expected and complies with project requirements. The automation framework used is Jest, which allows for a flexible and scalable architecture.
 
@@ -12,6 +12,7 @@ This repository contains automated tests for the Jira API. The goal is to ensure
 - [Project Structure](#project-structure)
 - [Test Examples](#test-examples)
 - [Used Frameworks](#used-frameworks)
+- [Defining tests by runtime] (#Defining-tests-by-runtime)
 - [Diagrams](#diagrams)
 - [Acknowledgements](#acknowledgements)
 
@@ -78,7 +79,16 @@ To run the tests, use the command:
 ```bash
 npm run test
 ```
+### Additional Execution Options
+**Fail-Fast Execution**: To stop the execution when encountering the first failure, use the command:
+```bash
+npx jest --bail --runInBand
+```
 
+**Fail-Fast Parallel Execution**: To run the tests in parallel and attempt to stop on the first failure, use:
+```bash
+npx jest --bail --maxWorkers=4
+```
 ## Project Structure
 The directory structure of the project is as follows:
 ```bash
@@ -102,12 +112,13 @@ The directory structure of the project is as follows:
 |-- README.md
 ```
 ## Frameworks Used
-- **Jest:** 
-- **Prettier:**
-- **Newman:**
-- **Axios:**
-- **ESLint:**
-- **Winston:**
+- **Jest** 
+- **Prettier**
+- **Newman**
+- **Axios**
+- **ESLint**
+- **Winston**
+- **Ajv**
 
 
 ## Information about ESLint
@@ -159,6 +170,12 @@ The directory structure of the project is as follows:
 - logger.debug('Debug message');
 - logger.silly('Trivial message');
 
+## Defining tests by runtime
+
+- When defining runtime tests, we define Regression Testing, End-of-Sprint Testing, and Other Important Moments Testing as important points.
+
+- https://jalauniv-my.sharepoint.com/:x:/g/personal/queila_fernandes_jala_university/Eeyy5gwitutMijM1aLhruskBsoeKoCjD4xHj9DNxT41uYw?e=U7eaQl
+
 
 ## Diagrams
 ### Automation Framework Structure Diagram
@@ -168,4 +185,4 @@ The directory structure of the project is as follows:
 ![Diagrama de Arquitetura](/Documentation/Diagrama%20de%20ArquiteturadoFramework.png)
 
 ## Acknowledgements
-We would like to thank everyone who contributed to this project. We appreciate your dedication and patience, which have been important to our growth. Thank you very much for helping us continually improve!
+We would like to thank everyone who contributed to this project. We appreciate your dedication and patience, which have been important to our growth. Thank you very much for helping us continually improve!**

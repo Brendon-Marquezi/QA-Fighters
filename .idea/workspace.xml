@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="486e83d6-4a16-409d-9eef-a96a834ba793" name="Changes" comment="Enviando 4 testes com seus respectivos pós e prés requests." />
+    <list default="true" id="486e83d6-4a16-409d-9eef-a96a834ba793" name="Changes" comment="Enviando 4 testes com seus respectivos pós e prés requests.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "luana",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/luana/QA-Fighters",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,6 +53,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/issues/IntegrationTests" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -63,7 +71,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -77,6 +86,8 @@
       <updated>1722040019726</updated>
       <workItem from="1722040021229" duration="890000" />
       <workItem from="1722040918909" duration="8848000" />
+      <workItem from="1722821813362" duration="2596000" />
+      <workItem from="1723414228299" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Enviando 4 testes com seus respectivos pós e prés requests.">
       <option name="closed" value="true" />
@@ -112,16 +123,5 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Enviando 4 testes com seus respectivos pós e prés requests." />
     <option name="LAST_COMMIT_MESSAGE" value="Enviando 4 testes com seus respectivos pós e prés requests." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tests/033-EditeIssueName.test.js</url>
-          <line>86</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

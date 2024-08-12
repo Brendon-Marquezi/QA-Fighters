@@ -4,13 +4,11 @@ const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
 let requestManager;
-
 let createdIssueId;
 
 beforeEach(async () => {
-  logger.info('Sending a request to create an item in the project');
   requestManager = RequestManager.getInstance(env.environment.base_url);
-
+  logger.info('Sending a request to create an item in the project');
   const issueResponse = await requestManager.send(
     'post',
     'issue',
@@ -47,6 +45,7 @@ beforeEach(async () => {
 });
 
 afterEach(async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   logger.info('Starting the dilation check of an issue');
   if (createdIssueId) {
     await requestManager.send(
@@ -59,6 +58,7 @@ afterEach(async () => {
 });
 
 test('Check adding a comment to an issue', async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   logger.info('Check adding a comment to an issue');
   const commentResponse = await requestManager.send(
     'post',

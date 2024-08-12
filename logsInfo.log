@@ -4866,3 +4866,2663 @@ Received: [31m200[39m
 2024-08-10 12:19:48 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Verifying group deletion
 2024-08-10 12:19:48 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Confirmation: Group 9c96bbe5-e79f-4626-b174-10818c9dd351 no longer exists.
 2024-08-10 12:19:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 20:57:14 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 20:57:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 20:57:14 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 20:57:15 [020-CreateUser.test.js] [31merror[39m: Error creating user:
+2024-08-11 20:57:15 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 20:57:15 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 20:59:49 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 20:59:49 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 20:59:49 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 20:59:49 [020-CreateUser.test.js] [31merror[39m: Error creating user:
+2024-08-11 20:59:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 20:59:49 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:01:57 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:01:57 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:01:57 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:01:58 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:01:58 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:02:57 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:02:57 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:02:57 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:02:57 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic Og==",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "smi66114@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:02:58 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:02:58 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:04:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:04:34 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:04:34 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:04:34 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic Og==",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "smi66114@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:04:34 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:04:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:05:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:05:59 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:05:59 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:05:59 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic Og==",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "smi66114@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:06:00 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:06:00 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:08:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:08:04 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:08:04 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:08:04 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "smi66114@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:08:05 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:15b0bbc9-5f56-43be-b649-9443972018ed",
+    "accountId": "712020:15b0bbc9-5f56-43be-b649-9443972018ed",
+    "accountType": "atlassian",
+    "emailAddress": "smi66114@nowni.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/dba4daa483ff474b0e65c4934c497c2b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-2.png",
+      "24x24": "https://secure.gravatar.com/avatar/dba4daa483ff474b0e65c4934c497c2b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-2.png",
+      "16x16": "https://secure.gravatar.com/avatar/dba4daa483ff474b0e65c4934c497c2b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-2.png",
+      "32x32": "https://secure.gravatar.com/avatar/dba4daa483ff474b0e65c4934c497c2b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FS-2.png"
+    },
+    "displayName": "smi66114",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:08:06 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "c2cbeffa7bc44491285250d8ca17504c",
+    "x-ratelimit-nearlimit": "false",
+    "set-cookie": "atlassian.xsrf.token=400021e632c27a2ca020ee245f44a8c96c4e91f1_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:15b0bbc9-5f56-43be-b649-9443972018ed",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "7c364c961f814ad9adf08f77284df1a0",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:08:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:08:05 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:10:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:10:26 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:10:26 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:10:26 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "ugt77717@zccck.com",
+    "products": []
+  }
+}
+2024-08-11 21:10:28 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:6deece58-3691-4b95-8fc2-d5799b6314cf",
+    "accountId": "712020:6deece58-3691-4b95-8fc2-d5799b6314cf",
+    "accountType": "atlassian",
+    "emailAddress": "ugt77717@zccck.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/728988a9ab9803a3aa6c672f855aaa2e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FU-4.png",
+      "24x24": "https://secure.gravatar.com/avatar/728988a9ab9803a3aa6c672f855aaa2e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FU-4.png",
+      "16x16": "https://secure.gravatar.com/avatar/728988a9ab9803a3aa6c672f855aaa2e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FU-4.png",
+      "32x32": "https://secure.gravatar.com/avatar/728988a9ab9803a3aa6c672f855aaa2e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FU-4.png"
+    },
+    "displayName": "ugt77717",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:10:28 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "f5bf67ff8f9084d14470019799015af7",
+    "set-cookie": "atlassian.xsrf.token=d94cd8ffb273ff48a1564a3194bf461bff521ac5_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:6deece58-3691-4b95-8fc2-d5799b6314cf",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "dee9a6bbf1de4a69a99ce8a56dc844de",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:10:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:10:28 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:17:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:17:06 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:17:06 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:17:06 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "yhf89650@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 21:17:08 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:47feb1ad-bfb3-46f8-a4e3-eca32b7ddb27",
+    "accountId": "712020:47feb1ad-bfb3-46f8-a4e3-eca32b7ddb27",
+    "accountType": "atlassian",
+    "emailAddress": "yhf89650@tccho.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/63e6c3f7713d09ac09e350c35349cf1c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-4.png",
+      "24x24": "https://secure.gravatar.com/avatar/63e6c3f7713d09ac09e350c35349cf1c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-4.png",
+      "16x16": "https://secure.gravatar.com/avatar/63e6c3f7713d09ac09e350c35349cf1c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-4.png",
+      "32x32": "https://secure.gravatar.com/avatar/63e6c3f7713d09ac09e350c35349cf1c?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-4.png"
+    },
+    "displayName": "yhf89650",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:17:08 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "aeb7df8d3448e10c449126fcd493faed",
+    "set-cookie": "atlassian.xsrf.token=d434228fc61d6801d7e118c70603702859cf09cd_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:47feb1ad-bfb3-46f8-a4e3-eca32b7ddb27",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "0e71f9ec20d94a33856e8e92b8f6da50",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:17:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:17:08 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:19:05 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:19:05 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:19:05 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:19:05 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "axu25336@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:19:06 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountId": "712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountType": "atlassian",
+    "emailAddress": "axu25336@nowni.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "24x24": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "16x16": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "32x32": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png"
+    },
+    "displayName": "axu25336",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:19:07 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "95a0121fc960a76dd873b1c931370ae3",
+    "set-cookie": "atlassian.xsrf.token=dbefa1b527ea96b6880098cb3c96b90b854a0f55_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "0b8f664709ea4961be062b64f4892a2b",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:19:06 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:19:06 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2
+2024-08-11 21:19:06 [020-CreateUser.test.js] [32minfo[39m: Scheduled deletion of user with ID 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2 in 5 minutes.
+2024-08-11 21:19:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:21:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:21:41 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:21:41 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:21:41 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "axu25336@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:21:43 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountId": "712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountType": "atlassian",
+    "emailAddress": "axu25336@nowni.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "24x24": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "16x16": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "32x32": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png"
+    },
+    "displayName": "axu25336",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:21:43 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "a76f6981f4fadb9362e1dabc790cb0ae",
+    "set-cookie": "atlassian.xsrf.token=af8e252029476a270430a70e0a926ecbbadeb579_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "35d1fd9d05474f72af984dbc91c81a27",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:21:43 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:21:43 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2
+2024-08-11 21:21:43 [020-CreateUser.test.js] [32minfo[39m: Scheduled deletion of user with ID 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2 in 5 minutes.
+2024-08-11 21:21:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:24:31 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:24:31 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:24:31 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:24:31 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "axu25336@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:24:33 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountId": "712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountType": "atlassian",
+    "emailAddress": "axu25336@nowni.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "24x24": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "16x16": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "32x32": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png"
+    },
+    "displayName": "axu25336",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:24:33 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "49f21c33988a4d31ac6be2d745499f3d",
+    "set-cookie": "atlassian.xsrf.token=bb5421920113e73529aae09a544e258442d14c25_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "355687235cce4376ac446551c74bc054",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:24:33 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:24:33 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2
+2024-08-11 21:24:33 [020-CreateUser.test.js] [32minfo[39m: Scheduled deletion of user with ID 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2 in 5 minutes.
+2024-08-11 21:24:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:25:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:25:21 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:25:21 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:25:21 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "axu25336@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:25:23 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountId": "712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountType": "atlassian",
+    "emailAddress": "axu25336@nowni.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "24x24": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "16x16": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "32x32": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png"
+    },
+    "displayName": "axu25336",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:25:23 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "8058dd044493480980b5761488dcf8d1",
+    "set-cookie": "atlassian.xsrf.token=eeffd671ab80536d70adc5e671dedeb98a65a70a_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "113bc01e1fb94bd0899117bc63e3fb4f",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:25:23 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:25:23 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2
+2024-08-11 21:25:23 [020-CreateUser.test.js] [32minfo[39m: Scheduled deletion of user with ID 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2 in 5 minutes.
+2024-08-11 21:25:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:26:03 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:26:03 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:26:03 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:26:03 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "axu25336@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:26:04 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountId": "712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "accountType": "atlassian",
+    "emailAddress": "axu25336@nowni.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "24x24": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "16x16": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png",
+      "32x32": "https://secure.gravatar.com/avatar/a9a2faa380b8ec053d0fbbc52b463a49?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FA-2.png"
+    },
+    "displayName": "axu25336",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:26:05 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "da5eb8d03ae1d36322f6129ac360d946",
+    "set-cookie": "atlassian.xsrf.token=da6a27da81c1f8c31cff325a17e722d046dd2e76_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "72500f10ddb6424a9dcea9219429d0c5",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:26:04 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:26:04 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2
+2024-08-11 21:26:04 [020-CreateUser.test.js] [32minfo[39m: Scheduled deletion of user with ID 712020:7f2da8d3-cf06-4a0c-9260-3bbfcb4199c2 in 2 minutes.
+2024-08-11 21:26:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:30:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:30:20 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:30:20 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:30:20 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "lyn60789@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 21:30:22 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountId": "712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountType": "atlassian",
+    "emailAddress": "lyn60789@tccho.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "24x24": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "16x16": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "32x32": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png"
+    },
+    "displayName": "lyn60789",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:30:22 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "8182197f3e86ba56d8bea59fb2213d52",
+    "set-cookie": "atlassian.xsrf.token=3482fdc4774703aa46bb429742e6e6e3077e90a6_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "dc9fdc6e95c541b0889f3abee648325c",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:30:22 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:30:22 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc
+2024-08-11 21:30:22 [020-CreateUser.test.js] [32minfo[39m: Scheduled deletion of user with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc in 2 minutes.
+2024-08-11 21:30:27 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:31:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:31:43 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:31:43 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:31:43 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "lyn60789@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 21:31:45 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountId": "712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountType": "atlassian",
+    "emailAddress": "lyn60789@tccho.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "24x24": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "16x16": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "32x32": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png"
+    },
+    "displayName": "lyn60789",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:31:45 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "d9dbadd08aa72ceb4569512d3a716b4a",
+    "set-cookie": "atlassian.xsrf.token=064384516a64c3157e36a9b273df72fcefb7acd5_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "60eb96d59b4d47fa9b673830c0d34aa7",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:31:45 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:31:45 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc
+2024-08-11 21:31:45 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc...
+2024-08-11 21:31:46 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc deleted successfully.
+2024-08-11 21:31:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:31:46 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:32:51 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:32:51 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:32:51 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:32:51 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "lyn60789@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 21:32:53 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountId": "712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountType": "atlassian",
+    "emailAddress": "lyn60789@tccho.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "24x24": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "16x16": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "32x32": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png"
+    },
+    "displayName": "lyn60789",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:32:53 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "b0b46f2042723f50f61434a2b582c9ae",
+    "set-cookie": "atlassian.xsrf.token=454c83cf9ba4ebb48722864d2553e29f189a028a_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "249918efe1f741068863cdfb5e13e555",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:32:53 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:32:53 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc
+2024-08-11 21:32:53 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc...
+2024-08-11 21:32:54 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc deleted successfully.
+2024-08-11 21:32:54 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:32:54 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:34:33 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:34:33 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:34:33 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:34:33 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "lyn60789@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 21:34:34 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountId": "712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountType": "atlassian",
+    "emailAddress": "lyn60789@tccho.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "24x24": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "16x16": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "32x32": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png"
+    },
+    "displayName": "lyn60789",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:34:35 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "1012153cd0eb0a07030977ddb6f8f18e",
+    "set-cookie": "atlassian.xsrf.token=b105daf7fff07dc31ae025cdccc62bd1c6c475ac_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "ca8e2df7967b4ebbaa5497c66032caa4",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:34:35 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 21:34:35 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc
+2024-08-11 21:34:35 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc...
+2024-08-11 21:34:35 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc deleted successfully.
+2024-08-11 21:34:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:34:35 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:37:07 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:37:07 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:37:07 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:37:07 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "lyn60789@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 21:37:09 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountId": "712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountType": "atlassian",
+    "emailAddress": "lyn60789@tccho.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "24x24": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "16x16": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "32x32": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png"
+    },
+    "displayName": "lyn60789",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:37:10 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "89f5fa9d89c23f43719b6e42c5e33ea5",
+    "set-cookie": "atlassian.xsrf.token=5cf6bc1f9c5c3d36675220afa9189c621bf4a8e1_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "b6a2906f37584f53923de3fdb8c43f96",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:37:09 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:37:09 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc
+2024-08-11 21:37:09 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc...
+2024-08-11 21:37:10 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc deleted successfully.
+2024-08-11 21:37:10 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:37:10 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:38:19 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:38:19 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:38:19 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:38:19 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "lyn60789@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 21:38:20 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountId": "712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountType": "atlassian",
+    "emailAddress": "lyn60789@tccho.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "24x24": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "16x16": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "32x32": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png"
+    },
+    "displayName": "lyn60789",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:38:21 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "0264b101716121d8feba6faca10d697e",
+    "set-cookie": "atlassian.xsrf.token=f17b799defe76321ca9804afaf137f08018b18ef_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "60e004458a474174a81293f99bb42b37",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:38:20 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 21:38:20 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc
+2024-08-11 21:38:20 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc...
+2024-08-11 21:38:21 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc deleted successfully.
+2024-08-11 21:38:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:38:21 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:40:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:40:46 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:40:46 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:40:46 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "lyn60789@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 21:40:48 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountId": "712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "accountType": "atlassian",
+    "emailAddress": "lyn60789@tccho.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "24x24": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "16x16": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png",
+      "32x32": "https://secure.gravatar.com/avatar/ff70df4c8fa6536165cadbe91070ed3e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FL-4.png"
+    },
+    "displayName": "lyn60789",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:40:48 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "4c2f64a3ae5f31a09671bbb7ba205eeb",
+    "set-cookie": "atlassian.xsrf.token=dec4f7db2a143d432ba14150bc5b92a452ea5897_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:de2d8b77-3345-4361-9a92-5d19358a7dcc",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "452831c9dbe34245a1ae372c3f467e10",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:40:48 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:40:48 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc
+2024-08-11 21:40:48 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc...
+2024-08-11 21:40:49 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:de2d8b77-3345-4361-9a92-5d19358a7dcc deleted successfully.
+2024-08-11 21:40:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:40:49 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:42:51 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:42:51 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:42:51 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:42:51 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "zdt19471@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 21:42:53 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:f46f92a1-f0a0-4c34-9f3c-878b2add7a0d",
+    "accountId": "712020:f46f92a1-f0a0-4c34-9f3c-878b2add7a0d",
+    "accountType": "atlassian",
+    "emailAddress": "zdt19471@nowni.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/988035978eed74023cd24fb85806b5a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FZ-5.png",
+      "24x24": "https://secure.gravatar.com/avatar/988035978eed74023cd24fb85806b5a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FZ-5.png",
+      "16x16": "https://secure.gravatar.com/avatar/988035978eed74023cd24fb85806b5a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FZ-5.png",
+      "32x32": "https://secure.gravatar.com/avatar/988035978eed74023cd24fb85806b5a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FZ-5.png"
+    },
+    "displayName": "zdt19471",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:42:54 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "838a5f0b5b7ab325f0cc2ee054978e78",
+    "set-cookie": "atlassian.xsrf.token=bdebe6ab6985452eb20d0165db89af32bfe207cf_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:f46f92a1-f0a0-4c34-9f3c-878b2add7a0d",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "870ec6a25ab14295b2ffd0b939cf0425",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:42:53 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:42:53 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:f46f92a1-f0a0-4c34-9f3c-878b2add7a0d
+2024-08-11 21:42:53 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:f46f92a1-f0a0-4c34-9f3c-878b2add7a0d...
+2024-08-11 21:42:54 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:f46f92a1-f0a0-4c34-9f3c-878b2add7a0d deleted successfully.
+2024-08-11 21:42:54 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:42:54 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:48:40 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:48:40 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:48:40 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "hje90798@zccck.com",
+    "products": []
+  }
+}
+2024-08-11 21:48:42 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountId": "712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountType": "atlassian",
+    "emailAddress": "hje90798@zccck.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "24x24": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "16x16": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "32x32": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png"
+    },
+    "displayName": "hje90798",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:48:43 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "b92cd29f1fbded14313fa81cbbbcfe12",
+    "set-cookie": "atlassian.xsrf.token=290ad810e8961b417d835b34c23de84020307a35_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "f71f2058c4eb4d48af1fba1f202bf362",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:48:42 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:48:42 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38
+2024-08-11 21:48:42 [020-CreateUser.test.js] [32minfo[39m: Email Address: hje90798@zccck.com
+2024-08-11 21:48:42 [020-CreateUser.test.js] [32minfo[39m: Display Name: hje90798
+2024-08-11 21:48:42 [020-CreateUser.test.js] [32minfo[39m: Active: true
+2024-08-11 21:48:42 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38...
+2024-08-11 21:48:43 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38 deleted successfully.
+2024-08-11 21:48:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:48:43 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:49:53 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:49:53 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:49:53 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:49:53 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "hje90798@zccck.com",
+    "products": []
+  }
+}
+2024-08-11 21:49:55 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "accountId": "712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "emailAddress": "hje90798@zccck.com",
+    "displayName": "hje90798",
+    "active": true
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:49:55 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "73f63d6746b22c45102e67f97000491f",
+    "set-cookie": "atlassian.xsrf.token=9140b9770b5093e907b864f806eda9ff506b9f5e_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "21f107766e3242e39a60edf26abf0d11",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:49:55 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:49:55 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38
+2024-08-11 21:49:55 [020-CreateUser.test.js] [32minfo[39m: Email Address: hje90798@zccck.com
+2024-08-11 21:49:55 [020-CreateUser.test.js] [32minfo[39m: Display Name: hje90798
+2024-08-11 21:49:55 [020-CreateUser.test.js] [32minfo[39m: Active: true
+2024-08-11 21:49:55 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38...
+2024-08-11 21:49:56 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38 deleted successfully.
+2024-08-11 21:49:56 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:49:56 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:50:53 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:50:53 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:50:53 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:50:53 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "hje90798@zccck.com",
+    "products": []
+  }
+}
+2024-08-11 21:50:55 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountId": "712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountType": "atlassian",
+    "emailAddress": "hje90798@zccck.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "24x24": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "16x16": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "32x32": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png"
+    },
+    "displayName": "hje90798",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:50:56 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "ae1c5e6898d27a9f15f170d50d965102",
+    "set-cookie": "atlassian.xsrf.token=548c7f2087154c73dd4804463b684a11cbafdd10_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "f846360201eb44b4ac56ed1afc41f55d",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:50:55 [020-CreateUser.test.js] [31merror[39m: User schema validation failed. Validation errors:
+2024-08-11 21:50:55 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38
+2024-08-11 21:50:55 [020-CreateUser.test.js] [32minfo[39m: Email Address: hje90798@zccck.com
+2024-08-11 21:50:55 [020-CreateUser.test.js] [32minfo[39m: Display Name: hje90798
+2024-08-11 21:50:55 [020-CreateUser.test.js] [32minfo[39m: Active: true
+2024-08-11 21:50:55 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38...
+2024-08-11 21:50:56 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38 deleted successfully.
+2024-08-11 21:50:56 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:50:56 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:52:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:52:39 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:52:39 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:52:39 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "hje90798@zccck.com",
+    "products": []
+  }
+}
+2024-08-11 21:52:41 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountId": "712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountType": "atlassian",
+    "emailAddress": "hje90798@zccck.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "24x24": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "16x16": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "32x32": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png"
+    },
+    "displayName": "hje90798",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:52:41 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "809c80753139ab77d25a1308b58c0d11",
+    "set-cookie": "atlassian.xsrf.token=1ae8fa088aefc32613b320633f23f8252253b807_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "1a3a3d18b09a4518ad06a017b13c71ed",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:52:41 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 21:52:41 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38
+2024-08-11 21:52:41 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38...
+2024-08-11 21:52:41 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38 deleted successfully.
+2024-08-11 21:52:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:52:41 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 21:57:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 21:57:40 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 21:57:40 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 21:57:40 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "hje90798@zccck.com",
+    "products": []
+  }
+}
+2024-08-11 21:57:42 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountId": "712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountType": "atlassian",
+    "emailAddress": "hje90798@zccck.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "24x24": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "16x16": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "32x32": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png"
+    },
+    "displayName": "hje90798",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 00:57:42 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "bb2c5648da46a6e14fc9cf3e90160174",
+    "set-cookie": "atlassian.xsrf.token=a89d8f67536f52d17524eb3f86d25df00f63ada9_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "41cf2fd90668485ca423d43c05d1218f",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 21:57:42 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 21:57:42 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38
+2024-08-11 21:57:42 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38...
+2024-08-11 21:57:42 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38 deleted successfully.
+2024-08-11 21:57:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 21:57:42 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:00:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:00:44 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:00:44 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 22:00:44 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+    method: 'POST',
+    url: 'https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user',
+    headers: {
+      Authorization: 'Basic [REDACTED]',
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    }
+  }
+2024-08-11 22:00:45 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountId": "712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountType": "atlassian",
+    "emailAddress": "hje90798@zccck.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "24x24": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "16x16": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "32x32": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png"
+    },
+    "displayName": "hje90798",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 01:00:46 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "a1d3ec1b10d640474cc253b812034203",
+    "set-cookie": "atlassian.xsrf.token=729d477113e80fe11afaedcf4a58f5a447e7fa69_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "9226e4712a314f1a8dd89282e859a70a",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 22:00:45 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 22:00:45 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38
+2024-08-11 22:00:45 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38...
+2024-08-11 22:00:46 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38 deleted successfully.
+2024-08-11 22:00:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:00:46 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:01:53 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:01:53 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:01:53 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:01:53 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 22:01:53 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+    method: 'POST',
+    url: 'https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user',
+    headers: {
+      Authorization: '[REDACTED]',
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    },
+    data: {
+  "emailAddress": "hje90798@zccck.com",
+  "products": []
+}
+  }
+2024-08-11 22:01:53 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:02:50 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:02:50 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:02:50 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 22:02:50 [020-CreateUser.test.js] [31merror[39m: Error creating user: Request failed with status code 400
+2024-08-11 22:02:50 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:02:50 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:04:54 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:04:54 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:04:54 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 22:04:54 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+    method: 'POST',
+    url: 'https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user',
+    headers: {
+      Authorization: '[REDACTED]',
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    },
+    data: {"emailAddress":"hje90798@zccck.com"}
+  }
+2024-08-11 22:04:54 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:04:54 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:05:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:05:17 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:05:17 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 22:05:17 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "hje90798@zccck.com",
+    "products": []
+  }
+}
+2024-08-11 22:05:19 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "self": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountId": "712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "accountType": "atlassian",
+    "emailAddress": "hje90798@zccck.com",
+    "avatarUrls": {
+      "48x48": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "24x24": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "16x16": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png",
+      "32x32": "https://secure.gravatar.com/avatar/a520add5fbd230a5929e2200ecc11019?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FH-1.png"
+    },
+    "displayName": "hje90798",
+    "active": true,
+    "timeZone": "America/Sao_Paulo",
+    "locale": "en_US",
+    "groups": {
+      "size": 0,
+      "items": []
+    },
+    "applicationRoles": {
+      "size": 0,
+      "items": []
+    },
+    "expand": "groups,applicationRoles"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 01:05:19 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "3b99d86e5716996b1ba4bbc628ef2303",
+    "set-cookie": "atlassian.xsrf.token=7897e0ecb61648416d579fd13a871bebae71535c_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "a01c4878e0fc4fb1ab32ab1d2fd23fa8",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 22:05:19 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 22:05:19 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38
+2024-08-11 22:05:19 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38...
+2024-08-11 22:05:20 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38 deleted successfully.
+2024-08-11 22:05:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:05:20 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:06:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:06:37 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:06:37 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 22:06:37 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "hje90798@zccck.com",
+    "products": []
+  }
+}
+2024-08-11 22:06:38 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "accountId": "712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "emailAddress": "hje90798@zccck.com"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 01:06:39 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "63c89e387e6e26ae9baddb02e65a6741",
+    "set-cookie": "atlassian.xsrf.token=3b9f2325f6878dae806dd2737945b90468ab2910_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "bc2ac86b4ec345b28d89c9fa010e62e9",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 22:06:38 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 22:06:38 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38
+2024-08-11 22:06:38 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38...
+2024-08-11 22:06:39 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:439fbd10-5f04-4a18-8fbe-6dac608c8b38 deleted successfully.
+2024-08-11 22:06:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:06:39 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:07:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:07:17 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:07:17 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 22:07:17 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "tks41607@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 22:07:20 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "accountId": "712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "emailAddress": "tks41607@tccho.com"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 01:07:20 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "71776a0058534446b34a403d3462ebc5",
+    "set-cookie": "atlassian.xsrf.token=729de33d4bb2a2861b1f94b93c1cbd06f33228c5_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "870323bb1753473eba1b0c43a22a802d",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 22:07:20 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 22:07:20 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-11 22:07:20 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-11 22:07:21 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-11 22:07:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:07:21 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:14:50 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:14:50 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:14:50 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 22:14:50 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "tks41607@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 22:14:51 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "accountId": "712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "emailAddress": "tks41607@tccho.com"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 01:14:52 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "06de967f80bab1f25816b4e0b28fa22b",
+    "set-cookie": "atlassian.xsrf.token=9bba9cb078f6db5fc75c280e92b8170deba9047c_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "717306ac64674a6ca47904d8d42ea729",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 22:14:51 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 22:14:51 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-11 22:14:51 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-11 22:14:52 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-11 22:14:52 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:14:52 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:15:00 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:15:00 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:15:02 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:15:02 [021-DeleteUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 22:15:02 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:15:03 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:17:31 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:17:31 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:17:33 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:17:33 [021-DeleteUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 22:17:33 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:17:34 [021-DeleteUser.test.js] [31merror[39m: Error occurred during the test: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m404[39m
+Received: [31m200[39m
+2024-08-11 22:17:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:17:34 [021-DeleteUser.test.js] [32minfo[39m: Attempting to delete user with ID 712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:17:34 [021-DeleteUser.test.js] [31merror[39m: Error occurred while trying to delete the user: Request failed with status code 401
+2024-08-11 22:17:34 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:19:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:19:26 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:19:28 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:19:28 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:19:28 [021-DeleteUser.test.js] [31merror[39m: Error occurred during the test: Request failed with status code 404
+2024-08-11 22:19:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:19:28 [021-DeleteUser.test.js] [31merror[39m: Error occurred while trying to delete the user: Request failed with status code 404
+2024-08-11 22:19:28 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:20:54 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:20:54 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:20:56 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:20:56 [021-DeleteUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 22:20:56 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:20:56 [021-DeleteUser.test.js] [31merror[39m: Error occurred during the test: Request failed with status code 404
+2024-08-11 22:20:56 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:20:56 [021-DeleteUser.test.js] [32minfo[39m: Attempting to delete user with ID 712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:20:56 [021-DeleteUser.test.js] [31merror[39m: Error occurred while trying to delete the user: Request failed with status code 404
+2024-08-11 22:20:56 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:22:10 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:22:10 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:22:13 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:22:13 [021-DeleteUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 22:22:13 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:22:13 [021-DeleteUser.test.js] [31merror[39m: Error occurred during the test: Request failed with status code 404
+2024-08-11 22:22:13 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:22:13 [021-DeleteUser.test.js] [32minfo[39m: Attempting to delete user with ID 712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:22:13 [021-DeleteUser.test.js] [31merror[39m: Error occurred while trying to delete the user: Request failed with status code 404
+2024-08-11 22:22:13 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:24:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:24:18 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:24:18 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:24:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:24:19 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:30:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:30:20 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:30:20 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:30:20 [021-DeleteUser.test.js] [32minfo[39m: Endpoint: /rest/api/3/user?accountId=712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:30:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:30:21 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:31:15 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:31:15 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:31:15 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:31:15 [021-DeleteUser.test.js] [32minfo[39m: Endpoint: /rest/api/3/user?accountId=712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:31:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:31:16 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:31:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:31:28 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:31:28 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:31:28 [021-DeleteUser.test.js] [32minfo[39m: Endpoint: /rest/api/3/user?accountId=712020:37d08ccd-71e9-45ca-9ca3-b5c7d854fc32
+2024-08-11 22:31:29 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:31:29 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:32:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:32:13 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:32:13 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:32:13 [021-DeleteUser.test.js] [32minfo[39m: Attempting to delete user at endpoint: https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//rest/api/3/user?accountId=712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:32:13 [021-DeleteUser.test.js] [32minfo[39m: Authorization header: Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF
+2024-08-11 22:32:13 [021-DeleteUser.test.js] [31merror[39m: Error during user deletion:
+2024-08-11 22:32:13 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:32:13 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:34:01 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:34:01 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:34:01 [021-DeleteUser.test.js] [32minfo[39m: Starting test: Delete a user from Jira
+2024-08-11 22:34:01 [021-DeleteUser.test.js] [32minfo[39m: Attempting to delete user at endpoint: https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//rest/api/3/user?accountId=712020:65060756-12bc-4168-8eec-4284a6217718
+2024-08-11 22:34:01 [021-DeleteUser.test.js] [32minfo[39m: Authorization header: Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF
+2024-08-11 22:34:02 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:34:02 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:38:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:38:26 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:38:26 [021-DeleteUser.test.js] [32minfo[39m: Creating user before each test.
+2024-08-11 22:38:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:38:26 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:39:20 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:39:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:39:20 [021-DeleteUser.test.js] [32minfo[39m: Creating user before each test.
+2024-08-11 22:39:21 [021-DeleteUser.test.js] [31merror[39m: Error creating user: Request failed with status code 404
+2024-08-11 22:39:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:39:21 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:40:36 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:40:36 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:40:36 [021-DeleteUser.test.js] [32minfo[39m: Creating user before each test.
+2024-08-11 22:40:37 [021-DeleteUser.test.js] [31merror[39m: Error creating user: Request failed with status code 404
+2024-08-11 22:40:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:40:37 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:41:36 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:41:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:46:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:46:02 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:46:02 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "testuser@example.com",
+    "products": []
+  }
+}
+2024-08-11 22:46:04 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc
+2024-08-11 22:46:04 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-11 22:46:04 [021-DeleteUser.test.js] [32minfo[39m: Deleting user with ID 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc...
+2024-08-11 22:46:05 [021-DeleteUser.test.js] [31merror[39m: DELETE response schema validation failed. Validation errors:
+2024-08-11 22:46:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:46:05 [021-DeleteUser.test.js] [32minfo[39m: User with ID 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc deleted successfully.
+2024-08-11 22:46:05 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:47:19 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:47:19 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:47:19 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "testuser@example.com",
+    "products": []
+  }
+}
+2024-08-11 22:47:21 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc
+2024-08-11 22:47:21 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-11 22:47:21 [021-DeleteUser.test.js] [32minfo[39m: Deleting user with ID 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc...
+2024-08-11 22:47:21 [021-DeleteUser.test.js] [31merror[39m: DELETE response schema validation failed. Validation errors:
+2024-08-11 22:47:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:47:21 [021-DeleteUser.test.js] [32minfo[39m: User with ID 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc deleted successfully.
+2024-08-11 22:47:21 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:51:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:51:35 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:51:35 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "oyg05797@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 22:51:38 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:51926cf1-4229-4c69-b9ac-332706d61c61
+2024-08-11 22:51:38 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-11 22:51:38 [021-DeleteUser.test.js] [32minfo[39m: Deleting user with ID 712020:51926cf1-4229-4c69-b9ac-332706d61c61...
+2024-08-11 22:51:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:52:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:52:17 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:52:17 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "testuser@example.com",
+    "products": []
+  }
+}
+2024-08-11 22:52:19 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc
+2024-08-11 22:52:19 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-11 22:52:20 [021-DeleteUser.test.js] [32minfo[39m: Deleting user with ID 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc...
+2024-08-11 22:52:20 [021-DeleteUser.test.js] [32minfo[39m: User with ID 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc deleted successfully.
+2024-08-11 22:52:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:52:20 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:52:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:52:58 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:52:58 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "fwr94282@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 22:53:00 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:51a97d46-620f-4981-a3e3-cd83036087c6
+2024-08-11 22:53:00 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-11 22:53:01 [021-DeleteUser.test.js] [32minfo[39m: Deleting user with ID 712020:51a97d46-620f-4981-a3e3-cd83036087c6...
+2024-08-11 22:53:01 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:51a97d46-620f-4981-a3e3-cd83036087c6 deleted successfully.
+2024-08-11 22:53:01 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:53:01 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 22:56:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 22:56:18 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 22:56:18 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "nnd21315@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 22:56:20 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:f9627fcf-38e1-4e44-909e-45f2830cd418
+2024-08-11 22:56:20 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-11 22:56:21 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:f9627fcf-38e1-4e44-909e-45f2830cd418 deleted successfully.
+2024-08-11 22:56:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 22:56:21 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 23:02:47 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:02:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:02:47 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "nnd21315@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 23:02:52 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:02:52 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 23:03:01 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:f9627fcf-38e1-4e44-909e-45f2830cd418
+2024-08-11 23:03:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:03:35 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:03:35 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "fwr94282@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 23:03:36 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:51a97d46-620f-4981-a3e3-cd83036087c6
+2024-08-11 23:03:36 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-11 23:03:37 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:51a97d46-620f-4981-a3e3-cd83036087c6 deleted successfully.
+2024-08-11 23:03:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:03:37 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 23:04:33 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:04:33 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:04:33 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "nnd21315@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 23:04:34 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:f9627fcf-38e1-4e44-909e-45f2830cd418
+2024-08-11 23:04:34 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-11 23:04:35 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:f9627fcf-38e1-4e44-909e-45f2830cd418 deleted successfully.
+2024-08-11 23:04:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:04:35 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 23:06:56 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:06:56 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:06:56 [021-DeleteUser.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "nnd21315@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 23:06:58 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:f9627fcf-38e1-4e44-909e-45f2830cd418
+2024-08-11 23:06:58 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-11 23:06:59 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:f9627fcf-38e1-4e44-909e-45f2830cd418 deleted successfully.
+2024-08-11 23:06:59 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:06:59 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 23:07:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:07:14 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:07:14 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 23:07:14 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "tks41607@tccho.com",
+    "products": []
+  }
+}
+2024-08-11 23:07:16 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "accountId": "712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "emailAddress": "tks41607@tccho.com"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 02:07:17 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "0ac2cb79d5ab448869f0f954069f6139",
+    "set-cookie": "atlassian.xsrf.token=a98ce13b84f4a173dcf5e39d57c2873f62824741_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "7d23f97c11064aab891d63e2215eddd6",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-11 23:07:16 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-11 23:07:16 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-11 23:07:16 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-11 23:07:17 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-11 23:07:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:07:17 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-11 23:09:57 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:09:57 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-11 23:09:58 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:11:55 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:11:55 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-11 23:11:55 [022-GetAllUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:11:55 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:13:55 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:13:55 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-11 23:13:55 [022-GetAllUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:13:55 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:14:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:14:44 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-11 23:14:44 [022-GetAllUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:14:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:21:07 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:21:07 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-11 23:21:07 [022-GetAllUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:21:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:27:24 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:27:24 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:27:24 [023-BulkGetUsers.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "jpm42903@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 23:27:26 [023-BulkGetUsers.test.js] [32minfo[39m: User created successfully with ID: 712020:94fe2f35-0203-4ceb-bde8-bca1b9d99fc2
+2024-08-11 23:27:26 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:27:26 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:27:26 [023-BulkGetUsers.test.js] [32minfo[39m: Deleting user with ID: 712020:94fe2f35-0203-4ceb-bde8-bca1b9d99fc2
+2024-08-11 23:27:27 [023-BulkGetUsers.test.js] [32minfo[39m: User with ID 712020:94fe2f35-0203-4ceb-bde8-bca1b9d99fc2 deleted successfully.
+2024-08-11 23:27:27 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:28:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:28:45 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:28:45 [023-BulkGetUsers.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "testuser@example.com",
+    "products": []
+  }
+}
+2024-08-11 23:28:47 [023-BulkGetUsers.test.js] [32minfo[39m: User created successfully with ID: 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc
+2024-08-11 23:28:47 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:28:47 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:28:47 [023-BulkGetUsers.test.js] [32minfo[39m: Deleting user with ID: 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc
+2024-08-11 23:28:48 [023-BulkGetUsers.test.js] [32minfo[39m: User with ID 557058:72881bfe-70c5-40ac-8b73-3ed3299aebcc deleted successfully.
+2024-08-11 23:28:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:29:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:29:58 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:29:58 [023-BulkGetUsers.test.js] [32minfo[39m: Creating user with details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "jpm42903@nowni.com",
+    "products": []
+  }
+}
+2024-08-11 23:30:00 [023-BulkGetUsers.test.js] [32minfo[39m: User created successfully with ID: 712020:94fe2f35-0203-4ceb-bde8-bca1b9d99fc2
+2024-08-11 23:30:00 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:30:00 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:30:00 [023-BulkGetUsers.test.js] [32minfo[39m: Deleting user with ID: 712020:94fe2f35-0203-4ceb-bde8-bca1b9d99fc2
+2024-08-11 23:30:01 [023-BulkGetUsers.test.js] [32minfo[39m: User with ID 712020:94fe2f35-0203-4ceb-bde8-bca1b9d99fc2 deleted successfully.
+2024-08-11 23:30:01 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:34:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:34:38 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:34:38 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:34:39 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:34:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:37:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:37:26 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:37:26 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:37:27 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:37:27 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:38:41 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:38:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:38:41 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:38:41 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:38:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:39:44 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:39:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:39:44 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:39:45 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:39:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:41:07 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:41:07 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:41:07 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:41:08 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:41:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:42:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:42:41 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:42:41 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:42:42 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:42:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:43:29 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:43:29 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:43:29 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:43:30 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:43:30 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:44:10 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:44:10 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:44:10 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:44:11 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:44:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:47:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:47:47 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:47:47 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:47:47 [023-BulkGetUsers.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:47:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:51:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:51:40 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:51:40 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:51:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:53:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:53:13 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-11 23:53:13 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-11 23:53:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:54:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:54:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:57:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:57:36 [024-GetUserGroups.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:57:36 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-11 23:59:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 23:59:13 [024-GetUserGroups.test.js] [32minfo[39m: Response from API:
+2024-08-11 23:59:13 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:00:32 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:00:33 [024-GetUserGroups.test.js] [32minfo[39m: Response from API:
+2024-08-12 00:00:33 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:04:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:04:29 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-12 00:04:29 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:08:29 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:08:29 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-12 00:08:29 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:14:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:14:17 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-12 00:14:18 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-12 00:14:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:14:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:14:41 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:14:41 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-12 00:14:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:18:12 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:18:12 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-12 00:18:13 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-12 00:18:13 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:23:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:23:25 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:23:27 [021-DeleteUser.test.js] [32minfo[39m: User created successfully with ID: 712020:a2bb854f-6b7b-4533-aacc-8da5b22832a3
+2024-08-12 00:23:27 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-12 00:23:27 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:a2bb854f-6b7b-4533-aacc-8da5b22832a3 deleted successfully.
+2024-08-12 00:23:27 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:23:27 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-12 00:26:19 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:26:19 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:26:19 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-12 00:26:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:28:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:28:25 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-12 00:28:25 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:29:33 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-12 00:29:33 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:29:34 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-12 00:29:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:31:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:31:04 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-12 00:31:05 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-12 00:31:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:36:12 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:36:12 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:36:14 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-12 00:36:14 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-12 00:36:14 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:f9627fcf-38e1-4e44-909e-45f2830cd418 deleted successfully.
+2024-08-12 00:36:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:36:14 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-12 00:40:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:13 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-12 00:40:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:13 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Checking if the project exists before creating a new one
+2024-08-12 00:40:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:13 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-12 00:40:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:13 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-12 00:40:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:13 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-12 00:40:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:14 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-12 00:40:14 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-12 00:40:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:14 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-12 00:40:14 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:14 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:14 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:14 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:14 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [31merror[39m: Error creating or verifying project:
+2024-08-12 00:40:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:14 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-12 00:40:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:14 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-12 00:40:15 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:15 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:15 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-12 00:40:15 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:16 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-12 00:40:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:16 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-12 00:40:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:16 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-12 00:40:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:16 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-12 00:40:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:16 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-12 00:40:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:16 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-12 00:40:16 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-12 00:40:16 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:16 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:16 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:17 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:17 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-12 00:40:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:17 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:18 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-12 00:40:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:18 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-12 00:40:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:18 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-12 00:40:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:18 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-12 00:40:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:18 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-12 00:40:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:18 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-12 00:40:19 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-12 00:40:19 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-12 00:40:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:19 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:19 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:19 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:19 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:19 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:20 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-12 00:40:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:21 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-12 00:40:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:21 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-12 00:40:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-12 00:40:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:21 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-12 00:40:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:21 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-12 00:40:21 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-12 00:40:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-12 00:40:22 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:22 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:22 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:22 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:22 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-12 00:40:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:24 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:24 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-12 00:40:24 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:25 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-12 00:40:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:25 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-12 00:40:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:25 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-12 00:40:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:25 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-12 00:40:25 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-12 00:40:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:25 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting the test setup
+2024-08-12 00:40:25 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-12 00:40:25 [039-EditeCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-12 00:40:25 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Received response for project EX
+2024-08-12 00:40:25 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:25 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-12 00:40:25 [015 Check if it is possible to list all visible projects.test.js] [32minfo[39m: Received response for visible projects
+2024-08-12 00:40:25 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:25 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-12 00:40:25 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting to list the available project types
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:26 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-12 00:40:26 [038-IssueChangeLog.test.js] [32minfo[39m: Check an issues change log
+2024-08-12 00:40:26 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-12 00:40:26 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Received response for project types
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:26 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:26 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:27 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-12 00:40:27 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:27 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:40:27 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:27 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-12 00:40:27 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:27 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:40:27 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-12 00:40:27 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "tks41607@tccho.com",
+    "products": []
+  }
+}
+2024-08-12 00:40:27 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-12 00:40:27 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:27 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:27 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:40:27 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-12 00:40:27 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:27 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:28 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:28 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-12 00:40:28 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:28 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-12 00:40:28 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:28 [022-GetAllUsers.test.js] [32minfo[39m: Response from API:
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:28 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "accountId": "712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "emailAddress": "tks41607@tccho.com"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 03:40:29 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "7458d416f58e8d04ca1be7fb0185275f",
+    "set-cookie": "atlassian.xsrf.token=aba0d29e8a7dfe468528ade4955c7e8e1cfef953_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "2ff7fdf5e540475aa0726face9b260e4",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:28 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-12 00:40:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:28 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-12 00:40:28 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-12 00:40:28 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-12 00:40:29 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:30 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:30 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:30 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-12 00:40:30 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:30 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-12 00:40:31 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:31 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:33 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:33 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-12 00:40:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:40:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:40:36 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:41:02 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:41:02 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-12 00:41:02 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:41:02 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:41:02 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:41:02 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-12 00:41:02 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "tks41607@tccho.com",
+    "products": []
+  }
+}
+2024-08-12 00:41:02 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:41:02 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:41:02 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:41:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 00:41:02 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 00:41:02 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-12 00:41:03 [022-GetAllUsers.test.js] [32minfo[39m: Response from API:
+2024-08-12 00:41:03 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:41:03 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:41:03 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-12 00:41:03 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-12 00:41:03 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "accountId": "712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "emailAddress": "tks41607@tccho.com"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 03:41:04 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "7c8fed5b869b831d70ca3429fd9f5aaa",
+    "set-cookie": "atlassian.xsrf.token=98fab3b3e5648bc815cb565e83d2b22a528e86db_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "385f8a093f4a484ba4d710bf3d6922e3",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-12 00:41:03 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-12 00:41:03 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-12 00:41:03 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-12 00:41:04 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:f9627fcf-38e1-4e44-909e-45f2830cd418 deleted successfully.
+2024-08-12 00:41:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:41:04 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-12 00:41:04 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-12 00:41:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 00:41:04 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.

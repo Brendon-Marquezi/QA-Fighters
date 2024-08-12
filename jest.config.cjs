@@ -5,12 +5,11 @@
 
 /** @type {import('jest').Config} */
 const config = {
-
-    // Usa 50% dos núcleos da CPU para executar testes em paralelo
-    maxWorkers: "50%",
+  // Usa 50% dos núcleos da CPU para executar testes em paralelo
+  maxWorkers: '40%',
   // All imported modules in your tests should be mocked automatically
   // automock: false,
-   // Para a execução dos testes na primeira falha
+  // Para a execução dos testes n primeira falha
   //  bail: true,
 
   // Stop running tests after `n` failures
@@ -177,7 +176,7 @@ const config = {
         pageTitle: '- Jira API Testing Framework Report - by QA Fighters Team',
         darkTheme: true,
         openReport: true,
-      }
+      },
     ],
   ],
   // The regexp pattern or array of patterns that Jest uses to detect test files

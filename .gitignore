@@ -5,3 +5,5 @@ newman/reports/
 *.postman_collection.json
 
 .env
+
+env.json

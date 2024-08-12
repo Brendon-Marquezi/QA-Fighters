@@ -3,10 +3,9 @@ const logger = require('#utils/logger')(__filename);
 
 const RequestManager = require('#utils/requestManager');
 
-let requestManager;
-
 let createdIssueId = '';
 
+let requestManager;
 
 const jsonData = {
   fields: {
@@ -36,9 +35,8 @@ const jsonData = {
 };
 
 beforeEach(async () => {
-  logger.info('Starting to create an issue');
   requestManager = RequestManager.getInstance(env.environment.base_url);
-
+  logger.info('Starting to create an issue');
   const issueResponse = await requestManager.send(
     'post',
     'issue',
@@ -51,24 +49,27 @@ beforeEach(async () => {
 });
 
 afterEach(async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   logger.info('Starting issue selection check');
   if (createdIssueId) {
     await requestManager.send(
       'delete',
       `issue/${createdIssueId}`,
       {},
-      { Authorization: global.basicAuth },
+      {Authorization: global.basicAuth},
     );
   }
 });
 
 test('Check if you can edit an issue name', async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
   logger.info('Check if you can edit an issue name');
   const updateResponse = await requestManager.send(
     'put',
     `issue/${createdIssueId}`,
     {},
-    { Authorization: global.basicAuth },
+    { Authorization: global.basicAuth},
     {
       fields: {
         summary: 'Testing editing an issue name',
@@ -82,7 +83,7 @@ test('Check if you can edit an issue name', async () => {
     'get',
     `issue/${createdIssueId}`,
     {},
-    { Authorization: global.basicAuth },
+    {Authorization: global.basicAuth },
   );
 
   expect(issueResponse.data.fields.summary).toBe(

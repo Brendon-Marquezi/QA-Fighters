@@ -3,8 +3,6 @@ const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 const validateSchema = require('#configs/schemaValidation');
 
-
-
 let requestManager;
 
 let createdGroupId = '';

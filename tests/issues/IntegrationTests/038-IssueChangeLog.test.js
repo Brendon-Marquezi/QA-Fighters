@@ -8,8 +8,8 @@ let requestManager;
 let createdIssueId;
 
 beforeEach(async () => {
-  logger.info('Starting to create an issue');
   requestManager = RequestManager.getInstance(env.environment.base_url);
+  logger.info('Starting to create an issue');
   const issueResponse = await requestManager.send(
     'post',
     'issue',
@@ -46,9 +46,8 @@ beforeEach(async () => {
 });
 
 afterEach(async () => {
-  logger.info('Starting to delete an issue');
   requestManager = RequestManager.getInstance(env.environment.base_url);
-
+  logger.info('Starting to delete an issue');
   await requestManager.send(
     'delete',
     `issue/${createdIssueId}`,
@@ -58,13 +57,14 @@ afterEach(async () => {
 });
 
 test("Check an issue's change log", async () => {
+  requestManager = RequestManager.getInstance(env.environment.base_url);
   logger.info('Check an issues change log');
   const endpoint = `issue/${createdIssueId}/changelog`;
   let response = await requestManager.send(
     'get',
     endpoint,
     {},
-    { Authorization: global.basicAuth },
+    { Authorization: global.basicAuth},
   );
 
   expect(response.status).toBe(200);

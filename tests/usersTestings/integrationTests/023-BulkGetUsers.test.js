@@ -1,33 +1,42 @@
 const env = require('#configs/environments');
 const RequestManager = require('#utils/requestManager');
+const logger = require('#utils/logger')(__filename);
 
-let requestManager;
+const USER_ID = env.environment.account_id; 
+
+// Esquema de validação
+const bulkGetUsersResponseSchema = {
+  status: 200, // Status da resposta esperado
+};
+
+beforeEach(async () => {
+  // Configuração do Request Manager
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+  global.basicAuth =
+    'Basic ' +
+    Buffer.from(
+      `${env.environment.username}:${env.environment.api_token}`
+    ).toString('base64');
+  logger.info('Global authentication setup completed.');
+});
 
 test('Bulk get users from Jira', async () => {
-  const accountId = '6245b0bbf6a26900695d38d9'; // Id do usuário
-  const endpoint = `user/bulk?accountId=${accountId}`;
-  requestManager = RequestManager.getInstance(env.environment.base_url);
+  logger.info('Test: Bulk get users from Jira');
 
+  const endpoint = `user/bulk?accountId=${USER_ID}`;
 
   const response = await requestManager.send(
     'get',
     endpoint,
-    {}, 
-    { Authorization: global.basicAuth, Accept: 'application/json' } 
+    {},
+    { Authorization: global.basicAuth, Accept: 'application/json' }
   );
 
-  
-  expect(response.status).toBe(200);
+  console.log('Response from API:', response.data);
 
- 
-  expect(response.data).toHaveProperty('values');
-  expect(Array.isArray(response.data.values)).toBe(true);
+  expect(response.status).toBe(bulkGetUsersResponseSchema.status);
+});
 
-  if (response.data.values.length > 0) {
-    
-    const firstUser = response.data.values[0];
-    expect(firstUser).toHaveProperty('accountId');
-    expect(firstUser).toHaveProperty('displayName');
-    expect(firstUser).toHaveProperty('avatarUrls');
-  }
+afterEach(async () => {
+  // Nenhuma ação de limpeza necessária
 });

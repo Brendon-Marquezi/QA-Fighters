@@ -2,11 +2,11 @@ const env = require('#configs/environments');
 const RequestManager = require('#utils/requestManager');
 
 describe('Invalid Basic Auth', () => {
-  let basicAuth;
+  let invalidBasicAuth;
   let requestManager;
 
   beforeEach(() => {
-    basicAuth =
+    invalidBasicAuth =
       'Basic ' +
       Buffer.from(
         `${env.environment.username}:${env.environment.invalid_api_token}`,
@@ -20,7 +20,7 @@ describe('Invalid Basic Auth', () => {
       'get',
       'events',
       {},
-      { Authorization: basicAuth },
+      { Authorization: invalidBasicAuth },
     );
 
     expect(response.status).toBe(401);

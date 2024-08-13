@@ -21,8 +21,8 @@ describe('Project', () => {
     };
     
     jsonData = {
-      key: 'EXIT60',
-      name: 'Example Project160',
+      key: 'EXIT620',
+      name: 'Example Project1620',
       projectTypeKey: 'software',
       projectTemplateKey:
         'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',

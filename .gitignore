@@ -1,7 +1,14 @@
 node_modules/
 coverage/
+reports/
+.idea/
+
+logsError.log
+logsInfo.log
 
 newman/reports/
 *.postman_collection.json
 
 .env
+
+env.json

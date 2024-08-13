@@ -1,67 +1,76 @@
-const RequestManager = require('#utils/requestManager');
 const env = require('#configs/environments');
+const RequestManager = require('#utils/requestManager');
+const logger = require('#utils/logger')(__filename);
 
-let requestManager
+let requestManager;
 
-let accountIdToDelete;
+// Esquema de validação
+const deleteResponseSchema = {
+  status: 204,
+  data: '' // A resposta deve ser uma string vazia
+};
 
-beforeAll(async () => {
-  // Criação de um usuário para exclusão no teste
-  const endpoint = 'user'; 
+let createdUserId = null;
+
+beforeEach(async () => {
+  // Configuração do Request Manager
   requestManager = RequestManager.getInstance(env.environment.base_url);
+  global.basicAuth =
+    'Basic ' +
+    Buffer.from(
+      `${env.environment.username}:${env.environment.api_token}`
+    ).toString('base64');
+  logger.info('Global authentication setup completed.');
 
-  
+  // Criação de um usuário para exclusão no teste
+  const endpoint = 'user';
   const bodyData = {
-    emailAddress: 'qsf66236@zccck.com',
-    products: [],
+    emailAddress: 'nnd21315@tccho.com',
+    products: []
   };
 
+  // Criação do usuário e logging com mensagem de sucesso
   const response = await requestManager.send(
     'post',
     endpoint,
-    {}, 
+    {},
     { Authorization: global.basicAuth, Accept: 'application/json', 'Content-Type': 'application/json' },
-    bodyData 
+    bodyData
   );
 
   if (response.status === 201) {
-    accountIdToDelete = response.data.accountId;
+    createdUserId = response.data.accountId;
+    logger.info('User created successfully for deletion test.');
   } else {
     throw new Error('Failed to create user for deletion test');
   }
 });
 
-afterAll(async () => {
-  // Exclusão do usuário criado após o teste
-  if (accountIdToDelete) {
-    const endpoint = `user?accountId=${accountIdToDelete}`;
-    const response = await requestManager.send(
-      'delete',
-      endpoint,
-      {}, 
-      { Authorization: global.basicAuth, Accept: 'application/json' }
-    );
-    if (response.status !== 204) {
-      throw new Error('Failed to delete test user');
-    }
-  }
-});
-
 test('Delete a user from Jira', async () => {
-  expect(accountIdToDelete).toBeTruthy();
+  logger.info('Test: Delete a user from Jira');
 
-  const endpoint = `user?accountId=${accountIdToDelete}`;
+  expect(createdUserId).toBeTruthy();
+
+  const endpoint = `user?accountId=${createdUserId}`;
 
   const response = await requestManager.send(
     'delete',
     endpoint,
-    {}, 
+    {},
     { Authorization: global.basicAuth, Accept: 'application/json' }
   );
 
-  
-  expect(response.status).toBe(204);
+  // Validação da resposta do DELETE
+  expect(response.status).toBe(deleteResponseSchema.status); 
 
-  
-  expect(response.data).toBe('');
+  // Verifica que o corpo da resposta está vazio
+  expect(response.data).toBe(deleteResponseSchema.data);
+
+  logger.info(`User with ID ${createdUserId} deleted successfully.`);
+  createdUserId = null;
+});
+
+afterAll(() => {
+  global.basicAuth = null;
+  logger.info('Global authentication cleared.');
 });

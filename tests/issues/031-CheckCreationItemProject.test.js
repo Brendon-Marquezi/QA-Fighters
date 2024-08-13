@@ -2,13 +2,9 @@ const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-const requestManager = new RequestManager(env.environment.base_url);
+let requestManager;
 
-const basicAuth =
-  'Basic ' +
-  Buffer.from(
-    `${env.environment.username}:${env.environment.api_token}`,
-  ).toString('base64');
+let issueResponseId;
 
 const jsonData = {
   fields: {
@@ -42,15 +38,18 @@ const jsonData = {
   ],
 };
 
-let issueResponseId;
+
 
 test('Check the creation of an item in a project', async () => {
   logger.info('Sending a request to create an item in the project.');
+
+  requestManager = RequestManager.getInstance(env.environment.base_url);
+
   let response = await requestManager.send(
     'post',
     'issue',
     {},
-    { Authorization: `${basicAuth}` },
+    { Authorization: global.basicAuth },
     jsonData,
   );
   logger.info('Request sent successfully.');
@@ -73,7 +72,7 @@ afterEach(async () => {
       'delete',
       `issue/${issueResponseId}`,
       {},
-      { Authorization: `${basicAuth}` },
+      { Authorization: global.basicAuth },
     );
   }
 });

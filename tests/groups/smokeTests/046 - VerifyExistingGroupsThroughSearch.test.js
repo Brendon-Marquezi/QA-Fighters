@@ -33,19 +33,19 @@ const groupSchema = {
 };
 
 
-beforeEach(async () => {
+test('Verify existing groups through a search', async () => {
     logger.info('Starting group creation and user addition.');
     requestManager = RequestManager.getInstance(env.environment.base_url);
 
     // Group search
-    const searchResponse = await requestManager.send(
+    const searchResponseGroup = await requestManager.send(
         'get',
         `groups/picker?query=${encodeURIComponent(env.environment.group_name)}`,
         {},
         { Authorization: global.basicAuth }
     );
 
-    const existingGroup = searchResponse.data.groups.find(
+    const existingGroup = searchResponseGroup.data.groups.find(
         (group) => group.name === env.environment.group_name
     );
 
@@ -79,9 +79,9 @@ beforeEach(async () => {
     } else {
         logger.error(`Failed to add user ${userIdToAdd} to group ${createdGroupId}. Status: ${addUserResponse.status}`);
     }
-});
 
-test('Verify existing groups through a search', async () => {
+
+
     logger.info('Starting test to verify group search.');
 
     // Execute the search query

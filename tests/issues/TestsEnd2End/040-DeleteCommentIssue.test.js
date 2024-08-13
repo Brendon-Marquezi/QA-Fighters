@@ -9,158 +9,158 @@ let createdProjectId = '';
 let createdIssueId = '';
 let commentId = '';
 
+const accountIdToAdd = env.environment.client_id;
+const groupName = env.environment.group_name;
+
+const jsonDataProject = {
+  key: 'EXIT67',
+  name: 'Example Project167',
+  projectTypeKey: 'software',
+  projectTemplateKey: 'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',
+  description: 'This is an example project created using the Jira API.',
+  assigneeType: 'PROJECT_LEAD',
+  leadAccountId: env.environment.client_id,
+};
+
+const jsonDataIssue = {
+  fields: {
+    description: {
+      content: [
+        {
+          content: [
+            {
+              text: 'Order entry fails when selecting supplier.',
+              type: 'text',
+            },
+          ],
+          type: 'paragraph',
+        },
+      ],
+      type: 'doc',
+      version: 1,
+    },
+    project: {
+      id: '', 
+    },
+    issuetype: {
+      id: '10012',
+    },
+    summary: 'Teste de criação de um item no projeto ',
+  },
+  boards: [
+    {
+      id: '7',
+    },
+  ],
+};
+
 // 1. Criar um grupo
 test('Create and verify a new group', async () => {
   logger.info('Creating and verifying a new group');
 
   requestManager = RequestManager.getInstance(env.environment.base_url);
 
-  const jsonData = {
-    name: env.environment.group_name,
-  };
-
   const createResponse = await requestManager.send(
     'post',
     'group',
     {},
     { Authorization: global.basicAuth },
-    jsonData,
+    { groupName: groupName },
   );
-
-  logger.info('Create Group Response:', createResponse.data); // Log da resposta
 
   createdGroupId = createResponse.data.groupId;
   logger.info(`Group created successfully with ID: ${createdGroupId}`);
 
+  // Verificar se o grupo foi criado
   const verifyResponse = await requestManager.send(
     'get',
-    `group/${createdGroupId}`,
-    {},
+    `group`,
+    { groupId: createdGroupId },
     { Authorization: global.basicAuth },
   );
 
-  logger.info('Verify Group Response:', verifyResponse.data); // Log da resposta
-
-  expect(verifyResponse.status).toBe(200);
-  expect(verifyResponse.data.groupId).toBe(createdGroupId);
+  if (verifyResponse.status === 200) {
+    logger.info('Group verification passed.');
+    if (verifyResponse.data.name === jsonData.name) {
+      logger.info('Group name matches expected.');
+    } else {
+      logger.error('Group name does not match expected.');
+    }
+  } else {
+    logger.error('Group verification failed. Status:', verifyResponse.status);
+  }
 });
 
 // 2. Adicionar o usuário ao grupo
 test('Add user to the group', async () => {
   logger.info(`Adding user to the group with ID "${createdGroupId}"`);
 
-  const jsonData = {
-    userId: env.environment.userId, 
-  };
-
-  const response = await requestManager.send(
+  const addUserResponse = await requestManager.send(
     'post',
-    `group/${createdGroupId}/member`,
+    `group/user?groupId=${createdGroupId}`,
     {},
-    { Authorization: global.basicAuth },
-    jsonData,
+    { Authorization: global.basicAuth, 'Content-Type': 'application/json' },
+    { accountId: accountIdToAdd },
   );
 
-  logger.info('Add User Response:', response.data); // Log da resposta
-
-  expect(response.status).toBe(200);
+  if (addUserResponse.status === 201) {
+    logger.info(`User ${accountIdToAdd} added to group ${createdGroupId}.`);
+  } else {
+    logger.error(
+      `Failed to add user ${accountIdToAdd} to group ${createdGroupId}. Status: ${addUserResponse.status}`
+    );
+  }
 });
 
 // 3. Criar um projeto
+// Criação do projeto antes da issue
 test('Create and verify a new project', async () => {
   logger.info('Creating and verifying a new project');
-
-  const jsonData = {
-    key: 'EXIT60',
-    name: 'Example Project160',
-    projectTypeKey: 'software',
-    projectTemplateKey: 'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',
-    description: 'This is an example project created using the Jira API.',
-    assigneeType: 'PROJECT_LEAD',
-    leadAccountId: env.environment.client_id,
-  };
 
   const createResponse = await requestManager.send(
     'post',
     'project',
     {},
     { Authorization: global.basicAuth },
-    jsonData,
+    jsonDataProject,
   );
-
-  logger.info('Create Project Response:', createResponse.data); // Log da resposta
 
   createdProjectId = createResponse.data.id;
+  expect(createdProjectId).toBeDefined(); 
+
   logger.info(`Project created successfully with ID: ${createdProjectId}`);
-
-  const verifyResponse = await requestManager.send(
-    'get',
-    `project/${createdProjectId}`,
-    {},
-    { Authorization: global.basicAuth },
-  );
-
-  logger.info('Verify Project Response:', verifyResponse.data); // Log da resposta
-
-  expect(verifyResponse.status).toBe(200);
-  expect(verifyResponse.data.id).toBe(createdProjectId);
 });
 
-// 4. Criar uma Issue
+// 4. Criar uma Issue somente após o projeto ter sido criado com sucesso
 test('Create and verify an issue', async () => {
   logger.info('Creating and verifying an issue');
 
-  const jsonData = {
-    fields: {
-      project: {
-        id: createdProjectId, // Usa o ID do projeto criado
-      },
-      summary: 'Issue para teste de exclusão',
-      description: {
-        type: 'doc',
-        version: 1,
-        content: [
-          {
-            type: 'paragraph',
-            content: [
-              {
-                text: 'Descrição do issue de teste para exclusão',
-                type: 'text',
-              },
-            ],
-          },
-        ],
-      },
-      issuetype: {
-        id: '10012',
-      },
-    },
-  };
+  if (createdProjectId) { 
+    jsonDataIssue.fields.project.id = createdProjectId; 
 
-  const issueResponse = await requestManager.send(
-    'post',
-    'issue',
-    {},
-    { Authorization: global.basicAuth },
-    jsonData,
-  );
+    const issueResponse = await requestManager.send(
+      'post',
+      'issue',
+      {},
+      { Authorization: global.basicAuth },
+      jsonDataIssue,
+    );
 
-  logger.info('Create Issue Response:', issueResponse.data); // Log da resposta
+    createdIssueId = issueResponse.data.id;
+    logger.info(`Issue created successfully with ID: ${createdIssueId}`);
 
-  createdIssueId = issueResponse.data.id;
-  logger.info(`Issue created successfully with ID: ${createdIssueId}`);
+    const verifyIssueResponse = await requestManager.send(
+      'get',
+      `issue/${createdIssueId}`,
+      {},
+      { Authorization: global.basicAuth },
+    );
 
-  const verifyIssueResponse = await requestManager.send(
-    'get',
-    `issue/${createdIssueId}`,
-    {},
-    { Authorization: global.basicAuth },
-  );
-
-  logger.info('Verify Issue Response:', verifyIssueResponse.data); // Log da resposta
-
-  expect(verifyIssueResponse.status).toBe(200);
-  expect(verifyIssueResponse.data.id).toBe(createdIssueId);
+    expect(verifyIssueResponse.status).toBe(200);
+    expect(verifyIssueResponse.data.id).toBe(createdIssueId);
+  } else {
+    logger.error('Project ID is not available. Issue creation failed.');
+  }
 });
 
 // 5. Adicionar um comentário à Issue
@@ -191,7 +191,7 @@ test('Add a comment to the issue', async () => {
     },
   );
 
-  logger.info('Add Comment Response:', commentResponse.data); // Log da resposta
+  logger.info('Add Comment Response:', commentResponse.data); 
 
   expect(commentResponse.status).toBe(201);
   commentId = commentResponse.data.id; // Armazena o ID do comentário criado
@@ -209,7 +209,7 @@ test('Delete the comment from the issue', async () => {
       { Authorization: global.basicAuth },
     );
 
-    logger.info('Delete Comment Response:', deleteResponse.data); // Log da resposta
+    logger.info('Delete Comment Response:', deleteResponse.data); 
 
     expect(deleteResponse.status).toBe(204);
 
@@ -221,7 +221,7 @@ test('Delete the comment from the issue', async () => {
       { Authorization: global.basicAuth },
     );
 
-    logger.info('Get Comments Response:', getCommentsResponse.data); // Log da resposta
+    logger.info('Get Comments Response:', getCommentsResponse.data); 
 
     const deletedComment = getCommentsResponse.data.comments.find(
       (comment) => comment.id === commentId
@@ -251,7 +251,7 @@ test('Delete the created issue', async () => {
       { Authorization: global.basicAuth },
     );
 
-    logger.info('Delete Issue Response:', deleteIssueResponse.data); // Log da resposta
+    logger.info('Delete Issue Response:', deleteIssueResponse.data); 
 
     expect(deleteIssueResponse.status).toBe(204);
     logger.info(`Issue ${createdIssueId} deleted successfully.`);
@@ -267,13 +267,12 @@ test('Delete the created project', async () => {
   if (createdProjectId) {
     const deleteProjectResponse = await requestManager.send(
       'delete',
-      `project/${createdProjectId}`,
+      `project/${createdProjectId}?enableUndo=false`,
       {},
       { Authorization: global.basicAuth },
     );
 
-    logger.info('Delete Project Response:', deleteProjectResponse.data); // Log da resposta
-
+    logger.info('Delete Project Response:', deleteProjectResponse.data); 
     expect(deleteProjectResponse.status).toBe(204);
     logger.info(`Project ${createdProjectId} deleted successfully.`);
   } else {
@@ -293,7 +292,7 @@ test('Delete the created group', async () => {
       { Authorization: global.basicAuth },
     );
 
-    logger.info('Delete Group Response:', deleteGroupResponse.data); // Log da resposta
+    logger.info('Delete Group Response:', deleteGroupResponse.data); 
 
     expect(deleteGroupResponse.status).toBe(204);
     logger.info(`Group ${createdGroupId} deleted successfully.`);

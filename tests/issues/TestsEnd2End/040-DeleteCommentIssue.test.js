@@ -45,7 +45,7 @@ const jsonDataIssue = {
     issuetype: {
       id: '10012',
     },
-    summary: 'Teste de criação de um item no projeto ',
+    summary: 'Teste de criação de um item no projeto 040 ',
   },
   boards: [
     {
@@ -197,7 +197,7 @@ test('Add a comment to the issue', async () => {
   commentId = commentResponse.data.id; // Armazena o ID do comentário criado
 });
 
-// 6. Excluir o comentário da Issue
+// 6. Excluir o comentário da Issue (Principal)
 test('Delete the comment from the issue', async () => {
   logger.info('Deleting the comment from the issue');
 
@@ -238,47 +238,6 @@ test('Delete the comment from the issue', async () => {
 });
 
 // Limpeza do sistema
-
-// 7. Excluir a Issue
-test('Delete the created issue', async () => {
-  logger.info(`Deleting the created issue with ID: ${createdIssueId}`);
-
-  if (createdIssueId) {
-    const deleteIssueResponse = await requestManager.send(
-      'delete',
-      `issue/${createdIssueId}`,
-      {},
-      { Authorization: global.basicAuth },
-    );
-
-    logger.info('Delete Issue Response:', deleteIssueResponse.data); 
-
-    expect(deleteIssueResponse.status).toBe(204);
-    logger.info(`Issue ${createdIssueId} deleted successfully.`);
-  } else {
-    logger.info('No issue ID available for deletion.');
-  }
-});
-
-// 8. Excluir o projeto
-test('Delete the created project', async () => {
-  logger.info(`Deleting the created project with ID: ${createdProjectId}`);
-
-  if (createdProjectId) {
-    const deleteProjectResponse = await requestManager.send(
-      'delete',
-      `project/${createdProjectId}?enableUndo=false`,
-      {},
-      { Authorization: global.basicAuth },
-    );
-
-    logger.info('Delete Project Response:', deleteProjectResponse.data); 
-    expect(deleteProjectResponse.status).toBe(204);
-    logger.info(`Project ${createdProjectId} deleted successfully.`);
-  } else {
-    logger.info('No project ID available for deletion.');
-  }
-});
 
 // 9. Excluir o grupo
 test('Delete the created group', async () => {

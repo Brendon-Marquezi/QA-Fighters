@@ -12,66 +12,69 @@ let commentId = '';
 const accountIdToAdd = env.environment.client_id;
 const groupName = env.environment.group_name;
 
-const jsonDataProject = {
-  key: 'EXIT67',
-  name: 'Example Project167',
-  projectTypeKey: 'software',
-  projectTemplateKey: 'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',
-  description: 'This is an example project created using the Jira API.',
-  assigneeType: 'PROJECT_LEAD',
-  leadAccountId: env.environment.client_id,
-};
 
-const jsonDataIssue = {
-  fields: {
-    description: {
-      content: [
-        {
+const jsonDataProject = {
+      key: 'EXIT67',
+      name: 'Example Project167',
+      projectTypeKey: 'software',
+      projectTemplateKey:
+        'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',
+      description: 'This is an example project created using the Jira API.',
+      assigneeType: 'PROJECT_LEAD',
+      leadAccountId: env.environment.client_id,
+    };
+
+
+    const jsonDataIssue = {
+      fields: {
+        description: {
           content: [
             {
-              text: 'Order entry fails when selecting supplier.',
-              type: 'text',
+              content: [
+                {
+                  text: 'Order entry fails when selecting supplier.',
+                  type: 'text',
+                },
+              ],
+              type: 'paragraph',
             },
           ],
-          type: 'paragraph',
+          type: 'doc',
+          version: 1,
+        },
+        project: {
+          id: createdProjectId,
+        },
+        issuetype: {
+          id: '10012',
+        },
+        summary: 'Teste de criação de um item no projeto ',
+      },
+      boards: [
+        {
+          id: '7',
         },
       ],
-      type: 'doc',
-      version: 1,
-    },
-    project: {
-      id: '', 
-    },
-    issuetype: {
-      id: '10012',
-    },
-    summary: 'Teste de criação de um item no projeto 040 ',
-  },
-  boards: [
-    {
-      id: '7',
-    },
-  ],
-};
-
+    };
 // 1. Criar um grupo
 test('Create and verify a new group', async () => {
   logger.info('Creating and verifying a new group');
 
   requestManager = RequestManager.getInstance(env.environment.base_url);
 
+  
   const createResponse = await requestManager.send(
     'post',
     'group',
     {},
     { Authorization: global.basicAuth },
-    { groupName: groupName },
+    {groupNamme: groupName}
   );
 
   createdGroupId = createResponse.data.groupId;
   logger.info(`Group created successfully with ID: ${createdGroupId}`);
 
-  // Verificar se o grupo foi criado
+  // Verify the group was created
   const verifyResponse = await requestManager.send(
     'get',
     `group`,
@@ -90,17 +93,17 @@ test('Create and verify a new group', async () => {
     logger.error('Group verification failed. Status:', verifyResponse.status);
   }
 });
-
 // 2. Adicionar o usuário ao grupo
 test('Add user to the group', async () => {
   logger.info(`Adding user to the group with ID "${createdGroupId}"`);
+
 
   const addUserResponse = await requestManager.send(
     'post',
     `group/user?groupId=${createdGroupId}`,
     {},
     { Authorization: global.basicAuth, 'Content-Type': 'application/json' },
-    { accountId: accountIdToAdd },
+    { accountId: accountIdToAdd }
   );
 
   if (addUserResponse.status === 201) {
@@ -126,17 +129,17 @@ test('Create and verify a new project', async () => {
   );
 
   createdProjectId = createResponse.data.id;
-  expect(createdProjectId).toBeDefined(); 
+  expect(createdProjectId).toBeDefined(); // Verifique se o ID foi criado corretamente
 
   logger.info(`Project created successfully with ID: ${createdProjectId}`);
 });
 
-// 4. Criar uma Issue somente após o projeto ter sido criado com sucesso
+// Criar uma Issue somente após o projeto ter sido criado com sucesso
 test('Create and verify an issue', async () => {
   logger.info('Creating and verifying an issue');
 
-  if (createdProjectId) { 
-    jsonDataIssue.fields.project.id = createdProjectId; 
+  if (createdProjectId) { // Assegure-se que o ID do projeto esteja disponível
+    jsonDataIssue.fields.project.id = createdProjectId; // Atualize o ID do projeto
 
     const issueResponse = await requestManager.send(
       'post',
@@ -162,6 +165,7 @@ test('Create and verify an issue', async () => {
     logger.error('Project ID is not available. Issue creation failed.');
   }
 });
+
 
 // 5. Adicionar um comentário à Issue
 test('Add a comment to the issue', async () => {
@@ -191,13 +195,13 @@ test('Add a comment to the issue', async () => {
     },
   );
 
-  logger.info('Add Comment Response:', commentResponse.data); 
+  logger.info('Add Comment Response:', commentResponse.data); // Log da resposta
 
   expect(commentResponse.status).toBe(201);
   commentId = commentResponse.data.id; // Armazena o ID do comentário criado
 });
 
-// 6. Excluir o comentário da Issue (Principal)
+// 6. Excluir o comentário da Issue
 test('Delete the comment from the issue', async () => {
   logger.info('Deleting the comment from the issue');
 
@@ -209,7 +213,7 @@ test('Delete the comment from the issue', async () => {
       { Authorization: global.basicAuth },
     );
 
-    logger.info('Delete Comment Response:', deleteResponse.data); 
+    logger.info('Delete Comment Response:', deleteResponse.data); // Log da resposta
 
     expect(deleteResponse.status).toBe(204);
 
@@ -221,7 +225,7 @@ test('Delete the comment from the issue', async () => {
       { Authorization: global.basicAuth },
     );
 
-    logger.info('Get Comments Response:', getCommentsResponse.data); 
+    logger.info('Get Comments Response:', getCommentsResponse.data); // Log da resposta
 
     const deletedComment = getCommentsResponse.data.comments.find(
       (comment) => comment.id === commentId
@@ -239,6 +243,48 @@ test('Delete the comment from the issue', async () => {
 
 // Limpeza do sistema
 
+// 7. Excluir a Issue
+test('Delete the created issue', async () => {
+  logger.info(`Deleting the created issue with ID: ${createdIssueId}`);
+
+  if (createdIssueId) {
+    const deleteIssueResponse = await requestManager.send(
+      'delete',
+      `issue/${createdIssueId}`,
+      {},
+      { Authorization: global.basicAuth },
+    );
+
+    logger.info('Delete Issue Response:', deleteIssueResponse.data); // Log da resposta
+
+    expect(deleteIssueResponse.status).toBe(204);
+    logger.info(`Issue ${createdIssueId} deleted successfully.`);
+  } else {
+    logger.info('No issue ID available for deletion.');
+  }
+});
+
+// 8. Excluir o projeto
+test('Delete the created project', async () => {
+  logger.info(`Deleting the created project with ID: ${createdProjectId}`);
+
+  if (createdProjectId) {
+    const deleteProjectResponse = await requestManager.send(
+      'delete',
+      `project/${createdProjectId}?enableUndo=false`,
+      {},
+      { Authorization: global.basicAuth },
+    );
+
+    logger.info('Delete Project Response:', deleteProjectResponse.data); // Log da resposta
+
+    expect(deleteProjectResponse.status).toBe(204);
+    logger.info(`Project ${createdProjectId} deleted successfully.`);
+  } else {
+    logger.info('No project ID available for deletion.');
+  }
+});
+
 // 9. Excluir o grupo
 test('Delete the created group', async () => {
   logger.info(`Deleting the created group with ID: ${createdGroupId}`);
@@ -251,7 +297,7 @@ test('Delete the created group', async () => {
       { Authorization: global.basicAuth },
     );
 
-    logger.info('Delete Group Response:', deleteGroupResponse.data); 
+    logger.info('Delete Group Response:', deleteGroupResponse.data); // Log da resposta
 
     expect(deleteGroupResponse.status).toBe(204);
     logger.info(`Group ${createdGroupId} deleted successfully.`);

@@ -31,8 +31,7 @@ const groupSchema = {
     required: ['self', 'maxResults', 'startAt', 'total', 'isLast', 'values']
   };
   
-
-beforeEach(async () => {
+  test('Verify removal of user from specific group', async () => {
   logger.info('Starting group creation and user addition.');
   requestManager = RequestManager.getInstance(env.environment.base_url);
 
@@ -77,9 +76,9 @@ beforeEach(async () => {
   } else {
     logger.error(`Failed to add user ${userIdToAdd} to group ${createdGroupId}. Status: ${addUserResponse.status}`);
   }
-});
 
-test('Verify removal of user from specific group', async () => {
+
+
   logger.info('Starting test to verify removal of user from group.');
 
  // Remove user from group

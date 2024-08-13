@@ -10,16 +10,16 @@ describe('Project', () => {
   let createdProjectId;
 
   beforeEach(async () => {
-    projectSchema = {
+     projectSchema = {
       type: 'object',
       properties: {
-        id: { type: 'integer' },
+        id: { type: 'string' }, 
         key: { type: 'string' },
         name: { type: 'string' },
       },
       required: ['id', 'key', 'name'],
     };
-
+    
     jsonData = {
       key: 'EXIT60',
       name: 'Example Project160',
@@ -37,6 +37,7 @@ describe('Project', () => {
   test('Create and verify a new project', async () => {
     logger.info('Creating and verifying a new project');
 
+    // Create the new project
     const createResponse = await requestManager.send(
       'post',
       'project',
@@ -56,18 +57,22 @@ describe('Project', () => {
       { Authorization: global.basicAuth },
     );
 
+    // Check if the status is 200 OK
     expect(verifyResponse.status).toBe(200);
 
     if (verifyResponse.status === 200) {
       logger.info('Project verification passed.');
-      if (verifyResponse.data.name === jsonData.name) {
-        logger.info('Project name matches expected.');
-      } else {
-        logger.error('Project name does not match expected.');
-      }
+      
+      /*
+      // Log the received data and schema
+      console.log('Received Data:', JSON.stringify(verifyResponse.data, null, 2));
+      console.log('Expected Schema:', JSON.stringify(projectSchema, null, 2));
+      */
 
-      // Schema
+
+      // Validate the schema of the response
       const validation = validateSchema(verifyResponse.data, projectSchema);
+
       if (validation.valid) {
         logger.info('-schemaValidator- Response matches schema.');
       } else {
@@ -76,11 +81,15 @@ describe('Project', () => {
           validation.errors,
         );
       }
+
+      // Validate that the project name matches expected
+      if (verifyResponse.data.name === jsonData.name) {
+        logger.info('Project name matches expected.');
+      } else {
+        logger.error('Project name does not match expected.');
+      }
     } else {
-      logger.error(
-        'Project verification failed. Status:',
-        verifyResponse.status,
-      );
+      logger.error('Project verification failed. Status:', verifyResponse.status);
     }
   });
 
@@ -112,16 +121,12 @@ describe('Project', () => {
         );
 
         if (!deletedProject) {
-          logger.info(
-            `Confirmation: Project ${createdProjectId} no longer exists.`,
-          );
+          logger.info(`Confirmation: Project ${createdProjectId} no longer exists.`);
         } else {
           logger.error(`Project ${createdProjectId} still exists.`);
         }
       } else {
-        logger.error(
-          `Failed to delete project ${createdProjectId}. Status: ${deleteResponse.status}`,
-        );
+        logger.error(`Failed to delete project ${createdProjectId}. Status: ${deleteResponse.status}`);
       }
     } else {
       logger.info('No project ID available for deletion.');

@@ -13,6 +13,7 @@ This repository contains automated tests for the Jira API. The goal is to ensure
 - [Project Structure](#project-structure)
 - [Test Examples](#test-examples)
 - [Used Frameworks](#used-frameworks)
+- [Defining tests by runtime] (#Defining-tests-by-runtime)
 - [Diagrams](#diagrams)
 - [Acknowledgements](#acknowledgements)
 
@@ -131,6 +132,8 @@ The directory structure of the project is as follows:
 - **Axios**
 - **ESLint**
 - **Winston**
+- **Ajv**
+
 
 ## Information about ESLint
 
@@ -185,6 +188,13 @@ The directory structure of the project is as follows:
 - logger.verbose('Verbose message');
 - logger.debug('Debug message');
 - logger.silly('Trivial message');
+
+## Defining tests by runtime
+
+- When defining runtime tests, we define Regression Testing, End-of-Sprint Testing, and Other Important Moments Testing as important points.
+
+- https://jalauniv-my.sharepoint.com/:x:/g/personal/queila_fernandes_jala_university/Eeyy5gwitutMijM1aLhruskBsoeKoCjD4xHj9DNxT41uYw?e=U7eaQl
+
 
 ## Diagrams
 

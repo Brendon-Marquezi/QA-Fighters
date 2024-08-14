@@ -1,0 +1,48 @@
+2024-08-12 12:18:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-12 12:18:59 [020-CreateUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-12 12:18:59 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-12 12:18:59 [020-CreateUser.test.js] [32minfo[39m: Request details: {
+  "method": "POST",
+  "url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3//user",
+  "headers": {
+    "Authorization": "Basic cXVlaWxhLmZlcm5hbmRlc0BqYWxhLnVuaXZlcnNpdHk6QVRBVFQzeEZmR0YwM1ZxY2U2RFNuOVo4VFpZQjNhZkZVNHdfTzk5aUllX21yc0pBeERKX2JyUDB4bnNGSUxBN01yMkxlREZiTURYWUtjNU0xSThVWEcySi1KcHEwLVFHb0d6YjBOMHhRaDFQVEVJOTF0TWJFT0VBZFRyQ1lDUHVyeXVQQ1N4dTRVeTVOaUh1enlSZzRGc3BSaEZSaWRGRGJGQ0FNbmVSY1p3WWE4c1dzdmhxc3FJPUMzRTNFOUZF",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "data": {
+    "emailAddress": "tks41607@tccho.com",
+    "products": []
+  }
+}
+2024-08-12 12:19:01 [020-CreateUser.test.js] [32minfo[39m: Response details: {
+  "status": 201,
+  "data": {
+    "accountId": "712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "emailAddress": "tks41607@tccho.com"
+  },
+  "headers": {
+    "date": "Mon, 12 Aug 2024 15:19:01 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "server": "AtlassianEdge",
+    "timing-allow-origin": "*",
+    "x-arequestid": "85270fda5703e2d2821a36aa144db5cb",
+    "set-cookie": "atlassian.xsrf.token=a612bf0185a420eca44a91d9e6367f8b9c99e40d_lin; Path=/; SameSite=None; Secure",
+    "x-aaccountid": "712020%3Ad15a1605-4430-4b91-a7b1-5c958b6ff0bc",
+    "cache-control": "no-cache",
+    "location": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/user?accountId=712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "atl-traceid": "66c5c52021a24a4396dcdcb0cda4e858",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "report-to": "{\"endpoints\": [{\"url\": \"https://dz8aopenkvv6s.cloudfront.net\"}], \"group\": \"endpoint-1\", \"include_subdomains\": true, \"max_age\": 600}",
+    "nel": "{\"failure_fraction\": 0.001, \"include_subdomains\": true, \"max_age\": 600, \"report_to\": \"endpoint-1\"}",
+    "transfer-encoding": "chunked"
+  }
+}
+2024-08-12 12:19:01 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-12 12:19:01 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-12 12:19:01 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-12 12:19:02 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-12 12:19:02 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-12 12:19:02 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.

@@ -1,11 +1,21 @@
 const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
-
 const RequestManager = require('#utils/requestManager');
+const validateSchema = require('#configs/schemaValidation');
 
 let requestManager;
-
 let createdIssueId;
+
+const changeLogSchema = {
+  type: 'object',
+  properties: {
+    values: {
+      type: 'array',
+      items: { type: 'object' },
+    },
+  },
+  required: ['values'],
+};
 
 beforeEach(async () => {
   requestManager = RequestManager.getInstance(env.environment.base_url);
@@ -58,16 +68,34 @@ afterEach(async () => {
 
 test("Check an issue's change log", async () => {
   requestManager = RequestManager.getInstance(env.environment.base_url);
-  logger.info('Check an issues change log');
+  logger.info('Checking an issue\'s change log');
+  
   const endpoint = `issue/${createdIssueId}/changelog`;
-  let response = await requestManager.send(
+  logger.info(`Sending GET request to ${endpoint}`);
+  
+  const response = await requestManager.send(
     'get',
     endpoint,
     {},
-    { Authorization: global.basicAuth},
+    { Authorization: global.basicAuth },
   );
+  
+  logger.info(`Response status: ${response.status}`);
+  
+  if (response.status === 200) {
+    logger.info('Response received successfully.');
 
-  expect(response.status).toBe(200);
+    logger.info('Validating schema for change log response data:');
+    
+    const validation = validateSchema(response.data, changeLogSchema);
+    if (validation.valid) {
+      logger.info('Schema validation passed.');
+    } else {
+      logger.error('Schema validation failed. Validation errors:', validation.errors);
+    }
 
-  expect(response.data).toHaveProperty('values');
+    expect(response.data).toHaveProperty('values');
+  } else {
+    logger.error('Failed to retrieve change log. Status:', response.status);
+  }
 });

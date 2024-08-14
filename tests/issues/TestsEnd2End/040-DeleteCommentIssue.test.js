@@ -311,3 +311,24 @@ afterEach(async () => {
   }
 
 });
+
+// 9. Excluir o grupo
+test('Delete the created group', async () => {
+  logger.info(`Deleting the created group with ID: ${createdGroupId}`);
+
+  if (createdGroupId) {
+    const deleteGroupResponse = await requestManager.send(
+      'delete',
+      `group/${createdGroupId}`,
+      {},
+      { Authorization: global.basicAuth },
+    );
+
+    logger.info('Delete Group Response:', deleteGroupResponse.data); 
+
+    expect(deleteGroupResponse.status).toBe(204);
+    logger.info(`Group ${createdGroupId} deleted successfully.`);
+  } else {
+    logger.info('No group ID available for deletion.');
+  }
+});

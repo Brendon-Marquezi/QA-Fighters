@@ -1,0 +1,166 @@
+[33m6f5d436[m[33m ([m[1;36mHEAD -> [m[1;32mluana[m[33m)[m Fazendo pull
+[33me6fe38b[m[33m ([m[1;31morigin/luana[m[33m)[m Enviando README atualizado
+[33mab95d59[m Enviando teste e2e 040 todos passando corretamente
+[33ma3f68af[m Enviando teste e2e 040 todos passando
+[33m5342f57[m vendo erro
+[33m87490e9[m fazendo pull maain
+[33ma3bfacb[m Fazendo pull
+[33me836050[m Fazendo pull
+[33m40eaa18[m Enviando README com atualizações e extruturação na pasta testes/inssues
+[33mb9d97d7[m Enviando README com atualizações e extruturação na pasta testes/inssues
+[33m37dbfd3[m ..
+[33m57abac6[m Fix: fixing class paths in issue tests
+[33maa0b96e[m Fix: Fixing Syntax Errors
+[33m2429765[m Add: Jest html reporters applied and configured
+[33m5e42e7c[m Fix:Sending the tests of the groups functionality with the beforeEach and afterEach added that were missing. And with the context variables like group_name defined in the context variables
+[33m5a91532[m Fix:Updating Framework Architecture Diagram
+[33m2340896[m Fix:Moving logger.js to core layer
+[33m6dca969[m Putting all the tests together with the remade Singleton.
+[33md67baf9[m Testes03
+[33mcd8d751[m update-feature-project
+[33mbe61de6[m enviando alterações finais nos testes
+[33m4e0f466[m Enviando README em inglês
+[33m5b26ece[m Submitting code for corresponding tests
+[33m0a2fd49[m :sparkles: feat: adding more tests
+[33m4c0d647[m Add: Sending two end-to-end tests (045 and 046), and the correction of test 011. In addition to the schema already applied and validated in these tests and in the feature groups.
+[33mcd7f2c6[m Validation scheme applied, test 041 with the same already applied for use as a metric.
+[33m65b432a[m Fix:Resolving merge bugs and submitting updated version
+[33m6d488e7[m Merge branch 'main' into queila
+[33mf9b9166[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m Merge branch 'main' of github.com:Brendon-Marquezi/QA-Fighters
+[33ma51c6e0[m merge queila
+[33m2f8cd63[m Partial addition of schemaValidation
+[33m2f5056d[m  config jest
+[33m556f75c[m configuração  do jest .
+[33m02190e1[m Add: Applying jest.setup to all tests
+[33m883190c[m Merge branch 'queila' of github.com:Brendon-Marquezi/QA-Fighters into queila
+[33m364709a[m organização  de pastas
+[33m9486ae0[m Merge pull request #29 from Brendon-Marquezi/main
+[33m0ab3db6[m Merge pull request #28 from Brendon-Marquezi/queila
+[33m42b921a[m Merge branch 'main' into queila
+[33m1c14227[m Fix: Resolving requestManager issues in test group function
+[33m3ebc305[m Merge pull request #27 from Brendon-Marquezi/Gabriela
+[33md4ada16[m organização de pastas
+[33m4e0ec8a[m pull da branch da queila
+[33m1165afe[m Merge remote-tracking branch 'origin/queila' into Gabriela
+[33md3e825d[m 06 testes passando, incluindo BeforeAll e AfterAll no teste 021 (delete)
+[33m9cd4f01[m Add: Applying Singleton to requestManager
+[33m321cd16[m Enviando todos os testes (todos passando)
+[33m67bc4af[m Resolving conflicts
+[33mbff57f3[m Changing command of continuous integration version
+[33m3318945[m Changing command of continuous integration.
+[33m25d83d1[m Adding CI to the project with Jest report storage
+[33m48271e1[m Solving problems
+[33mb09ffda[m Create node.js.yml
+[33m0268ee1[m correção de testes
+[33md8b2d91[m Merge pull request #26 from Brendon-Marquezi/main
+[33m5021d32[m Merge pull request #25 from Brendon-Marquezi/queila
+[33mb2017ff[m Merge branch 'main' into queila
+[33me5a66f5[m Organizing test type in Group
+[33m8d0d313[m Fix: Updating group tests with jest.setup global authentication.
+[33meccc48b[m resolve conflits
+[33m28821e0[m Merge branch 'queila' of github.com:Brendon-Marquezi/QA-Fighters into queila
+[33md7f7f59[m Fix: Updating group tests with jest.setup global authentication.
+[33mf89fa6e[m nclusão do logger e o beforeEach
+[33m189ed6b[m Add: Configuring jest.setup with beforeAll and afterAll related to basic authentication
+[33mbb3b07c[m Fix: fixing class paths in issue tests
+[33mb3e3a1c[m Merge pull request #24 from Brendon-Marquezi/queila
+[33m6afa695[m Fix: Fixing Syntax Errors
+[33mf48f9b4[m Merge pull request #23 from Brendon-Marquezi/queila
+[33m5d2c5e4[m Add: Jest html reporters applied and configured
+[33m9640d4c[m Merge branches 'queila' and 'queila' of github.com:Brendon-Marquezi/QA-Fighters into queila
+[33m8edd901[m Fix:Sending the tests of the groups functionality with the beforeEach and afterEach added that were missing. And with the context variables like group_name defined in the context variables
+[33m2fb280a[m Fix:Sending the tests of the groups functionality with the beforeEach and afterEach added that were missing. And with the context variables like group_name defined in the context variables
+[33m2a51504[m Fix:Updating REadme diagram and logger.js location
+[33m99a95c0[m Fix:Updating REadme diagram and logger.js location
+[33m1e39520[m Fix:Updating REadme diagram and logger.js location
+[33m65256bc[m Merge pull request #22 from Brendon-Marquezi/main
+[33m1ac3bd3[m Merge pull request #21 from Brendon-Marquezi/queila
+[33m697a127[m Fix:Updating Framework Architecture Diagram
+[33m931952a[m Fix:Moving logger.js to core layer
+[33m957b3d1[m Merge pull request #20 from Brendon-Marquezi/queila
+[33mf6e8e0e[m Merge pull request #19 from Brendon-Marquezi/main
+[33m0b0c58e[m Putting all the tests together with the remade Singleton.
+[33mc26b183[m Merge branch 'Gabriela' into queila
+[33m7e87b95[m Merge pull request #18 from Brendon-Marquezi/Gabriela
+[33m4abe280[m Merge pull request #17 from Brendon-Marquezi/queila
+[33m49b38ee[m Merge branch 'develop' into queila
+[33md4a5375[m update-feature-project
+[33m0796a22[m Submitting code for corresponding tests
+[33medc0d8c[m Merge pull request #15 from Brendon-Marquezi/luana
+[33mcb3b85f[m enviando alterações finais nos testes
+[33m574bfc0[m resolvendo
+[33m4901637[m Merge branch 'develop' into queila
+[33m33bfa12[m Enviando README em inglês
+[33mac7ad09[m :sparkles: feat: adding more tests
+[33mc360186[m Correcting divergences
+[33mfc2cf10[m Correcting divergences
+[33mb9ba72c[m Add: Implementing more documentation in the Readme
+[33mb8a9f68[m Add: Implementing more documentation in the Readme
+[33m1cf3c55[m Testes03
+[33m09f8ac4[m Testes criados
+[33m1100bef[m Fix: Code error fix
+[33m87544e2[m Fix: Code error fix
+[33m747d123[m 03 testes adicionados, apenas 1 passed
+[33mf8e3a57[m Sending the base tests, still in Portuguese as it is still in the development process.
+[33m755cbd4[m Sending the base tests, still in Portuguese as it is still in the development process.
+[33m465f6fb[m Fixed error 031
+[33m8f41538[m Fixed error 031
+[33m3623813[m Fix error
+[33mbc4a704[m Fix error
+[33m9ca96ec[m Merge branch 'luana' into queila
+[33m66eb08a[m Merge branch 'luana' into queila
+[33me4f3e84[m Fix: Updating branch
+[33m534ffc0[m Fix: Updating branch
+[33m5c63b1f[m Enviando 4 testes com seus respectivos pós e prés requests.
+[33mc26207d[m Enviando 4 testes com seus respectivos pós e prés requests.
+[33mf0e6347[m Enviando 4 testes com seus respectivos pós e prés requests.
+[33ma415f89[m Enviando 4 testes com seus respectivos pós e prés requests.
+[33m520dbba[m Fazendo merge com a main
+[33m4abbcc5[m Fazendo merge com a main
+[33m8463526[m Fix: Consertando as imagens da documetação
+[33m675b9d1[m Fix: Consertando as imagens da documetação
+[33m74c4a9b[m Enviando paste do README.md
+[33m9bee8e3[m Enviando paste do README.md
+[33m677bb31[m Merge pull request #13 from Brendon-Marquezi/develop
+[33m9786bc1[m Merge pull request #13 from Brendon-Marquezi/develop
+[33m19aba96[m :sparkles: feat: config custom path mapping
+[33m773ca3e[m :sparkles: feat: config custom path mapping
+[33mb7aff32[m Fix :books:Submitting our diagrams for documentation.
+[33m699c766[m Fix :books:Submitting our diagrams for documentation.
+[33m8f8dfda[m Padrão de design Singleton
+[33m8e66434[m Padrão de design Singleton
+[33m467365d[m :sparkles: Initial configuration of Winston (log report) with the appropriate files already created.
+[33m0b58e12[m :sparkles: Initial configuration of Winston (log report) with the appropriate files already created.
+[33mf9b39f9[m Merge pull request #12 from Brendon-Marquezi/develop
+[33m363624b[m Merge pull request #12 from Brendon-Marquezi/develop
+[33mf87a345[m :recycle: refactor: refactiring requestManager and tests
+[33m925a404[m :recycle: refactor: refactiring requestManager and tests
+[33m1a4feb2[m Merge pull request #11 from Brendon-Marquezi/develop
+[33m1f05179[m Merge pull request #11 from Brendon-Marquezi/develop
+[33m8bb9d15[m :sparkles: feat: config enviroments
+[33m3dc9b2d[m :sparkles: feat: config enviroments
+[33maa26dd3[m Merge pull request #10 from Brendon-Marquezi/develop
+[33m27e6ba1[m Merge pull request #10 from Brendon-Marquezi/develop
+[33m2b591cb[m :sparkles: feat: config eslint and prettier
+[33m873c1b7[m :sparkles: feat: config eslint and prettier
+[33m2babd68[m :sparkles: feat: finish tests
+[33m5b6a7e8[m :sparkles: feat: finish tests
+[33m3290b61[m Merge pull request #6 from Brendon-Marquezi/luana
+[33m0dab85b[m Merge pull request #6 from Brendon-Marquezi/luana
+[33maead63b[m :bug: fix: resolve conflict
+[33mf9f62f4[m :bug: fix: resolve conflict
+[33mcb868d6[m :white_check_mark: test: adding test 031
+[33m2bdfc9a[m :white_check_mark: test: adding test 031
+[33m4d143f1[m Merge pull request #2 from Brendon-Marquezi/queila
+[33mcb1fb72[m Merge pull request #2 from Brendon-Marquezi/queila
+[33m69dc2f2[m Merge pull request #1 from Brendon-Marquezi/develop
+[33m7228aca[m Merge pull request #1 from Brendon-Marquezi/develop
+[33m4ba7b7f[m :recycle: refactor: refactiring requestManager and test 001
+[33m028ca6d[m Test 031
+[33ma57330d[m Enviando testes IDs  033 e 039 com pré e pós condições e o ID 038 com pós condição.
+[33mdf8c56d[m Enviando teste com a ferramenta moch para incluir verificações
+[33ma2e16eb[m Enviando parte 5 do lab3 -versão 1-
+[33m1a6a6e8[m :sparkles: feat: adding requestManager
+[33m2c5d762[m :sparkles: feat: jest initial config
+[33m6417f50[m :sparkles: feat: newman configured
+[33m7f33342[m initial commit

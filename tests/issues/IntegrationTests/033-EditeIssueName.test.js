@@ -1,7 +1,22 @@
 const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
-
 const RequestManager = require('#utils/requestManager');
+const validateSchema = require('#configs/schemaValidation');
+
+const getIssueResponseSchema = {
+  type: 'object',
+  properties: {
+    fields: {
+      type: 'object',
+      properties: {
+        summary: { type: 'string' }
+      },
+      required: ['summary']
+    }
+  },
+  required: ['fields']
+};
+
 
 let createdIssueId = '';
 
@@ -69,7 +84,7 @@ test('Check if you can edit an issue name', async () => {
     'put',
     `issue/${createdIssueId}`,
     {},
-    { Authorization: global.basicAuth},
+    { Authorization: global.basicAuth },
     {
       fields: {
         summary: 'Testing editing an issue name',
@@ -83,8 +98,14 @@ test('Check if you can edit an issue name', async () => {
     'get',
     `issue/${createdIssueId}`,
     {},
-    {Authorization: global.basicAuth },
+    { Authorization: global.basicAuth },
   );
+
+  const validationResult = validateSchema(issueResponse.data, getIssueResponseSchema);
+  if (!validationResult.valid) {
+    logger.error(`Schema validation failed: ${validationResult.errors.join(', ')}`);
+    throw new Error('Schema validation failed');
+  }
 
   expect(issueResponse.data.fields.summary).toBe(
     'Testing editing an issue name',

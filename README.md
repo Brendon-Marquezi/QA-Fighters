@@ -1,4 +1,4 @@
-**# API Testing
+# API Testing
 
 This repository contains automated tests for the Jira API. The goal is to ensure that the API functions as expected and complies with project requirements. The automation framework used is Jest, which allows for a flexible and scalable architecture.
 

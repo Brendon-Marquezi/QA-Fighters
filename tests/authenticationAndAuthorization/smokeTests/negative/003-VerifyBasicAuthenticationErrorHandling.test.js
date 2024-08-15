@@ -1,7 +1,7 @@
 const env = require('#configs/environments');
 const RequestManager = require('#utils/requestManager');
 
-describe('Invalid Basic Auth', () => {
+describe('Authentication and Authorization', () => {
   let invalidBasicAuth;
   let requestManager;
 
@@ -15,7 +15,7 @@ describe('Invalid Basic Auth', () => {
     requestManager = RequestManager.getInstance(env.environment.base_url);
   });
 
-  test('Verify basic authentication functionality', async () => {
+  test('Verify basic authentication error handler', async () => {
     const response = await requestManager.send(
       'get',
       'events',

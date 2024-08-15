@@ -2,7 +2,7 @@ const env = require('#configs/environments');
 const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-describe('Basic Auth', () => {
+describe('Authentication and Authorization', () => {
   let requestManager;
 
   beforeEach(() => {

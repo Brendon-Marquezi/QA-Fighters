@@ -11,7 +11,7 @@ const projectSchema = {
     key: { type: 'string' },
     name: { type: 'string' },
   },
-  required: ['id', 'key', 'name']
+  required: ['id', 'key', 'name'],
 };
 
 let requestManager;
@@ -27,7 +27,7 @@ beforeEach(async () => {
     name: 'Test Project',
     projectTypeKey: 'software',
     projectTemplateKey: 'com.pyxis.greenhopper.jira:gh-scrum-template',
-    lead: 'project_lead_username'
+    lead: 'project_lead_username',
   };
 
   // Cria um novo projeto
@@ -40,9 +40,14 @@ beforeEach(async () => {
   );
 
   // Valida o schema da resposta da criação do projeto
-  const projectValidationResult = validateSchema(projectResponse.data, projectSchema);
+  const projectValidationResult = validateSchema(
+    projectResponse.data,
+    projectSchema,
+  );
   if (!projectValidationResult.valid) {
-    logger.error(`Falha na validação do schema para criação de projeto: ${projectValidationResult.errors.map(e => e.message).join(', ')}`);
+    logger.error(
+      `Falha na validação do schema para criação de projeto: ${projectValidationResult.errors.map((e) => e.message).join(', ')}`,
+    );
     throw new Error('Falha na validação do schema');
   }
 
@@ -50,7 +55,10 @@ beforeEach(async () => {
   logger.info(`Projeto criado com sucesso com ID: ${projectId}`);
 });
 
-test('Verificar busca de projeto por ID', async () => {
+test('Verificar busca de projeto por ID (Teste de Desempenho)', async () => {
+  // Medição de tempo de execução do teste
+  const start = Date.now(); // Inicia o cronômetro
+
   logger.info('Iniciando teste para busca de projeto por ID');
 
   // Verifica se o projeto foi criado
@@ -65,15 +73,28 @@ test('Verificar busca de projeto por ID', async () => {
   );
 
   // Valida o schema da resposta da verificação do projeto
-  const verifyValidationResult = validateSchema(verifyResponse.data, projectSchema);
+  const verifyValidationResult = validateSchema(
+    verifyResponse.data,
+    projectSchema,
+  );
   if (!verifyValidationResult.valid) {
-    logger.error(`Falha na validação do schema para verificação de projeto: ${verifyValidationResult.errors.map(e => e.message).join(', ')}`);
+    logger.error(
+      `Falha na validação do schema para verificação de projeto: ${verifyValidationResult.errors.map((e) => e.message).join(', ')}`,
+    );
     throw new Error('Falha na validação do schema');
   }
 
   expect(verifyResponse.status).toBe(200);
   expect(verifyResponse.data.id).toBe(projectId);
   logger.info(`Projeto ${projectId} verificado com sucesso.`);
+
+  // Medição de tempo de execução do teste
+  const end = Date.now(); // Para o cronômetro
+  const executionTime = end - start; // Calcula o tempo de execução
+  logger.info(`Tempo de execução para busca de projeto por ID: ${executionTime}ms`);
+
+  // Validação de desempenho
+  expect(executionTime).toBeLessThan(1000); // Espera que a requisição seja concluída em menos de 1 segundo
 });
 
 afterEach(async () => {

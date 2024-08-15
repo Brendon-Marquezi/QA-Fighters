@@ -6,7 +6,6 @@ const validateSchema = require('#configs/schemaValidation');
 let requestManager;
 let createdProjectId = '';
 
-
 const projectSchema = {
   type: 'object',
   properties: {
@@ -32,7 +31,7 @@ beforeEach(async () => {
   requestManager = RequestManager.getInstance(env.environment.base_url);
 
   try {
-    // Check if the project already exists
+    // Verifica se o projeto já existe
     const existingProjectsResponse = await requestManager.send(
       'get',
       'project/search',
@@ -48,7 +47,7 @@ beforeEach(async () => {
     if (existingProject) {
       createdProjectId = existingProject.id;
       logger.info(`Project already exists with ID: ${createdProjectId}`);
-      // Optionally, delete the existing project to avoid conflicts
+      // Opcionalmente, exclua o projeto existente para evitar conflitos
       const deleteResponse = await requestManager.send(
         'delete',
         `project/${createdProjectId}`,
@@ -70,11 +69,14 @@ beforeEach(async () => {
   }
 });
 
-test('Create and verify a new project', async () => {
+test('Create and verify a new project (Performance Test)', async () => {
+  // Medição de tempo de execução do teste
+  const start = Date.now(); // Inicia o cronômetro
+
   logger.info('Creating and verifying a new project');
 
   try {
-    // Create the new project
+    // Cria o novo projeto
     const createResponse = await requestManager.send(
       'post',
       'project',
@@ -85,7 +87,7 @@ test('Create and verify a new project', async () => {
     createdProjectId = createResponse.data.id;
     logger.info(`Project created successfully with ID: ${createdProjectId}`);
 
-    // Verify the project was created
+    // Verifica se o projeto foi criado
     const verifyResponse = await requestManager.send(
       'get',
       `project/${createdProjectId}`,
@@ -101,7 +103,7 @@ test('Create and verify a new project', async () => {
         logger.error('Project name does not match expected.');
       }
 
-      // Schema
+      // Validação do schema
       const validation = validateSchema(verifyResponse.data, projectSchema);
       if (validation.valid) {
         logger.info('-schemaValidator- Response matches schema.');
@@ -114,6 +116,14 @@ test('Create and verify a new project', async () => {
   } catch (error) {
     logger.error('Error creating or verifying project:', error.response?.data || error.message);
   }
+
+  // Medição de tempo de execução do teste
+  const end = Date.now(); // Para o cronômetro
+  const executionTime = end - start; // Calcula o tempo de execução
+  logger.info(`Tempo de execução para criação e verificação do projeto: ${executionTime}ms`);
+
+  // Validação de desempenho
+  expect(executionTime).toBeLessThan(2000); // Espera que a criação e verificação sejam concluídas em menos de 2 segundos
 });
 
 afterEach(async () => {
@@ -131,7 +141,7 @@ afterEach(async () => {
       if (deleteResponse.status === 204) {
         logger.info(`Project ${createdProjectId} deleted successfully.`);
 
-        // Verify if the project was actually deleted by searching
+        // Verifica se o projeto foi realmente excluído
         const searchResponse = await requestManager.send(
           'get',
           'project/search',
@@ -159,3 +169,4 @@ afterEach(async () => {
     logger.info('No project ID available for deletion.');
   }
 });
+

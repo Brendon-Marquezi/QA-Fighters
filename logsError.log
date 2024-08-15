@@ -434,3 +434,38 @@ Received: [31m200[39m
 2024-08-12 00:40:22 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-12 00:40:22 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
 2024-08-12 00:40:22 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-14 20:50:45 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 20:55:31 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 20:56:29 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 20:57:19 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 20:58:40 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:04:30 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:07:21 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:08:12 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:09:03 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:09:03 [022-GetAllUsers.test.js] [31merror[39m: An error occurred during the test: Response schema validation failed
+2024-08-14 21:09:40 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:09:40 [022-GetAllUsers.test.js] [31merror[39m: An error occurred during the test: Response schema validation failed
+2024-08-14 21:31:10 [023-BulkGetUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:31:25 [023-BulkGetUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:37:36 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:38:21 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:39:21 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:40:53 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:42:21 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:42:32 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:42:52 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:44:01 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:44:18 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:45:41 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:46:49 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:59:12 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:01:09 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:02:56 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:04:06 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:06:05 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:06:25 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-15 08:36:07 [027-End2End.test.js] [31merror[39m: Test failed: Request failed with status code 400
+2024-08-15 08:42:28 [027-End2End.test.js] [31merror[39m: Email is not defined in the environment configuration.
+2024-08-15 08:46:55 [027-End2End.test.js] [31merror[39m: Error while checking or deleting user: Request failed with status code 404
+2024-08-15 08:46:55 [027-End2End.test.js] [31merror[39m: Error while creating or retrieving user: Request failed with status code 404

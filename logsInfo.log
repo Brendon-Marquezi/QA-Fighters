@@ -46,3 +46,421 @@
 2024-08-12 12:19:02 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
 2024-08-12 12:19:02 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
 2024-08-12 12:19:02 [020-CreateUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 20:50:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 20:50:43 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 20:50:45 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-14 20:50:45 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-14 20:50:45 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 20:50:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 20:50:45 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 20:52:31 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 20:52:31 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 20:52:33 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-14 20:52:33 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-14 20:52:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 20:52:34 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 20:53:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 20:53:42 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 20:53:44 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-14 20:53:44 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-14 20:53:45 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:5190a340-48c7-4d16-890f-dfb92ef7421a deleted successfully.
+2024-08-14 20:53:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 20:53:45 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 20:55:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 20:55:28 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 20:55:30 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-14 20:55:30 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-14 20:55:31 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 20:55:31 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 20:55:31 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 20:56:27 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 20:56:27 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 20:56:28 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-14 20:56:28 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-14 20:56:29 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 20:56:29 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 20:56:29 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 20:57:16 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 20:57:16 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 20:57:18 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-14 20:57:18 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-14 20:57:19 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 20:57:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 20:57:19 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 20:58:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 20:58:38 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 20:58:40 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-14 20:58:40 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-14 20:58:40 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 20:58:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 20:58:40 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 20:59:58 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 20:59:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:00:00 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-14 21:00:00 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-14 21:00:01 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:5190a340-48c7-4d16-890f-dfb92ef7421a deleted successfully.
+2024-08-14 21:00:01 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:00:01 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 21:00:29 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:00:29 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:00:31 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-14 21:00:31 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-14 21:00:32 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:5190a340-48c7-4d16-890f-dfb92ef7421a deleted successfully.
+2024-08-14 21:00:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:00:32 [021-DeleteUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-14 21:02:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:02:48 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:02:49 [022-GetAllUsers.test.js] [32minfo[39m: Response from API:
+2024-08-14 21:02:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:04:29 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:04:29 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:04:30 [022-GetAllUsers.test.js] [32minfo[39m: Response from API:
+2024-08-14 21:04:30 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:04:30 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:05:15 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:05:15 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:05:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:07:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:07:20 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:07:21 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:07:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:07:21 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:07:21 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:08:12 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:08:12 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:08:12 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:08:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:08:12 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:08:12 [022-GetAllUsers.test.js] [32minfo[39m: Response Data:
+2024-08-14 21:08:12 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:09:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:09:02 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:09:03 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:09:03 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:09:03 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:09:03 [022-GetAllUsers.test.js] [32minfo[39m: Response Data:
+2024-08-14 21:09:03 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:09:03 [022-GetAllUsers.test.js] [31merror[39m: An error occurred during the test: Response schema validation failed
+2024-08-14 21:09:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:09:39 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:09:40 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:09:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:09:40 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:09:40 [022-GetAllUsers.test.js] [32minfo[39m: Response Data:
+2024-08-14 21:09:40 [022-GetAllUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:09:40 [022-GetAllUsers.test.js] [31merror[39m: An error occurred during the test: Response schema validation failed
+2024-08-14 21:19:31 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:19:31 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:19:32 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:19:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:19:32 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:19:32 [022-GetAllUsers.test.js] [32minfo[39m: Response Data:
+2024-08-14 21:20:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:20:17 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:20:17 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:20:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:20:17 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:20:17 [022-GetAllUsers.test.js] [32minfo[39m: Response Data:
+2024-08-14 21:21:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:21:11 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:21:11 [022-GetAllUsers.test.js] [32minfo[39m: Response from API:
+2024-08-14 21:21:11 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:24:31 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:24:31 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:24:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:25:24 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:25:24 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:25:25 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:25:25 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:25:25 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:26:24 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:26:24 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:26:24 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:26:24 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:26:24 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:27:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:27:59 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:27:59 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:27:59 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:27:59 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:29:51 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:29:51 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:29:51 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:29:52 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:30:36 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-14 21:30:36 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:30:37 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-14 21:30:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:30:37 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-14 21:31:10 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:31:10 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:31:10 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:31:10 [023-BulkGetUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:31:10 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:31:24 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:31:24 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:31:24 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:31:25 [023-BulkGetUsers.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-14 21:31:25 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:37:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:37:35 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:37:35 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:37:36 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:37:36 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:38:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:38:20 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:38:20 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:38:21 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:38:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:39:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:39:20 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:39:20 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:39:21 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:39:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:40:52 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:40:52 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:40:52 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:40:53 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:40:53 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:42:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:42:21 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:42:21 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:42:21 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:42:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:42:31 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:42:31 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:42:31 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:42:32 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:42:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:42:51 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:42:51 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:42:51 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:42:52 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:42:52 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:44:01 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:44:01 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:44:01 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:44:01 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:44:01 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:44:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:44:18 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:44:18 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:44:18 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:44:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:45:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:45:40 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:45:40 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:45:41 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:45:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:46:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:46:48 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:46:48 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:46:49 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:46:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:47:54 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:47:54 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:47:54 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:47:55 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:49:32 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:49:32 [023-BulkGetUsers.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-14 21:49:32 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-14 21:49:33 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:50:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:50:21 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-14 21:50:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:51:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:52:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:52:29 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-14 21:52:29 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:56:01 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:56:01 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:57:00 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:57:00 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 21:57:00 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 21:59:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 21:59:11 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 21:59:12 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 21:59:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:01:08 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:01:08 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 22:01:09 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:01:09 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:02:56 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:02:56 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 22:02:56 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:02:56 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:04:05 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:04:05 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 22:04:06 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:04:06 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:05:05 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:05:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:06:05 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:06:05 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 22:06:05 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:06:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:06:24 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:06:24 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 22:06:25 [026-GetOneEspecificUser.test.js] [31merror[39m: Validation errors:
+2024-08-14 22:06:25 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:07:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:07:11 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 22:07:12 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-14 22:07:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:08:50 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:08:50 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 22:08:51 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-14 22:08:51 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:09:32 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-14 22:09:32 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:09:32 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-14 22:09:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:15:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:15:13 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-14 22:15:14 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:16:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:16:34 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-14 22:16:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:17:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:17:28 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-14 22:17:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:18:01 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:18:01 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-14 22:18:01 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:18:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:18:17 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-14 22:18:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:19:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:19:04 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-14 22:19:04 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-14 22:19:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:19:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:19:44 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-14 22:19:44 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-14 22:19:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:43:30 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:43:30 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-14 22:43:31 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-14 22:43:31 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:29:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:29:28 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:29:28 [027-End2End.test.js] [32minfo[39m: Test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:29:28 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:29:28 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 08:29:30 [027-End2End.test.js] [32minfo[39m: User created successfully with ID: 712020:5190a340-48c7-4d16-890f-dfb92ef7421a
+2024-08-15 08:29:30 [027-End2End.test.js] [32minfo[39m: Retrieving the user with ID: 712020:5190a340-48c7-4d16-890f-dfb92ef7421a
+2024-08-15 08:29:30 [027-End2End.test.js] [32minfo[39m: Deleting user with ID 712020:5190a340-48c7-4d16-890f-dfb92ef7421a...
+2024-08-15 08:29:31 [027-End2End.test.js] [32minfo[39m: User with ID 712020:5190a340-48c7-4d16-890f-dfb92ef7421a deleted successfully.
+2024-08-15 08:29:31 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:29:31 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:34:50 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:34:50 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:34:50 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:34:50 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:34:50 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 08:34:51 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:34:51 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:36:06 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:36:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:36:06 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:36:06 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:36:06 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 08:36:07 [027-End2End.test.js] [31merror[39m: Test failed: Request failed with status code 400
+2024-08-15 08:36:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:36:07 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:38:15 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:38:15 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-15 08:38:16 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-15 08:38:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:38:34 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-15 08:38:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:38:35 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-15 08:38:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:41:23 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:41:23 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:41:23 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:41:23 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:41:23 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:42:28 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:42:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:42:28 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:42:28 [027-End2End.test.js] [31merror[39m: Email is not defined in the environment configuration.
+2024-08-15 08:42:28 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:42:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:44:05 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:44:05 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:44:05 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:44:05 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 08:44:05 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:44:06 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 08:44:06 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:44:06 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:45:23 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:45:23 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:45:23 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:45:23 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 08:45:23 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:45:24 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 08:45:24 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:45:24 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:46:54 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:46:54 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:46:54 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:46:54 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 08:46:54 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:46:55 [027-End2End.test.js] [31merror[39m: Error while checking or deleting user: Request failed with status code 404
+2024-08-15 08:46:55 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 08:46:55 [027-End2End.test.js] [31merror[39m: Error while creating or retrieving user: Request failed with status code 404
+2024-08-15 08:46:55 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:46:55 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:48:23 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:48:23 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:48:23 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:48:23 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 08:48:23 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:48:24 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 08:48:24 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:48:24 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:53:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:53:18 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:53:18 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 08:53:18 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:53:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:56:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:56:38 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:56:38 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:56:38 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 08:56:38 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:56:38 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 08:56:39 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:56:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 08:59:07 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 08:59:07 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 08:59:07 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 08:59:07 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 08:59:07 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 08:59:08 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 08:59:08 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 08:59:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 09:01:07 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 09:01:07 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 09:01:07 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 09:01:07 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 09:01:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 09:01:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 09:01:22 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 09:01:22 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 09:01:22 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 09:01:22 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 09:01:22 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 09:01:23 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 09:01:23 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 09:02:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 09:02:47 [027-End2End.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 09:02:47 [027-End2End.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 09:02:47 [027-End2End.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 09:02:47 [027-End2End.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 09:02:48 [027-End2End.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 09:02:48 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 09:02:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing

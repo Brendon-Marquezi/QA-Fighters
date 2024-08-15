@@ -1,5 +1,4 @@
 **# API Testing
-**# API Testing
 
 This repository contains automated tests for the Jira API. The goal is to ensure that the API functions as expected and complies with project requirements. The automation framework used is Jest, which allows for a flexible and scalable architecture.
 
@@ -13,7 +12,7 @@ This repository contains automated tests for the Jira API. The goal is to ensure
 - [Project Structure](#project-structure)
 - [Test Examples](#test-examples)
 - [Used Frameworks](#used-frameworks)
-- [Defining tests by runtime] (#Defining-tests-by-runtime)
+- [Defining tests by runtime](#defining-tests-by-runtime)
 - [Diagrams](#diagrams)
 - [Acknowledgements](#acknowledgements)
 
@@ -46,13 +45,13 @@ To install the project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/user/repository.git
+   git clone https://github.com/Brendon-Marquezi/QA-Fighters.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd repository
+   cd QA-Fighters
    ```
 
 3. Install the dependencies:
@@ -66,12 +65,20 @@ To install the project, follow these steps:
 
 ```json
 {
-  "base_url": "",
-  "auth_url": "",
-  "username": "",
-  "api_token": "",
-  "client_id": "",
-  "client_secret": ""
+   "base_url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/",
+   "base_url2": "https://api.atlassian.com/me",
+   "auth_url": "https://auth.atlassian.com/oauth/token",
+   "username": "",
+   "api_token": "",
+   "invalid_api_token": "",
+   "client_id": "",
+   "client_id_auth": "",
+   "client_secret": "",
+   "invalid_code": "",
+   "access_token": "",
+   "invalid_access_token": "",
+   "group_name": "",
+   "leadAccountId": ""
 }
 ```
 

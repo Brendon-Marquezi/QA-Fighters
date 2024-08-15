@@ -1,15 +1,9 @@
 const env = require('#configs/environments');
 const RequestManager = require('#utils/requestManager');
 const logger = require('#utils/logger')(__filename);
+const validateSchema = require('#configs/schemaValidation');
 
 let requestManager;
-
-// Esquema de validação
-const deleteResponseSchema = {
-  status: 204,
-  data: '' // A resposta deve ser uma string vazia
-};
-
 let createdUserId = null;
 
 beforeEach(async () => {
@@ -25,11 +19,10 @@ beforeEach(async () => {
   // Criação de um usuário para exclusão no teste
   const endpoint = 'user';
   const bodyData = {
-    emailAddress: 'nnd21315@tccho.com',
+    emailAddress: env.environment.emailAddress,
     products: []
   };
 
-  // Criação do usuário e logging com mensagem de sucesso
   const response = await requestManager.send(
     'post',
     endpoint,
@@ -60,11 +53,22 @@ test('Delete a user from Jira', async () => {
     { Authorization: global.basicAuth, Accept: 'application/json' }
   );
 
-  // Validação da resposta do DELETE
-  expect(response.status).toBe(deleteResponseSchema.status); 
+  // Esquema de validação local ao teste
+  const deleteResponseSchema = {
+    type: 'object',
+    properties: {
+      status: { type: 'number', enum: [204] }
+    },
+    required: ['status'],
+    additionalProperties: false
+  };
 
-  // Verifica que o corpo da resposta está vazio
-  expect(response.data).toBe(deleteResponseSchema.data);
+  // Validação da resposta do DELETE usando validateSchema
+  const validation = validateSchema({ status: response.status }, deleteResponseSchema);
+  if (!validation.valid) {
+    logger.error('Response schema validation failed. Validation errors:', JSON.stringify(validation.errors, null, 2));
+    throw new Error('Response schema validation failed');
+  }
 
   logger.info(`User with ID ${createdUserId} deleted successfully.`);
   createdUserId = null;

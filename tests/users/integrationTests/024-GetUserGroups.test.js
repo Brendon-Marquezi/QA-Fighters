@@ -1,19 +1,22 @@
 const env = require('#configs/environments');
 const RequestManager = require('#utils/requestManager');
 const logger = require('#utils/logger')(__filename);
+const validateSchema = require('#configs/schemaValidation');
 
 let requestManager;
 
 // Esquema de validação
 const getUserGroupsResponseSchema = {
-  status: 200,
-  data: [
-    {
-      groupId: "string",
-      name: "string",
-      self: "string"
-    }
-  ]
+  type: 'array',
+  items: {
+    type: 'object',
+    properties: {
+      groupId: { type: 'string' },
+      name: { type: 'string' },
+      self: { type: 'string' }
+    },
+    required: ['groupId', 'name', 'self']
+  }
 };
 
 test('Get user groups from Jira', async () => {
@@ -27,9 +30,17 @@ test('Get user groups from Jira', async () => {
     { Authorization: global.basicAuth, Accept: 'application/json' }
   );
 
-  expect(response.status).toBe(getUserGroupsResponseSchema.status);
+  // Validar o status
+  expect(response.status).toBe(200);
 
-  expect(response.data).toBeInstanceOf(Array);
+  // Validar a resposta com o esquema
+  const validation = validateSchema(response.data, getUserGroupsResponseSchema);
+
+  if (!validation.valid) {
+    logger.error('Validation errors:', validation.errors);
+  }
+
+  expect(validation.valid).toBe(true);
 
   response.data.forEach((group) => {
     expect(group).toHaveProperty('groupId');

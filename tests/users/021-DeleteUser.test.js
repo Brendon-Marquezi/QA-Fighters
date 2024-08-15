@@ -1,3 +1,4 @@
+const logger = require('#utils/logger')(__filename);
 const requestManager = require('#utils/requestManager');
 const env = require('#configs/environments').environment;
 
@@ -9,7 +10,7 @@ const basicAuth = 'Basic ' + Buffer.from(
 const accountId = '712020:7b833a06-0569-423a-9c9c-1a0075cfb6e3';
 
 test('Delete a user', async () => {
-  console.log('Iniciando o teste de deleção de usuário'); // Log para depuração
+  logger.info('Iniciando o teste de deleção de usuário'); // Log para depuração
   try {
     const response = await requestManager.send(
       'delete',

@@ -102,9 +102,6 @@ const groupSchema = {
 
   logger.info(`Response: ${verifyGroupResponse.status} ${verifyGroupResponse.statusText}`);
 
-  // View the schema response structure
-  //console.log('Verify Group Response:', JSON.stringify(verifyGroupResponse.data, null, 2));
-
    // Apply schema validation
   if (verifyGroupResponse.status === 200) {
     logger.info('-schemaValidator- Group verification passed.');

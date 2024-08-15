@@ -50,11 +50,6 @@ test('Get all users from Jira', async () => {
   expect(Array.isArray(response.data)).toBe(true);
   
   if (response.data.length > 0) {
-    
-
-    // Linha abaixo para imprimir o JSON no terminal
-    //console.log('All Users:', JSON.stringify(response.data, null, 2));
-
     response.data.forEach(user => {
       expect(user).toMatchObject({
         accountId: expect.any(String),

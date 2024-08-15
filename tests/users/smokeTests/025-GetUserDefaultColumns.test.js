@@ -27,22 +27,16 @@ test('Get user default columns from Jira', async () => {
     {},
     { Authorization: global.basicAuth, Accept: 'application/json' }
   );
-
   
   expect(response.status).toBe(getUserDefaultColumnsResponseSchema.status);
 
-
   expect(response.data).toBeInstanceOf(Array);
 
-  
+
   response.data.forEach((column) => {
     expect(column).toHaveProperty('label');
     expect(column).toHaveProperty('value');
-
-   
-    console.log(`label: "${column.label}", value: "${column.value}"`);
   });
 
-  
   logger.info('Get user default columns test passed successfully.');
 });

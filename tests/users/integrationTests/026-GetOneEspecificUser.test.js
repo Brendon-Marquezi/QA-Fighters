@@ -41,9 +41,5 @@ test('Get a specific user from Jira', async () => {
 
   expect(response.data).toMatchObject(getUserResponseSchema.data);
 
-  if (printUserInfo) {
-    console.log('User Info:', JSON.stringify(response.data, null, 2));
-  }
-
   logger.info('User data successfully retrieved.');
 });

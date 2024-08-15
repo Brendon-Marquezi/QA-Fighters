@@ -37,7 +37,6 @@ test('Create a user in Jira', async () => {
     bodyData 
   );
 
-  console.log(response.data)
   // Verificar se o status da resposta é 201 (Criado)
   expect(response.status).toBe(201);
   logger.info('User created successfully with status 201.');
@@ -53,7 +52,6 @@ test('Create a user in Jira', async () => {
   }
 
   // Verificar se a resposta contém as propriedades esperadas
-  console.log(user.accountId)
   expect(user).toHaveProperty('accountId');
   expect(user).toHaveProperty('emailAddress');
   expect(user).toHaveProperty('displayName');

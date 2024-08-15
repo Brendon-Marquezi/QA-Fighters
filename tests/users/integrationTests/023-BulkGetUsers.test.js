@@ -32,8 +32,6 @@ test('Bulk get users from Jira', async () => {
     { Authorization: global.basicAuth, Accept: 'application/json' }
   );
 
-  console.log('Response from API:', response.data);
-
   expect(response.status).toBe(bulkGetUsersResponseSchema.status);
 });
 

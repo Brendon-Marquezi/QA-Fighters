@@ -36,7 +36,7 @@ test('Get user groups from Jira', async () => {
     expect(group).toHaveProperty('name');
     expect(group).toHaveProperty('self');
 
-    console.log(`groupId: "${group.groupId}", name: "${group.name}", self: "${group.self}"`);
+    logger.info(`groupId: "${group.groupId}", name: "${group.name}", self: "${group.self}"`);
   });
 
   logger.info('Get user groups test passed successfully.');

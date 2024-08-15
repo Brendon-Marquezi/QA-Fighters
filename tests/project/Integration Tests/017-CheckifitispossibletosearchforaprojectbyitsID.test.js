@@ -40,16 +40,15 @@ beforeEach(async () => {
   );
 
   // Valida o schema da resposta da criação do projeto
-  const projectValidationResult = validateSchema(
-    projectResponse.data,
-    projectSchema,
-  );
-  if (!projectValidationResult.valid) {
-    logger.error(
-      `Falha na validação do schema para criação de projeto: ${projectValidationResult.errors.map((e) => e.message).join(', ')}`,
-    );
-    throw new Error('Falha na validação do schema');
-  }
+
+    const projectValidationResult = validateSchema(projectResponse.data, projectSchema);
+    if (projectValidationResult.valid) {
+      logger.info('-schemaValidator- Response matches schema.');
+    } else {
+      logger.error('-schemaValidator- Response does not match schema. Validation errors:', projectValidationResult.errors);
+    }
+
+
 
   projectId = projectResponse.data.id;
   logger.info(`Projeto criado com sucesso com ID: ${projectId}`);

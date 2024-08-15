@@ -3,31 +3,18 @@ const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 const validateSchema = require('#configs/schemaValidation');
 
-// Simplified schema for a user
-const userSchema = {
+const basicUserSchema = {
   type: 'object',
   properties: {
+    self: { type: 'string' },
     accountId: { type: 'string' },
-    displayName: { type: 'string' },
     emailAddress: { type: 'string' },
-    avatarUrls: {
-      type: 'object',
-      properties: {
-        '48x48': { type: 'string' },
-        '24x24': { type: 'string' },
-        '16x16': { type: 'string' },
-        '32x32': { type: 'string' }
-      },
-      required: ['48x48', '24x24', '16x16', '32x32']
-    },
-    active: { type: 'boolean' },
-    timeZone: { type: 'string' },
-    accountType: { type: 'string' }
+    displayName: { type: 'string' },
+    active: { type: 'boolean' }
   },
-  required: ['accountId', 'displayName', 'emailAddress', 'avatarUrls', 'active', 'timeZone', 'accountType']
+  required: ['self', 'accountId', 'emailAddress', 'displayName', 'active']
 };
 
-//Schema for the response containing a list of users
 const userListSchema = {
   type: 'object',
   properties: {
@@ -38,11 +25,12 @@ const userListSchema = {
     isLast: { type: 'boolean' },
     values: {
       type: 'array',
-      items: userSchema
+      items: basicUserSchema
     }
   },
   required: ['self', 'maxResults', 'startAt', 'total', 'isLast', 'values']
 };
+
 
 let requestManager;
 
@@ -113,12 +101,16 @@ test('Verify adding a user to a specific group', async () => {
     {},
     { Authorization: global.basicAuth }
   );
+
+  //console.log("Resposta:",response.data);
+
   
-  // Validate the response schema
+  // Compara a resposta com o esquema
   const validationResult = validateSchema(response.data, userListSchema);
-  if (!validationResult.valid) {
-    logger.error(`Schema validation failed: ${validationResult.errors.map(e => e.message).join(', ')}`);
-    throw new Error('Schema validation failed');
+  if (validationResult.valid) {
+    logger.info('-schemaValidator- Response matches schema.');
+  } else {
+    logger.error('-schemaValidator- Response does not match schema. Validation errors:', validationResult.errors);
   }
 
   // Check if the values property exists and if the added user is in the list

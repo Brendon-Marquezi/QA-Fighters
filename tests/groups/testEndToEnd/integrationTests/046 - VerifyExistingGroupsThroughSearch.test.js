@@ -93,6 +93,7 @@ test('Verify existing groups through a search', async () => {
     );
 
     expect(searchResponse.status).toBe(200);
+    console.log("AQUI->",searchResponse.status)
 
     // Log the response
     logger.info(`Response: ${searchResponse.status} ${searchResponse.statusText}`);

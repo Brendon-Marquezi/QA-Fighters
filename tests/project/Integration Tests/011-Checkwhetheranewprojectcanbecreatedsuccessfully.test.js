@@ -63,13 +63,6 @@ describe('Project', () => {
     if (verifyResponse.status === 200) {
       logger.info('Project verification passed.');
       
-      /*
-      // Log the received data and schema
-      console.log('Received Data:', JSON.stringify(verifyResponse.data, null, 2));
-      console.log('Expected Schema:', JSON.stringify(projectSchema, null, 2));
-      */
-
-
       // Validate the schema of the response
       const validation = validateSchema(verifyResponse.data, projectSchema);
 

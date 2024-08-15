@@ -1,7 +1,9 @@
 const env = require('#configs/environments');
 const RequestManager = require('#utils/requestManager');
 
+
 describe('Authentication and Authorization', () => {
+
   let invalidBasicAuth;
   let requestManager;
 

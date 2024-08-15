@@ -113,10 +113,7 @@ test('Verify adding a user to a specific group', async () => {
     {},
     { Authorization: global.basicAuth }
   );
-
-  // Log the response to understand its structure
-  //console.log('Verify Group Response:', JSON.stringify(response.data, null, 2));
-
+  
   // Validate the response schema
   const validationResult = validateSchema(response.data, userListSchema);
   if (!validationResult.valid) {

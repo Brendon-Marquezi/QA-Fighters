@@ -63,6 +63,7 @@ test('Get all users from Jira', async () => {
   
   expect(Array.isArray(response.data)).toBe(true);
   
+
   // Validação do esquema
   const responseBody = { data: response.data };
   const validation = validateSchema(responseBody, getAllUsersResponseSchema);
@@ -79,6 +80,7 @@ test('Get all users from Jira', async () => {
     if (printAllUsers) {
       console.log('All Users:', JSON.stringify(response.data, null, 2));
     }
+
 
     response.data.forEach(user => {
       expect(user).toMatchObject({

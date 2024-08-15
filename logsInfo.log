@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 2024-07-26 03:30:12 [031-CheckCreationItemProject.test.js] [32minfo[39m: Enviando requisição para criar um item no projeto 
 2024-07-26 03:30:13 [031-CheckCreationItemProject.test.js] [32minfo[39m: Requisição enviada com sucesso.
 2024-07-26 03:30:13 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finalizando teste 031.
@@ -114,7 +112,6 @@
 2024-07-27 00:25:20 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
 2024-07-27 00:25:20 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
 2024-07-27 00:25:20 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
->>>>>>> luana
 2024-07-27 23:52:43 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
 2024-07-27 23:52:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
 2024-07-27 23:52:43 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
@@ -371,8 +368,6 @@
 2024-07-29 00:16:27 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
 2024-07-29 00:16:27 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
 2024-07-29 00:16:28 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
-=======
-<<<<<<< HEAD
 2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-07 10:29:59 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
 2024-08-07 10:29:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
@@ -1271,7 +1266,7 @@
 2024-08-08 16:15:49 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
 2024-08-08 16:15:49 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
 2024-08-08 16:15:50 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
-=======
+
 2024-08-08 11:02:56 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-08 11:02:56 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
 2024-08-08 11:02:56 [jest.setup.js] [32minfo[39m: Starting authentication for testing
@@ -2722,8 +2717,7 @@
 2024-08-09 00:29:04 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc was successfully added to group 15d25bb9-cfa1-42d4-ab23-228e377d0645.
 2024-08-09 00:29:05 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group 15d25bb9-cfa1-42d4-ab23-228e377d0645 deleted successfully.
 2024-08-09 00:29:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
-<<<<<<< HEAD
->>>>>>> 02190e110a7f7c651409a174bd44bb38e4ababd2
+
 2024-08-09 12:46:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-09 12:46:25 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
 2024-08-09 12:46:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
@@ -3983,7 +3977,7 @@
 2024-08-09 15:57:58 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
 2024-08-09 15:57:59 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
 2024-08-09 15:57:59 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
-=======
+
 2024-08-09 12:22:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-09 12:22:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-09 12:22:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
@@ -4291,7 +4285,6 @@
 2024-08-09 16:24:38 [038-IssueChangeLog.test.js] [32minfo[39m: Check an issues change log
 2024-08-09 16:24:39 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
 2024-08-09 16:24:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
->>>>>>> 2f8cd63f8b2856252f1136ecb476f06291be2bc7
 2024-08-09 18:15:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-09 18:15:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-09 18:15:06 [jest.setup.js] [32minfo[39m: Starting authentication for testing
@@ -6271,4 +6264,1616 @@
 2024-08-11 21:59:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
 2024-08-11 21:59:07 [jest.setup.js] [32minfo[39m: Starting authentication for testing
 2024-08-11 21:59:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
->>>>>>> erik
+2024-08-11 20:40:57 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-11 20:40:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-11 20:40:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating a group
+2024-08-11 20:41:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to group with ID "ec01dea6-9162-4afe-9e08-66b43812675c"
+2024-08-11 20:41:01 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating a project
+2024-08-11 20:41:02 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating an issue
+2024-08-11 20:41:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to an issue
+2024-08-11 20:41:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting a comment from an issue
+2024-08-11 20:41:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:39:55 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:39:55 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:39:56 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-13 14:39:56 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 14:39:56 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:40:55 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:40:55 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:40:55 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-13 14:40:56 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 14:40:56 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:41:33 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:41:33 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:41:33 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-13 14:41:34 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 14:41:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:44:12 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:44:12 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:44:13 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-13 14:44:13 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 14:44:13 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:44:36 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:44:36 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-13 14:44:38 [039-EditeCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-13 14:44:38 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-13 14:44:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:45:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:45:46 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:45:48 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: 10052
+2024-08-13 14:45:48 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project verification passed.
+2024-08-13 14:45:48 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-13 14:45:48 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project name matches expected.
+2024-08-13 14:45:48 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Deleting the created project
+2024-08-13 14:45:49 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project 10052 deleted successfully.
+2024-08-13 14:45:49 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Confirmation: Project 10052 no longer exists.
+2024-08-13 14:45:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:46:05 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:46:05 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:46:06 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: 10053
+2024-08-13 14:46:06 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project verification passed.
+2024-08-13 14:46:06 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-13 14:46:06 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project name matches expected.
+2024-08-13 14:46:06 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Deleting the created project
+2024-08-13 14:46:07 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project 10053 deleted successfully.
+2024-08-13 14:46:07 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Confirmation: Project 10053 no longer exists.
+2024-08-13 14:46:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:46:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:46:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating a group
+2024-08-13 14:46:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID ""
+2024-08-13 14:46:34 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group . Status: 400
+2024-08-13 14:46:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10054
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: undefined
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to an issue
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 14:46:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10054
+2024-08-13 14:46:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 14:46:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:46:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10054 deleted successfully.
+2024-08-13 14:46:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 
+2024-08-13 14:46:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 14:47:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:47:02 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating a group
+2024-08-13 14:47:02 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID ""
+2024-08-13 14:47:02 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group . Status: 400
+2024-08-13 14:47:02 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10055
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: undefined
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to an issue
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 14:47:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10055
+2024-08-13 14:47:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 14:47:06 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:47:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10055 deleted successfully.
+2024-08-13 14:47:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 
+2024-08-13 14:47:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 14:47:55 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:47:55 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating a group
+2024-08-13 14:47:55 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID ""
+2024-08-13 14:47:55 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group . Status: 400
+2024-08-13 14:47:55 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:47:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10057
+2024-08-13 14:47:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 14:47:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: undefined
+2024-08-13 14:47:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to an issue
+2024-08-13 14:47:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 14:47:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 14:47:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 14:47:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 14:47:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 14:47:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10057
+2024-08-13 14:47:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 14:47:59 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:47:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10057 deleted successfully.
+2024-08-13 14:47:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 
+2024-08-13 14:47:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 14:48:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:48:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:48:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10058
+2024-08-13 14:48:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project verification passed.
+2024-08-13 14:48:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-13 14:48:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project name matches expected.
+2024-08-13 14:48:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project
+2024-08-13 14:48:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10058 deleted successfully.
+2024-08-13 14:48:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Project 10058 no longer exists.
+2024-08-13 14:48:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:49:27 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:49:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 14:49:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 14:49:28 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 14:49:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 14:49:28 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 14:49:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:49:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10059
+2024-08-13 14:49:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 14:49:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: undefined
+2024-08-13 14:49:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 14:49:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 14:49:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 14:49:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 14:49:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 14:49:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 14:49:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10059
+2024-08-13 14:49:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 14:49:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:49:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10059 deleted successfully.
+2024-08-13 14:49:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 14:49:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 14:57:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:57:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 14:57:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 14:57:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 14:57:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 14:57:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:57:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 14:57:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 14:57:27 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 14:57:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 14:57:27 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 14:57:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:57:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 14:57:28 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 14:57:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 14:57:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 14:57:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:57:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 14:57:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 14:57:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 14:57:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 14:59:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 14:59:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 14:59:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 14:59:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 14:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:00:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:00:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:00:22 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:00:22 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:00:22 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:00:23 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:01:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:01:02 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:01:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:01:03 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:01:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:01:03 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:01:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:01:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:01:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:01:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:01:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:01:44 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:01:44 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:01:44 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:01:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:02:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:02:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:02:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:02:18 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:02:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:02:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:02:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:03:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:03:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:03:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:03:59 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:03:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:03:59 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:03:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:03:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:03:59 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:03:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:04:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:04:00 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:04:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:04:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:04:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:04:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:04:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:04:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:04:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:04:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:05:04 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:05:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:05:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:05:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:05:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:06:28 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:06:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:06:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:06:29 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:06:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:06:29 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:06:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:06:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:06:29 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:06:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:06:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:06:30 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:06:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:06:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:06:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:06:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:06:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:06:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:06:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:06:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:08:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:08:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:08:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:08:47 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:08:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:08:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:08:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:39:51 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:39:51 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:39:52 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:39:52 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:39:52 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:39:52 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:39:52 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:39:52 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:39:52 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:39:52 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:39:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:39:53 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:39:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:39:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:39:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:39:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:39:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:39:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:39:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:39:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:40:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:40:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:40:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:40:43 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:40:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:40:43 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:40:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:40:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:40:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:41:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:41:14 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:41:15 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:41:15 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:41:15 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:41:15 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:41:15 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:41:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:41:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:42:30 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:42:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:42:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:42:31 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:42:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:42:31 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:42:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:42:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:42:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:44:10 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:44:10 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:44:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:44:11 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:44:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:44:11 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:44:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:44:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:44:11 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:44:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:44:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:44:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:44:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:44:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:44:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:44:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:44:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:44:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:44:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:44:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:47:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:47:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:47:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Create Project Response:
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:47:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:47:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:48:03 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:48:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:48:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:48:04 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:48:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:48:04 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:48:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:48:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: LUANACreate Project Response:
+2024-08-13 15:48:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:48:04 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:48:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:48:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:48:23 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:48:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:48:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:48:24 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:48:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:48:24 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:48:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:48:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Create Project Response:
+2024-08-13 15:48:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:48:24 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:48:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:48:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:48:25 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:48:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:48:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:48:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:48:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:48:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:48:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:48:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:48:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:49:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:49:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:49:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:49:35 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:49:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:51:27 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:51:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:51:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:51:28 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:51:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:51:28 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:51:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:51:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10062
+2024-08-13 15:51:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:51:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: undefined
+2024-08-13 15:51:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:51:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:51:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:51:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:51:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 15:51:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:51:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10062
+2024-08-13 15:51:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 15:51:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:51:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10062 deleted successfully.
+2024-08-13 15:51:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:51:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:53:11 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:53:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:53:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:53:12 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:53:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:53:12 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:53:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:53:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:53:12 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 15:53:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:53:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:53:13 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:53:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:53:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:53:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 15:53:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:53:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 15:53:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 15:53:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:53:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:53:52 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:53:52 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:53:52 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:53:52 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:53:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:53:53 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:53:53 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10063
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: undefined
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:53:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10063
+2024-08-13 15:53:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 15:53:56 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:53:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10063 deleted successfully.
+2024-08-13 15:53:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:53:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 15:54:29 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 15:54:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 15:54:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 15:54:30 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 15:54:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 15:54:30 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 15:54:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 15:54:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10064
+2024-08-13 15:54:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 15:54:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: undefined
+2024-08-13 15:54:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 15:54:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 15:54:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 15:54:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 15:54:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 15:54:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 15:54:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10064
+2024-08-13 15:54:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 15:54:33 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 15:54:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10064 deleted successfully.
+2024-08-13 15:54:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 15:54:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 16:00:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 16:00:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 16:00:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 16:00:19 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 16:00:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 16:00:19 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 16:00:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 16:00:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10065
+2024-08-13 16:00:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 16:00:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue criada com sucesso com ID: undefined
+2024-08-13 16:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 16:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 16:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 16:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 16:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 16:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 16:00:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10065
+2024-08-13 16:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 16:00:23 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 16:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10065 deleted successfully.
+2024-08-13 16:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 16:00:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 16:01:46 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 16:01:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 16:01:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 16:01:47 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 16:01:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 16:01:47 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 16:01:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 16:01:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10066
+2024-08-13 16:01:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 16:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: undefined
+2024-08-13 16:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 16:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 16:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 16:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 16:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 16:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 16:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10066
+2024-08-13 16:01:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 16:01:50 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 16:01:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10066 deleted successfully.
+2024-08-13 16:01:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 16:01:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 16:08:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 16:08:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 16:08:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 16:08:27 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 16:08:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 16:08:27 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 16:08:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 16:08:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 16:08:27 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-13 16:08:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 16:08:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 16:08:28 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 16:08:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 16:08:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 16:08:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: 
+2024-08-13 16:08:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 16:08:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-13 16:08:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-13 16:08:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 16:08:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 16:09:03 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 16:09:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-13 16:09:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-13 16:09:03 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-13 16:09:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-13 16:09:04 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-13 16:09:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-13 16:09:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10067
+2024-08-13 16:09:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-13 16:09:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: undefined
+2024-08-13 16:09:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-13 16:09:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-13 16:09:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-13 16:09:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: No comment ID available for deletion.
+2024-08-13 16:09:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created issue with ID: undefined
+2024-08-13 16:09:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: No issue ID available for deletion.
+2024-08-13 16:09:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10067
+2024-08-13 16:09:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-13 16:09:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 16:09:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10067 deleted successfully.
+2024-08-13 16:09:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-13 16:09:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-13 16:29:54 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 16:29:54 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 16:29:56 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 16:29:57 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 16:29:57 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 16:33:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 16:33:17 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 16:33:19 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-13 16:33:20 [033-EditeIssueName.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-13 16:33:20 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 16:33:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 16:35:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 16:35:26 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 16:35:28 [035-DeletionAnIssue.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-13 16:35:28 [035-DeletionAnIssue.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-13 16:35:28 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 16:35:29 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 16:38:29 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 16:38:29 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 16:38:30 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-13 16:38:31 [033-EditeIssueName.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-13 16:38:31 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 16:38:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:03:27 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:03:27 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:03:28 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-13 17:03:29 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 17:03:30 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:04:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:04:02 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:04:03 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-13 17:04:04 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 17:04:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:05:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:05:43 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:05:44 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-13 17:05:45 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 17:05:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:13:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:13:02 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:13:04 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 17:13:04 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 17:13:05 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed: [object Object]
+2024-08-13 17:13:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:13:30 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:13:30 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:13:31 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 17:13:32 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed: [object Object]
+2024-08-13 17:13:32 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:18:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:18:35 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:18:36 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 17:18:37 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed: [object Object]
+2024-08-13 17:18:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:21:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:21:43 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:21:45 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 17:21:46 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed: [object Object]
+2024-08-13 17:21:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:22:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:22:48 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:22:49 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 17:22:50 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed: [object Object]
+2024-08-13 17:22:50 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:24:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:24:17 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:24:18 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 17:24:19 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed: [object Object]
+2024-08-13 17:24:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 17:25:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 17:25:38 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 17:25:40 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 17:25:40 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed: [object Object]
+2024-08-13 17:25:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:29:52 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:29:52 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:29:54 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:29:54 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:29:54 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:29:54 [035-DeletionAnIssue.test.js] [31merror[39m: -schemaValidator- Delete response does not match schema. Validation errors:
+2024-08-13 22:32:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:32:21 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:32:22 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-13 22:32:23 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:32:24 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:32:29 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:32:29 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:32:30 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:32:30 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:32:30 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:32:30 [035-DeletionAnIssue.test.js] [31merror[39m: -schemaValidator- Delete response does not match schema. Validation errors:
+2024-08-13 22:34:53 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:34:53 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:34:54 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:34:55 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:34:55 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:34:55 [035-DeletionAnIssue.test.js] [32minfo[39m: Delete response status:
+2024-08-13 22:34:55 [035-DeletionAnIssue.test.js] [32minfo[39m: Delete response data:
+2024-08-13 22:38:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:38:25 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:38:26 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:38:27 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:38:27 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:38:27 [035-DeletionAnIssue.test.js] [32minfo[39m: Delete response data:
+2024-08-13 22:38:27 [035-DeletionAnIssue.test.js] [31merror[39m: -schemaValidator- Delete response does not match schema. Validation errors:
+2024-08-13 22:39:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:39:25 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:39:26 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:39:26 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:39:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:39:26 [035-DeletionAnIssue.test.js] [32minfo[39m: Delete response data:
+2024-08-13 22:39:26 [035-DeletionAnIssue.test.js] [31merror[39m: -schemaValidator- Delete response does not match schema.
+2024-08-13 22:39:26 [035-DeletionAnIssue.test.js] [31merror[39m: Validation errors:
+2024-08-13 22:40:54 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:40:54 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:40:55 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:40:56 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:40:56 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:40:56 [035-DeletionAnIssue.test.js] [32minfo[39m: Delete response data:
+2024-08-13 22:40:56 [035-DeletionAnIssue.test.js] [31merror[39m: -schemaValidator- Delete response does not match schema.
+2024-08-13 22:40:56 [035-DeletionAnIssue.test.js] [31merror[39m: Validation errors:
+2024-08-13 22:44:05 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:44:05 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:44:06 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:44:07 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:44:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:44:07 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed:
+2024-08-13 22:45:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:45:14 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:45:16 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:45:16 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:45:16 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:45:16 [035-DeletionAnIssue.test.js] [32minfo[39m: Deletion successful, status code 204 received.
+2024-08-13 22:48:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:48:41 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:48:42 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:48:42 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:48:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:48:42 [035-DeletionAnIssue.test.js] [32minfo[39m: Validating schema for delete response data:
+2024-08-13 22:48:42 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed. Response data:
+2024-08-13 22:48:42 [035-DeletionAnIssue.test.js] [31merror[39m: Validation errors:
+2024-08-13 22:49:33 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:49:33 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:49:34 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:49:34 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:49:34 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:49:34 [035-DeletionAnIssue.test.js] [32minfo[39m: Validating schema for delete response data:
+2024-08-13 22:49:34 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed. Response data:
+2024-08-13 22:49:34 [035-DeletionAnIssue.test.js] [31merror[39m: Validation errors:
+2024-08-13 22:51:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:51:45 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:51:47 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:51:47 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:51:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:51:47 [035-DeletionAnIssue.test.js] [32minfo[39m: Validating schema for delete response data:
+2024-08-13 22:51:47 [035-DeletionAnIssue.test.js] [31merror[39m: Schema validation failed. Response data:
+2024-08-13 22:51:47 [035-DeletionAnIssue.test.js] [31merror[39m: Validation errors:
+2024-08-13 22:53:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:53:58 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:53:59 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:53:59 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:53:59 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:53:59 [035-DeletionAnIssue.test.js] [32minfo[39m: Schema validation skipped for status 204 (No Content).
+2024-08-13 22:56:34 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 22:56:34 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 22:56:35 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 22:56:36 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 22:56:36 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 22:56:36 [035-DeletionAnIssue.test.js] [32minfo[39m: Schema validation skipped for status 204 (No Content).
+2024-08-13 23:13:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 23:13:40 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 23:13:41 [038-IssueChangeLog.test.js] [32minfo[39m: Checking an issue's change log
+2024-08-13 23:13:41 [038-IssueChangeLog.test.js] [32minfo[39m: Sending GET request to issue/11407/changelog
+2024-08-13 23:13:41 [038-IssueChangeLog.test.js] [32minfo[39m: Response status: 200
+2024-08-13 23:13:41 [038-IssueChangeLog.test.js] [32minfo[39m: Response received successfully.
+2024-08-13 23:13:41 [038-IssueChangeLog.test.js] [32minfo[39m: Validating schema for change log response data:
+2024-08-13 23:13:41 [038-IssueChangeLog.test.js] [32minfo[39m: Schema validation passed.
+2024-08-13 23:13:41 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-13 23:13:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 23:40:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 23:40:17 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-13 23:40:18 [039-EditeCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11408
+2024-08-13 23:40:18 [039-EditeCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-13 23:40:18 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to add a comment
+2024-08-13 23:40:18 [039-EditeCommentIssue.test.js] [32minfo[39m: Response status for adding comment: 201
+2024-08-13 23:40:18 [039-EditeCommentIssue.test.js] [32minfo[39m: Comment response data:
+2024-08-13 23:40:18 [039-EditeCommentIssue.test.js] [32minfo[39m: Schema validation passed for the comment response.
+2024-08-13 23:40:18 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting to delete the created issue
+2024-08-13 23:40:19 [039-EditeCommentIssue.test.js] [32minfo[39m: Issue 11408 deleted successfully
+2024-08-13 23:40:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 23:44:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 23:44:47 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 23:44:48 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-13 23:44:49 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 23:44:50 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 23:45:57 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 23:45:57 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 23:45:58 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-13 23:45:58 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-13 23:45:58 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 23:45:58 [035-DeletionAnIssue.test.js] [32minfo[39m: Schema validation skipped for status 204 (No Content).
+2024-08-13 23:50:56 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 23:50:56 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-13 23:50:57 [038-IssueChangeLog.test.js] [32minfo[39m: Checking an issue's change log
+2024-08-13 23:50:57 [038-IssueChangeLog.test.js] [32minfo[39m: Sending GET request to issue/11411/changelog
+2024-08-13 23:50:57 [038-IssueChangeLog.test.js] [32minfo[39m: Response status: 200
+2024-08-13 23:50:57 [038-IssueChangeLog.test.js] [32minfo[39m: Response received successfully.
+2024-08-13 23:50:57 [038-IssueChangeLog.test.js] [32minfo[39m: Validating schema for change log response data:
+2024-08-13 23:50:57 [038-IssueChangeLog.test.js] [32minfo[39m: Schema validation passed.
+2024-08-13 23:50:57 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-13 23:50:58 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-13 23:56:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-13 23:56:59 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-13 23:57:01 [039-EditeCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-13 23:57:01 [039-EditeCommentIssue.test.js] [32minfo[39m: Sending a request to add a comment
+2024-08-13 23:57:01 [039-EditeCommentIssue.test.js] [32minfo[39m: Response status for adding comment: 201
+2024-08-13 23:57:01 [039-EditeCommentIssue.test.js] [32minfo[39m: Comment response data:
+2024-08-13 23:57:01 [039-EditeCommentIssue.test.js] [32minfo[39m: Schema validation passed for the comment response.
+2024-08-13 23:57:01 [039-EditeCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-13 23:57:02 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 00:07:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 00:07:38 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-14 00:07:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-14 00:07:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to add a comment
+2024-08-14 00:07:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Response status for adding comment: 201
+2024-08-14 00:07:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Comment response data:
+2024-08-14 00:07:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Schema validation passed for the comment response.
+2024-08-14 00:07:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-14 00:07:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 00:17:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 00:17:47 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-08-14 00:17:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
+2024-08-14 00:17:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Schema validation passed for the issue creation response.
+2024-08-14 00:17:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-08-14 00:17:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 00:28:07 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 00:28:07 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-08-14 00:28:07 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
+2024-08-14 00:28:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 00:28:07 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-08-14 00:29:48 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 00:29:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-08-14 00:29:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
+2024-08-14 00:29:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 00:29:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-08-14 00:32:00 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 00:32:00 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-08-14 00:32:01 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
+2024-08-14 00:32:01 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 00:32:01 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-08-14 00:35:47 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 00:35:47 [031-CheckCreationItemProject.test.js] [32minfo[39m: Sending a request to create an item in the project.
+2024-08-14 00:35:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Request sent successfully.
+2024-08-14 00:35:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Schema validation passed for the issue creation response.
+2024-08-14 00:35:48 [031-CheckCreationItemProject.test.js] [32minfo[39m: Finishing test 031.
+2024-08-14 00:35:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 00:37:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 00:37:43 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-14 00:37:44 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-14 00:37:44 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-14 00:37:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 00:37:44 [035-DeletionAnIssue.test.js] [32minfo[39m: Schema validation skipped for status 204 (No Content).
+2024-08-14 00:37:51 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 00:37:51 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-14 00:37:52 [038-IssueChangeLog.test.js] [32minfo[39m: Checking an issue's change log
+2024-08-14 00:37:52 [038-IssueChangeLog.test.js] [32minfo[39m: Sending GET request to issue/11417/changelog
+2024-08-14 00:37:52 [038-IssueChangeLog.test.js] [32minfo[39m: Response status: 200
+2024-08-14 00:37:52 [038-IssueChangeLog.test.js] [32minfo[39m: Response received successfully.
+2024-08-14 00:37:52 [038-IssueChangeLog.test.js] [32minfo[39m: Validating schema for change log response data:
+2024-08-14 00:37:52 [038-IssueChangeLog.test.js] [32minfo[39m: Schema validation passed.
+2024-08-14 00:37:52 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-14 00:37:52 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 00:39:03 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 00:39:03 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-14 00:39:04 [039-AddingCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-14 00:39:04 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to add a comment
+2024-08-14 00:39:05 [039-AddingCommentIssue.test.js] [32minfo[39m: Response status for adding comment: 201
+2024-08-14 00:39:05 [039-AddingCommentIssue.test.js] [32minfo[39m: Comment response data:
+2024-08-14 00:39:05 [039-AddingCommentIssue.test.js] [32minfo[39m: Schema validation passed for the comment response.
+2024-08-14 00:39:05 [039-AddingCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-14 00:39:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:59:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 22:59:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 22:59:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: e6150dc1-6b82-46b3-aafb-9eeeb8e38406
+2024-08-14 22:59:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 22:59:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 22:59:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-14 22:59:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "e6150dc1-6b82-46b3-aafb-9eeeb8e38406"
+2024-08-14 22:59:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group e6150dc1-6b82-46b3-aafb-9eeeb8e38406.
+2024-08-14 22:59:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 22:59:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10099
+2024-08-14 22:59:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 22:59:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11427
+2024-08-14 22:59:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-14 22:59:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-14 22:59:28 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-14 22:59:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-14 22:59:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-14 22:59:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10256 no longer exists.
+2024-08-14 22:59:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-14 22:59:29 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10099
+2024-08-14 22:59:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-14 22:59:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10099 deleted successfully.
+2024-08-14 22:59:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-14 22:59:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: e6150dc1-6b82-46b3-aafb-9eeeb8e38406
+2024-08-14 22:59:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-14 22:59:31 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 22:59:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group e6150dc1-6b82-46b3-aafb-9eeeb8e38406 deleted successfully.
+2024-08-14 23:01:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 23:01:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 23:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 064c5ee9-c7ce-4dc3-8492-80e96882c296
+2024-08-14 23:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 23:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 23:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-14 23:01:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "064c5ee9-c7ce-4dc3-8492-80e96882c296"
+2024-08-14 23:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 064c5ee9-c7ce-4dc3-8492-80e96882c296.
+2024-08-14 23:01:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 23:01:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10100
+2024-08-14 23:01:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 23:01:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11428
+2024-08-14 23:01:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-14 23:01:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-14 23:01:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-14 23:01:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-14 23:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-14 23:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10257 no longer exists.
+2024-08-14 23:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-14 23:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10100
+2024-08-14 23:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-14 23:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10100 deleted successfully.
+2024-08-14 23:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-14 23:01:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 064c5ee9-c7ce-4dc3-8492-80e96882c296
+2024-08-14 23:01:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-14 23:01:50 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 23:01:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 064c5ee9-c7ce-4dc3-8492-80e96882c296 deleted successfully.
+2024-08-14 23:03:05 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 23:03:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 23:03:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 5e44614d-4e3a-4baa-acdf-7c6b9e898621
+2024-08-14 23:03:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 23:03:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 23:03:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-14 23:03:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "5e44614d-4e3a-4baa-acdf-7c6b9e898621"
+2024-08-14 23:03:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 5e44614d-4e3a-4baa-acdf-7c6b9e898621.
+2024-08-14 23:03:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 23:03:08 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10101
+2024-08-14 23:03:08 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 23:03:09 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11429
+2024-08-14 23:03:09 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-14 23:03:09 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-14 23:03:09 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-14 23:03:10 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-14 23:03:10 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-14 23:03:10 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10258 no longer exists.
+2024-08-14 23:03:10 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-14 23:03:10 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10101
+2024-08-14 23:03:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-14 23:03:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10101 deleted successfully.
+2024-08-14 23:03:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-14 23:03:11 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 5e44614d-4e3a-4baa-acdf-7c6b9e898621
+2024-08-14 23:03:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-14 23:03:12 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 23:03:12 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 5e44614d-4e3a-4baa-acdf-7c6b9e898621 deleted successfully.
+2024-08-14 23:17:31 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 23:17:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 23:17:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: ac07b03d-663e-43a4-b222-ec1e630d2220
+2024-08-14 23:17:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 23:17:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 23:17:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-14 23:17:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "ac07b03d-663e-43a4-b222-ec1e630d2220"
+2024-08-14 23:17:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group ac07b03d-663e-43a4-b222-ec1e630d2220.
+2024-08-14 23:17:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 23:17:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10102
+2024-08-14 23:17:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 23:17:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11430
+2024-08-14 23:17:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-14 23:17:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-14 23:17:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-14 23:17:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-14 23:17:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-14 23:17:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10259 no longer exists.
+2024-08-14 23:17:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-14 23:17:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: ac07b03d-663e-43a4-b222-ec1e630d2220
+2024-08-14 23:17:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-14 23:17:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 23:17:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group ac07b03d-663e-43a4-b222-ec1e630d2220 deleted successfully.
+2024-08-14 23:17:54 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 23:17:54 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 23:17:55 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: f39b3934-bc8d-44ac-8e85-6d6def863447
+2024-08-14 23:17:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 23:17:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 23:17:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-14 23:17:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "f39b3934-bc8d-44ac-8e85-6d6def863447"
+2024-08-14 23:17:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group f39b3934-bc8d-44ac-8e85-6d6def863447.
+2024-08-14 23:17:56 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 23:17:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-14 23:17:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 23:17:57 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-14 23:17:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-14 23:17:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-14 23:17:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-14 23:17:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: f39b3934-bc8d-44ac-8e85-6d6def863447
+2024-08-14 23:17:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-14 23:17:57 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 23:17:57 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group f39b3934-bc8d-44ac-8e85-6d6def863447 deleted successfully.
+2024-08-14 23:18:33 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 23:18:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 23:18:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 08e4da28-3b5e-4c27-8351-8e0052606935
+2024-08-14 23:18:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 23:18:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 23:18:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-14 23:18:34 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "08e4da28-3b5e-4c27-8351-8e0052606935"
+2024-08-14 23:18:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 08e4da28-3b5e-4c27-8351-8e0052606935.
+2024-08-14 23:18:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 08e4da28-3b5e-4c27-8351-8e0052606935
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-14 23:18:36 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 23:18:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 08e4da28-3b5e-4c27-8351-8e0052606935 deleted successfully.
+2024-08-14 23:19:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 23:19:13 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 23:19:15 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 145f4c68-1b99-4db3-be73-5194faa7c7de
+2024-08-14 23:19:15 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 23:19:15 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 23:19:15 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-14 23:19:15 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "145f4c68-1b99-4db3-be73-5194faa7c7de"
+2024-08-14 23:19:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 145f4c68-1b99-4db3-be73-5194faa7c7de.
+2024-08-14 23:19:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 23:19:17 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10103
+2024-08-14 23:19:17 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 23:19:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11431
+2024-08-14 23:19:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-14 23:19:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-14 23:19:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-14 23:19:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-14 23:19:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-14 23:19:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10260 no longer exists.
+2024-08-14 23:19:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-14 23:19:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10103
+2024-08-14 23:19:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-14 23:19:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10103 deleted successfully.
+2024-08-14 23:19:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-14 23:19:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 145f4c68-1b99-4db3-be73-5194faa7c7de
+2024-08-14 23:19:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-14 23:19:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 23:19:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 145f4c68-1b99-4db3-be73-5194faa7c7de deleted successfully.
+2024-08-14 23:20:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 23:20:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 23:20:39 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 1e5f4b4d-bafa-4569-abac-d6d5ef2c9c47
+2024-08-14 23:20:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 23:20:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 23:20:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-14 23:20:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "1e5f4b4d-bafa-4569-abac-d6d5ef2c9c47"
+2024-08-14 23:20:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 1e5f4b4d-bafa-4569-abac-d6d5ef2c9c47.
+2024-08-14 23:20:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 23:20:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10104
+2024-08-14 23:20:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 23:20:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11432
+2024-08-14 23:20:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-14 23:20:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-14 23:20:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-14 23:20:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-14 23:20:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-14 23:20:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10261 no longer exists.
+2024-08-14 23:20:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-14 23:20:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10104
+2024-08-14 23:20:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-14 23:20:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10104 deleted successfully.
+2024-08-14 23:20:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-14 23:20:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 1e5f4b4d-bafa-4569-abac-d6d5ef2c9c47
+2024-08-14 23:20:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-14 23:20:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 23:20:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 1e5f4b4d-bafa-4569-abac-d6d5ef2c9c47 deleted successfully.
+2024-08-14 23:20:58 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 23:20:58 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 23:20:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 7e08fb91-df2c-4f98-8137-977e5b39a514
+2024-08-14 23:20:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 23:20:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 23:20:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-14 23:20:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "7e08fb91-df2c-4f98-8137-977e5b39a514"
+2024-08-14 23:20:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 7e08fb91-df2c-4f98-8137-977e5b39a514.
+2024-08-14 23:20:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 23:21:01 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10105
+2024-08-14 23:21:01 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 23:21:02 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11433
+2024-08-14 23:21:02 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-14 23:21:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-14 23:21:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-14 23:21:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-14 23:21:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-14 23:21:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10262 no longer exists.
+2024-08-14 23:21:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-14 23:21:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10105
+2024-08-14 23:21:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-14 23:21:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10105 deleted successfully.
+2024-08-14 23:21:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-14 23:21:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 7e08fb91-df2c-4f98-8137-977e5b39a514
+2024-08-14 23:21:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-14 23:21:05 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-14 23:21:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 7e08fb91-df2c-4f98-8137-977e5b39a514 deleted successfully.
+2024-08-14 23:59:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-14 23:59:39 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-14 23:59:40 [100-TesteCapiche.test.js] [32minfo[39m: Group created successfully with ID: c5c99067-d45e-4e81-a22b-b69b5d6de8c1
+2024-08-14 23:59:40 [100-TesteCapiche.test.js] [32minfo[39m: Group verification passed.
+2024-08-14 23:59:40 [100-TesteCapiche.test.js] [32minfo[39m: Group name matches expected.
+2024-08-14 23:59:40 [100-TesteCapiche.test.js] [32minfo[39m: Add user to the group
+2024-08-14 23:59:40 [100-TesteCapiche.test.js] [32minfo[39m: Adding user to the group with ID "c5c99067-d45e-4e81-a22b-b69b5d6de8c1"
+2024-08-14 23:59:41 [100-TesteCapiche.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group c5c99067-d45e-4e81-a22b-b69b5d6de8c1.
+2024-08-14 23:59:41 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-14 23:59:42 [100-TesteCapiche.test.js] [32minfo[39m: Project created successfully with ID: 10107
+2024-08-14 23:59:42 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-14 23:59:43 [100-TesteCapiche.test.js] [32minfo[39m: Issue created successfully with ID: 11439
+2024-08-14 23:59:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:05:54 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:05:54 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:05:54 [100-TesteCapiche.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-15 00:05:55 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-15 00:05:55 [100-TesteCapiche.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-15 00:07:09 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:07:09 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:07:09 [100-TesteCapiche.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-15 00:07:09 [100-TesteCapiche.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-15 00:07:09 [100-TesteCapiche.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:07:09 [100-TesteCapiche.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-15 00:07:10 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-15 00:07:10 [100-TesteCapiche.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-15 00:11:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:11:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-15 00:11:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-15 00:11:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-15 00:11:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:11:39 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:11:39 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-15 00:11:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-15 00:11:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-15 00:12:26 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:12:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:12:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-15 00:12:27 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-15 00:12:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:12:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-15 00:12:27 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-15 00:12:27 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:12:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10108
+2024-08-15 00:12:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:12:30 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11440
+2024-08-15 00:12:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-15 00:12:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-15 00:12:31 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-15 00:12:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-15 00:12:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-15 00:12:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10264 no longer exists.
+2024-08-15 00:12:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:12:32 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10108
+2024-08-15 00:12:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:12:33 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:12:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10108 deleted successfully.
+2024-08-15 00:12:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:12:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-15 00:12:33 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-15 00:14:13 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:14:13 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:14:14 [100-TesteCapiche.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-15 00:14:14 [100-TesteCapiche.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-15 00:14:14 [100-TesteCapiche.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:14:14 [100-TesteCapiche.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-15 00:14:14 [100-TesteCapiche.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-15 00:14:14 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:14:15 [100-TesteCapiche.test.js] [32minfo[39m: Project created successfully with ID: 10109
+2024-08-15 00:14:15 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:14:16 [100-TesteCapiche.test.js] [32minfo[39m: Issue created successfully with ID: 11441
+2024-08-15 00:14:16 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:14:16 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created project with ID: 10109
+2024-08-15 00:14:17 [100-TesteCapiche.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:14:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:14:17 [100-TesteCapiche.test.js] [32minfo[39m: Project 10109 deleted successfully.
+2024-08-15 00:14:17 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:14:17 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-15 00:14:17 [100-TesteCapiche.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-15 00:15:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:15:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:15:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-15 00:15:46 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-15 00:15:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:15:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-15 00:15:46 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-15 00:15:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:15:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10110
+2024-08-15 00:15:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:15:48 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11442
+2024-08-15 00:15:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-15 00:15:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-15 00:15:49 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-15 00:15:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-15 00:15:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-15 00:15:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10265 no longer exists.
+2024-08-15 00:15:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:15:50 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10110
+2024-08-15 00:15:51 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:15:51 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:15:51 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10110 deleted successfully.
+2024-08-15 00:15:51 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:15:51 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-15 00:15:51 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-15 00:19:24 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:19:24 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:19:25 [100-TesteCapiche.test.js] [32minfo[39m: Group created successfully with ID: a3e678e5-ca3f-4abf-a3eb-2788d86d6559
+2024-08-15 00:19:25 [100-TesteCapiche.test.js] [32minfo[39m: Group verification passed.
+2024-08-15 00:19:25 [100-TesteCapiche.test.js] [32minfo[39m: Group name matches expected.
+2024-08-15 00:19:25 [100-TesteCapiche.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:19:25 [100-TesteCapiche.test.js] [32minfo[39m: Adding user to the group with ID "a3e678e5-ca3f-4abf-a3eb-2788d86d6559"
+2024-08-15 00:19:26 [100-TesteCapiche.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group a3e678e5-ca3f-4abf-a3eb-2788d86d6559.
+2024-08-15 00:19:26 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:19:27 [100-TesteCapiche.test.js] [32minfo[39m: Project created successfully with ID: 10111
+2024-08-15 00:19:27 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:19:28 [100-TesteCapiche.test.js] [32minfo[39m: Issue created successfully with ID: 11443
+2024-08-15 00:19:28 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:19:28 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created project with ID: 10111
+2024-08-15 00:19:29 [100-TesteCapiche.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:19:29 [100-TesteCapiche.test.js] [32minfo[39m: Project 10111 deleted successfully.
+2024-08-15 00:19:29 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:19:29 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created group with ID: a3e678e5-ca3f-4abf-a3eb-2788d86d6559
+2024-08-15 00:19:29 [100-TesteCapiche.test.js] [32minfo[39m: Delete Group Response:
+2024-08-15 00:19:29 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:19:29 [100-TesteCapiche.test.js] [32minfo[39m: Group a3e678e5-ca3f-4abf-a3eb-2788d86d6559 deleted successfully.
+2024-08-15 00:20:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:20:45 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:20:46 [100-TesteCapiche.test.js] [32minfo[39m: Group created successfully with ID: 6c43d2b0-311c-4998-a399-b0012ac889e2
+2024-08-15 00:20:46 [100-TesteCapiche.test.js] [32minfo[39m: Group verification passed.
+2024-08-15 00:20:46 [100-TesteCapiche.test.js] [32minfo[39m: Group name matches expected.
+2024-08-15 00:20:46 [100-TesteCapiche.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:20:46 [100-TesteCapiche.test.js] [32minfo[39m: Adding user to the group with ID "6c43d2b0-311c-4998-a399-b0012ac889e2"
+2024-08-15 00:20:47 [100-TesteCapiche.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 6c43d2b0-311c-4998-a399-b0012ac889e2.
+2024-08-15 00:20:47 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:20:48 [100-TesteCapiche.test.js] [32minfo[39m: Project created successfully with ID: 10112
+2024-08-15 00:20:48 [100-TesteCapiche.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:20:49 [100-TesteCapiche.test.js] [32minfo[39m: Issue created successfully with ID: 11444
+2024-08-15 00:20:49 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:20:49 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created project with ID: 10112
+2024-08-15 00:20:50 [100-TesteCapiche.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:20:50 [100-TesteCapiche.test.js] [32minfo[39m: Project 10112 deleted successfully.
+2024-08-15 00:20:50 [100-TesteCapiche.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:20:50 [100-TesteCapiche.test.js] [32minfo[39m: Deleting the created group with ID: 6c43d2b0-311c-4998-a399-b0012ac889e2
+2024-08-15 00:20:50 [100-TesteCapiche.test.js] [32minfo[39m: Delete Group Response:
+2024-08-15 00:20:50 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:20:50 [100-TesteCapiche.test.js] [32minfo[39m: Group 6c43d2b0-311c-4998-a399-b0012ac889e2 deleted successfully.
+2024-08-15 00:24:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:24:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:24:40 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: dc312e22-a3fd-4c50-a177-ec8df4a5e203
+2024-08-15 00:24:40 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-15 00:24:40 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-15 00:24:40 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:24:40 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "dc312e22-a3fd-4c50-a177-ec8df4a5e203"
+2024-08-15 00:24:41 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group dc312e22-a3fd-4c50-a177-ec8df4a5e203.
+2024-08-15 00:24:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:24:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10113
+2024-08-15 00:24:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:24:43 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11445
+2024-08-15 00:24:43 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:24:43 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10113
+2024-08-15 00:24:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:24:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10113 deleted successfully.
+2024-08-15 00:24:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:24:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: dc312e22-a3fd-4c50-a177-ec8df4a5e203
+2024-08-15 00:24:45 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-15 00:24:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:24:45 [031-CreatingIssueProject.test.js] [32minfo[39m: Group dc312e22-a3fd-4c50-a177-ec8df4a5e203 deleted successfully.
+2024-08-15 00:25:30 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:25:30 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:25:32 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: 363f1691-9a08-44e7-83bb-087678d7b5fc
+2024-08-15 00:25:32 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-15 00:25:32 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-15 00:25:32 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:25:32 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "363f1691-9a08-44e7-83bb-087678d7b5fc"
+2024-08-15 00:25:33 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 363f1691-9a08-44e7-83bb-087678d7b5fc.
+2024-08-15 00:25:33 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:25:35 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10114
+2024-08-15 00:25:35 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:25:35 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:25:35 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10114
+2024-08-15 00:25:36 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11446
+2024-08-15 00:25:37 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:25:37 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10114 deleted successfully.
+2024-08-15 00:25:37 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:25:37 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: 363f1691-9a08-44e7-83bb-087678d7b5fc
+2024-08-15 00:25:37 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-15 00:25:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:25:37 [031-CreatingIssueProject.test.js] [32minfo[39m: Group 363f1691-9a08-44e7-83bb-087678d7b5fc deleted successfully.
+2024-08-15 00:26:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:26:37 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:26:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: 4c46453c-defd-44dc-ae18-572f1196ee33
+2024-08-15 00:26:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-15 00:26:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-15 00:26:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:26:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "4c46453c-defd-44dc-ae18-572f1196ee33"
+2024-08-15 00:26:39 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 4c46453c-defd-44dc-ae18-572f1196ee33.
+2024-08-15 00:26:39 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:26:40 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10115
+2024-08-15 00:26:40 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:26:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11447
+2024-08-15 00:26:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:26:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10115
+2024-08-15 00:26:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:26:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10115 deleted successfully.
+2024-08-15 00:26:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:26:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: 4c46453c-defd-44dc-ae18-572f1196ee33
+2024-08-15 00:26:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-15 00:26:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:26:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Group 4c46453c-defd-44dc-ae18-572f1196ee33 deleted successfully.
+2024-08-15 00:29:15 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:29:15 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:29:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: 210680ac-b69f-40f1-8b03-17dd7d13b01c
+2024-08-15 00:29:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-15 00:29:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-15 00:29:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:29:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "210680ac-b69f-40f1-8b03-17dd7d13b01c"
+2024-08-15 00:29:17 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 210680ac-b69f-40f1-8b03-17dd7d13b01c.
+2024-08-15 00:29:17 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:29:18 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10116
+2024-08-15 00:29:18 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:29:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:29:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10116
+2024-08-15 00:29:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:29:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10116 deleted successfully.
+2024-08-15 00:29:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:29:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: 210680ac-b69f-40f1-8b03-17dd7d13b01c
+2024-08-15 00:29:20 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-15 00:29:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:29:20 [031-CreatingIssueProject.test.js] [32minfo[39m: Group 210680ac-b69f-40f1-8b03-17dd7d13b01c deleted successfully.
+2024-08-15 00:31:03 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:31:03 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:31:04 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: 264db723-1ffa-4dcc-8c2b-da967b032959
+2024-08-15 00:31:04 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-15 00:31:04 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-15 00:31:04 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:31:04 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "264db723-1ffa-4dcc-8c2b-da967b032959"
+2024-08-15 00:31:05 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 264db723-1ffa-4dcc-8c2b-da967b032959.
+2024-08-15 00:31:05 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:31:06 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10117
+2024-08-15 00:31:06 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:31:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Schema validation passed for the issue creation response.
+2024-08-15 00:31:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11449
+2024-08-15 00:31:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:31:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10117
+2024-08-15 00:31:09 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:31:09 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10117 deleted successfully.
+2024-08-15 00:31:09 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:31:09 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: 264db723-1ffa-4dcc-8c2b-da967b032959
+2024-08-15 00:31:09 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-15 00:31:09 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:31:09 [031-CreatingIssueProject.test.js] [32minfo[39m: Group 264db723-1ffa-4dcc-8c2b-da967b032959 deleted successfully.
+2024-08-15 00:44:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:44:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:44:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-15 00:44:59 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-15 00:44:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:44:59 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user  to group undefined. Status: 401
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-15 00:45:00 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-15 00:45:00 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-15 00:46:25 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:46:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "undefined"
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [31merror[39m: Failed to add user  to group undefined. Status: 401
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: undefined
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-15 00:46:26 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: undefined
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: No project ID available for deletion.
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: undefined
+2024-08-15 00:46:26 [040-DeleteCommentIssue.test.js] [32minfo[39m: No group ID available for deletion.
+2024-08-15 00:48:01 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:48:01 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:48:02 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 2deb819a-048e-4eee-8109-30284bed7985
+2024-08-15 00:48:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-15 00:48:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-15 00:48:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:48:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "2deb819a-048e-4eee-8109-30284bed7985"
+2024-08-15 00:48:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 2deb819a-048e-4eee-8109-30284bed7985.
+2024-08-15 00:48:03 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:48:04 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10118
+2024-08-15 00:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:48:05 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11450
+2024-08-15 00:48:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-15 00:48:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-15 00:48:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-15 00:48:06 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-15 00:48:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-15 00:48:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10266 no longer exists.
+2024-08-15 00:48:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:48:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10118
+2024-08-15 00:48:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:48:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10118 deleted successfully.
+2024-08-15 00:48:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:48:07 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 2deb819a-048e-4eee-8109-30284bed7985
+2024-08-15 00:48:08 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-15 00:48:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:48:08 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 2deb819a-048e-4eee-8109-30284bed7985 deleted successfully.
+2024-08-15 00:49:02 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 00:49:02 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-15 00:49:03 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: 898a5ac8-112f-4bb3-8864-464ec3a53a3e
+2024-08-15 00:49:03 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-15 00:49:03 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-15 00:49:03 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-15 00:49:03 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "898a5ac8-112f-4bb3-8864-464ec3a53a3e"
+2024-08-15 00:49:04 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 898a5ac8-112f-4bb3-8864-464ec3a53a3e.
+2024-08-15 00:49:04 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-15 00:49:05 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10119
+2024-08-15 00:49:05 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-15 00:49:06 [031-CreatingIssueProject.test.js] [32minfo[39m: Schema validation passed for the issue creation response.
+2024-08-15 00:49:06 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11451
+2024-08-15 00:49:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-15 00:49:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10119
+2024-08-15 00:49:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-15 00:49:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10119 deleted successfully.
+2024-08-15 00:49:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-15 00:49:07 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: 898a5ac8-112f-4bb3-8864-464ec3a53a3e
+2024-08-15 00:49:08 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-15 00:49:08 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 00:49:08 [031-CreatingIssueProject.test.js] [32minfo[39m: Group 898a5ac8-112f-4bb3-8864-464ec3a53a3e deleted successfully.
+

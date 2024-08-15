@@ -82,10 +82,6 @@ test('Get a specific user from Jira', async () => {
   expect(validation.valid).toBe(true);
 
 
-  if (printUserInfo) {
-    console.log('User Info:', JSON.stringify(response.data, null, 2));
-  }
-
   logger.info('User data successfully retrieved.');
 
 });

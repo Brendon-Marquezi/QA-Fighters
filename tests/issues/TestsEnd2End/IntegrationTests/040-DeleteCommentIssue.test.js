@@ -17,11 +17,11 @@ describe('Issues', () => {
     requestManager = RequestManager.getInstance(env.environment.base_url);
 
     accountIdToAdd = env.environment.client_id;
-    groupName = env.environment.group_name;
+    groupName = 'teste50';
 
     jsonDataProject = {
-      key: 'EXIT46901',
-      name: 'Example Project124690',
+      key: 'EXIT488',
+      name: 'Example Project488',
       projectTypeKey: 'software',
       projectTemplateKey:
         'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',
@@ -136,7 +136,7 @@ describe('Issues', () => {
 
     if (createdProjectId != undefined) {
       // Make sure the project ID is available
-      jsonDataIssue.fields.project.id = createdProjectId; 
+      jsonDataIssue.fields.project.id = createdProjectId;
 
       const issueResponse = await requestManager.send(
         'post',

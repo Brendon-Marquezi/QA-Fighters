@@ -10,16 +10,18 @@ describe('Project', () => {
   let createdProjectId;
 
   beforeEach(async () => {
-     projectSchema = {
+    requestManager = RequestManager.getInstance(env.environment.base_url);
+
+    projectSchema = {
       type: 'object',
       properties: {
-        id: { type: 'string' }, 
+        id: { type: 'string' },
         key: { type: 'string' },
         name: { type: 'string' },
       },
       required: ['id', 'key', 'name'],
     };
-    
+
     jsonData = {
       key: 'EXIT620',
       name: 'Example Project1620',
@@ -30,8 +32,6 @@ describe('Project', () => {
       assigneeType: 'PROJECT_LEAD',
       leadAccountId: env.environment.client_id,
     };
-
-    requestManager = RequestManager.getInstance(env.environment.base_url);
   });
 
   test('Create and verify a new project', async () => {
@@ -62,7 +62,7 @@ describe('Project', () => {
 
     if (verifyResponse.status === 200) {
       logger.info('Project verification passed.');
-      
+
       // Validate the schema of the response
       const validation = validateSchema(verifyResponse.data, projectSchema);
 
@@ -82,7 +82,10 @@ describe('Project', () => {
         logger.error('Project name does not match expected.');
       }
     } else {
-      logger.error('Project verification failed. Status:', verifyResponse.status);
+      logger.error(
+        'Project verification failed. Status:',
+        verifyResponse.status,
+      );
     }
   });
 
@@ -114,12 +117,16 @@ describe('Project', () => {
         );
 
         if (!deletedProject) {
-          logger.info(`Confirmation: Project ${createdProjectId} no longer exists.`);
+          logger.info(
+            `Confirmation: Project ${createdProjectId} no longer exists.`,
+          );
         } else {
           logger.error(`Project ${createdProjectId} still exists.`);
         }
       } else {
-        logger.error(`Failed to delete project ${createdProjectId}. Status: ${deleteResponse.status}`);
+        logger.error(
+          `Failed to delete project ${createdProjectId}. Status: ${deleteResponse.status}`,
+        );
       }
     } else {
       logger.info('No project ID available for deletion.');

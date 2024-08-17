@@ -3,7 +3,6 @@ const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 const validateSchema = require('#configs/schemaValidation');
 
-
 describe('Issues', () => {
   let requestManager;
   let createdGroupId;
@@ -13,25 +12,26 @@ describe('Issues', () => {
   let jsonDataIssue;
   let accountIdToAdd;
   let groupName;
-
-  const responseSchema = {
-    type: 'object',
-    properties: {
-      id: { type: 'string' },
-      self: { type: 'string' },
-    },
-    required: ['id', 'self'],
-  };
+  let responseSchema;
 
   beforeEach(() => {
     requestManager = RequestManager.getInstance(env.environment.base_url);
 
     accountIdToAdd = env.environment.client_id;
-    groupName = env.environment.group_name;
+    groupName = 'teste350';
+
+    responseSchema = {
+      type: 'object',
+      properties: {
+        id: { type: 'string' },
+        self: { type: 'string' },
+      },
+      required: ['id', 'self'],
+    };
 
     jsonDataProject = {
-      key: 'EXIT46120',
-      name: 'ExampleTeste12345',
+      key: 'EXIT976',
+      name: 'ExampleTeste976',
       projectTypeKey: 'software',
       projectTemplateKey:
         'com.pyxis.greenhopper.jira:gh-simplified-scrum-classic',
@@ -63,7 +63,7 @@ describe('Issues', () => {
         issuetype: {
           id: '10000',
         },
-        summary: 'Teste de criação de um item no projeto ',
+        summary: 'Testing the creation of an item in the project',
       },
       boards: [
         {
@@ -146,7 +146,7 @@ describe('Issues', () => {
 
     if (createdProjectId != undefined) {
       // Make sure the project ID is available
-      jsonDataIssue.fields.project.id = createdProjectId; 
+      jsonDataIssue.fields.project.id = createdProjectId;
 
       const issueResponse = await requestManager.send(
         'post',
@@ -156,11 +156,16 @@ describe('Issues', () => {
         jsonDataIssue,
       );
       const validation = validateSchema(issueResponse.data, responseSchema);
-    if (validation.valid) {
-      logger.info('Schema validation passed for the issue creation response.');
-    } else {
-      logger.error('Schema validation failed. Validation errors:', validation.errors);
-    }
+      if (validation.valid) {
+        logger.info(
+          'Schema validation passed for the issue creation response.',
+        );
+      } else {
+        logger.error(
+          'Schema validation failed. Validation errors:',
+          validation.errors,
+        );
+      }
 
       createdIssueId = issueResponse.data.id;
       logger.info(`Issue created successfully with ID: ${createdIssueId}`);
@@ -177,47 +182,47 @@ describe('Issues', () => {
     } else {
       logger.error('Project ID is not available. Issue creation failed.');
     }
-});
+  }, 10000);
 
-afterEach(async () => {
-  // Delete the project
-  logger.info('Delete the created project');
-  logger.info(`Deleting the created project with ID: ${createdProjectId}`);
+  afterEach(async () => {
+    // Delete the project
+    logger.info('Delete the created project');
+    logger.info(`Deleting the created project with ID: ${createdProjectId}`);
 
-  if (createdProjectId != undefined) {
-    const deleteProjectResponse = await requestManager.send(
-      'delete',
-      `project/${createdProjectId}?enableUndo=false`,
-      {},
-      { Authorization: global.basicAuth },
-    );
+    if (createdProjectId != undefined) {
+      const deleteProjectResponse = await requestManager.send(
+        'delete',
+        `project/${createdProjectId}?enableUndo=false`,
+        {},
+        { Authorization: global.basicAuth },
+      );
 
-    logger.info('Delete Project Response:', deleteProjectResponse.data);
+      logger.info('Delete Project Response:', deleteProjectResponse.data);
 
-    expect(deleteProjectResponse.status).toBe(204);
-    logger.info(`Project ${createdProjectId} deleted successfully.`);
-  } else {
-    logger.info('No project ID available for deletion.');
-  }
+      expect(deleteProjectResponse.status).toBe(204);
+      logger.info(`Project ${createdProjectId} deleted successfully.`);
+    } else {
+      logger.info('No project ID available for deletion.');
+    }
 
-  // Delete the group
-  logger.info('Delete the created group');
-  logger.info(`Deleting the created group with ID: ${createdGroupId}`);
+    // Delete the group
+    logger.info('Delete the created group');
+    logger.info(`Deleting the created group with ID: ${createdGroupId}`);
 
-  if (createdGroupId != undefined) {
-    const deleteGroupResponse = await requestManager.send(
-      'delete',
-      `group?groupId=${createdGroupId}`,
-      {},
-      { Authorization: global.basicAuth },
-    );
+    if (createdGroupId != undefined) {
+      const deleteGroupResponse = await requestManager.send(
+        'delete',
+        `group?groupId=${createdGroupId}`,
+        {},
+        { Authorization: global.basicAuth },
+      );
 
-    logger.info('Delete Group Response:', deleteGroupResponse.data);
+      logger.info('Delete Group Response:', deleteGroupResponse.data);
 
-    expect(deleteGroupResponse.status).toBe(200);
-    logger.info(`Group ${createdGroupId} deleted successfully.`);
-  } else {
-    logger.info('No group ID available for deletion.');
-  }
-});
+      expect(deleteGroupResponse.status).toBe(200);
+      logger.info(`Group ${createdGroupId} deleted successfully.`);
+    } else {
+      logger.info('No group ID available for deletion.');
+    }
+  });
 });

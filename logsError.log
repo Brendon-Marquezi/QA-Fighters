@@ -633,3 +633,304 @@ Received: [31m200[39m
 2024-08-15 16:53:11 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
 2024-08-15 16:54:08 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
 2024-08-15 16:54:53 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-16 14:31:55 [027-GetOneEspecificUser.test.js] [31merror[39m: Email is not defined in the environment configuration.
+2024-08-16 14:31:56 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:31:56 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 14:31:57 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: Group bbacb693-5670-48fd-8221-5d596f385a9c still exists.
+2024-08-16 14:31:58 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-16 14:31:58 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 14:31:58 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to delete group bbacb693-5670-48fd-8221-5d596f385a9c. Status: 404
+2024-08-16 14:31:58 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to delete group bbacb693-5670-48fd-8221-5d596f385a9c. Status: 404
+2024-08-16 14:31:58 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to delete group bbacb693-5670-48fd-8221-5d596f385a9c. Status: 400
+2024-08-16 14:31:58 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Group verification failed. Status: 404
+2024-08-16 14:31:59 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:31:59 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to delete group bbacb693-5670-48fd-8221-5d596f385a9c. Status: 404
+2024-08-16 14:33:01 [027-GetOneEspecificUser.test.js] [31merror[39m: Email is not defined in the environment configuration.
+2024-08-16 14:33:02 [023-BulkGetUsers.test.js] [31merror[39m: Validation errors:
+2024-08-16 14:33:02 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:33:02 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 14:33:02 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:33:02 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:33:03 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:33:03 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: Group cfdc5430-a953-4e79-9ed3-7f2a1cc90080 still exists.
+2024-08-16 14:33:03 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:33:03 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 14:33:03 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:33:03 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:33:03 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:33:03 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `values` array.
+2024-08-16 14:33:03 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:33:04 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 14:33:04 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to delete group cfdc5430-a953-4e79-9ed3-7f2a1cc90080. Status: 404
+2024-08-16 14:33:04 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:40:54 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:40:54 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 14:40:55 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: Group 895a42dc-7941-441c-9044-0c036e2fe347 still exists.
+2024-08-16 14:40:55 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group 895a42dc-7941-441c-9044-0c036e2fe347. Status: 400
+2024-08-16 14:40:56 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:40:56 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 14:40:56 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 14:40:56 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to delete group 895a42dc-7941-441c-9044-0c036e2fe347. Status: 404
+2024-08-16 14:40:56 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to delete group 895a42dc-7941-441c-9044-0c036e2fe347. Status: 404
+2024-08-16 14:40:56 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:40:57 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group fe6a2516-6230-4d92-b5ce-3a1a4b928d04. Status: 400
+2024-08-16 14:40:57 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group fe6a2516-6230-4d92-b5ce-3a1a4b928d04. Status: 400
+2024-08-16 14:40:58 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to delete group fe6a2516-6230-4d92-b5ce-3a1a4b928d04. Status: 404
+2024-08-16 14:42:30 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:42:30 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 14:42:31 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 14:42:31 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-16 14:42:31 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:42:31 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:42:31 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:42:31 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: Group dda8a6ea-bad3-41c1-a004-14f921c3d9dc still exists.
+2024-08-16 14:42:32 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group dda8a6ea-bad3-41c1-a004-14f921c3d9dc. Status: 400
+2024-08-16 14:42:32 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 14:42:32 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to delete group dda8a6ea-bad3-41c1-a004-14f921c3d9dc. Status: 400
+2024-08-16 14:42:33 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:42:35 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Verification failed: Group bd497a51-6027-4edb-acad-ed665e021cf1 still exists.
+2024-08-16 14:47:46 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-16 14:47:46 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:47:46 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 14:47:46 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:47:46 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:47:46 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:47:46 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:47:46 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:47:46 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 14:47:46 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:47:46 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:47:46 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:47:46 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 14:47:46 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-16 14:47:46 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:47:47 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:47:47 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:47:47 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `values` array.
+2024-08-16 14:47:47 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:47:48 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 14:47:48 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:50:46 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:50:46 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 14:50:47 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:50:47 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:50:47 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:50:47 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:50:47 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:50:47 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:50:47 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 14:50:47 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:50:47 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:50:48 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 14:50:48 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-16 14:50:48 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:50:48 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 14:50:49 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:50:49 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `values` array.
+2024-08-16 14:50:49 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 14:50:49 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 14:50:50 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: Group 1167bccd-0373-491a-ba90-3c926dbd2217 still exists.
+2024-08-16 14:50:51 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 14:51:35 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-16 14:51:59 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: Group 19c2563e-fa83-488e-93ce-29e4da0497d1 still exists.
+2024-08-16 14:58:24 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-16 14:59:27 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: No group ID available for verification.
+2024-08-16 15:00:21 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:03:10 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:07:21 [042-VerifyDeletionOfAGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:09:20 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:09:20 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 15:09:20 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:09:20 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:09:21 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:09:21 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:09:21 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:09:21 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:09:21 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:09:21 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 15:09:21 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:09:22 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:09:22 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 15:09:22 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:09:22 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `values` array.
+2024-08-16 15:09:22 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:09:22 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 15:09:22 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-16 15:09:22 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:09:22 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:10:25 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:10:25 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 15:10:46 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:10:46 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 15:12:24 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:13:11 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:13:11 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 15:13:31 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:13:58 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:15:29 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:15:29 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Nenhum ID de projeto disponível para verificação.
+2024-08-16 15:19:15 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Falha na validação do schema para verificação de projeto: must be integer
+2024-08-16 15:19:44 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Falha na validação do schema para verificação de projeto: must be integer
+2024-08-16 15:20:46 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [31merror[39m: Falha na validação do schema para verificação de projeto: must be integer
+2024-08-16 15:23:39 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:23:39 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:23:39 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:23:39 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:23:39 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:23:40 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:23:40 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 15:23:40 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:23:40 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 15:23:40 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:23:41 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:23:41 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 15:23:41 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-16 15:23:41 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:23:41 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:23:41 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `values` array.
+2024-08-16 15:23:41 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:23:41 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:37:24 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:37:24 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:37:24 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:37:24 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:37:24 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:37:25 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 15:37:26 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:37:26 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:37:26 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:37:26 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:37:26 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 15:37:26 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:37:26 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 15:37:26 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `values` array.
+2024-08-16 15:37:26 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:37:26 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 15:37:26 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-16 15:37:26 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 15:39:48 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 15:39:48 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:15:32 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:15:32 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 16:15:32 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-16 16:15:32 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:15:32 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:15:32 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:15:32 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:15:32 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:15:32 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:15:32 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 16:15:32 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:15:32 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:15:32 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `values` array.
+2024-08-16 16:15:32 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:15:32 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:15:32 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:15:33 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 16:15:33 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:15:45 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:15:46 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:18:53 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:18:53 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 16:18:53 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-16 16:18:53 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:18:53 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:18:53 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:18:53 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:18:53 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:18:53 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:18:53 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `values` array.
+2024-08-16 16:18:53 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:18:54 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:18:54 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 16:18:54 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:18:55 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 16:18:55 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:19:47 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:20:18 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:20:34 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:20:34 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:20:34 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:20:47 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:20:48 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:20:48 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:25:14 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:25:14 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:25:14 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:29:21 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:29:21 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:33:27 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:33:27 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:34:37 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:34:37 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:34:49 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:34:49 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:35:22 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:35:23 [046 - VerifyExistingGroupsThroughSearch.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:36:23 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:36:23 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 16:36:24 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:36:24 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
+2024-08-16 16:36:24 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:36:24 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:36:24 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: The API response does not contain the `values` array.
+2024-08-16 16:36:24 [044-Verify addingAUserToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:36:25 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 16:36:26 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 16:36:26 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-16 16:36:26 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-16 16:36:26 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:55:12 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 16:55:14 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 16:56:40 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 16:56:41 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:01:35 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 17:01:37 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:04:45 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 17:04:46 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:05:03 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 17:05:03 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group fed787d8-e379-4ad7-87bf-d3f6c3e7b033 still exists.
+2024-08-16 17:05:05 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:05:32 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 17:05:33 [021-DeleteUser.test.js] [31merror[39m: Failed to create user for deletion test
+2024-08-16 17:05:33 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:07:34 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 17:07:34 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 17:07:44 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 17:07:45 [021-DeleteUser.test.js] [31merror[39m: Failed to create user for deletion test
+2024-08-16 17:07:45 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:11:58 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 17:11:58 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 17:11:59 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 17:12:00 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:18:02 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 17:18:02 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 17:18:02 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 17:18:05 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:21:29 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 17:26:09 [031-CreatingIssueProject.test.js] [31merror[39m: Project ID is not available. Issue creation failed.
+2024-08-16 17:27:27 [031-CreatingIssueProject.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 17:27:28 [031-CreatingIssueProject.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group f39972b5-f540-4894-aae5-d36deda4e76e. Status: 404
+2024-08-16 17:27:48 [031-CreatingIssueProject.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-16 17:27:48 [031-CreatingIssueProject.test.js] [31merror[39m: Failed to add user 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc to group undefined. Status: 404
+2024-08-16 17:31:47 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:31:48 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 17:31:48 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 17:42:04 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:42:17 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 17:42:39 [018-Checkifitispossibletolisttheavailable project types.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
+2024-08-16 23:24:26 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 23:24:26 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 23:25:03 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 23:25:03 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 23:25:16 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 23:25:16 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 23:26:01 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 23:26:01 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 23:28:43 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 23:28:43 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 23:29:01 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 23:29:01 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 23:35:35 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed. Validation errors:
+2024-08-16 23:35:35 [021-DeleteUser.test.js] [31merror[39m: Response schema validation failed
+2024-08-16 23:45:16 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [31merror[39m: Group verification failed. Status: 404

@@ -3,78 +3,121 @@ const RequestManager = require('#utils/requestManager');
 const logger = require('#utils/logger')(__filename);
 const validateSchema = require('#configs/schemaValidation');
 
-let requestManager;
-let createdUserId = null;
+describe('Users', () => {
+  let requestManager;
+  let createdUserId;
+  let createResponseSchema;
 
-beforeEach(async () => {
-  // Configuração do Request Manager
-  requestManager = RequestManager.getInstance(env.environment.base_url);
-  global.basicAuth =
-    'Basic ' +
-    Buffer.from(
-      `${env.environment.username}:${env.environment.api_token}`
-    ).toString('base64');
-  logger.info('Global authentication setup completed.');
+  beforeEach(async () => {
+    logger.info('Global authentication setup completed.');
+    requestManager = RequestManager.getInstance(env.environment.base_url);
 
-  // Criação de um usuário para exclusão no teste
-  const endpoint = 'user';
-  const bodyData = {
-    emailAddress: env.environment.emailAddress,
-    products: []
-  };
+    createResponseSchema = {
+      type: 'object',
+      properties: {
+        self: { type: 'string' },
+        accountId: { type: 'string' },
+        accountType: { type: 'string' },
+        emailAddress: { type: 'string' },
+        avatarUrls: {
+          type: 'object',
+          properties: {
+            '48x48': { type: 'string' },
+            '24x24': { type: 'string' },
+            '16x16': { type: 'string' },
+            '32x32': { type: 'string' },
+          },
+          required: ['48x48', '24x24', '16x16', '32x32'],
+          additionalProperties: false,
+        },
+        displayName: { type: 'string' },
+        active: { type: 'boolean' },
+        timeZone: { type: 'string' },
+        locale: { type: 'string' },
+        groups: {
+          type: 'object',
+          properties: {
+            size: { type: 'number' },
+            items: { type: 'array', items: { type: 'object' } },
+          },
+          required: ['size', 'items'],
+          additionalProperties: false,
+        },
+        applicationRoles: {
+          type: 'object',
+          properties: {
+            size: { type: 'number' },
+            items: { type: 'array', items: { type: 'object' } },
+          },
+          required: ['size', 'items'],
+          additionalProperties: false,
+        },
+        expand: { type: 'string' },
+      },
+      required: [
+        'self',
+        'accountId',
+        'accountType',
+        'emailAddress',
+        'avatarUrls',
+        'displayName',
+        'active',
+        'timeZone',
+        'locale',
+        'groups',
+        'applicationRoles',
+        'expand',
+      ],
+      additionalProperties: false,
+    };
 
-  const response = await requestManager.send(
-    'post',
-    endpoint,
-    {},
-    { Authorization: global.basicAuth, Accept: 'application/json', 'Content-Type': 'application/json' },
-    bodyData
-  );
+    const createUserResponse = await requestManager.send(
+      'post',
+      'user',
+      {},
+      { Authorization: global.basicAuth },
+      {
+        emailAddress: env.environment.emailAddress,
+        products: [],
+      },
+    );
 
-  if (response.status === 201) {
-    createdUserId = response.data.accountId;
-    logger.info('User created successfully for deletion test.');
-  } else {
-    throw new Error('Failed to create user for deletion test');
-  }
-});
+    expect(createUserResponse.status).toBe(201);
 
-test('Delete a user from Jira', async () => {
-  logger.info('Test: Delete a user from Jira');
+    const validation = validateSchema(
+      createUserResponse.data,
+      createResponseSchema,
+    );
+    if (!validation.valid) {
+      logger.error(
+        'Response schema validation failed. Validation errors:',
+        JSON.stringify(validation.errors, null, 2),
+      );
+      logger.error('Response schema validation failed');
+    }
 
-  expect(createdUserId).toBeTruthy();
+    if (createUserResponse.status === 201) {
+      createdUserId = createUserResponse.data.accountId;
+      logger.info('User created successfully for deletion test.');
+    } else {
+      logger.error('Failed to create user for deletion test');
+    }
+  });
 
-  const endpoint = `user?accountId=${createdUserId}`;
+  test('Delete a user from Jira', async () => {
+    logger.info('Test: Delete a user from Jira');
 
-  const response = await requestManager.send(
-    'delete',
-    endpoint,
-    {},
-    { Authorization: global.basicAuth, Accept: 'application/json' }
-  );
+    expect(createdUserId).toBeTruthy();
 
-  // Esquema de validação local ao teste
-  const deleteResponseSchema = {
-    type: 'object',
-    properties: {
-      status: { type: 'number', enum: [204] }
-    },
-    required: ['status'],
-    additionalProperties: false
-  };
+    const response = await requestManager.send(
+      'delete',
+      `user?accountId=${createdUserId}`,
+      {},
+      { Authorization: global.basicAuth, Accept: 'application/json' },
+    );
 
-  // Validação da resposta do DELETE usando validateSchema
-  const validation = validateSchema({ status: response.status }, deleteResponseSchema);
-  if (!validation.valid) {
-    logger.error('Response schema validation failed. Validation errors:', JSON.stringify(validation.errors, null, 2));
-    throw new Error('Response schema validation failed');
-  }
+    expect(response.status).toBe(204);
 
-  logger.info(`User with ID ${createdUserId} deleted successfully.`);
-  createdUserId = null;
-});
-
-afterAll(() => {
-  global.basicAuth = null;
-  logger.info('Global authentication cleared.');
+    logger.info(`User with ID ${createdUserId} deleted successfully.`);
+  });
 });

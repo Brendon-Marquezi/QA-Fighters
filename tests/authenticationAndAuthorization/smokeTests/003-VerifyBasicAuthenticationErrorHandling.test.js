@@ -1,13 +1,13 @@
 const env = require('#configs/environments');
+const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 
-
 describe('Authentication and Authorization', () => {
-
   let invalidBasicAuth;
   let requestManager;
 
   beforeEach(() => {
+    logger.info('Starting basic authentication error handler test');
     invalidBasicAuth =
       'Basic ' +
       Buffer.from(
@@ -29,5 +29,6 @@ describe('Authentication and Authorization', () => {
     expect(response.data).toBe(
       'Client must be authenticated to access this resource.',
     );
+    logger.info('Basic authentication error handler test completed');
   });
 });

@@ -3,52 +3,74 @@ const logger = require('#utils/logger')(__filename);
 const RequestManager = require('#utils/requestManager');
 const validateSchema = require('#configs/schemaValidation');
 
-// Schema para a resposta ao listar os tipos de projetos
-const projectTypeSchema = {
-  type: 'array',
-  items: {
-    type: 'object',
-    properties: {
-      id: { type: 'string' },
-      name: { type: 'string' },
-      description: { type: 'string' },
-    },
-    required: ['id', 'name'],
-  },
-};
+describe('Project', () => {
+  let requestManager;
+  let projectTypeSchema;
 
-let requestManager;
+  beforeEach(() => {
+    logger.info('Starting the test setup');
+    requestManager = RequestManager.getInstance(env.environment.base_url);
 
-beforeEach(() => {
-  logger.info('Iniciando a configuração do teste');
-  requestManager = RequestManager.getInstance(env.environment.base_url);
-});
+    projectTypeSchema = {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          key: {
+            type: 'string',
+          },
+          formattedKey: {
+            type: 'string',
+          },
+          descriptionI18nKey: {
+            type: 'string',
+          },
+          icon: {
+            type: 'string',
+          },
+          color: {
+            type: 'string',
+          },
+        },
+        required: [
+          'key',
+          'formattedKey',
+          'descriptionI18nKey',
+          'icon',
+          'color',
+        ],
+      },
+    };
+  });
 
-test('Verificar se é possível listar os tipos de projetos disponíveis', async () => {
-  logger.info('Iniciando a listagem dos tipos de projetos disponíveis');
+  test('Check if it is possible to list the available project types', async () => {
+    logger.info('Starting the listing of available project types');
 
-  const response = await requestManager.send(
-    'get',
-    'project/type',
-    {},
-    { Authorization: global.basicAuth },
-  );
+    const response = await requestManager.send(
+      'get',
+      'project/type',
+      {},
+      { Authorization: global.basicAuth },
+    );
 
-  logger.info('Resposta recebida para os tipos de projetos');
+    logger.info('Response received for project types');
 
-  // Validar o esquema da resposta para os tipos de projetos
+    const projectTypeValidationResult = validateSchema(
+      response.data,
+      projectTypeSchema,
+    );
 
-
-    // Compara a resposta com o esquema
-    const projectTypeValidationResult = validateSchema(response.data, projectTypeSchema);
     if (projectTypeValidationResult.valid) {
       logger.info('-schemaValidator- Response matches schema.');
     } else {
-      logger.error('-schemaValidator- Response does not match schema. Validation errors:', projectTypeValidationResult.errors);
+      logger.error(
+        '-schemaValidator- Response does not match schema. Validation errors:',
+        projectTypeValidationResult.errors,
+      );
     }
 
-  expect(response.status).toBe(200);
-  expect(Array.isArray(response.data)).toBe(true);
-  expect(response.data.length).toBeGreaterThan(0);
+    expect(response.status).toBe(200);
+    expect(Array.isArray(response.data)).toBe(true);
+    expect(response.data.length).toBeGreaterThan(0);
+  });
 });
-

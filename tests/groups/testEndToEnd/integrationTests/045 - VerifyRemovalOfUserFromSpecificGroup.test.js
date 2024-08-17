@@ -4,64 +4,65 @@ const RequestManager = require('#utils/requestManager');
 const validateSchema = require('#configs/schemaValidation');
 
 describe('Groups', () => {
-  let userSchema;
-  let userListSchema;
   let requestManager;
-  let groupName;
-  let userIdToAdd;
   let createdGroupId;
+  let userIdToAdd;
+  let groupSchema;
 
   beforeEach(async () => {
-    logger.info('Starting group verification and creation.');
     requestManager = RequestManager.getInstance(env.environment.base_url);
-
-    groupName = 'Teste800';
 
     userIdToAdd = env.environment.client_id;
 
-    userSchema = {
+    groupSchema = {
       type: 'object',
       properties: {
-        accountId: { type: 'string' },
-        displayName: { type: 'string' },
-      },
-      required: ['accountId', 'displayName'],
-    };
-
-    userListSchema = {
-      type: 'object',
-      properties: {
+        self: { type: 'string' },
+        maxResults: { type: 'number' },
+        startAt: { type: 'number' },
+        total: { type: 'number' },
+        isLast: { type: 'boolean' },
         values: {
           type: 'array',
-          items: userSchema,
+          items: {
+            type: 'object',
+            properties: {
+              accountId: { type: 'string' },
+              displayName: { type: 'string' },
+            },
+            required: [],
+          },
         },
       },
-      required: ['values'],
+      required: ['self', 'maxResults', 'startAt', 'total', 'isLast', 'values'],
     };
+  });
 
-    // Check if the group already exists
+  test('Verify removal of user from specific group', async () => {
+    logger.info('Starting group creation and user addition.');
+
+    // Group creation
     const searchResponse = await requestManager.send(
       'get',
-      `groups/picker?query=${encodeURIComponent(groupName)}`,
+      `groups/picker?query=${encodeURIComponent(env.environment.group_name)}`,
       {},
       { Authorization: global.basicAuth },
     );
 
     const existingGroup = searchResponse.data.groups.find(
-      (group) => group.name === groupName,
+      (group) => group.name === env.environment.group_name,
     );
 
     if (existingGroup) {
       createdGroupId = existingGroup.groupId;
       logger.info(`Existing group found with ID: ${createdGroupId}`);
     } else {
-      // Create a new group if it does not exist
       const createResponse = await requestManager.send(
         'post',
         'group',
         {},
         { Authorization: global.basicAuth },
-        { name: groupName },
+        { name: 'teste600' },
       );
       createdGroupId = createResponse.data.groupId;
       logger.info(`Group created successfully with ID: ${createdGroupId}`);
@@ -83,57 +84,72 @@ describe('Groups', () => {
         `Failed to add user ${userIdToAdd} to group ${createdGroupId}. Status: ${addUserResponse.status}`,
       );
     }
-  });
 
-  test('Verify users belonging to a specific group', async () => {
-    logger.info(
-      `Starting test to verify users of the group with ID "${createdGroupId}".`,
+    logger.info('Starting test to verify removal of user from group.');
+
+    // Remove user from group
+    const removeUserResponse = await requestManager.send(
+      'delete',
+      `group/user?groupId=${createdGroupId}&accountId=${userIdToAdd}`,
+      {},
+      { Authorization: global.basicAuth },
     );
 
-    const response = await requestManager.send(
+    expect(removeUserResponse.status).toBe(200);
+
+    // Check if the user was actually removed
+    const verifyGroupResponse = await requestManager.send(
       'get',
       `group/member?groupId=${createdGroupId}`,
       {},
       { Authorization: global.basicAuth },
     );
 
-    logger.info(`Response: ${response.status} ${response.statusText}`);
+    logger.info(
+      `Response: ${verifyGroupResponse.status} ${verifyGroupResponse.statusText}`,
+    );
 
-    // Validate the response schema
-    const validationResult = validateSchema(response.data, userListSchema);
-    if (validationResult.valid) {
-      logger.info('-schemaValidator- Response matches schema.');
-    } else {
-      logger.error(
-        '-schemaValidator- Response does not match schema. Validation errors:',
-        validationResult.errors,
-      );
-    }
+    // Apply schema validation
+    if (verifyGroupResponse.status === 200) {
+      logger.info('-schemaValidator- Group verification passed.');
 
-    // Check if the values property exists
-    if (response.data && response.data.values) {
-      logger.info(`Listing users of group "${createdGroupId}":`);
-      response.data.values.forEach((member) => {
-        logger.info(
-          `- User ID: ${member.accountId}, Name: ${member.displayName}`,
-        );
-      });
-
-      if (response.status === 200 && response.data.values.length > 0) {
-        logger.info('Test passed: users were successfully listed.');
+      // Compare the response with the schema
+      const validation = validateSchema(verifyGroupResponse.data, groupSchema);
+      if (validation.valid) {
+        logger.info('-schemaValidator- Response matches schema.');
       } else {
         logger.error(
-          'Test failed: the response does not contain users or failed to list.',
+          '-schemaValidator- Response does not match schema. Validation errors:',
+          validation.errors,
+        );
+      }
+
+      // Check if the user was removed
+      const users = verifyGroupResponse.data.users?.values || [];
+      const userInGroup = users.some(
+        (member) => member.accountId === userIdToAdd,
+      );
+
+      if (!userInGroup) {
+        logger.info(
+          `User ${userIdToAdd} successfully removed from group ${createdGroupId}.`,
+        );
+      } else {
+        logger.error(
+          `User ${userIdToAdd} was not removed from group ${createdGroupId}.`,
         );
       }
     } else {
-      logger.error(`The API response does not contain the 'values' property.`);
+      logger.error(
+        `Group verification failed. Status: ${verifyGroupResponse.status}`,
+      );
     }
-  });
+  }, 10000);
 
   afterEach(async () => {
     if (createdGroupId) {
       logger.info('Starting group deletion.');
+      requestManager = RequestManager.getInstance(env.environment.base_url);
 
       // Delete the created group
       const deleteResponse = await requestManager.send(
@@ -145,28 +161,6 @@ describe('Groups', () => {
 
       if (deleteResponse.status === 200) {
         logger.info(`Group ${createdGroupId} deleted successfully.`);
-
-        // Verify if the group is deleted
-        const searchResponse = await requestManager.send(
-          'get',
-          `groups/picker?query=${encodeURIComponent(groupName)}`,
-          {},
-          { Authorization: global.basicAuth },
-        );
-
-        const deletedGroup = searchResponse.data.groups.find(
-          (group) => group.groupId === createdGroupId,
-        );
-
-        if (!deletedGroup) {
-          logger.info(
-            `Verified: Group ${createdGroupId} is successfully deleted.`,
-          );
-        } else {
-          logger.error(
-            `Verification failed: Group ${createdGroupId} still exists.`,
-          );
-        }
       } else {
         logger.error(
           `Failed to delete group ${createdGroupId}. Status: ${deleteResponse.status}`,

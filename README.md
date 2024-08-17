@@ -12,6 +12,7 @@ This repository contains automated tests for the Jira API. The goal is to ensure
 - [Project Structure](#project-structure)
 - [Test Examples](#test-examples)
 - [Used Frameworks](#used-frameworks)
+- [Defining tests by runtime](#defining-tests-by-runtime)
 - [Diagrams](#diagrams)
 - [Acknowledgements](#acknowledgements)
 
@@ -42,31 +43,42 @@ The tests are organized as follows:
 To install the project, follow these steps:
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/user/repository.git
-    ```
+
+   ```bash
+   git clone https://github.com/Brendon-Marquezi/QA-Fighters.git
+   ```
 
 2. Navigate to the project directory:
-    ```bash
-    cd repository
-    ```
+
+   ```bash
+   cd QA-Fighters
+   ```
 
 3. Install the dependencies:
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Configuration
 
 1. Fill in the `env.json` file with the necessary environment variables:
+
 ```json
 {
-"base_url": "",
-"auth_url": "",
-"username": "",
-"api_token": "",
-"client_id": "",
-"client_secret": ""
+   "base_url": "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/",
+   "base_url2": "https://api.atlassian.com/me",
+   "auth_url": "https://auth.atlassian.com/oauth/token",
+   "username": "",
+   "api_token": "",
+   "invalid_api_token": "",
+   "client_id": "",
+   "client_id_auth": "",
+   "client_secret": "",
+   "invalid_code": "",
+   "access_token": "",
+   "invalid_access_token": "",
+   "group_name": "",
+   "leadAccountId": ""
 }
 ```
 
@@ -75,12 +87,29 @@ To install the project, follow these steps:
 ## Running the Tests
 
 To run the tests, use the command:
+
 ```bash
 npm run test
 ```
 
+### Additional Execution Options
+
+**Fail-Fast Execution**: To stop the execution when encountering the first failure, use the command:
+
+```bash
+npx jest --bail --runInBand
+```
+
+**Fail-Fast Parallel Execution**: To run the tests in parallel and attempt to stop on the first failure, use:
+
+```bash
+npx jest --bail --maxWorkers=4
+```
+
 ## Project Structure
+
 The directory structure of the project is as follows:
+
 ```bash
 /project
 |-- /test
@@ -101,16 +130,20 @@ The directory structure of the project is as follows:
 |-- package.json
 |-- README.md
 ```
+
 ## Frameworks Used
-- **Jest:** 
-- **Prettier:**
-- **Newman:**
-- **Axios:**
-- **ESLint:**
-- **Winston:**
+
+- **Jest**
+- **Prettier**
+- **Newman**
+- **Axios**
+- **ESLint**
+- **Winston**
+- **Ajv**
 
 
 ## Information about ESLint
+
 ### Applied Conventions
 
 ### Ignore Files
@@ -138,16 +171,20 @@ The directory structure of the project is as follows:
 - **eslintPluginPrettierRecommended**: Automatically applies formatting rules recommended by Prettier.
 
 ## Information about Winston
+
 ### Conventions Applied
 
 1. **Log Format**:
+
 - Each log message includes the log level, message, timestamp, and the last file name from which the log was generated. Uses Winston's `printf` function for formatting.
 
 2. **Logger Creation**:
+
 - Uses Winston's `createLogger` function to create a configured logger.
 - Settings include `label` for class or module name, `timestamp` formatted to 'YYYY-MM-DD HH:mm:ss', and `colorize` to colorize messages in the console.
 
 3. **Log Transport**:
+
 - **Console**: Displays logs in the console at debug level for monitoring in development.
 - **Log Files**: Writes logs to separate files for different levels (`info` and `error`) for detailed logging and monitoring.
 
@@ -159,13 +196,23 @@ The directory structure of the project is as follows:
 - logger.debug('Debug message');
 - logger.silly('Trivial message');
 
+## Defining tests by runtime
+
+- When defining runtime tests, we define Regression Testing, End-of-Sprint Testing, and Other Important Moments Testing as important points.
+
+- https://jalauniv-my.sharepoint.com/:x:/g/personal/queila_fernandes_jala_university/Eeyy5gwitutMijM1aLhruskBsoeKoCjD4xHj9DNxT41uYw?e=U7eaQl
+
 
 ## Diagrams
+
 ### Automation Framework Structure Diagram
+
 ![Diagrama de Estrutura](/Documentation/Diagrama%20da%20Estrutura%20%20do%20Framework.png)
 
 ### Automation Framework Architecture Diagram
+
 ![Diagrama de Arquitetura](/Documentation/Diagrama%20de%20ArquiteturadoFramework.png)
 
 ## Acknowledgements
-We would like to thank everyone who contributed to this project. We appreciate your dedication and patience, which have been important to our growth. Thank you very much for helping us continually improve!
+
+We would like to thank everyone who contributed to this project. We appreciate your dedication and patience, which have been important to our growth. Thank you very much for helping us continually improve!\*\*

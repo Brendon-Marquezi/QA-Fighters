@@ -1,7 +1,7 @@
 const Ajv = require('ajv');
 const ajv = new Ajv();
 
-// Função para validar resposta de API
+// Função para validar resposta da API
 function validateSchema(responseData, schema) {
   const validate = ajv.compile(schema);
   const valid = validate(responseData);

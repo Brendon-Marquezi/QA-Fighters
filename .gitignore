@@ -1,7 +1,17 @@
+# Directories to ignore
 node_modules/
 coverage/
-
+reports/
+.idea/
 newman/reports/
-*.postman_collection.json
 
+# Log files
+logsError.log
+logsInfo.log
+
+# Specific files
 .env
+env.json
+
+# Specific file types
+*.postman_collection.json

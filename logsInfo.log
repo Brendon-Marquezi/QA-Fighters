@@ -464,3 +464,11 @@
 2024-08-15 09:02:48 [027-End2End.test.js] [32minfo[39m: Creating a new user...
 2024-08-15 09:02:48 [027-End2End.test.js] [32minfo[39m: Global authentication cleared.
 2024-08-15 09:02:48 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-15 11:28:12 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-15 11:28:12 [027-GetOneEspecificUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-15 11:28:12 [027-GetOneEspecificUser.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-15 11:28:12 [027-GetOneEspecificUser.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-15 11:28:12 [027-GetOneEspecificUser.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-15 11:28:13 [027-GetOneEspecificUser.test.js] [32minfo[39m: Creating a new user...
+2024-08-15 11:28:13 [027-GetOneEspecificUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-15 11:28:13 [jest.setup.js] [32minfo[39m: Cleaning the system after testing

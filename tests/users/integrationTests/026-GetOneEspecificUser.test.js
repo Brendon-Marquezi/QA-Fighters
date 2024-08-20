@@ -46,7 +46,7 @@ const getUserResponseSchema = {
         }
       }
     },
-    expand: { type: 'string' } // Adicionar expand
+    expand: { type: 'string' } 
   },
   required: ['self', 'accountId', 'accountType', 'active', 'avatarUrls', 'displayName'],
   additionalProperties: false

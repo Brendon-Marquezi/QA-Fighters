@@ -962,3 +962,9 @@ Received: [31m200[39m
 2024-08-20 12:11:58 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: -schemaValidator- Response does not match schema. Validation errors:
 2024-08-20 12:11:58 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: The API response does not contain the 'values' property.
 2024-08-20 12:11:58 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-20 12:58:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Test failed: the response does not contain users or failed to list.
+2024-08-20 12:58:40 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Failed to delete group 7f0a4303-12aa-4eb1-a538-fa46b77400d5. Status: 404
+2024-08-20 12:59:18 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-20 12:59:18 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-20 12:59:18 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-20 12:59:42 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group 031975f8-4175-492d-84e9-ca0f358713d9 still exists.

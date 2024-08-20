@@ -174,7 +174,7 @@ describe('Users', () => {
     } else {
       logger.error('Failed to retrieve user data.');
     }
-  });
+  }, 10000);
 
   afterEach(async () => {
     if (createdUserId) {

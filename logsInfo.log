@@ -22461,3 +22461,1272 @@
 2024-08-20 12:47:24 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group deletion.
 2024-08-20 12:47:24 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group ff0f8dd9-3773-4caa-94cc-7f74d92b52c8 deleted successfully.
 2024-08-20 12:47:24 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:39 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:48:40 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Iniciando a criação de um projeto
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [027-GetOneEspecificUser.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-20 12:48:40 [027-GetOneEspecificUser.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-20 12:48:40 [027-GetOneEspecificUser.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-20 12:48:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:40 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-20 12:48:40 [027-GetOneEspecificUser.test.js] [32minfo[39m: Creating a new user...
+2024-08-20 12:48:41 [039-AddingCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-20 12:48:41 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to add a comment
+2024-08-20 12:48:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: 3da64c82-69a4-488b-a217-2314ef49b76e
+2024-08-20 12:48:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: a90428c5-5627-43ed-bef9-ee8aa17c7319
+2024-08-20 12:48:41 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 7e061935-862b-410e-8d68-c1d85edb27b7
+2024-08-20 12:48:41 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting test for group creation and deletion
+2024-08-20 12:48:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:48:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:48:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:48:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "3da64c82-69a4-488b-a217-2314ef49b76e"
+2024-08-20 12:48:41 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 61a3b739-9090-4179-9f54-be33b705891e
+2024-08-20 12:48:41 [039-AddingCommentIssue.test.js] [32minfo[39m: Response status for adding comment: 201
+2024-08-20 12:48:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:48:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:48:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:48:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "a90428c5-5627-43ed-bef9-ee8aa17c7319"
+2024-08-20 12:48:41 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group created successfully with ID: a1031fa3-b373-4795-a3cf-79ceed8e3e78
+2024-08-20 12:48:41 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: b571f9c6-47a5-4770-814d-327877a28285
+2024-08-20 12:48:41 [039-AddingCommentIssue.test.js] [32minfo[39m: Comment response data:
+2024-08-20 12:48:41 [039-AddingCommentIssue.test.js] [32minfo[39m: Schema validation passed for the comment response.
+2024-08-20 12:48:41 [039-AddingCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-20 12:48:41 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:41 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-20 12:48:41 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 60cee657-33fd-4841-99f5-911d24b63646
+2024-08-20 12:48:41 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-20 12:48:41 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-20 12:48:42 [027-GetOneEspecificUser.test.js] [32minfo[39m: Create user response status: 201
+2024-08-20 12:48:42 [027-GetOneEspecificUser.test.js] [32minfo[39m: User created successfully with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 12:48:42 [027-GetOneEspecificUser.test.js] [32minfo[39m: Retrieving the user with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 12:48:42 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:42 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project successfully created with ID: 10330
+2024-08-20 12:48:42 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting test to search for project by ID
+2024-08-20 12:48:42 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group 7e061935-862b-410e-8d68-c1d85edb27b7 deleted successfully.
+2024-08-20 12:48:42 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Verifying group deletion
+2024-08-20 12:48:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group b571f9c6-47a5-4770-814d-327877a28285.
+2024-08-20 12:48:42 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 3da64c82-69a4-488b-a217-2314ef49b76e.
+2024-08-20 12:48:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting test to verify users of the group with ID "b571f9c6-47a5-4770-814d-327877a28285".
+2024-08-20 12:48:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:48:42 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 61a3b739-9090-4179-9f54-be33b705891e.
+2024-08-20 12:48:42 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting test to verify removal of user from group.
+2024-08-20 12:48:42 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group a1031fa3-b373-4795-a3cf-79ceed8e3e78.
+2024-08-20 12:48:42 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting test to verify group search.
+2024-08-20 12:48:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group a90428c5-5627-43ed-bef9-ee8aa17c7319.
+2024-08-20 12:48:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:48:42 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10330 successfully verified.
+2024-08-20 12:48:42 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting project deletion
+2024-08-20 12:48:42 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 60cee657-33fd-4841-99f5-911d24b63646.
+2024-08-20 12:48:42 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting test to verify that adding a user to group with ID "60cee657-33fd-4841-99f5-911d24b63646" succeeds.
+2024-08-20 12:48:42 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-20 12:48:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:42 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-20 12:48:42 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Confirmation: Group 7e061935-862b-410e-8d68-c1d85edb27b7 no longer exists.
+2024-08-20 12:48:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:42 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-20 12:48:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:48:42 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:48:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Listing users of group "b571f9c6-47a5-4770-814d-327877a28285":
+2024-08-20 12:48:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: - User ID: 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc, Name: Queila.Fernandes
+2024-08-20 12:48:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Test passed: users were successfully listed.
+2024-08-20 12:48:42 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:48:42 [027-GetOneEspecificUser.test.js] [32minfo[39m: Get user response status: 200
+2024-08-20 12:48:42 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:42 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:48:42 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Search Response:
+2024-08-20 12:48:42 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:42 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:48:42 [027-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 12:48:42 [027-GetOneEspecificUser.test.js] [32minfo[39m: Deleting user with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d...
+2024-08-20 12:48:42 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:42 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc was successfully added to group 60cee657-33fd-4841-99f5-911d24b63646.
+2024-08-20 12:48:42 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:48:42 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:48:43 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group b571f9c6-47a5-4770-814d-327877a28285 deleted successfully.
+2024-08-20 12:48:43 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:48:43 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Group verification passed.
+2024-08-20 12:48:43 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:43 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc successfully removed from group 61a3b739-9090-4179-9f54-be33b705891e.
+2024-08-20 12:48:43 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:48:43 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group a1031fa3-b373-4795-a3cf-79ceed8e3e78 deleted successfully.
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:43 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10330 deleted successfully.
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:43 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:43 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:48:43 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Verified: Group b571f9c6-47a5-4770-814d-327877a28285 is successfully deleted.
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:43 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group 60cee657-33fd-4841-99f5-911d24b63646 deleted successfully.
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:43 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: 10331
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:43 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 error handler test
+2024-08-20 12:48:43 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 test with invalid code
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:43 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Starting basic authentication test
+2024-08-20 12:48:43 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-20 12:48:43 [027-GetOneEspecificUser.test.js] [32minfo[39m: User with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d deleted successfully.
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:43 [027-GetOneEspecificUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-20 12:48:43 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-20 12:48:43 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:43 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:48:43 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-20 12:48:43 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project verification passed.
+2024-08-20 12:48:43 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:43 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project name matches expected.
+2024-08-20 12:48:43 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Deleting the created project
+2024-08-20 12:48:43 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group 61a3b739-9090-4179-9f54-be33b705891e deleted successfully.
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:43 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10332
+2024-08-20 12:48:43 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:48:43 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 87205324-32bd-4348-8048-0a82db59a562
+2024-08-20 12:48:43 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:43 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:48:44 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-20 12:48:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10333
+2024-08-20 12:48:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:48:44 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d deleted successfully.
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Validating API response
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: OAuth 2.0 error handler test completed
+2024-08-20 12:48:44 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Basic authentication test completed
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Response received for visible projects
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-20 12:48:44 [038-IssueChangeLog.test.js] [32minfo[39m: Checking an issue's change log
+2024-08-20 12:48:44 [038-IssueChangeLog.test.js] [32minfo[39m: Sending GET request to issue/11803/changelog
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:44 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:44 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:48:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Group verification passed.
+2024-08-20 12:48:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Group name matches expected.
+2024-08-20 12:48:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Deleting the created group
+2024-08-20 12:48:44 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Received response for project EX
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Finished test execution
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:44 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:48:44 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the listing of available project types
+2024-08-20 12:48:44 [001-BasicAuth.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-20 12:48:44 [024-GetUserGroups.test.js] [32minfo[39m: groupId: "094bab42-a712-4f7d-8480-bbb3ac5d0c86", name: "jira-software-users-modulo-contas-jala-ds2", self: "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/group?groupId=094bab42-a712-4f7d-8480-bbb3ac5d0c86"
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-20 12:48:44 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:44 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:44 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-20 12:48:44 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:44 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Starting basic authentication error handler test
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:48:44 [038-IssueChangeLog.test.js] [32minfo[39m: Response status: 200
+2024-08-20 12:48:44 [038-IssueChangeLog.test.js] [32minfo[39m: Response received successfully.
+2024-08-20 12:48:44 [038-IssueChangeLog.test.js] [32minfo[39m: Validating schema for change log response data:
+2024-08-20 12:48:44 [038-IssueChangeLog.test.js] [32minfo[39m: Schema validation passed.
+2024-08-20 12:48:44 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-20 12:48:44 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project 10331 deleted successfully.
+2024-08-20 12:48:44 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Response received for project types
+2024-08-20 12:48:44 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [035-DeletionAnIssue.test.js] [32minfo[39m: Schema validation skipped for status 204 (No Content).
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:48:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group 87205324-32bd-4348-8048-0a82db59a562 deleted successfully.
+2024-08-20 12:48:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11806
+2024-08-20 12:48:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Schema validation passed for the issue creation response.
+2024-08-20 12:48:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11805
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Basic authentication error handler test completed
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Confirmation: Group 87205324-32bd-4348-8048-0a82db59a562 no longer exists.
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:44 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Confirmation: Project 10331 no longer exists.
+2024-08-20 12:48:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-20 12:48:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:45 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:48:45 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10332
+2024-08-20 12:48:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-20 12:48:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-20 12:48:45 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:48:45 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10332 deleted successfully.
+2024-08-20 12:48:45 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:48:45 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: 3da64c82-69a4-488b-a217-2314ef49b76e
+2024-08-20 12:48:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-20 12:48:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-20 12:48:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10392 no longer exists.
+2024-08-20 12:48:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:48:46 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10333
+2024-08-20 12:48:46 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:48:46 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:46 [031-CreatingIssueProject.test.js] [32minfo[39m: Group 3da64c82-69a4-488b-a217-2314ef49b76e deleted successfully.
+2024-08-20 12:48:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:48:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10333 deleted successfully.
+2024-08-20 12:48:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:48:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: a90428c5-5627-43ed-bef9-ee8aa17c7319
+2024-08-20 12:48:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:48:47 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:48:47 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group a90428c5-5627-43ed-bef9-ee8aa17c7319 deleted successfully.
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [027-GetOneEspecificUser.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-20 12:58:17 [027-GetOneEspecificUser.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-20 12:58:17 [027-GetOneEspecificUser.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Iniciando a criação de um projeto
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-20 12:58:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:17 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-20 12:58:18 [027-GetOneEspecificUser.test.js] [32minfo[39m: Creating a new user...
+2024-08-20 12:58:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-20 12:58:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to add a comment
+2024-08-20 12:58:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 10d10408-f408-49fe-b768-371ead94a3cb
+2024-08-20 12:58:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: 53ba63f1-f879-43aa-ace9-111d9000a8f9
+2024-08-20 12:58:19 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 11a56640-c052-4a3b-84a6-c66c95d3a5be
+2024-08-20 12:58:19 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting test for group creation and deletion
+2024-08-20 12:58:19 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 751cff06-1926-4490-b1d8-e24082971866
+2024-08-20 12:58:19 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group created successfully with ID: 68b0a914-88c6-4079-b541-bb591990fdee
+2024-08-20 12:58:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:58:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:58:19 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: d89216b3-0289-4d2a-bd0e-2487e1068505
+2024-08-20 12:58:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:58:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:58:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "10d10408-f408-49fe-b768-371ead94a3cb"
+2024-08-20 12:58:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:58:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:58:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "53ba63f1-f879-43aa-ace9-111d9000a8f9"
+2024-08-20 12:58:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Response status for adding comment: 201
+2024-08-20 12:58:19 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-20 12:58:19 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-20 12:58:19 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-20 12:58:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Comment response data:
+2024-08-20 12:58:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Schema validation passed for the comment response.
+2024-08-20 12:58:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-20 12:58:19 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:19 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:19 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project successfully created with ID: 10335
+2024-08-20 12:58:19 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting test to search for project by ID
+2024-08-20 12:58:19 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10335 successfully verified.
+2024-08-20 12:58:19 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting project deletion
+2024-08-20 12:58:19 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group 11a56640-c052-4a3b-84a6-c66c95d3a5be deleted successfully.
+2024-08-20 12:58:19 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Verifying group deletion
+2024-08-20 12:58:20 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: 10334
+2024-08-20 12:58:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 10d10408-f408-49fe-b768-371ead94a3cb.
+2024-08-20 12:58:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:58:20 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 68b0a914-88c6-4079-b541-bb591990fdee.
+2024-08-20 12:58:20 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting test to verify group search.
+2024-08-20 12:58:20 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 751cff06-1926-4490-b1d8-e24082971866.
+2024-08-20 12:58:20 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting test to verify removal of user from group.
+2024-08-20 12:58:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:20 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 53ba63f1-f879-43aa-ace9-111d9000a8f9.
+2024-08-20 12:58:20 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:58:20 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-20 12:58:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:20 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:58:20 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Confirmation: Group 11a56640-c052-4a3b-84a6-c66c95d3a5be no longer exists.
+2024-08-20 12:58:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:20 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-20 12:58:20 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project verification passed.
+2024-08-20 12:58:20 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:58:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:20 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:58:20 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:20 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project name matches expected.
+2024-08-20 12:58:20 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Deleting the created project
+2024-08-20 12:58:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group d89216b3-0289-4d2a-bd0e-2487e1068505.
+2024-08-20 12:58:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting test to verify users of the group with ID "d89216b3-0289-4d2a-bd0e-2487e1068505".
+2024-08-20 12:58:20 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Search Response:
+2024-08-20 12:58:20 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:20 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:58:20 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:58:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:58:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Listing users of group "d89216b3-0289-4d2a-bd0e-2487e1068505":
+2024-08-20 12:58:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: - User ID: 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc, Name: Queila.Fernandes
+2024-08-20 12:58:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Test passed: users were successfully listed.
+2024-08-20 12:58:20 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:58:20 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10335 deleted successfully.
+2024-08-20 12:58:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:20 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:58:20 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Group verification passed.
+2024-08-20 12:58:20 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:20 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc successfully removed from group 751cff06-1926-4490-b1d8-e24082971866.
+2024-08-20 12:58:20 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:58:20 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-20 12:58:20 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project 10334 deleted successfully.
+2024-08-20 12:58:20 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group 68b0a914-88c6-4079-b541-bb591990fdee deleted successfully.
+2024-08-20 12:58:20 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:20 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:20 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-20 12:58:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:21 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:58:21 [038-IssueChangeLog.test.js] [32minfo[39m: Checking an issue's change log
+2024-08-20 12:58:21 [038-IssueChangeLog.test.js] [32minfo[39m: Sending GET request to issue/11809/changelog
+2024-08-20 12:58:21 [027-GetOneEspecificUser.test.js] [32minfo[39m: Create user response status: 201
+2024-08-20 12:58:21 [027-GetOneEspecificUser.test.js] [32minfo[39m: User created successfully with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 12:58:21 [027-GetOneEspecificUser.test.js] [32minfo[39m: Retrieving the user with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 12:58:21 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group d89216b3-0289-4d2a-bd0e-2487e1068505 deleted successfully.
+2024-08-20 12:58:21 [027-GetOneEspecificUser.test.js] [32minfo[39m: Get user response status: 200
+2024-08-20 12:58:21 [038-IssueChangeLog.test.js] [32minfo[39m: Response status: 200
+2024-08-20 12:58:21 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Confirmation: Project 10334 no longer exists.
+2024-08-20 12:58:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:21 [038-IssueChangeLog.test.js] [32minfo[39m: Response received successfully.
+2024-08-20 12:58:21 [038-IssueChangeLog.test.js] [32minfo[39m: Validating schema for change log response data:
+2024-08-20 12:58:21 [038-IssueChangeLog.test.js] [32minfo[39m: Schema validation passed.
+2024-08-20 12:58:21 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-20 12:58:21 [027-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 12:58:21 [027-GetOneEspecificUser.test.js] [32minfo[39m: Deleting user with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d...
+2024-08-20 12:58:21 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Verified: Group d89216b3-0289-4d2a-bd0e-2487e1068505 is successfully deleted.
+2024-08-20 12:58:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:21 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group 751cff06-1926-4490-b1d8-e24082971866 deleted successfully.
+2024-08-20 12:58:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:21 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Starting basic authentication test
+2024-08-20 12:58:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:21 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 error handler test
+2024-08-20 12:58:21 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 test with invalid code
+2024-08-20 12:58:21 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10337
+2024-08-20 12:58:21 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:58:21 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:21 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:58:21 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-20 12:58:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 94bdfd2c-7cfd-4a94-841c-7e19ed0c2ab1
+2024-08-20 12:58:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10336
+2024-08-20 12:58:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:58:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:58:21 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 38f055f4-5d66-4a5f-8643-483d66604117
+2024-08-20 12:58:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:58:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Group verification passed.
+2024-08-20 12:58:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Group name matches expected.
+2024-08-20 12:58:21 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Deleting the created group
+2024-08-20 12:58:21 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Response received for visible projects
+2024-08-20 12:58:21 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-20 12:58:21 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Validating API response
+2024-08-20 12:58:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:21 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: OAuth 2.0 error handler test completed
+2024-08-20 12:58:22 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:58:22 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Basic authentication test completed
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-20 12:58:22 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:58:22 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-20 12:58:22 [027-GetOneEspecificUser.test.js] [32minfo[39m: User with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d deleted successfully.
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [027-GetOneEspecificUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-20 12:58:22 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group 94bdfd2c-7cfd-4a94-841c-7e19ed0c2ab1 deleted successfully.
+2024-08-20 12:58:22 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Received response for project EX
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-20 12:58:22 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Finished test execution
+2024-08-20 12:58:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11812
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-20 12:58:22 [031-CreatingIssueProject.test.js] [32minfo[39m: Schema validation passed for the issue creation response.
+2024-08-20 12:58:22 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11811
+2024-08-20 12:58:22 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:58:22 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the listing of available project types
+2024-08-20 12:58:22 [001-BasicAuth.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 38f055f4-5d66-4a5f-8643-483d66604117.
+2024-08-20 12:58:22 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting test to verify that adding a user to group with ID "38f055f4-5d66-4a5f-8643-483d66604117" succeeds.
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Starting basic authentication error handler test
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:22 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Confirmation: Group 94bdfd2c-7cfd-4a94-841c-7e19ed0c2ab1 no longer exists.
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [035-DeletionAnIssue.test.js] [32minfo[39m: Schema validation skipped for status 204 (No Content).
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Response received for project types
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:22 [024-GetUserGroups.test.js] [32minfo[39m: groupId: "094bab42-a712-4f7d-8480-bbb3ac5d0c86", name: "jira-software-users-modulo-contas-jala-ds2", self: "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/group?groupId=094bab42-a712-4f7d-8480-bbb3ac5d0c86"
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d deleted successfully.
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-20 12:58:22 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Basic authentication error handler test completed
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:22 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:22 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:58:22 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc was successfully added to group 38f055f4-5d66-4a5f-8643-483d66604117.
+2024-08-20 12:58:22 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:58:22 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10337
+2024-08-20 12:58:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-20 12:58:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-20 12:58:23 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group 38f055f4-5d66-4a5f-8643-483d66604117 deleted successfully.
+2024-08-20 12:58:23 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:23 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-20 12:58:23 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:58:23 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10337 deleted successfully.
+2024-08-20 12:58:23 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:58:23 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: 53ba63f1-f879-43aa-ace9-111d9000a8f9
+2024-08-20 12:58:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-20 12:58:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10394 no longer exists.
+2024-08-20 12:58:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:58:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10336
+2024-08-20 12:58:24 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:58:24 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:24 [031-CreatingIssueProject.test.js] [32minfo[39m: Group 53ba63f1-f879-43aa-ace9-111d9000a8f9 deleted successfully.
+2024-08-20 12:58:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:58:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10336 deleted successfully.
+2024-08-20 12:58:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:58:24 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 10d10408-f408-49fe-b768-371ead94a3cb
+2024-08-20 12:58:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:58:25 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:25 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 10d10408-f408-49fe-b768-371ead94a3cb deleted successfully.
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [027-GetOneEspecificUser.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-20 12:58:35 [027-GetOneEspecificUser.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-20 12:58:35 [027-GetOneEspecificUser.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Iniciando a criação de um projeto
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:58:35 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:35 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-20 12:58:36 [027-GetOneEspecificUser.test.js] [32minfo[39m: Creating a new user...
+2024-08-20 12:58:36 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: e23996d8-e258-4dbc-919c-8272e0fd015a
+2024-08-20 12:58:36 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:58:36 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:58:36 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:58:36 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "e23996d8-e258-4dbc-919c-8272e0fd015a"
+2024-08-20 12:58:36 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 6f6fe1cb-cd79-45bd-9749-886864140038
+2024-08-20 12:58:36 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting test for group creation and deletion
+2024-08-20 12:58:36 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 80aee4bb-2caa-40a2-975e-be69a1d6f99f
+2024-08-20 12:58:36 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-20 12:58:37 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 779349c3-2ad3-4133-b45e-47644d5502ce
+2024-08-20 12:58:37 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group created successfully with ID: 93ea006f-604b-49af-ab1b-67fc29ed8466
+2024-08-20 12:58:37 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:58:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:58:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:58:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "80aee4bb-2caa-40a2-975e-be69a1d6f99f"
+2024-08-20 12:58:37 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:37 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project successfully created with ID: 10339
+2024-08-20 12:58:37 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting test to search for project by ID
+2024-08-20 12:58:37 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group e23996d8-e258-4dbc-919c-8272e0fd015a.
+2024-08-20 12:58:37 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:58:37 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: c7b028d1-40e2-4cd3-bf61-f12cf2d7af71
+2024-08-20 12:58:37 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 926b1668-a9ba-4057-9b19-7f446dd8ea52
+2024-08-20 12:58:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: Create user response status: 201
+2024-08-20 12:58:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: User created successfully with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 12:58:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: Retrieving the user with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 12:58:37 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10339 successfully verified.
+2024-08-20 12:58:37 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting project deletion
+2024-08-20 12:58:37 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group 6f6fe1cb-cd79-45bd-9749-886864140038 deleted successfully.
+2024-08-20 12:58:37 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Verifying group deletion
+2024-08-20 12:58:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: Get user response status: 200
+2024-08-20 12:58:37 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 779349c3-2ad3-4133-b45e-47644d5502ce.
+2024-08-20 12:58:37 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting test to verify that adding a user to group with ID "779349c3-2ad3-4133-b45e-47644d5502ce" succeeds.
+2024-08-20 12:58:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 12:58:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: Deleting user with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d...
+2024-08-20 12:58:37 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: 10338
+2024-08-20 12:58:37 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 93ea006f-604b-49af-ab1b-67fc29ed8466.
+2024-08-20 12:58:37 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting test to verify group search.
+2024-08-20 12:58:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 80aee4bb-2caa-40a2-975e-be69a1d6f99f.
+2024-08-20 12:58:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:58:37 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-20 12:58:37 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-20 12:58:37 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-20 12:58:37 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Confirmation: Group 6f6fe1cb-cd79-45bd-9749-886864140038 no longer exists.
+2024-08-20 12:58:37 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:37 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:58:37 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group c7b028d1-40e2-4cd3-bf61-f12cf2d7af71.
+2024-08-20 12:58:37 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting test to verify users of the group with ID "c7b028d1-40e2-4cd3-bf61-f12cf2d7af71".
+2024-08-20 12:58:38 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 926b1668-a9ba-4057-9b19-7f446dd8ea52.
+2024-08-20 12:58:38 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting test to verify removal of user from group.
+2024-08-20 12:58:38 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:38 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-20 12:58:38 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:38 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc was successfully added to group 779349c3-2ad3-4133-b45e-47644d5502ce.
+2024-08-20 12:58:38 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:58:38 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project verification passed.
+2024-08-20 12:58:38 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Search Response:
+2024-08-20 12:58:38 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:38 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:58:38 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:38 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project name matches expected.
+2024-08-20 12:58:38 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Deleting the created project
+2024-08-20 12:58:38 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10339 deleted successfully.
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:58:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Listing users of group "c7b028d1-40e2-4cd3-bf61-f12cf2d7af71":
+2024-08-20 12:58:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [31merror[39m: Test failed: the response does not contain users or failed to list.
+2024-08-20 12:58:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:38 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-20 12:58:38 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:58:38 [027-GetOneEspecificUser.test.js] [32minfo[39m: User with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d deleted successfully.
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:38 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:38 [027-GetOneEspecificUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-20 12:58:38 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group 779349c3-2ad3-4133-b45e-47644d5502ce deleted successfully.
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:38 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:38 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group 93ea006f-604b-49af-ab1b-67fc29ed8466 deleted successfully.
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:38 [039-AddingCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-20 12:58:38 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to add a comment
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:38 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:38 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Starting basic authentication test
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:38 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:38 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:58:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group c7b028d1-40e2-4cd3-bf61-f12cf2d7af71 deleted successfully.
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:38 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 error handler test
+2024-08-20 12:58:38 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 test with invalid code
+2024-08-20 12:58:38 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group 926b1668-a9ba-4057-9b19-7f446dd8ea52 deleted successfully.
+2024-08-20 12:58:38 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project 10338 deleted successfully.
+2024-08-20 12:58:39 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10340
+2024-08-20 12:58:39 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:58:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Verified: Group c7b028d1-40e2-4cd3-bf61-f12cf2d7af71 is successfully deleted.
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:39 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:58:39 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-20 12:58:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Response status for adding comment: 201
+2024-08-20 12:58:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Comment response data:
+2024-08-20 12:58:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Schema validation passed for the comment response.
+2024-08-20 12:58:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:39 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-20 12:58:39 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Basic authentication test completed
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Validating API response
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: OAuth 2.0 error handler test completed
+2024-08-20 12:58:39 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Confirmation: Project 10338 no longer exists.
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Response received for visible projects
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:39 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:39 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:58:39 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-20 12:58:39 [038-IssueChangeLog.test.js] [32minfo[39m: Checking an issue's change log
+2024-08-20 12:58:39 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-20 12:58:39 [038-IssueChangeLog.test.js] [32minfo[39m: Sending GET request to issue/11815/changelog
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:39 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:39 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-20 12:58:39 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-20 12:58:39 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 7f0a4303-12aa-4eb1-a538-fa46b77400d5
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:39 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-20 12:58:39 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-20 12:58:39 [038-IssueChangeLog.test.js] [32minfo[39m: Response status: 200
+2024-08-20 12:58:39 [038-IssueChangeLog.test.js] [32minfo[39m: Response received successfully.
+2024-08-20 12:58:39 [038-IssueChangeLog.test.js] [32minfo[39m: Validating schema for change log response data:
+2024-08-20 12:58:39 [038-IssueChangeLog.test.js] [32minfo[39m: Schema validation passed.
+2024-08-20 12:58:39 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Received response for project EX
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [001-BasicAuth.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [031-CreatingIssueProject.test.js] [32minfo[39m: Schema validation passed for the issue creation response.
+2024-08-20 12:58:39 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11817
+2024-08-20 12:58:39 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Finished test execution
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:39 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 12:58:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:39 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:58:39 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:58:39 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Group verification passed.
+2024-08-20 12:58:40 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:40 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Group name matches expected.
+2024-08-20 12:58:40 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Deleting the created group
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:40 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:58:40 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the listing of available project types
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:58:40 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Starting basic authentication error handler test
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:40 [024-GetUserGroups.test.js] [32minfo[39m: groupId: "094bab42-a712-4f7d-8480-bbb3ac5d0c86", name: "jira-software-users-modulo-contas-jala-ds2", self: "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/group?groupId=094bab42-a712-4f7d-8480-bbb3ac5d0c86"
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:40 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:40 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Basic authentication error handler test completed
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:40 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:40 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Response received for project types
+2024-08-20 12:58:40 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Failed to delete group 7f0a4303-12aa-4eb1-a538-fa46b77400d5. Status: 404
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:40 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:58:40 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10340
+2024-08-20 12:58:40 [035-DeletionAnIssue.test.js] [32minfo[39m: Schema validation skipped for status 204 (No Content).
+2024-08-20 12:58:40 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:58:40 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-20 12:58:40 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-20 12:58:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10341
+2024-08-20 12:58:40 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:58:41 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d deleted successfully.
+2024-08-20 12:58:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:58:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10340 deleted successfully.
+2024-08-20 12:58:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:58:41 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: e23996d8-e258-4dbc-919c-8272e0fd015a
+2024-08-20 12:58:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11818
+2024-08-20 12:58:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:58:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-20 12:58:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Group e23996d8-e258-4dbc-919c-8272e0fd015a deleted successfully.
+2024-08-20 12:58:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-20 12:58:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-20 12:58:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-20 12:58:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-20 12:58:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10396 no longer exists.
+2024-08-20 12:58:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:58:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10341
+2024-08-20 12:58:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:58:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10341 deleted successfully.
+2024-08-20 12:58:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:58:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 80aee4bb-2caa-40a2-975e-be69a1d6f99f
+2024-08-20 12:58:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:58:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:58:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 80aee4bb-2caa-40a2-975e-be69a1d6f99f deleted successfully.
+2024-08-20 12:59:03 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:03 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:59:04 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 75a948fe-4199-44d9-83e8-29605cc0f66d
+2024-08-20 12:59:05 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 75a948fe-4199-44d9-83e8-29605cc0f66d.
+2024-08-20 12:59:05 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting test to verify removal of user from group.
+2024-08-20 12:59:06 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:59:06 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Group verification passed.
+2024-08-20 12:59:06 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:06 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc successfully removed from group 75a948fe-4199-44d9-83e8-29605cc0f66d.
+2024-08-20 12:59:06 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:59:07 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group 75a948fe-4199-44d9-83e8-29605cc0f66d deleted successfully.
+2024-08-20 12:59:07 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-20 12:59:14 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [027-GetOneEspecificUser.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-20 12:59:14 [027-GetOneEspecificUser.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-20 12:59:14 [027-GetOneEspecificUser.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Iniciando a criação de um projeto
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:59:14 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:14 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:59:15 [027-GetOneEspecificUser.test.js] [32minfo[39m: Creating a new user...
+2024-08-20 12:59:15 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 24713341-73b2-4483-9cf3-643f392cfc26
+2024-08-20 12:59:15 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-20 12:59:16 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 19540662-d1b9-4257-9e03-8a2986bd4646
+2024-08-20 12:59:16 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting test for group creation and deletion
+2024-08-20 12:59:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: b50f37ef-68f6-4f45-9290-8e36739113cf
+2024-08-20 12:59:16 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 2ab457da-0618-412f-8512-e762c533fb06
+2024-08-20 12:59:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:59:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:59:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:59:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "24713341-73b2-4483-9cf3-643f392cfc26"
+2024-08-20 12:59:16 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 6eb0af8f-3f56-45e4-b73a-8b724d7bd355
+2024-08-20 12:59:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:59:16 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:59:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:59:16 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "b50f37ef-68f6-4f45-9290-8e36739113cf"
+2024-08-20 12:59:16 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: 93c7917d-7ac2-4110-b950-a7321983ce5b
+2024-08-20 12:59:16 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group created successfully with ID: ab10b14a-c4f6-4e3e-ac07-1431d699eda5
+2024-08-20 12:59:16 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-20 12:59:16 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-20 12:59:16 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-20 12:59:16 [027-GetOneEspecificUser.test.js] [32minfo[39m: Create user response status: 201
+2024-08-20 12:59:16 [027-GetOneEspecificUser.test.js] [32minfo[39m: User created successfully with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 12:59:16 [027-GetOneEspecificUser.test.js] [32minfo[39m: Retrieving the user with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 12:59:16 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 2ab457da-0618-412f-8512-e762c533fb06.
+2024-08-20 12:59:16 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting test to verify users of the group with ID "2ab457da-0618-412f-8512-e762c533fb06".
+2024-08-20 12:59:16 [027-GetOneEspecificUser.test.js] [32minfo[39m: Get user response status: 200
+2024-08-20 12:59:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 24713341-73b2-4483-9cf3-643f392cfc26.
+2024-08-20 12:59:16 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:59:16 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group 19540662-d1b9-4257-9e03-8a2986bd4646 deleted successfully.
+2024-08-20 12:59:16 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Verifying group deletion
+2024-08-20 12:59:16 [027-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 12:59:16 [027-GetOneEspecificUser.test.js] [32minfo[39m: Deleting user with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d...
+2024-08-20 12:59:17 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 6eb0af8f-3f56-45e4-b73a-8b724d7bd355.
+2024-08-20 12:59:17 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting test to verify removal of user from group.
+2024-08-20 12:59:17 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group b50f37ef-68f6-4f45-9290-8e36739113cf.
+2024-08-20 12:59:17 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:59:17 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:59:17 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 93c7917d-7ac2-4110-b950-a7321983ce5b.
+2024-08-20 12:59:17 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting test to verify that adding a user to group with ID "93c7917d-7ac2-4110-b950-a7321983ce5b" succeeds.
+2024-08-20 12:59:17 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:17 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:59:17 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Confirmation: Group 19540662-d1b9-4257-9e03-8a2986bd4646 no longer exists.
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:17 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group ab10b14a-c4f6-4e3e-ac07-1431d699eda5.
+2024-08-20 12:59:17 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting test to verify group search.
+2024-08-20 12:59:17 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:17 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project successfully created with ID: 10342
+2024-08-20 12:59:17 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting test to search for project by ID
+2024-08-20 12:59:17 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:17 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Listing users of group "2ab457da-0618-412f-8512-e762c533fb06":
+2024-08-20 12:59:17 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: - User ID: 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc, Name: Queila.Fernandes
+2024-08-20 12:59:17 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Test passed: users were successfully listed.
+2024-08-20 12:59:17 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:17 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:17 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-20 12:59:17 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:17 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc was successfully added to group 93c7917d-7ac2-4110-b950-a7321983ce5b.
+2024-08-20 12:59:17 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:59:17 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:59:17 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Search Response:
+2024-08-20 12:59:17 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:17 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:59:17 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10342 successfully verified.
+2024-08-20 12:59:17 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting project deletion
+2024-08-20 12:59:17 [027-GetOneEspecificUser.test.js] [32minfo[39m: User with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d deleted successfully.
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:17 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: 10343
+2024-08-20 12:59:17 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group already exists with ID: 7f0a4303-12aa-4eb1-a538-fa46b77400d5
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:17 [027-GetOneEspecificUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-20 12:59:17 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:59:17 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Group verification passed.
+2024-08-20 12:59:17 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:17 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc successfully removed from group 6eb0af8f-3f56-45e4-b73a-8b724d7bd355.
+2024-08-20 12:59:17 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:17 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:59:17 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group 2ab457da-0618-412f-8512-e762c533fb06 deleted successfully.
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:17 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-20 12:59:17 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group 93c7917d-7ac2-4110-b950-a7321983ce5b deleted successfully.
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:17 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group ab10b14a-c4f6-4e3e-ac07-1431d699eda5 deleted successfully.
+2024-08-20 12:59:17 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Verified: Group 2ab457da-0618-412f-8512-e762c533fb06 is successfully deleted.
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project verification passed.
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:18 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:59:18 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:18 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project name matches expected.
+2024-08-20 12:59:18 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Deleting the created project
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:18 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Starting basic authentication test
+2024-08-20 12:59:18 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Existing group 7f0a4303-12aa-4eb1-a538-fa46b77400d5 deleted.
+2024-08-20 12:59:18 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:18 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 error handler test
+2024-08-20 12:59:18 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 test with invalid code
+2024-08-20 12:59:18 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group 6eb0af8f-3f56-45e4-b73a-8b724d7bd355 deleted successfully.
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10342 deleted successfully.
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10344
+2024-08-20 12:59:18 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:59:18 [039-AddingCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-20 12:59:18 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to add a comment
+2024-08-20 12:59:18 [038-IssueChangeLog.test.js] [32minfo[39m: Checking an issue's change log
+2024-08-20 12:59:18 [038-IssueChangeLog.test.js] [32minfo[39m: Sending GET request to issue/11821/changelog
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:18 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:59:18 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-20 12:59:18 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10345
+2024-08-20 12:59:18 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:59:18 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: undefined
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:18 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:59:18 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the listing of available project types
+2024-08-20 12:59:18 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Basic authentication test completed
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Validating API response
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project 10343 deleted successfully.
+2024-08-20 12:59:18 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: OAuth 2.0 error handler test completed
+2024-08-20 12:59:18 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:18 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:59:18 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-20 12:59:18 [038-IssueChangeLog.test.js] [32minfo[39m: Response status: 200
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:18 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-20 12:59:18 [038-IssueChangeLog.test.js] [32minfo[39m: Response received successfully.
+2024-08-20 12:59:18 [038-IssueChangeLog.test.js] [32minfo[39m: Validating schema for change log response data:
+2024-08-20 12:59:18 [038-IssueChangeLog.test.js] [32minfo[39m: Schema validation passed.
+2024-08-20 12:59:18 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-20 12:59:18 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group verification failed. Status:
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Response received for project types
+2024-08-20 12:59:18 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: -schemaValidator- Group verification failed. Status:
+2024-08-20 12:59:18 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: No group ID available for deletion.
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:18 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-20 12:59:18 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Response received for visible projects
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:18 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:19 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-20 12:59:19 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Confirmation: Project 10343 no longer exists.
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:19 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:19 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Starting basic authentication error handler test
+2024-08-20 12:59:19 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Received response for project EX
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Finished test execution
+2024-08-20 12:59:19 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-20 12:59:19 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Response status for adding comment: 201
+2024-08-20 12:59:19 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-20 12:59:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Comment response data:
+2024-08-20 12:59:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Schema validation passed for the comment response.
+2024-08-20 12:59:19 [039-AddingCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-20 12:59:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11823
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:19 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Schema validation passed for the issue creation response.
+2024-08-20 12:59:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11824
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Basic authentication error handler test completed
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [035-DeletionAnIssue.test.js] [32minfo[39m: Schema validation skipped for status 204 (No Content).
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [001-BasicAuth.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [024-GetUserGroups.test.js] [32minfo[39m: groupId: "094bab42-a712-4f7d-8480-bbb3ac5d0c86", name: "jira-software-users-modulo-contas-jala-ds2", self: "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/group?groupId=094bab42-a712-4f7d-8480-bbb3ac5d0c86"
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:19 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-20 12:59:19 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-20 12:59:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:59:19 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10345
+2024-08-20 12:59:19 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-20 12:59:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-20 12:59:20 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:59:20 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10345 deleted successfully.
+2024-08-20 12:59:20 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:59:20 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: b50f37ef-68f6-4f45-9290-8e36739113cf
+2024-08-20 12:59:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-20 12:59:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-20 12:59:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10398 no longer exists.
+2024-08-20 12:59:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:59:20 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10344
+2024-08-20 12:59:21 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:59:21 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:21 [031-CreatingIssueProject.test.js] [32minfo[39m: Group b50f37ef-68f6-4f45-9290-8e36739113cf deleted successfully.
+2024-08-20 12:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10344 deleted successfully.
+2024-08-20 12:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:59:21 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 24713341-73b2-4483-9cf3-643f392cfc26
+2024-08-20 12:59:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:59:22 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:22 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 24713341-73b2-4483-9cf3-643f392cfc26 deleted successfully.
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group verification and creation.
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [021-DeleteUser.test.js] [32minfo[39m: Global authentication setup completed.
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Iniciando a criação de um projeto
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group creation.
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting to create a group
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group creation and user addition.
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-20 12:59:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-20 12:59:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-20 12:59:37 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:37 [020-CreateUser.test.js] [32minfo[39m: Starting test: Create a user in Jira
+2024-08-20 12:59:37 [027-GetOneEspecificUser.test.js] [32minfo[39m: Creating a new user...
+2024-08-20 12:59:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group created successfully with ID: 66849d2e-616c-4f73-95e5-048574fe1844
+2024-08-20 12:59:38 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 38f97785-ed66-49fc-a1a1-ed93d235147e
+2024-08-20 12:59:38 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Starting test for group creation and deletion
+2024-08-20 12:59:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Group created successfully with ID: b78b9763-7af7-40e6-90f9-6f881568575a
+2024-08-20 12:59:38 [020-CreateUser.test.js] [32minfo[39m: User schema validation passed.
+2024-08-20 12:59:38 [020-CreateUser.test.js] [32minfo[39m: User created successfully with ID: 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f
+2024-08-20 12:59:38 [020-CreateUser.test.js] [32minfo[39m: Deleting user with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f...
+2024-08-20 12:59:38 [021-DeleteUser.test.js] [32minfo[39m: User created successfully for deletion test.
+2024-08-20 12:59:38 [021-DeleteUser.test.js] [32minfo[39m: Test: Delete a user from Jira
+2024-08-20 12:59:38 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project created successfully with ID: 10346
+2024-08-20 12:59:38 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: e2c82d66-4fe8-4a98-9d60-3ba06e102f5c
+2024-08-20 12:59:38 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group created successfully with ID: 0837ea4f-b7cd-4f4c-a898-b5fb211e10f2
+2024-08-20 12:59:38 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: ba7b6270-fcb3-4236-ae62-e8ad8f973dae
+2024-08-20 12:59:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:59:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:59:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:59:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:59:38 [031-CreatingIssueProject.test.js] [32minfo[39m: Adding user to the group with ID "b78b9763-7af7-40e6-90f9-6f881568575a"
+2024-08-20 12:59:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:59:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add user to the group
+2024-08-20 12:59:38 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding user to the group with ID "66849d2e-616c-4f73-95e5-048574fe1844"
+2024-08-20 12:59:39 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group created successfully with ID: d952508d-e43f-49a3-8c27-07d9f3c78176
+2024-08-20 12:59:39 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:39 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:39 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project successfully created with ID: 10347
+2024-08-20 12:59:39 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting test to search for project by ID
+2024-08-20 12:59:39 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project verification passed.
+2024-08-20 12:59:39 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:39 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project name matches expected.
+2024-08-20 12:59:39 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Deleting the created project
+2024-08-20 12:59:39 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10347 successfully verified.
+2024-08-20 12:59:39 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Starting project deletion
+2024-08-20 12:59:39 [020-CreateUser.test.js] [32minfo[39m: User with ID 712020:4c97bb07-f134-490e-a2b0-6872cdfe3d3f deleted successfully.
+2024-08-20 12:59:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:39 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Group 38f97785-ed66-49fc-a1a1-ed93d235147e deleted successfully.
+2024-08-20 12:59:39 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Verifying group deletion
+2024-08-20 12:59:39 [021-DeleteUser.test.js] [32minfo[39m: User with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d deleted successfully.
+2024-08-20 12:59:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group e2c82d66-4fe8-4a98-9d60-3ba06e102f5c.
+2024-08-20 12:59:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting test to verify users of the group with ID "e2c82d66-4fe8-4a98-9d60-3ba06e102f5c".
+2024-08-20 12:59:39 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group ba7b6270-fcb3-4236-ae62-e8ad8f973dae.
+2024-08-20 12:59:39 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting test to verify that adding a user to group with ID "ba7b6270-fcb3-4236-ae62-e8ad8f973dae" succeeds.
+2024-08-20 12:59:39 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group d952508d-e43f-49a3-8c27-07d9f3c78176.
+2024-08-20 12:59:39 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting test to verify removal of user from group.
+2024-08-20 12:59:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:39 [033-EditeIssueName.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:59:39 [040-DeleteCommentIssue.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 66849d2e-616c-4f73-95e5-048574fe1844.
+2024-08-20 12:59:39 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:59:39 [031-CreatingIssueProject.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group b78b9763-7af7-40e6-90f9-6f881568575a.
+2024-08-20 12:59:39 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying a new project
+2024-08-20 12:59:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:39 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to create an item in the project
+2024-08-20 12:59:39 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc added to group 0837ea4f-b7cd-4f4c-a898-b5fb211e10f2.
+2024-08-20 12:59:39 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting test to verify group search.
+2024-08-20 12:59:39 [042-VerifyDeletionOfAGroup.test.js] [32minfo[39m: Confirmation: Group 38f97785-ed66-49fc-a1a1-ed93d235147e no longer exists.
+2024-08-20 12:59:39 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:59:39 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:39 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:59:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Listing users of group "e2c82d66-4fe8-4a98-9d60-3ba06e102f5c":
+2024-08-20 12:59:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: - User ID: 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc, Name: Queila.Fernandes
+2024-08-20 12:59:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Test passed: users were successfully listed.
+2024-08-20 12:59:39 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:59:39 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:39 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc was successfully added to group ba7b6270-fcb3-4236-ae62-e8ad8f973dae.
+2024-08-20 12:59:39 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:59:39 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:59:39 [017-CheckifitispossibletosearchforaprojectbyitsID.test.js] [32minfo[39m: Project 10347 deleted successfully.
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:39 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Search Response:
+2024-08-20 12:59:40 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:40 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:40 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Checking if the group exists before creating a new one
+2024-08-20 12:59:40 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Project 10346 deleted successfully.
+2024-08-20 12:59:40 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Creating and verifying a new group
+2024-08-20 12:59:40 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Response: 200 OK
+2024-08-20 12:59:40 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Group verification passed.
+2024-08-20 12:59:40 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:40 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: User 712020:d15a1605-4430-4b91-a7b1-5c958b6ff0bc successfully removed from group d952508d-e43f-49a3-8c27-07d9f3c78176.
+2024-08-20 12:59:40 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Starting group deletion.
+2024-08-20 12:59:40 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Group e2c82d66-4fe8-4a98-9d60-3ba06e102f5c deleted successfully.
+2024-08-20 12:59:40 [044-Verify addingAUserToASpecificGroup.test.js] [32minfo[39m: Group ba7b6270-fcb3-4236-ae62-e8ad8f973dae deleted successfully.
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:40 [011-Checkwhetheranewprojectcanbecreatedsuccessfully.test.js] [32minfo[39m: Confirmation: Project 10346 no longer exists.
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:40 [033-EditeIssueName.test.js] [32minfo[39m: Check if you can edit an issue name
+2024-08-20 12:59:40 [039-AddingCommentIssue.test.js] [32minfo[39m: Check adding a comment to an issue
+2024-08-20 12:59:40 [039-AddingCommentIssue.test.js] [32minfo[39m: Sending a request to add a comment
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:40 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting to create an issue
+2024-08-20 12:59:40 [046 - VerifyExistingGroupsThroughSearch.test.js] [32minfo[39m: Group 0837ea4f-b7cd-4f4c-a898-b5fb211e10f2 deleted successfully.
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:40 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Starting basic authentication test
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:40 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:59:40 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Starting to list all visible projects
+2024-08-20 12:59:40 [043-VerifyUsersBelongingToASpecificGroup.test.js] [32minfo[39m: Verified: Group e2c82d66-4fe8-4a98-9d60-3ba06e102f5c is successfully deleted.
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:40 [038-IssueChangeLog.test.js] [32minfo[39m: Checking an issue's change log
+2024-08-20 12:59:40 [038-IssueChangeLog.test.js] [32minfo[39m: Sending GET request to issue/11827/changelog
+2024-08-20 12:59:40 [027-GetOneEspecificUser.test.js] [32minfo[39m: Create user response status: 400
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:40 [027-GetOneEspecificUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:40 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 error handler test
+2024-08-20 12:59:40 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Starting OAuth 2.0 test with invalid code
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:40 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Test: Get user default columns from Jira
+2024-08-20 12:59:40 [045 - VerifyRemovalOfUserFromSpecificGroup.test.js] [32minfo[39m: Group d952508d-e43f-49a3-8c27-07d9f3c78176 deleted successfully.
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:40 [039-AddingCommentIssue.test.js] [32minfo[39m: Response status for adding comment: 201
+2024-08-20 12:59:40 [039-AddingCommentIssue.test.js] [32minfo[39m: Comment response data:
+2024-08-20 12:59:40 [039-AddingCommentIssue.test.js] [32minfo[39m: Schema validation passed for the comment response.
+2024-08-20 12:59:40 [039-AddingCommentIssue.test.js] [32minfo[39m: Starting the dilation check of an issue
+2024-08-20 12:59:40 [038-IssueChangeLog.test.js] [32minfo[39m: Response status: 200
+2024-08-20 12:59:40 [038-IssueChangeLog.test.js] [32minfo[39m: Response received successfully.
+2024-08-20 12:59:40 [038-IssueChangeLog.test.js] [32minfo[39m: Validating schema for change log response data:
+2024-08-20 12:59:40 [038-IssueChangeLog.test.js] [32minfo[39m: Schema validation passed.
+2024-08-20 12:59:40 [038-IssueChangeLog.test.js] [32minfo[39m: Starting to delete an issue
+2024-08-20 12:59:40 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:41 [015-CheckIfItIsPossibleToListAllVisibleProjects.test.js] [32minfo[39m: Response received for visible projects
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [005-CheckExpirationOfAuthenticationTokens.test.js] [32minfo[39m: Basic authentication test completed
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:41 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:59:41 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Starting to get details for project EX
+2024-08-20 12:59:41 [025-GetUserDefaultColumns.test.js] [32minfo[39m: Get user default columns test passed successfully.
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:41 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: Validating API response
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [006-VerifyOAuth2.0ErrorHandler.test.js] [32minfo[39m: OAuth 2.0 error handler test completed
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:41 [026-GetOneEspecificUser.test.js] [32minfo[39m: Test: Get a specific user from Jira
+2024-08-20 12:59:41 [024-GetUserGroups.test.js] [32minfo[39m: groupId: "094bab42-a712-4f7d-8480-bbb3ac5d0c86", name: "jira-software-users-modulo-contas-jala-ds2", self: "https://modulo-contas-jala-ds2.atlassian.net/rest/api/3/group?groupId=094bab42-a712-4f7d-8480-bbb3ac5d0c86"
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [024-GetUserGroups.test.js] [32minfo[39m: Get user groups test passed successfully.
+2024-08-20 12:59:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project created successfully with ID: 10349
+2024-08-20 12:59:41 [040-DeleteCommentIssue.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:41 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the test setup
+2024-08-20 12:59:41 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Starting the listing of available project types
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:41 [022-GetAllUsers.test.js] [32minfo[39m: Test: Get all users from Jira
+2024-08-20 12:59:41 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Received response for project EX
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [012-Checkifyoucangetthedetailsofaproject.test.js] [32minfo[39m: Finished test execution
+2024-08-20 12:59:41 [001-BasicAuth.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [033-EditeIssueName.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:59:41 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group created successfully with ID: 031975f8-4175-492d-84e9-ca0f358713d9
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:41 [023-BulkGetUsers.test.js] [32minfo[39m: Test: Bulk get users from Jira
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:41 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Starting basic authentication error handler test
+2024-08-20 12:59:41 [035-DeletionAnIssue.test.js] [32minfo[39m: Check deletion of an issue from a project
+2024-08-20 12:59:41 [026-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: Response received for project types
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [018-Checkifitispossibletolisttheavailable project types.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [022-GetAllUsers.test.js] [32minfo[39m: Response Status:
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [022-GetAllUsers.test.js] [32minfo[39m: Response Headers:
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group verification passed.
+2024-08-20 12:59:41 [003-VerifyBasicAuthenticationErrorHandling.test.js] [32minfo[39m: Basic authentication error handler test completed
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:41 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group name matches expected.
+2024-08-20 12:59:41 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Group verification passed.
+2024-08-20 12:59:41 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Response matches schema.
+2024-08-20 12:59:41 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: -schemaValidator- Group name matches expected.
+2024-08-20 12:59:41 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Deleting the created group
+2024-08-20 12:59:41 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:42 [035-DeletionAnIssue.test.js] [32minfo[39m: Starting issue selection check
+2024-08-20 12:59:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:42 [035-DeletionAnIssue.test.js] [32minfo[39m: Schema validation skipped for status 204 (No Content).
+2024-08-20 12:59:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Project created successfully with ID: 10348
+2024-08-20 12:59:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Creating and verifying an issue
+2024-08-20 12:59:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: Issue created successfully with ID: 11829
+2024-08-20 12:59:42 [041-VerifyTheCreationOfAGroup.test.js] [32minfo[39m: Group 031975f8-4175-492d-84e9-ca0f358713d9 deleted successfully.
+2024-08-20 12:59:42 [041-VerifyTheCreationOfAGroup.test.js] [31merror[39m: Group 031975f8-4175-492d-84e9-ca0f358713d9 still exists.
+2024-08-20 12:59:42 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:42 [040-DeleteCommentIssue.test.js] [32minfo[39m: Adding a comment to the issue
+2024-08-20 12:59:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Schema validation passed for the issue creation response.
+2024-08-20 12:59:42 [031-CreatingIssueProject.test.js] [32minfo[39m: Issue created successfully with ID: 11830
+2024-08-20 12:59:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Add Comment Response:
+2024-08-20 12:59:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the comment from the issue
+2024-08-20 12:59:43 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:59:43 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created project with ID: 10348
+2024-08-20 12:59:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Comment Response:
+2024-08-20 12:59:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Get Comments Response:
+2024-08-20 12:59:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Confirmation: Comment 10400 no longer exists.
+2024-08-20 12:59:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created project
+2024-08-20 12:59:43 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created project with ID: 10349
+2024-08-20 12:59:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:59:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Project 10348 deleted successfully.
+2024-08-20 12:59:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:59:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Deleting the created group with ID: b78b9763-7af7-40e6-90f9-6f881568575a
+2024-08-20 12:59:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:59:44 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:44 [031-CreatingIssueProject.test.js] [32minfo[39m: Group b78b9763-7af7-40e6-90f9-6f881568575a deleted successfully.
+2024-08-20 12:59:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Project Response:
+2024-08-20 12:59:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Project 10349 deleted successfully.
+2024-08-20 12:59:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete the created group
+2024-08-20 12:59:44 [040-DeleteCommentIssue.test.js] [32minfo[39m: Deleting the created group with ID: 66849d2e-616c-4f73-95e5-048574fe1844
+2024-08-20 12:59:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Delete Group Response:
+2024-08-20 12:59:45 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 12:59:45 [040-DeleteCommentIssue.test.js] [32minfo[39m: Group 66849d2e-616c-4f73-95e5-048574fe1844 deleted successfully.
+2024-08-20 12:59:59 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 12:59:59 [027-GetOneEspecificUser.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-20 12:59:59 [027-GetOneEspecificUser.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-20 12:59:59 [027-GetOneEspecificUser.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-20 13:00:03 [027-GetOneEspecificUser.test.js] [32minfo[39m: Creating a new user...
+2024-08-20 13:00:04 [027-GetOneEspecificUser.test.js] [32minfo[39m: Global authentication cleared.
+2024-08-20 13:00:04 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 13:00:04 [027-GetOneEspecificUser.test.js] [32minfo[39m: Create user response status: 201
+2024-08-20 13:00:04 [027-GetOneEspecificUser.test.js] [32minfo[39m: User created successfully with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 13:00:04 [027-GetOneEspecificUser.test.js] [32minfo[39m: Retrieving the user with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 13:00:05 [027-GetOneEspecificUser.test.js] [32minfo[39m: Get user response status: 401
+2024-08-20 13:00:45 [jest.setup.js] [32minfo[39m: Starting authentication for testing
+2024-08-20 13:00:45 [027-GetOneEspecificUser.test.js] [32minfo[39m: Starting test: Create a user if not exists and then get specific user from Jira
+2024-08-20 13:00:45 [027-GetOneEspecificUser.test.js] [32minfo[39m: Email found: visiwax534@brinkc.com
+2024-08-20 13:00:45 [027-GetOneEspecificUser.test.js] [32minfo[39m: Checking if user already exists...
+2024-08-20 13:00:46 [027-GetOneEspecificUser.test.js] [32minfo[39m: Creating a new user...
+2024-08-20 13:00:48 [027-GetOneEspecificUser.test.js] [32minfo[39m: Create user response status: 201
+2024-08-20 13:00:48 [027-GetOneEspecificUser.test.js] [32minfo[39m: User created successfully with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 13:00:48 [027-GetOneEspecificUser.test.js] [32minfo[39m: Retrieving the user with ID: 712020:073f42a8-5a07-4460-86d3-d67ac267c75d
+2024-08-20 13:00:48 [027-GetOneEspecificUser.test.js] [32minfo[39m: Get user response status: 200
+2024-08-20 13:00:48 [027-GetOneEspecificUser.test.js] [32minfo[39m: User data successfully retrieved.
+2024-08-20 13:00:48 [027-GetOneEspecificUser.test.js] [32minfo[39m: Deleting user with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d...
+2024-08-20 13:00:49 [027-GetOneEspecificUser.test.js] [32minfo[39m: User with ID 712020:073f42a8-5a07-4460-86d3-d67ac267c75d deleted successfully.
+2024-08-20 13:00:49 [jest.setup.js] [32minfo[39m: Cleaning the system after testing
+2024-08-20 13:00:49 [027-GetOneEspecificUser.test.js] [32minfo[39m: Global authentication cleared.

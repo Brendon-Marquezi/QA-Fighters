@@ -15,7 +15,7 @@ describe('Groups', () => {
 
     userIdToAdd = env.environment.client_id;
 
-    groupName = 'teste701';
+    groupName = 'teste777';
 
     groupSchema = {
       type: 'object',
@@ -129,7 +129,7 @@ describe('Groups', () => {
     );
 
     expect(foundGroup).toBeDefined();
-    expect(foundGroup.name).toContain(env.environment.group_name);
+    expect(foundGroup.name).toContain(groupName);
   }, 10000);
 
   afterEach(async () => {
